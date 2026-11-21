@@ -196,7 +196,7 @@
     }
 
     bindDynamicListeners();
-    window.scrollTo({ top: 0, behavior: "instant" });
+    window.scrollTo(0, 0);
   }
 
   // =========================================================================
@@ -267,7 +267,7 @@
       </section>
 
       <!-- Fourfold Gospel Anchor Card -->
-      <section class="card" style="display:grid; grid-template-columns:minmax(220px, 300px) 1fr; gap:1.5rem; align-items:center;">
+      <section class="card fourfold-card">
         <img src="assets/images/fourfold-gospel-emblem.png" alt="Olive vine weaving Cross, Pitcher, Chalice, and Crown" style="width:100%; border-radius:var(--radius-md); border:1px solid var(--border);" />
         <div style="display:flex; flex-direction:column; gap:0.65rem;">
           <span class="badge badge-terracotta" style="align-self:flex-start;">Theological Centerpiece</span>
@@ -502,7 +502,7 @@
             <h1 style="font-size:1.55rem;">${esc(w.title)}</h1>
             <p style="font-size:0.93rem; color:var(--muted); margin-top:0.25rem;">${esc(w.subtitle)}</p>
           </div>
-          <div class="no-print" style="display:flex; flex-direction:column; gap:0.45rem; align-items:flex-end;">
+          <div class="no-print week-header-meta">
             <span style="font-size:0.8rem; color:var(--muted); font-weight:600;">${esc(w.timeBudget)}</span>
             <div style="display:flex; gap:0.45rem; flex-wrap:wrap;">
               <button class="btn btn-sm" onclick="printWeekHandout()">Print Handout</button>
@@ -564,7 +564,7 @@
 
         <!-- Clickable Interactive SVG Stage -->
         <div class="diagram-stage" data-tool-stage="${t.id}">
-          ${window.DML_DIAGRAMS.render(t.id, curPartKey)}
+          <div class="diagram-svg-scroll">${window.DML_DIAGRAMS.render(t.id, curPartKey)}</div>
           <div style="font-size:0.78rem; color:var(--muted); margin-top:0.55rem;">Click any shaded zone in the diagram or button below to inspect each piece:</div>
           <div style="display:flex; flex-wrap:wrap; gap:0.4rem; justify-content:center; margin-top:0.45rem;">
             ${partPills}
@@ -629,7 +629,7 @@
         </div>
         <h3 style="font-size:1.12rem;">${esc(t.name)}</h3>
         <div class="diagram-stage" style="padding:0.6rem;">
-          ${window.DML_DIAGRAMS.render(t.id, null)}
+          <div class="diagram-svg-scroll">${window.DML_DIAGRAMS.render(t.id, null)}</div>
         </div>
         <p style="font-size:0.86rem; color:var(--muted);">${esc(t.tagline)}</p>
         <div style="display:flex; gap:0.5rem; margin-top:auto;">
@@ -705,7 +705,7 @@
         <h1 style="font-size:1.6rem; margin-top:0.35rem;">Curriculum Glossary (${entries.length} Terms)</h1>
         <p style="font-size:0.92rem; color:var(--muted); margin-top:0.25rem;">Every theological, frontline, pastoral, and learning concept defined clearly. You can also hover or tap any dotted-underlined word across the lessons.</p>
         <div style="display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center; margin-top:0.9rem;">
-          <input type="search" class="field-input" style="max-width:300px;" placeholder="Filter glossary terms..." value="${esc(glossaryQuery)}" oninput="setGlossarySearch(this.value)" />
+          <input type="search" class="field-input" style="width:100%; max-width:340px;" placeholder="Filter glossary terms..." value="${esc(glossaryQuery)}" oninput="setGlossarySearch(this.value)" />
           <div style="display:flex; gap:0.4rem; flex-wrap:wrap;">${catBtns}</div>
         </div>
       </section>
@@ -815,13 +815,15 @@
 
     const rect = termEl.getBoundingClientRect();
     const popRect = pop.getBoundingClientRect();
+    const vw = document.documentElement.clientWidth || window.innerWidth;
+    const vh = document.documentElement.clientHeight || window.innerHeight;
     let top = rect.bottom + 8;
-    if (top + popRect.height > window.innerHeight - 12) {
+    if (top + popRect.height > vh - 12) {
       top = Math.max(12, rect.top - popRect.height - 8);
     }
     let left = rect.left;
-    if (left + popRect.width > window.innerWidth - 12) {
-      left = Math.max(12, window.innerWidth - popRect.width - 12);
+    if (left + popRect.width > vw - 12) {
+      left = Math.max(12, vw - popRect.width - 12);
     }
     pop.style.top = top + "px";
     pop.style.left = left + "px";
@@ -987,11 +989,16 @@
   };
 
   window.toggleMobileSidebar = function () {
-    document.getElementById("sidebar").classList.toggle("open");
+    const sb = document.getElementById("sidebar");
+    const bd = document.getElementById("sidebar-backdrop");
+    const open = sb.classList.toggle("open");
+    if (bd) bd.classList.toggle("open", open);
   };
 
   window.closeMobileSidebar = function () {
     document.getElementById("sidebar").classList.remove("open");
+    const bd = document.getElementById("sidebar-backdrop");
+    if (bd) bd.classList.remove("open");
   };
 
   window.exportWorkbookData = function () {

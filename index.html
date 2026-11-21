@@ -34,8 +34,13 @@
   </header>
 
   <!-- Main Two-Column Application Shell -->
+  <div id="sidebar-backdrop" class="sidebar-backdrop" onclick="closeMobileSidebar()"></div>
   <div class="app-shell">
     <aside id="sidebar" class="sidebar">
+      <div class="mobile-sidebar-header">
+        <span style="font-weight:700; font-size:0.95rem;">Curriculum Menu</span>
+        <button class="btn btn-sm" onclick="closeMobileSidebar()" aria-label="Close navigation menu">Close ✕</button>
+      </div>
       <nav id="sidebar-nav" aria-label="Course Modules"></nav>
     </aside>
 
