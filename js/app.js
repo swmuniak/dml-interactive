@@ -110,7 +110,8 @@
     return { view: "home", param: null };
   }
 
-  window.navigate = function (hash) {
+  window.navigate = function (hash, keepStep) {
+    if (!keepStep) activeWeekStep = 1;
     if (window.location.hash === "#" + hash) {
       renderRoute();
     } else {
@@ -124,7 +125,7 @@
     if (!t) return;
     activeWeekStep = 2;
     pendingScrollToolId = toolId;
-    navigate("module/" + t.week);
+    navigate("module/" + t.week, true);
   };
 
   function renderSidebar() {
@@ -177,6 +178,7 @@
   }
 
   function renderRoute(preserveScroll) {
+    const prevRoute = currentRoute;
     currentRoute = parseHash();
     if (currentRoute.view === "toolRedirect") {
       activeWeekStep = 2;
@@ -185,6 +187,8 @@
       if (window.history && window.history.replaceState) {
         window.history.replaceState(null, "", "#module/" + currentRoute.param);
       }
+    } else if (!pendingScrollToolId && (prevRoute.view !== currentRoute.view || prevRoute.param !== currentRoute.param)) {
+      activeWeekStep = 1;
     }
     hideTooltip(true);
     renderSidebar();
