@@ -100,19 +100,19 @@ window.DML_DIAGRAMS = (function () {
       return svgWrap("0 0 640 270", `
         <g class="svg-part" data-part="united">
           <rect x="24" y="34" width="182" height="202" rx="12" fill="var(--terracotta)" fill-opacity="${u.fillOpacity}" stroke="var(--terracotta)" stroke-width="${u.strokeWidth}" style="filter:${u.filter}"/>
-          <text x="115" y="66" font-size="12" font-weight="700" fill="var(--terracotta)" text-anchor="middle">CROSS • SAVIOR</text>
-          <text x="115" y="96" font-size="15" font-weight="700" fill="var(--ink)" text-anchor="middle">1. IN CHRIST</text>
-          <text x="115" y="126" font-size="12" fill="var(--ink)" text-anchor="middle">Called by Father</text>
-          <text x="115" y="148" font-size="12" fill="var(--ink)" text-anchor="middle">Justified by Faith</text>
-          <text x="115" y="170" font-size="12" fill="var(--ink)" text-anchor="middle">United to Death &amp; Life</text>
-          <text x="115" y="206" font-size="12" font-weight="600" fill="var(--muted)" text-anchor="middle">Rom 5:1; Gal 2:20</text>
+          <text x="115" y="66" font-size="12" font-weight="700" fill="var(--terracotta)" text-anchor="middle">CROSS &bull; SAVIOR</text>
+          <text x="115" y="96" font-size="15" font-weight="700" fill="var(--ink)" text-anchor="middle">1. WITH CHRIST</text>
+          <text x="115" y="126" font-size="12" fill="var(--ink)" text-anchor="middle">Called by Grace</text>
+          <text x="115" y="148" font-size="12" fill="var(--ink)" text-anchor="middle">Loving Relationship</text>
+          <text x="115" y="170" font-size="12" fill="var(--ink)" text-anchor="middle">Abiding in Jesus</text>
+          <text x="115" y="206" font-size="12" font-weight="600" fill="var(--muted)" text-anchor="middle">Rom 8:28&ndash;30; Mt 22:37</text>
         </g>
         <text x="218" y="140" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
         <g class="svg-part" data-part="transformed">
           <rect x="229" y="34" width="182" height="202" rx="12" fill="var(--primary)" fill-opacity="${t.fillOpacity}" stroke="var(--primary)" stroke-width="${t.strokeWidth}" style="filter:${t.filter}"/>
-          <text x="320" y="66" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">LAVER • SANCTIFIER</text>
+          <text x="320" y="66" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">LAVER &bull; SANCTIFIER</text>
           <text x="320" y="96" font-size="15" font-weight="700" fill="var(--ink)" text-anchor="middle">2. LIKE CHRIST</text>
-          <text x="320" y="126" font-size="12" fill="var(--ink)" text-anchor="middle">Beholding Glory</text>
+          <text x="320" y="126" font-size="12" fill="var(--ink)" text-anchor="middle">Beholding His Glory</text>
           <text x="320" y="148" font-size="12" fill="var(--ink)" text-anchor="middle">Transformed by Spirit</text>
           <text x="320" y="170" font-size="12" fill="var(--ink)" text-anchor="middle">Formed in Word &amp; Table</text>
           <text x="320" y="206" font-size="12" font-weight="600" fill="var(--muted)" text-anchor="middle">2 Cor 3:18; Acts 2:42</text>
@@ -120,12 +120,12 @@ window.DML_DIAGRAMS = (function () {
         <text x="423" y="140" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
         <g class="svg-part" data-part="sent">
           <rect x="434" y="34" width="182" height="202" rx="12" fill="var(--gold)" fill-opacity="${s.fillOpacity}" stroke="var(--gold)" stroke-width="${s.strokeWidth}" style="filter:${s.filter}"/>
-          <text x="525" y="66" font-size="12" font-weight="700" fill="var(--gold)" text-anchor="middle">CROWN • COMING KING</text>
-          <text x="525" y="96" font-size="15" font-weight="700" fill="var(--ink)" text-anchor="middle">3. FOR NEIGHBORS</text>
+          <text x="525" y="66" font-size="12" font-weight="700" fill="var(--gold)" text-anchor="middle">CROWN &bull; COMING KING</text>
+          <text x="525" y="96" font-size="15" font-weight="700" fill="var(--ink)" text-anchor="middle">3. ON MISSION</text>
           <text x="525" y="126" font-size="12" fill="var(--ink)" text-anchor="middle">Cross-Bearing Love</text>
           <text x="525" y="148" font-size="12" fill="var(--ink)" text-anchor="middle">Ambassadors of Grace</text>
           <text x="525" y="170" font-size="12" fill="var(--ink)" text-anchor="middle">Making Disciplemakers</text>
-          <text x="525" y="206" font-size="12" font-weight="600" fill="var(--muted)" text-anchor="middle">Lk 9:23; 2 Cor 5:14–21</text>
+          <text x="525" y="206" font-size="12" font-weight="600" fill="var(--muted)" text-anchor="middle">2 Cor 5:14&ndash;20; Lk 9:23</text>
         </g>
       `);
     },

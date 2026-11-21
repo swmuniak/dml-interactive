@@ -6,12 +6,12 @@
 window.DML_GLOSSARY = {
   "disciple": {
     id: "disciple",
-    term: "Disciple (Gospel Definition)",
+    term: "Disciple (Christ-Centered Definition)",
     category: "Theology",
-    short: "A person united to Christ by grace through faith, transformed by the Spirit, learning Jesus's way in community, and sent on cross-bearing mission.",
-    deep: "In Scripture, a disciple (Greek: mathetes) is not merely a classroom student or weekend church attender. Called by the Father (Rom 8:28–30), justified by grace and united with Christ in his death and resurrection (Gal 2:20), a disciple beholds Christ's glory by the Spirit (2 Cor 3:18) and walks as an ambassador of reconciliation (2 Cor 5:14–21) in daily obedience and neighbor-love (Mt 22:37–39; Lk 9:23).",
-    scripture: "Matthew 22:37–39; Luke 9:23; Romans 8:28–30; Galatians 2:20; 2 Corinthians 3:18; 5:14–21",
-    misconception: "Defining discipleship purely as 'process steps' or church volunteer activity, which drops justification and union with Christ and breeds moralistic self-effort.",
+    short: "One called by Christ into a loving relationship with him, transformed by the Spirit to become like him, and walking on cross-bearing mission with him.",
+    deep: "In Scripture, a disciple (Greek: mathetes) is not merely a classroom student or weekend church attender. Resting on the bedrock of justification and union with Christ, a disciple follows Jesus across four relational movements: called by Christ (Rom 8:28–30), into a loving relationship with Christ (Mt 22:37–39), to become like Christ by the Spirit (2 Cor 3:18), while joining his mission (2 Cor 5:14–20; Lk 9:23). Even a brief 12-word church definition stays healthy without heavy positional jargon when it begins with Christ's call and relationship.",
+    scripture: "Romans 8:28–30; Matthew 22:37–39; 2 Corinthians 3:18; 5:14–20; Luke 9:23",
+    misconception: "Defining discipleship purely as religious chores or church volunteer activity without centering on a loving relationship with Christ and the Spirit's transforming work.",
     relatedWeeks: [1, 4, 6],
     relatedTools: ["gospel-definition", "bowtie"]
   },

@@ -85,13 +85,13 @@ window.DML_CURRICULUM = {
       subtitle: "Diagnosing consumer church habits and anchoring discipleship in union with Christ",
       timeBudget: "90-Min Team Session + 6 Parishioner Conversations",
       fourfoldAnchor: "Cross (Savior) & Laver (Sanctifier)",
-      scripture: "Romans 5:1; 8:28–30; Galatians 2:20; 2 Corinthians 3:18; 5:14–21; Luke 9:23",
+      scripture: "Romans 8:28–30; Matthew 22:37–39; 2 Corinthians 3:18; 5:14–20; Luke 9:23",
       hook: "Most pastors know the silent ache: our Sunday rooms are friendly and volunteer rosters stay mostly full, yet almost nobody feels equipped to open the Bible and walk with a friend toward Jesus. Why does busy church activity rarely produce spiritual grandchildren?",
-      keyTakeaway: "You cannot fix consumer Christianity with a harder behavioral checklist. Lasting multiplication begins with rescued union in Christ (being), balanced across shared church culture (PLAN) and personal apprenticeship (PATH).",
+      keyTakeaway: "You cannot fix consumer Christianity with a harder behavioral checklist. Lasting multiplication starts with Christ's call into a loving relationship and his Spirit transforming us into his likeness—balanced across shared church culture (PLAN) and personal apprenticeship (PATH).",
       outcomes: {
-        know: "Why passive attendance stalls at 30% serving—and how gospel union, justification, and cross-bearing correct moralistic definitions of a disciple.",
-        feel: "Humbled by grace and relieved: renewal does not rest on heroic willpower, but on abiding in Christ together.",
-        do: "Map your congregation honestly on the Master Bowtie and draft a plain-English, gospel-anchored definition of a disciple."
+        know: "Why passive attendance stalls at 30% serving—and how starting with Christ's call, loving relationship, and Spirit transformation (resting on grace) corrects bare activity checklists.",
+        feel: "Humbled by grace and relieved: renewal does not rest on heroic willpower, but on walking with Christ together.",
+        do: "Map your congregation honestly on the Master Bowtie and draft a plain-English, Christ-centered definition of a disciple."
       },
       chunks: [
         {
@@ -117,11 +117,11 @@ window.DML_CURRICULUM = {
         {
           id: "w1-c2",
           toolId: "gospel-definition",
-          title: "2. Fixing Our Definition: Union with Christ Before Technique",
+          title: "2. Defining a Disciple: With Christ, Like Christ, On Mission",
           readMin: "4 min",
           bodyHtml: `
-            <p>How you define a <span class="term" data-term="disciple">disciple</span> sets the target for everything else. Many checklists jump straight to moral effort and miss the gospel indicatives: <span class="term" data-term="justification">justification</span> by faith (Rom 5:1) and <span class="term" data-term="union-with-christ">union with Christ</span> (Gal 2:20).</p>
-            <p>In Romans 8:28–30, God the Father calls, justifies, and glorifies his people to look like his Son. In 2 Corinthians 3:18, transformation flows from the Spirit as we behold Christ's glory—not from corporate self-improvement. And Luke 9:23 insists every follower embraces daily <span class="term" data-term="cross-bearing">cross-bearing</span> and neighbor-love (Mt 22:37–39).</p>
+            <p>How you define a <span class="term" data-term="disciple">disciple</span> sets the target for everything else. When churches omit relationship with Jesus, definitions quietly shrink to checklists of religious tasks—while underneath every healthy definition sit <span class="term" data-term="justification">justification</span> and <span class="term" data-term="union-with-christ">union with Christ</span> as the rich gospel foundation.</p>
+            <p>The fourfold movement stays wonderfully clear and relational: a disciple is one <strong>called by Christ</strong> (Rom 8:28–30) into a <strong>loving relationship with Christ</strong> (Mt 22:37–39), for the purpose of <strong>becoming like Christ</strong> by the Spirit (2 Cor 3:18), while <strong>on mission with Christ</strong> in daily <span class="term" data-term="cross-bearing">cross-bearing</span> love (2 Cor 5:14–20; Lk 9:23).</p>
           `,
           seeMore: [
             {
@@ -129,8 +129,8 @@ window.DML_CURRICULUM = {
               contentHtml: `<p>Honoring the C&amp;MA distinctives of the Cross (Savior), Laver (Sanctifier), Pitcher (Healer), and Crown (Coming King), this curriculum roots every module in the <span class="term" data-term="fourfold-gospel">Fourfold Gospel</span>: Jesus our <strong>Savior</strong> rescues us by grace; Jesus our <strong>Sanctifier</strong> indwells and purifies us by the Spirit; Jesus our <strong>Healer</strong> restores our brokenness; Jesus our <strong>Coming King</strong> sustains humble mission.</p>`
             },
             {
-              label: "See More: Exegetical Guardrails on Classic Proof-Texts",
-              contentHtml: `<p>Check the four classic texts carefully: (1) <em>Rom 8:28–30</em> centers on the Father's sovereign call and justification; (2) <em>Mt 22:37</em> must stay linked to v. 39 ('love your neighbor'); (3) <em>2 Cor 3:18</em> credits the Spirit's glory, not human technique; (4) <em>2 Cor 5:14–20</em> roots ambassadorship in Christ's substitutionary atonement.</p>`
+              label: "See More: Keeping the Foundation & Four Movements Together",
+              contentHtml: `<p>Notice how well this works together: (1) <em>Justification &amp; union</em> sit under discipleship as the saving foundation—a 12-word definition doesn't need technical theological terms, because beginners and lifelong saints alike start by being called into Christ's relationship; (2) <em>Mt 22:37</em> naturally pairs love of God with v. 39 ('love your neighbor'); (3) <em>2 Cor 3:18</em> credits 'the Lord, who is the Spirit'; (4) <em>2 Cor 5:14–20</em> roots ambassadorship in Christ's reconciling cross.</p>`
             }
           ]
         },
@@ -156,21 +156,21 @@ window.DML_CURRICULUM = {
         agenda: [
           { mins: "15m", title: "Personal Reflection Hook", instructions: "Each person shares briefly: 'When in your life did you experience the deepest spiritual growth, and who walked alongside you?'" },
           { mins: "25m", title: "Honest Bowtie Snapshot", instructions: "Click through the Bowtie diagram together. Map your real church numbers along Attend / Connect / Serve / 2% Reproducing." },
-          { mins: "35m", title: "Draft Gospel Disciple Definition", instructions: "Using the Gospel-Anchored Disciple Definition tool, write a 12–15 word plain-English statement honoring union in Christ, Spirit growth, and cross-bearing mission." },
+          { mins: "35m", title: "Draft Christ-Centered Disciple Definition", instructions: "Using the Christ-Centered Disciple Definition tool, write a 12–15 word plain-English statement honoring Christ's call into relationship, Spirit transformation, and cross-bearing mission." },
           { mins: "15m", title: "Commit to Module 1 Interviews", instructions: "Assign each team member to ask 2 ordinary parishioners before Module 2: 'How would you describe a disciple of Jesus?'" }
         ],
         prompts: [
           { id: "w1-bowtie-gap", question: "Where is our church strongest right now (Left Wing PLAN vs. Right Wing PATH), and where do people stall?", placeholder: "e.g., Strong Sunday preaching and welcome teams (30% serving), yet almost no structured 1-on-3 mentoring..." },
-          { id: "w1-def-draft", question: "Our Team's Working Gospel Definition of a Disciple (12–15 plain words):", placeholder: "e.g., Someone rescued and united to Jesus, growing by his Spirit with his church to love, obey, and invite neighbors." }
+          { id: "w1-def-draft", question: "Our Team's Working Definition of a Disciple (12–15 plain words):", placeholder: "e.g., Someone called into a loving relationship with Jesus, becoming like him by his Spirit while joining his mission." }
         ]
       },
       scenarios: [
         {
-          prompt: "Your team drafts a catchy definition: 'A disciple is someone who reads the Bible, serves on Sunday, and invites a friend.' What critical gospel flaw would a theologian flag?",
+          prompt: "Your team drafts a catchy definition: 'A disciple is someone who reads the Bible, serves on Sunday, and invites a friend.' What critical flaw would a pastor or theologian flag?",
           options: [
-            { text: "It's too long to remember on a Sunday slide.", correct: false, feedback: "Length isn't the main issue—it's already short! The deeper issue is theological." },
-            { text: "It reduces discipleship to human activity while omitting grace, justification, and union with Christ.", correct: true, feedback: "Exactly. Without grace, union with Christ (Gal 2:20), and the Spirit's work, checklists breed anxious moralism rather than joyful gratitude." },
-            { text: "It mentions serving too early in the sentence.", correct: false, feedback: "Serving is good, but without being grounded in Christ's rescue, service quickly turns into 'church activity' fatigue." }
+            { text: "It's too long to remember on a Sunday slide.", correct: false, feedback: "Length isn't the main issue—it's already short! The deeper issue is relational and spiritual agency." },
+            { text: "It reduces discipleship to a list of religious chores without mentioning a loving relationship with Jesus or the Spirit's work of making us like him.", correct: true, feedback: "Exactly. A short definition doesn't need heavy positional jargon—just center it on Christ's call into a loving relationship and the Spirit transforming us into his likeness, rather than bare church activity." },
+            { text: "It mentions serving too early in the sentence.", correct: false, feedback: "Serving is good, but without flowing from relationship with Jesus and his Spirit's work, service quickly turns into 'church activity' fatigue." }
           ]
         },
         {

@@ -50,44 +50,44 @@ window.DML_TOOLS = {
   "gospel-definition": {
     id: "gospel-definition",
     number: 2,
-    name: "Gospel-Anchored Disciple Definition",
+    name: "Christ-Centered Disciple Definition",
     shortName: "Disciple Definition",
     week: 1,
     category: "Theology & Identity",
-    tagline: "Defines a disciple by union with Christ, Spirit transformation, cross-bearing community, and neighbor mission—never self-powered willpower.",
+    tagline: "Defines a disciple through relationship with Christ, Spirit-led transformation, and cross-bearing mission—resting on the gospel foundation of grace.",
     whenToUse: "Use in Module 1 to clarify your church's destination, and refine in Modules 4 and 6 after listening to parishioners and aligning elders.",
     originalSvgPath: null,
-    scripture: "Romans 5:1; 8:28–30; Galatians 2:20; 2 Corinthians 3:18; 5:14–21; Luke 9:23",
+    scripture: "Romans 8:28–30; Matthew 22:37–39; 2 Corinthians 3:18; 5:14–20; Luke 9:23",
     relatedTerms: ["disciple", "union-with-christ", "justification", "cross-bearing", "fourfold-gospel"],
     parts: [
       {
         key: "united",
-        title: "1. Rescued & United in Christ (Cross / Savior)",
-        summary: "Called by the Father and justified by faith—united to Jesus's death and resurrection before we ever perform a spiritual habit.",
-        deep: "Anchors discipleship unmistakably in justification and union with Christ. Because we are already loved and pardoned in Christ (Rom 5:1; Gal 2:20), discipleship is grateful response, not anxious performance."
+        title: "1. Called Into Relationship With Christ (Cross / Savior)",
+        summary: "'One called by Christ into a loving relationship with Christ' (Rom 8:28–30; Mt 22:37)—starting with Jesus's gracious initiative and presence.",
+        deep: "Justification and union with Christ are the gospel bedrock underneath discipleship. While a 12-word church definition doesn't need technical doctrinal terms for forensic position, beginning with Christ's call and relationship keeps every habit rooted in grace rather than anxious performance."
       },
       {
         key: "transformed",
         title: "2. Transformed & Restored by the Spirit (Laver / Sanctifier & Pitcher / Healer)",
-        summary: "Beholding Christ together in Scripture, prayer, and Word-and-Table body life as the Spirit purifies and heals us into Jesus's likeness.",
-        deep: "In 2 Cor 3:18, transformation comes 'from the Lord, who is the Spirit.' Spiritual practices position us under grace; the Spirit cleanses (Laver) and restores (Pitcher) our brokenness into Christ's likeness."
+        summary: "'For the purpose of becoming like Christ' (2 Cor 3:18)—beholding him together in Scripture, prayer, and Word-and-Table body life.",
+        deep: "In 2 Cor 3:18, transformation comes 'from the Lord, who is the Spirit.' Spiritual practices position us under grace; the Spirit cleanses (Laver) and restores (Pitcher) our brokenness into Jesus's likeness."
       },
       {
         key: "sent",
-        title: "3. Sent in Cross-Bearing Love (Crown / Coming King)",
-        summary: "Denying self, loving neighbors, and serving as Christ's ambassadors of reconciliation until he returns.",
-        deep: "Unites Matthew 22:37–39 (love of God and neighbor), Luke 9:23 (taking up the cross daily), and 2 Corinthians 5:14–20 (grounded in substitutionary atonement). Mission flows out of union, never ahead of it."
+        title: "3. On Mission With Christ (Crown / Coming King)",
+        summary: "'While on mission with Christ' (2 Cor 5:14–20; Lk 9:23)—denying self, loving neighbors, and serving as ambassadors of reconciliation.",
+        deep: "Unites Matthew 22:37–39 (love of God and neighbor), Luke 9:23 (taking up the cross daily), and 2 Corinthians 5:14–20 (grounded in Christ's reconciling cross). Mission flows naturally from walking with Jesus."
       }
     ],
     steps: [
-      "Read Romans 8:28–30, Galatians 2:20, 2 Corinthians 3:18, and Luke 9:23 aloud as a team.",
+      "Read Romans 8:28–30, Matthew 22:37–39, 2 Corinthians 3:18, and 2 Corinthians 5:14–20 aloud as a team.",
       "Examine your church's unspoken definition of a 'good Christian' (e.g., attendance, voting, niceness, committee work).",
-      "Draft a memorable 12-to-15 word plain-English statement containing: (a) grace/union in Christ, (b) ongoing transformation by the Spirit, and (c) cross-bearing life and mission with others.",
+      "Draft a memorable 12-to-15 word plain-English statement containing: (a) Christ's call into a loving relationship with him, (b) Spirit-led growth to become like Christ, and (c) loving neighbors on mission with him.",
       "Test your draft with two ordinary members who aren't on staff to ensure zero jargon."
     ],
-    napkinScript: "Write three words vertically: IN CHRIST, LIKE CHRIST, FOR NEIGHBORS. Say: 'A disciple isn't someone trying harder to earn God's smile. First, we are rescued and united IN CHRIST (Savior). Second, the Spirit grows us to become LIKE CHRIST alongside his family (Sanctifier & Healer). Third, we carry his cross daily FOR NEIGHBORS as we await our Coming King.'",
-    workedExample: "Draft working definition: 'A disciple is someone rescued and united to Jesus, growing by his Spirit with his church to love, obey, and invite others into his life.'",
-    guardrails: "Do not drop justification or cross-bearing when trimming for catchiness. A short sentence must still sound unmistakably like the gospel."
+    napkinScript: "Write three words vertically: WITH CHRIST, LIKE CHRIST, ON MISSION. Say: 'A disciple isn't someone doing religious chores to earn God's smile. First, Jesus calls us into a loving relationship WITH CHRIST (Savior). Second, the Spirit transforms us to become LIKE CHRIST alongside his family (Sanctifier & Healer). Third, we carry his cross daily ON MISSION with him as we love neighbors and await our Coming King.'",
+    workedExample: "Draft working definition: 'A disciple is someone called into a loving relationship with Jesus, being transformed by his Spirit to become like him, and joining his mission to love and multiply.'",
+    guardrails: "You don't need to cram technical positional vocabulary into a short definition—justification is the gospel foundation underneath. Just be sure your sentence centers on relationship with Jesus and his Spirit's work rather than a bare checklist of church chores."
   },
   "bible-circle": {
     id: "bible-circle",
