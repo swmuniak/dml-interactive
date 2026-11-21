@@ -33,8 +33,8 @@ window.DML_TOOLS = {
       {
         key: "right",
         title: "Right Wing: Relational Apprenticeship (PATH)",
-        summary: "People being multiplied generation-to-generation (2 -> 4 -> 6 -> 9 -> 12+) through four PATH elements—Destination, Growth Loop, Gathering Rhythm, and 4 Core Habits—toward a ~16% cultural tipping point.",
-        deep: "The right wing cannot rely on stage announcements. It grows person-to-person as leaders model simple napkin habits in homes and coffee shops and pass them on across generations. The 16% tipping-point benchmark is descriptive encouragement, never a guarantee: only God gives the growth (1 Cor 3:7)."
+        summary: "People being multiplied generation-to-generation (2 -> 4 -> 6 -> 9 -> 12+) through four PATH elements—Destination, Map, Vehicles, and Tools—toward a ~16% cultural tipping point.",
+        deep: "The right wing cannot rely on stage announcements. It grows person-to-person as leaders model simple napkin tools in homes and coffee shops and pass them on across generations. The 16% tipping-point benchmark is descriptive encouragement, never a guarantee: only God gives the growth (1 Cor 3:7)."
       }
     ],
     steps: [
@@ -43,14 +43,14 @@ window.DML_TOOLS = {
       "Ask: Who in our congregation is currently investing life-on-life in 1–3 others to help them follow Jesus and do the same (Center -> Right Wing)?",
       "Notice which wing your church neglects: strong PLAN without PATH breeds activity without reproduction; strong PATH without PLAN stays a hidden clique."
     ],
-    napkinScript: "Draw two triangles meeting at a circle. Say: 'Most churches measure how many attend, connect, and serve on the left—great, yet only 2% usually help someone else follow Jesus on the right. To shift a whole church, we don't pick between Sunday culture and mentoring. The left wing needs a PLAN (Practices, Language, Artifacts, Narratives); the right wing needs a clear PATH (Destination, Growth Loop, Weekly Rhythm, Simple Habits).'",
+    napkinScript: "Draw two triangles meeting at a circle. Say: 'Most churches measure how many attend, connect, and serve on the left—great, yet only 2% usually help someone else follow Jesus on the right. To shift a whole church, we don't pick between Sunday culture and mentoring. The left wing needs a PLAN (Practices, Language, Artifacts, Narratives); the right wing needs a clear PATH (Destination, Map, Vehicles, Tools).'",
     workedExample: "A 180-member congregation notices 160 people attend Sunday worship and 55 serve on hospitality or kids teams, yet only 4 elders or small-group leaders regularly meet 1-on-3 to read Scripture and pray with emerging believers. They use the Bowtie to commit equal leadership energy to launching life-on-life triads (PATH) and aligning sermon stories and communion testimonies (PLAN).",
     guardrails: "Never treat '16% tipping point' as a mechanical trigger that makes Spirit-dependence unnecessary, and never let Left-Wing marketing swallow Right-Wing relationships."
   },
   "gospel-definition": {
     id: "gospel-definition",
     number: 2,
-    name: "Christ-Centered Disciple Definition",
+    name: "The Destination: Christ-Centered Disciple Definition",
     shortName: "Disciple Definition",
     week: 1,
     category: "Theology & Identity",
@@ -95,7 +95,7 @@ window.DML_TOOLS = {
     name: "Look • Listen • Live Bible Tool (Eyes / Ear / Footprints)",
     shortName: "Look • Listen • Live",
     week: 2,
-    category: "Core Habit #1",
+    category: "Core Tool #1",
     tagline: "Three sticky napkin icons—LOOK (Eyes: Text, Context & Christ), LISTEN (Ear: Spirit & Community), LIVE (Footprints: 48-Hr Obedience & Share).",
     whenToUse: "Use daily for personal devotion, in Micro-Triads (1–4x/month) and Beta groups, and toggle to Seeker DBS mode when reading with curious unbelievers.",
     originalSvgPath: "diagrams/bible_reading_tool.svg",
@@ -143,7 +143,7 @@ window.DML_TOOLS = {
     name: "4-Beat Prayer Ring (Praise • Confess • Ask • Go)",
     shortName: "4-Beat Prayer Ring",
     week: 2,
-    category: "Core Habit #2",
+    category: "Core Tool #2",
     tagline: "Distills the Lord's Prayer into a 15-second napkin circle—Father in Christ at the center, four clockwise beats (Praise, Confess & Lament, Ask, Go) around the ring.",
     whenToUse: "Use daily as a 2-minute beginner habit (30 seconds per beat), in Micro-Triads (1–4x/month), beside weeping seekers, or stretched to 20 minutes in 1:4–5 Soul Care pods.",
     originalSvgPath: "diagrams/prayer_tool_wheel.svg",
@@ -197,7 +197,7 @@ window.DML_TOOLS = {
     name: "Jesus Pattern Mountain Compass (UP / IN / DOWN / OUT)",
     shortName: "Jesus Pattern",
     week: 3,
-    category: "Core Habit #3",
+    category: "Core Tool #3",
     tagline: "Traces Jesus's sequential Luke 6:12–19 progression—1. UP the mountain to the Father -> 2. IN with his disciples -> DOWN to the level place in cross-bearing humility -> 3. OUT to minister to the crowds.",
     whenToUse: "Use in Micro-Triads (1–4x/month) and Betas to audit calendar health (where have we drifted?) while remembering Christ's unique saving cross.",
     originalSvgPath: "diagrams/jesus_pattern_tool.svg",
@@ -274,12 +274,12 @@ window.DML_TOOLS = {
     steps: [
       "Audit how your church currently trains a new believer or small-group leader: how much time is spent on Truth vs. Imitation?",
       "Stop handing someone a manual and saying 'Go lead.' Invite 1–2 apprentices to watch you pray, share a meal with neighbors, or handle conflict (Imitation).",
-      "Let your apprentice co-lead one habit segment while you debrief gently afterward.",
+      "Let your apprentice co-lead one tool segment while you debrief gently afterward.",
       "Release them to lead a triad of their own while staying connected for Soul Care."
     ],
     napkinScript: "Draw a rising stepped triangle and write T - I - M inside the center (recalling Paul and Timothy in 1 Cor 4:17; 2 Tim 2:2): label the top T (Truth), the right corner I (Imitation), and the left corner M (Multiplication). Draw a dashed barrier blocking the shortcut straight from T to M. Say: 'Churches stall when they jump from Truth straight to telling people Go Multiply, skipping the road through shared life (Imitation).'",
     workedExample: "Instead of giving a young adult a 40-page leader handbook, a mentor invites her to sit in on three Tuesday Micro-Triad gatherings, watch how he handles an awkward silence, lead Look • Listen • Live once together, and then start a triad with two college friends.",
-    guardrails: "Do not skip Imitation in favor of premature Innovation. Live the four core habits for at least three months before modifying anything."
+    guardrails: "Do not skip Imitation in favor of premature Innovation. Live the four core tools for at least three months before modifying anything."
   },
   "what-is-audit": {
     id: "what-is-audit",
@@ -314,18 +314,18 @@ window.DML_TOOLS = {
       },
       {
         key: "tools",
-        title: "4. TOOLS: What Daily Habits Can Members Pass On?",
+        title: "4. TOOLS: What Simple Tools Can Members Pass On?",
         summary: "Which discipleship practices in our church require a binder or staff teacher, and which can an ordinary member sketch on a napkin for a friend?",
         deep: "Write down the actual Bible study, prayer, and evangelism guides currently in circulation—asking honestly how many adults feel confident sharing them tomorrow with a coworker."
       }
     ],
     steps: [
-      "Draw the 4 columns across a whiteboard: 1. Destination, 2. Map, 3. Vehicles (Gatherings), 4. Tools (Daily Habits).",
+      "Draw the 4 PATH columns across a whiteboard: 1. Destination, 2. Map, 3. Vehicles, 4. Tools.",
       "Spend 20 minutes filling in honest sticky notes describing 'What Actually Exists Right Now'—without defending or attacking past decisions.",
       "Under Vehicles, mark each room with a simple 'G' (Greenhouse of life-on-life growth) or 'I' (Program Island / mostly info or logistics) and note which volunteers carry the load.",
       "Bring your sticky notes straight into Tool #8 (The Stewardship Crossroads) to sort what to feed, what to prune, and what to bring before God in lament or prayer."
     ],
-    napkinScript: "Draw four columns labeled Destination, Map, Vehicles, Tools. Say: 'Before prescribing anything new, take a 20-minute snapshot of what is already here: What goal are we actually aiming at? How do people grow? What rooms fill our calendar? And what simple habits can ordinary believers pass on?'",
+    napkinScript: "Draw four columns labeled Destination, Map, Vehicles, Tools. Say: 'Before prescribing anything new, take a 20-minute snapshot of our current PATH: What Destination are we actually aiming at? What Map guides growth? What Vehicles fill our calendar? And what simple Tools can ordinary believers pass on?'",
     workedExample: "An 8-person team writes every Sunday and midweek gathering across four whiteboard columns. Under Vehicles, they discover a Thursday moms' prayer table already acts like a thriving Greenhouse, while three overlapping monthly committees consume 6 hours of the same five lay leaders' week.",
     guardrails: "Keep this step purely descriptive and grateful (Prov 27:23)—never weaponize a 'What Is' inventory to shame faithful volunteers who built what exists today."
   },
@@ -431,7 +431,7 @@ window.DML_TOOLS = {
     name: "The Neighbor Table (Pray • Eat • Share)",
     shortName: "Neighbor Table (Pray•Eat•Share)",
     week: 5,
-    category: "Core Habit #4",
+    category: "Core Tool #4",
     tagline: "Replaces complicated evangelism scripts with three everyday movements: PRAY for 3–5 neighbors by name, EAT and listen around a table, SHARE your 3-minute story and a Gospel passage.",
     whenToUse: "Launch in Module 5 for everyday neighbor relationships and embed into each gathering of your Life-on-Life Rhythm (Module 8) so mission stays woven into normal life.",
     originalSvgPath: null,
@@ -495,7 +495,7 @@ window.DML_TOOLS = {
       {
         key: "legacy",
         title: "Legacy Small-Group Pathway (Shared Honor)",
-        summary: "Offers existing groups three honorable tracks: Convert to weekly life-on-life, Hybridize with 1 habit, or Bless & Sunset gracefully.",
+        summary: "Offers existing groups three honorable tracks: Convert to weekly life-on-life, Hybridize with 1 tool, or Bless & Sunset gracefully.",
         deep: "Preserves shared humility across the congregation without visible status markers. Veteran leaders are thanked as pillars, never sidelined."
       }
     ],
@@ -512,8 +512,8 @@ window.DML_TOOLS = {
   "growth-loop": {
     id: "growth-loop",
     number: 12,
-    name: "The Apprenticeship Growth Loop (D1–D4)",
-    shortName: "Growth Loop",
+    name: "The Map: Apprenticeship Growth Loop (D1–D4)",
+    shortName: "The Map (Growth Loop)",
     week: 7,
     category: "Coaching & Care",
     tagline: "Domain-specific coaching loop guiding disciples from Humble Beginner through Friction Valley to Spirit-Dependent Maturity.",
@@ -565,7 +565,7 @@ window.DML_TOOLS = {
     week: 7,
     category: "Learning & Tools",
     tagline: "Pairs three formation lenses with a concrete 5-point checklist for vetting optional contextual tools.",
-    whenToUse: "Use in Module 7 ONLY if an authentic ministry gap remains after practicing the 4 core habits—never to manufacture 5–6 redundant diagrams.",
+    whenToUse: "Use in Module 7 ONLY if an authentic ministry gap remains after practicing the 4 Core Tools—never to manufacture 5–6 redundant diagrams.",
     originalSvgPath: "diagrams/tool_metaphors_picture_mirror_window.svg",
     scripture: "Habakkuk 2:2; James 1:22–25; John 4:35; 1 Corinthians 14:19",
     relatedTerms: ["napkin-tool", "picture-mirror-window", "andragogy", "plain-language"],
@@ -574,7 +574,7 @@ window.DML_TOOLS = {
         key: "lenses",
         title: "Three Lenses: Picture / Mirror / Window",
         summary: "Picture shows how to act; Mirror reflects our heart before God; Window turns eyes outward to neighbors and God's world.",
-        deep: "Checking every tool against all three lenses ensures habits don't collapse into dry flowcharts (Picture only) or navel-gazing (Mirror without Window)."
+        deep: "Checking every tool against all three lenses ensures tools don't collapse into dry flowcharts (Picture only) or navel-gazing (Mirror without Window)."
       },
       {
         key: "rubric",
@@ -590,20 +590,20 @@ window.DML_TOOLS = {
       }
     ],
     steps: [
-      "First ask honestly: 'Do the 4 Core Habits already cover this need?' (Most churches need zero extra tools in Year 1!)",
+      "First ask honestly: 'Do the 4 Core Tools already cover this need?' (Most churches need zero extra tools in Year 1!)",
       "If a real contextual gap exists (e.g., simple family dinner blessing for young kids), sketch one rough draft using Picture, Mirror, and Window.",
       "Score the draft 1–5 on the Napkin Rubric—cut half the words until anyone can draw it in under 60 seconds.",
       "Test it with two ordinary laypeople using four questions: What worked? What confused you? What felt unnatural? Could you show a friend tomorrow?"
     ],
     napkinScript: "Draw three little frames—a mountain picture, a hand mirror, a 4-pane window—above five checkboxes: '<60s Draw | Visual | How-To | 3-Min Teach | 101-Simple.' Say: 'Before keeping any visual aid, check if it shows what to do, mirrors the heart, opens a window to neighbors, and passes the 60-second napkin test.'",
     workedExample: "A children's ministry director turns a 14-point parenting PDF into one simple 3-icon bedtime rhythm (Thank God / Ask Forgiveness / Bless Someone) that 7-year-olds draw themselves on Sunday.",
-    guardrails: "Do NOT create tools for the sake of having a toolkit. Fewer, deeply lived habits multiply ten times faster than a crowded binder of six diagrams."
+    guardrails: "Do NOT create tools for the sake of having a toolkit. Fewer, deeply lived tools multiply ten times faster than a crowded binder of six diagrams."
   },
   "gathering-rhythm": {
     id: "gathering-rhythm",
     number: 14,
-    name: "Weekly Life-on-Life Gathering Rhythm & Beta Checklist",
-    shortName: "Gathering Rhythm",
+    name: "The Vehicle: Weekly Life-on-Life Gathering Rhythm & Beta Checklist",
+    shortName: "The Vehicle (Gathering Rhythm)",
     week: 8,
     category: "Practice & Rhythm",
     tagline: "Structures a weekly 60–75 minute hospitality loop integrated into daily life—keeping neighbor mission woven into every gathering.",
@@ -620,9 +620,9 @@ window.DML_TOOLS = {
       },
       {
         key: "focus",
-        title: "#2. Habit Focus in Scripture & Prayer (30–40 min)",
-        summary: "Practice one core habit together (Look • Listen • Live, 4-Beat Prayer Ring, or Jesus Pattern)—taking turns letting emerging apprentices facilitate.",
-        deep: "Instead of a video lecture or passive Q&A, every gathering reinforces transferable 101 habits everyone can practice at home tomorrow."
+        title: "#2. Tool Focus in Scripture & Prayer (30–40 min)",
+        summary: "Practice one core tool together (Look • Listen • Live, 4-Beat Prayer Ring, or Jesus Pattern)—taking turns letting emerging apprentices facilitate.",
+        deep: "Instead of a video lecture or passive Q&A, every gathering reinforces transferable 101 tools everyone can practice at home tomorrow."
       },
       {
         key: "nextstep",
@@ -634,16 +634,16 @@ window.DML_TOOLS = {
         key: "checklist",
         title: "Weekly Beta Standard (12–16 Weeks)",
         summary: "3–5 people per group • Meets WEEKLY (not biweekly) • 12–16 weeks minimum • Co-led by apprentice in Beta weeks 9–12.",
-        deep: "Why weekly works best: twelve+ weekly gatherings give adequate room for crisis care, real habit transfer, and 2nd-generation handoffs before the beta cycle concludes."
+        deep: "Why weekly works best: twelve+ weekly gatherings give adequate room for crisis care, real tool transfer, and 2nd-generation handoffs before the beta cycle concludes."
       }
     ],
     steps: [
       "Keep groups intimate (3–5 people, ideally around a dining table, breakfast booth, or porch—not a formal church classroom).",
       "Commit to meeting WEEKLY for 12–16 weeks rather than twice a month.",
-      "Follow the 3-part loop faithfully (#1 Celebrate -> #2 Habit Focus -> #3 Next Step + Weekly OUT), rotating who leads #2 after the first month.",
+      "Follow the 3-part loop faithfully (#1 Celebrate -> #2 Tool Focus -> #3 Next Step + Weekly OUT), rotating who leads #2 after the first month.",
       "Complete the 7-point Launch Checklist (Who, When, Where, Leading, Apprentice Co-Lead, Soul Care Pod, 30/60/90-day Feedback)."
     ],
-    napkinScript: "Draw three circles side-by-side: Party Cup ('1. Celebrate & Honest Check'), Open Book ('2. Practice Habit Together'), Footprints + House ('3. Next Step + One Neighbor This Week'). Say: 'An hour a week around a kitchen table—look back in grace, look up in the Word, look forward to obey and love one neighbor.'",
+    napkinScript: "Draw three circles side-by-side: Party Cup ('1. Celebrate & Honest Check'), Open Book ('2. Practice Tool Together'), Footprints + House ('3. Next Step + One Neighbor This Week'). Say: 'An hour a week around a kitchen table—look back in grace, look up in the Word, look forward to obey and love one neighbor.'",
     workedExample: "Three couples launch Tuesday night dessert-table triads (men and women splitting for 50 minutes after sharing dessert). By week 8 of their Beta, each group has an emerging co-leader facilitating Look • Listen • Live and has hosted two neighborhood cookouts.",
     guardrails: "Do not let 'Celebrate' turn into boastful bragging, and never revert to passive twice-a-month scheduling that kills continuity."
   },
@@ -669,19 +669,19 @@ window.DML_TOOLS = {
       {
         key: "groups",
         title: "Col 2: Groups & Apprenticeships",
-        summary: "Aligns bridged legacy small groups and weekly Betas around shared habits, plain language, and apprentice co-leading.",
+        summary: "Aligns bridged legacy small groups and weekly Betas around shared tools, plain language, and apprentice co-leading.",
         deep: "Ensures adult groups speak the same plain gospel language as Sunday mornings without feeling divided into elite vs. second-class tiers."
       },
       {
         key: "nextgen",
         title: "Cols 3–4: Children & Students (Co-Designed)",
-        summary: "Kids and Youth leaders adapt age-appropriate versions of the core habits alongside parents (Deut 6), rather than retrofitting adult tools.",
+        summary: "Kids and Youth leaders adapt age-appropriate versions of the core tools alongside parents (Deut 6), rather than retrofitting adult tools.",
         deep: "Children's and student leaders sit at the table from Module 6 onward, shaping joyful visuals for families."
       },
       {
         key: "mercy",
         title: "Col 5: Mercy & Everyday Service Teams",
-        summary: "Embeds 5-minute Scripture/prayer habits and Oikos hospitality into hospitality, food pantry, missions, and deacon teams.",
+        summary: "Embeds 5-minute Scripture/prayer tools and Oikos hospitality into hospitality, food pantry, missions, and deacon teams.",
         deep: "Transforms 'Serve 30%' volunteers from task-finishers into praying, caring companions who share life as they serve."
       }
     ],
@@ -693,7 +693,7 @@ window.DML_TOOLS = {
     ],
     napkinScript: "Draw a 4x5 grid: Practices, Language, Artifacts, Narratives on the left; Sunday Liturgy, Groups, Kids, Students, and Mercy Teams across the top. Say: 'We fill ONE shared canvas together—not five times in secret—so a 10-year-old, a college student, a pantry volunteer, and Sunday worship all speak the same Christ-centered language.'",
     workedExample: "Together with the Youth Pastor and Worship Lead, the team integrates 60 seconds of silent cross-centered Examen before monthly Communion (Liturgy), gives parents a 3-question fridge card matching Sunday's kids passage (Children), and opens pantry volunteer huddles with a 2-minute 4-Beat Prayer Ring.",
-    guardrails: "Keep changes light and additive-free: every new liturgical or Next-Gen habit should replace or simplify an existing clutter point."
+    guardrails: "Keep changes light and additive-free: every new liturgical or Next-Gen tool should replace or simplify an existing clutter point."
   },
   "vetting-soulcare": {
     id: "vetting-soulcare",
@@ -772,7 +772,7 @@ window.DML_TOOLS = {
         key: "continuity",
         title: "Year-2 Continuity Anchors (Off-Ramp)",
         summary: "Elder Ratification within 30 days • 2-Page New Staff/Elder Onboarding Manual • Quarterly Huddles (M3–M12+) • Annual Pruning Review.",
-        deep: "Builds lasting Year-2 Continuity: even if pastoral staff transitions, incoming leaders learn the 4 core habits and Vetting Gate in their first 30 days."
+        deep: "Builds lasting Year-2 Continuity: even if pastoral staff transitions, incoming leaders learn the 4 Core Tools and Vetting Gate in their first 30 days."
       }
     ],
     steps: [
@@ -781,7 +781,7 @@ window.DML_TOOLS = {
       "Inspect your upcoming church budget and fall calendar to confirm Soul Care and pruning commitments are protected.",
       "Draft your 2-page New Staff & Elder Onboarding Manual and schedule Elder Board ratification plus Year-2 Quarterly Huddles."
     ],
-    napkinScript: "Draw a 3-row chart (90 Days, 1 Year, 3 Years) split down the middle into PATH (People & Habits) and PLAN (Liturgy, Budget & Pruning), crowned by a banner reading 'If the Lord Wills (Jas 4:15).' Say: 'We plan faithfully in 90-day steps, inspect our calendar and budget honestly, and leave the harvest to God.'",
+    napkinScript: "Draw a 3-row chart (90 Days, 1 Year, 3 Years) split down the middle into PATH (Destination, Map, Vehicles & Tools) and PLAN (Liturgy, Budget & Pruning), crowned by a banner reading 'If the Lord Wills (Jas 4:15).' Say: 'We plan faithfully in 90-day steps, inspect our calendar and budget honestly, and leave the harvest to God.'",
     workedExample: "A 120-person church populates all 4 tiers—including a realistic 1-Year Objective ('100% of Beta leaders inside 1:4 Soul Care pods; legacy Tuesday study transitioned; 4 weekly groups co-led by vetted 2nd-gen apprentices')—ratified unanimously by the Elder Board three weeks after Commissioning.",
     guardrails: "Never present multi-year goals as binding quotas that pressure leaders to fake numbers or lower character vetting."
   }

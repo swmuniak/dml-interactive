@@ -69,8 +69,8 @@ window.DML_DIAGRAMS = (function () {
           ${peopleIcons}
           <rect x="390" y="288" width="245" height="78" rx="8" fill="var(--card)" stroke="var(--primary)" stroke-width="${r.strokeWidth}"/>
           <text x="512" y="312" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">Needs a PATH</text>
-          <text x="512" y="333" font-size="12" fill="var(--ink)" text-anchor="middle">Destination &bull; Growth Loop</text>
-          <text x="512" y="351" font-size="12" fill="var(--ink)" text-anchor="middle">Weekly Rhythm &bull; 4 Habits</text>
+          <text x="512" y="333" font-size="12" fill="var(--ink)" text-anchor="middle">Destination &bull; Map</text>
+          <text x="512" y="351" font-size="12" fill="var(--ink)" text-anchor="middle">Vehicles &bull; Tools</text>
         </g>
 
         <g class="svg-part" data-part="center">
@@ -469,15 +469,15 @@ window.DML_DIAGRAMS = (function () {
           <polygon points="558,82 553,93 542,98 547,87" fill="none" stroke="var(--gold)" stroke-width="1.6" stroke-linejoin="round"/>
           <circle cx="550" cy="90" r="2.2" fill="var(--gold)"/>
           <text x="550" y="128" font-size="12" font-weight="700" fill="var(--gold)" text-anchor="middle">4. TOOLS</text>
-          <text x="550" y="144" font-size="10.5" font-weight="600" fill="var(--muted)" text-anchor="middle">Our Daily Habits</text>
+          <text x="550" y="144" font-size="10.5" font-weight="600" fill="var(--muted)" text-anchor="middle">Transferable Tools</text>
           <line x1="496" y1="154" x2="604" y2="154" stroke="var(--border-strong)" stroke-width="1"/>
-          <text x="550" y="172" font-size="10.5" font-weight="700" fill="var(--ink)" text-anchor="middle">&ldquo;What habits can</text>
+          <text x="550" y="172" font-size="10.5" font-weight="700" fill="var(--ink)" text-anchor="middle">&ldquo;What tools can</text>
           <text x="550" y="187" font-size="10.5" font-weight="700" fill="var(--ink)" text-anchor="middle">members pass on?&rdquo;</text>
           <rect x="490" y="204" width="120" height="72" rx="7" fill="var(--surface)" stroke="var(--gold)" stroke-width="0.9"/>
           <text x="550" y="221" font-size="9.5" font-weight="700" fill="var(--gold)" text-anchor="middle">WRITE DOWN:</text>
           <text x="550" y="238" font-size="10" fill="var(--ink)" text-anchor="middle">Staff study guides,</text>
           <text x="550" y="252" font-size="10" fill="var(--ink)" text-anchor="middle">or simple Bible &amp;</text>
-          <text x="550" y="266" font-size="10" fill="var(--muted)" text-anchor="middle">prayer habits?</text>
+          <text x="550" y="266" font-size="10" fill="var(--muted)" text-anchor="middle">prayer tools?</text>
         </g>
 
         <!-- Bottom Progression Strip -->
@@ -739,7 +739,7 @@ window.DML_DIAGRAMS = (function () {
           <rect x="434" y="34" width="182" height="202" rx="10" fill="var(--terracotta)" fill-opacity="${lg.fillOpacity}" stroke="var(--terracotta)" stroke-width="${lg.strokeWidth}"/>
           <text x="525" y="68" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">3. Legacy Group Paths</text>
           <text x="525" y="106" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">A) Convert to weekly</text>
-          <text x="525" y="136" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">B) Hybridize 1 habit</text>
+          <text x="525" y="136" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">B) Hybridize 1 tool</text>
           <text x="525" y="166" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">C) Bless &amp; Sunset</text>
           <text x="525" y="212" font-size="12" font-weight="700" fill="var(--danger)" text-anchor="middle">No Status Lanyards!</text>
         </g>
@@ -807,7 +807,7 @@ window.DML_DIAGRAMS = (function () {
         <g class="svg-part" data-part="exemplar">
           <rect x="364" y="136" width="252" height="122" rx="10" fill="var(--terracotta)" fill-opacity="${ex.fillOpacity}" stroke="var(--terracotta)" stroke-width="${ex.strokeWidth}"/>
           <text x="490" y="162" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">Optional Tool Cap</text>
-          <text x="490" y="188" font-size="12" fill="var(--ink)" text-anchor="middle">4 Core Habits FIRST</text>
+          <text x="490" y="188" font-size="12" fill="var(--ink)" text-anchor="middle">4 Core Tools FIRST</text>
           <text x="490" y="210" font-size="12" fill="var(--ink)" text-anchor="middle">+ Max 1 Optional Church Tool</text>
           <text x="490" y="234" font-size="12" fill="var(--muted)" text-anchor="middle">Tested with 2 laypeople</text>
         </g>
@@ -831,7 +831,7 @@ window.DML_DIAGRAMS = (function () {
         <text x="217" y="104" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
         <g class="svg-part" data-part="focus">
           <rect x="229" y="24" width="182" height="150" rx="12" fill="var(--primary)" fill-opacity="${f.fillOpacity}" stroke="var(--primary)" stroke-width="${f.strokeWidth}"/>
-          <text x="320" y="54" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">2. HABIT FOCUS</text>
+          <text x="320" y="54" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">2. TOOL FOCUS</text>
           <text x="320" y="76" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">(35 min Word &amp; Prayer)</text>
           <text x="320" y="106" font-size="12" fill="var(--ink)" text-anchor="middle">Look &bull; Listen &bull; Live,</text>
           <text x="320" y="126" font-size="12" fill="var(--ink)" text-anchor="middle">4-Beat Prayer Ring, or</text>
@@ -880,7 +880,7 @@ window.DML_DIAGRAMS = (function () {
           <rect x="266" y="22" width="120" height="262" rx="6" fill="var(--slate)" fill-opacity="${gr.fillOpacity}" stroke="var(--slate)" stroke-width="${gr.strokeWidth}"/>
           <text x="326" y="50" font-size="12" font-weight="700" fill="var(--slate)" text-anchor="middle">Groups</text>
           <text x="326" y="102" font-size="12" fill="var(--ink)" text-anchor="middle">Weekly Rhythm</text>
-          <text x="326" y="152" font-size="12" fill="var(--ink)" text-anchor="middle">Shared Habits</text>
+          <text x="326" y="152" font-size="12" fill="var(--ink)" text-anchor="middle">Shared Tools</text>
           <text x="326" y="202" font-size="12" fill="var(--ink)" text-anchor="middle">Napkin Guides</text>
           <text x="326" y="252" font-size="12" fill="var(--ink)" text-anchor="middle">Oikos Fruit</text>
         </g>
@@ -969,7 +969,7 @@ window.DML_DIAGRAMS = (function () {
           <line x1="92" y1="205" x2="362" y2="205" stroke="var(--border)"/>
           <text x="227" y="108" font-size="12" font-weight="700" fill="var(--success)" text-anchor="middle">PATH: 2nd/3rd-Gen Apprentices</text>
           <text x="227" y="128" font-size="12" fill="var(--ink)" text-anchor="middle">1:4–5 Soul Care Pods sustained</text>
-          <text x="227" y="168" font-size="12" font-weight="700" fill="var(--success)" text-anchor="middle">PATH: Weekly Rhythm Retained</text>
+          <text x="227" y="168" font-size="12" font-weight="700" fill="var(--success)" text-anchor="middle">PATH: Weekly Vehicles Retained</text>
           <text x="227" y="188" font-size="12" fill="var(--ink)" text-anchor="middle">Vetting Gate &amp; 2nd-gen co-leads</text>
           <text x="227" y="230" font-size="12" font-weight="700" fill="var(--success)" text-anchor="middle">PATH: Launch Next Weekly Betas</text>
           <text x="227" y="250" font-size="12" fill="var(--ink)" text-anchor="middle">Track OUT neighbor stories</text>
