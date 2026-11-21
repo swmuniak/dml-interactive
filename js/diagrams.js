@@ -560,86 +560,99 @@ window.DML_DIAGRAMS = (function () {
 
     "pruning-curve": (active) => {
       const ax = hi(active, "axes", "var(--primary)", 0.14);
-      const gt = hi(active, "gate", "var(--terracotta)", 0.16);
+      const gt = hi(active, "gate", "var(--terracotta)", 0.15);
       const gr = hi(active, "grace", "var(--success)", 0.14);
-      return svgWrap("0 0 640 372", `
-        <!-- Vineyard Soil Base & Root System -->
-        <path d="M30,322 Q320,312 610,322" fill="none" stroke="var(--border-strong)" stroke-width="2"/>
-        <path d="M312,318 Q285,334 252,340 M316,318 Q316,338 308,348 M322,318 Q350,334 382,340" fill="none" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"/>
+      return svgWrap("0 0 640 375", `
+        <!-- Vineyard Trellis Support Arcs (Background) -->
+        <path d="M150,176 Q175,148 215,140" fill="none" stroke="var(--border-strong)" stroke-width="1.6" stroke-dasharray="3,3"/>
+        <path d="M490,176 Q465,148 425,140" fill="none" stroke="var(--border-strong)" stroke-width="1.6" stroke-dasharray="3,3"/>
 
-        <!-- Central Living Vine Trunk & Branches -->
-        <path d="M306,318 C308,265 308,215 314,168 C318,215 322,265 326,318 Z" fill="var(--primary)" fill-opacity="0.28" stroke="var(--primary)" stroke-width="2.5" stroke-linejoin="round"/>
-        <!-- Upper-Left Living Branch (to 1. KEEP & FEED) -->
-        <path d="M312,182 Q278,136 238,112" fill="none" stroke="var(--primary)" stroke-width="5" stroke-linecap="round"/>
-        <!-- Right Flourishing Branch (to 3. REINVEST MARGIN) -->
-        <path d="M318,174 Q346,136 378,126" fill="none" stroke="var(--success)" stroke-width="6" stroke-linecap="round"/>
-        <!-- Sap-Flow Arrow curving up the trunk into the Right Harvest Arch -->
-        <path d="M316,286 L316,196 Q316,154 358,144" fill="none" stroke="var(--success)" stroke-width="2.4" stroke-dasharray="4,3"/>
-        <polygon points="355,138 367,143 356,150" fill="var(--success)"/>
+        <!-- Soil Line & Root Flare at Base of Trunk -->
+        <line x1="40" y1="324" x2="600" y2="324" stroke="var(--border-strong)" stroke-width="2"/>
+        <path d="M312,318 Q284,332 254,336 M320,318 L320,338 M328,318 Q356,332 386,336" fill="none" stroke="var(--primary)" stroke-width="2.4" stroke-linecap="round"/>
 
-        <!-- Lower-Left Severed Sucker Shoot + Pruning Shears at Cut Point -->
-        <path d="M308,236 Q292,236 280,238" fill="none" stroke="var(--primary)" stroke-width="4" stroke-linecap="round"/>
-        <path d="M254,244 Q236,248 220,254" fill="none" stroke="var(--terracotta)" stroke-width="3.5" stroke-dasharray="5,4" stroke-linecap="round"/>
-        <!-- Pruning Shears Icon right across the gap (x=267, y=240) -->
-        <line x1="256" y1="220" x2="278" y2="256" stroke="var(--terracotta)" stroke-width="2.8" stroke-linecap="round"/>
-        <line x1="278" y1="220" x2="256" y2="256" stroke="var(--terracotta)" stroke-width="2.8" stroke-linecap="round"/>
-        <circle cx="267" cy="238" r="2.8" fill="var(--terracotta)"/>
-        <circle cx="254" cy="260" r="5" fill="none" stroke="var(--terracotta)" stroke-width="2.2"/>
-        <circle cx="280" cy="260" r="5" fill="none" stroke="var(--terracotta)" stroke-width="2.2"/>
-        <text x="267" y="212" font-size="10" font-weight="700" fill="var(--terracotta)" text-anchor="middle">SNIP!</text>
+        <!-- Central Vertical Vine Trunk (x=320, y=324 up to y=140) -->
+        <path d="M308,324 C310,275 312,210 314,140 L326,140 C328,210 330,275 332,324 Z" fill="var(--primary)" fill-opacity="0.22" stroke="var(--primary)" stroke-width="2.2"/>
+        <!-- Upward Sap Flow Arrow Inside Trunk -->
+        <line x1="320" y1="306" x2="320" y2="152" stroke="var(--success)" stroke-width="2.8" stroke-dasharray="5,3"/>
+        <polygon points="313,156 327,156 320,143" fill="var(--success)"/>
 
-        <!-- 1. KEEP & FEED: Upper-Left Oval Leafy Canopy -->
-        <g class="svg-part" data-part="axes">
-          <rect x="20" y="16" width="268" height="128" rx="64" fill="var(--card)" stroke="var(--primary)" stroke-width="${ax.strokeWidth}"/>
-          <rect x="20" y="16" width="268" height="128" rx="64" fill="var(--primary)" fill-opacity="${ax.fillOpacity}" style="filter:${ax.filter}"/>
-          <!-- Vine Leaves Icon -->
-          <path d="M154,44 Q138,37 140,26 Q154,30 154,44 Z" fill="var(--primary)" fill-opacity="0.3" stroke="var(--primary)" stroke-width="1.6"/>
-          <path d="M154,47 Q170,39 168,28 Q154,32 154,47 Z" fill="var(--primary)" fill-opacity="0.3" stroke="var(--primary)" stroke-width="1.6"/>
-          <text x="154" y="66" font-size="13.5" font-weight="700" fill="var(--primary)" text-anchor="middle">1. KEEP &amp; FEED</text>
-          <text x="154" y="84" font-size="11.5" font-weight="700" fill="var(--ink)" text-anchor="middle">Living Branches on the Vine</text>
-          <text x="154" y="103" font-size="11" fill="var(--ink)" text-anchor="middle">Protect life-giving Greenhouses,</text>
-          <text x="154" y="120" font-size="11" fill="var(--muted)" text-anchor="middle">celebrate hosts &amp; strip away red tape</text>
-        </g>
+        <!-- Left Living Branch (Trunk -> 1. KEEP & FEED) -->
+        <line x1="312" y1="238" x2="278" y2="238" stroke="var(--primary)" stroke-width="5" stroke-linecap="round"/>
 
-        <!-- 2. CUT OR PAUSE: Lower-Left Detached Cutaway Shoot (Dashed Border) -->
-        <g class="svg-part" data-part="gate">
-          <rect x="20" y="176" width="224" height="130" rx="22" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${gt.strokeWidth}" stroke-dasharray="7,4"/>
-          <rect x="20" y="176" width="224" height="130" rx="22" fill="var(--terracotta)" fill-opacity="${gt.fillOpacity}" style="filter:${gt.filter}"/>
-          <text x="132" y="204" font-size="13.5" font-weight="700" fill="var(--terracotta)" text-anchor="middle">2. CUT OR PAUSE</text>
-          <text x="132" y="222" font-size="11.5" font-weight="700" fill="var(--ink)" text-anchor="middle">Pruned Clutter (1&ndash;2 Items)</text>
-          <text x="132" y="244" font-size="11" fill="var(--ink)" text-anchor="middle">&bull; 90-Day Sabbatical Pause</text>
-          <text x="132" y="263" font-size="11" fill="var(--ink)" text-anchor="middle">&bull; Merge duplicate committees</text>
-          <text x="132" y="282" font-size="11" fill="var(--ink)" text-anchor="middle">&bull; Bless &amp; Sunset warmly</text>
-        </g>
+        <!-- Right Pruned Branch (Trunk -> 2. CUT OR PAUSE) with Shears Medallion -->
+        <line x1="328" y1="238" x2="362" y2="238" stroke="var(--terracotta)" stroke-width="3.5" stroke-dasharray="4,4" stroke-linecap="round"/>
+        <circle cx="345" cy="238" r="13" fill="var(--card)" stroke="var(--terracotta)" stroke-width="1.8"/>
+        <line x1="339" y1="231" x2="351" y2="245" stroke="var(--terracotta)" stroke-width="2" stroke-linecap="round"/>
+        <line x1="351" y1="231" x2="339" y2="245" stroke="var(--terracotta)" stroke-width="2" stroke-linecap="round"/>
 
-        <!-- 3. REINVEST MARGIN: Right-Hand Dome-Topped Vineyard Harvest Arch -->
+        <!-- 3. REINVEST MARGIN: Top Center Harvest Crown (x=80..560, y=12..140) -->
         <g class="svg-part" data-part="grace">
-          <path d="M366,138 A126,118 0 0,1 618,138 L618,284 A22,22 0 0,1 596,306 L388,306 A22,22 0 0,1 366,284 Z" fill="var(--card)" stroke="var(--success)" stroke-width="${gr.strokeWidth}"/>
-          <path d="M366,138 A126,118 0 0,1 618,138 L618,284 A22,22 0 0,1 596,306 L388,306 A22,22 0 0,1 366,284 Z" fill="var(--success)" fill-opacity="${gr.fillOpacity}" style="filter:${gr.filter}"/>
-          <!-- Hanging Grape Cluster Icon at the Crown of the Arch -->
-          <line x1="492" y1="36" x2="492" y2="45" stroke="var(--success)" stroke-width="2.2" stroke-linecap="round"/>
-          <path d="M492,41 Q502,35 508,41 Q500,46 492,41 Z" fill="var(--success)" fill-opacity="0.35" stroke="var(--success)" stroke-width="1.5"/>
-          <circle cx="482" cy="51" r="5" fill="var(--success)" fill-opacity="0.32" stroke="var(--success)" stroke-width="1.7"/>
-          <circle cx="492" cy="51" r="5" fill="var(--success)" fill-opacity="0.32" stroke="var(--success)" stroke-width="1.7"/>
-          <circle cx="502" cy="51" r="5" fill="var(--success)" fill-opacity="0.32" stroke="var(--success)" stroke-width="1.7"/>
-          <circle cx="487" cy="60" r="5" fill="var(--success)" fill-opacity="0.32" stroke="var(--success)" stroke-width="1.7"/>
-          <circle cx="497" cy="60" r="5" fill="var(--success)" fill-opacity="0.32" stroke="var(--success)" stroke-width="1.7"/>
-          <circle cx="492" cy="69" r="5" fill="var(--success)" fill-opacity="0.32" stroke="var(--success)" stroke-width="1.7"/>
-          <text x="492" y="96" font-size="13.5" font-weight="700" fill="var(--success)" text-anchor="middle">3. REINVEST MARGIN</text>
-          <text x="492" y="115" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">&ldquo;More Fruit&rdquo; (2+ Hrs/Wk Freed)</text>
-          <text x="492" y="140" font-size="11" font-weight="600" fill="var(--success)" text-anchor="middle">Sap redirected from clutter into people:</text>
-          <text x="492" y="168" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; Personal Micro-Triads (1&ndash;4x/mo)</text>
-          <text x="492" y="192" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; Oikos Neighbor Tables (Pray&bull;Eat&bull;Share)</text>
-          <text x="492" y="216" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; 1:4&ndash;5 Leader Soul Care &amp; Prayer</text>
-          <rect x="392" y="242" width="200" height="44" rx="10" fill="var(--surface)" stroke="var(--success)" stroke-width="1.2"/>
-          <text x="492" y="261" font-size="10.5" font-weight="700" fill="var(--success)" text-anchor="middle">PARK THIS TIME ON YOUR CALENDAR</text>
-          <text x="492" y="277" font-size="10" fill="var(--muted)" text-anchor="middle">Before new admin clutter refills it!</text>
+          <rect x="80" y="12" width="480" height="128" rx="14" fill="var(--card)" stroke="var(--success)" stroke-width="${gr.strokeWidth}"/>
+          <rect x="80" y="12" width="480" height="128" rx="14" fill="var(--success)" fill-opacity="${gr.fillOpacity}" style="filter:${gr.filter}"/>
+          <!-- Circular Grape Cluster Medallion -->
+          <circle cx="122" cy="48" r="20" fill="var(--surface)" stroke="var(--success)" stroke-width="1.8"/>
+          <line x1="122" y1="34" x2="122" y2="39" stroke="var(--success)" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="116" cy="43" r="3.4" fill="var(--success)"/>
+          <circle cx="122" cy="43" r="3.4" fill="var(--success)"/>
+          <circle cx="128" cy="43" r="3.4" fill="var(--success)"/>
+          <circle cx="119" cy="49" r="3.4" fill="var(--success)"/>
+          <circle cx="125" cy="49" r="3.4" fill="var(--success)"/>
+          <circle cx="122" cy="55" r="3.4" fill="var(--success)"/>
+          <text x="154" y="43" font-size="13.5" font-weight="700" fill="var(--success)">3. REINVEST MARGIN &mdash; &ldquo;Bear More Fruit&rdquo; (2+ Hrs/Wk)</text>
+          <text x="154" y="62" font-size="11.5" fill="var(--ink)">Redirect freed hours immediately into people before new admin clutter refills them:</text>
+          <!-- 3 Cohesive Inner Feature Pills -->
+          <rect x="98" y="78" width="140" height="46" rx="8" fill="var(--surface)" stroke="var(--success)" stroke-width="1.2"/>
+          <text x="168" y="98" font-size="11" font-weight="700" fill="var(--success)" text-anchor="middle">Micro-Triads</text>
+          <text x="168" y="114" font-size="10" fill="var(--ink)" text-anchor="middle">1&ndash;4x/mo Word &amp; Prayer</text>
+
+          <rect x="250" y="78" width="140" height="46" rx="8" fill="var(--surface)" stroke="var(--success)" stroke-width="1.2"/>
+          <text x="320" y="98" font-size="11" font-weight="700" fill="var(--success)" text-anchor="middle">Neighbor Tables</text>
+          <text x="320" y="114" font-size="10" fill="var(--ink)" text-anchor="middle">Pray &bull; Eat &bull; Share (Oikos)</text>
+
+          <rect x="402" y="78" width="140" height="46" rx="8" fill="var(--surface)" stroke="var(--success)" stroke-width="1.2"/>
+          <text x="472" y="98" font-size="11" font-weight="700" fill="var(--success)" text-anchor="middle">1:4&ndash;5 Soul Care</text>
+          <text x="472" y="114" font-size="10" fill="var(--ink)" text-anchor="middle">Unhurried leader rest</text>
         </g>
 
-        <!-- Bottom Soil Banner -->
-        <rect x="44" y="334" width="552" height="28" rx="14" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="1.2"/>
-        <text x="320" y="352" font-size="11" text-anchor="middle">
-          <tspan font-weight="700" fill="var(--primary)">THE TRUE VINE (John 15:1&ndash;2): </tspan><tspan fill="var(--ink)">Pruning 2+ hrs/wk of dead clutter redirects life into multiplying disciples</tspan>
+        <!-- 1. KEEP & FEED: Lower-Left Trellis Branch (x=22..278, y=176..300) -->
+        <g class="svg-part" data-part="axes">
+          <rect x="22" y="176" width="256" height="124" rx="14" fill="var(--card)" stroke="var(--primary)" stroke-width="${ax.strokeWidth}"/>
+          <rect x="22" y="176" width="256" height="124" rx="14" fill="var(--primary)" fill-opacity="${ax.fillOpacity}" style="filter:${ax.filter}"/>
+          <!-- Circular Vine-Leaf Medallion -->
+          <circle cx="56" cy="208" r="18" fill="var(--surface)" stroke="var(--primary)" stroke-width="1.8"/>
+          <path d="M56,216 Q44,209 46,199 Q56,202 56,216 Z" fill="var(--primary)" fill-opacity="0.35" stroke="var(--primary)" stroke-width="1.5"/>
+          <path d="M56,216 Q68,209 66,199 Q56,202 56,216 Z" fill="var(--primary)" fill-opacity="0.35" stroke="var(--primary)" stroke-width="1.5"/>
+          <text x="84" y="203" font-size="13" font-weight="700" fill="var(--primary)">1. KEEP &amp; FEED</text>
+          <text x="84" y="220" font-size="11" font-weight="600" fill="var(--muted)">Fruitful Branches on the Vine</text>
+          <line x1="38" y1="232" x2="262" y2="232" stroke="var(--border-strong)" stroke-width="1"/>
+          <text x="38" y="250" font-size="11" fill="var(--ink)">&bull; Protect life-giving Greenhouses</text>
+          <text x="38" y="268" font-size="11" fill="var(--ink)">&bull; Celebrate &amp; nourish faithful hosts</text>
+          <text x="38" y="286" font-size="11" fill="var(--ink)">&bull; Strip away needless red tape</text>
+        </g>
+
+        <!-- 2. CUT OR PAUSE: Lower-Right Pruned Branch (x=362..618, y=176..300) -->
+        <g class="svg-part" data-part="gate">
+          <rect x="362" y="176" width="256" height="124" rx="14" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${gt.strokeWidth}" stroke-dasharray="7,4"/>
+          <rect x="362" y="176" width="256" height="124" rx="14" fill="var(--terracotta)" fill-opacity="${gt.fillOpacity}" style="filter:${gt.filter}"/>
+          <!-- Circular Pruning Shears Medallion -->
+          <circle cx="396" cy="208" r="18" fill="var(--surface)" stroke="var(--terracotta)" stroke-width="1.8"/>
+          <line x1="389" y1="199" x2="403" y2="215" stroke="var(--terracotta)" stroke-width="2" stroke-linecap="round"/>
+          <line x1="403" y1="199" x2="389" y2="215" stroke="var(--terracotta)" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="390" cy="217" r="3" fill="none" stroke="var(--terracotta)" stroke-width="1.6"/>
+          <circle cx="402" cy="217" r="3" fill="none" stroke="var(--terracotta)" stroke-width="1.6"/>
+          <text x="424" y="203" font-size="13" font-weight="700" fill="var(--terracotta)">2. CUT OR PAUSE</text>
+          <text x="424" y="220" font-size="11" font-weight="600" fill="var(--muted)">The Pruning Shears (1&ndash;2 Items)</text>
+          <line x1="378" y1="232" x2="602" y2="232" stroke="var(--border-strong)" stroke-width="1"/>
+          <text x="378" y="250" font-size="11" fill="var(--ink)">&bull; 90-Day Sabbatical Pause</text>
+          <text x="378" y="268" font-size="11" fill="var(--ink)">&bull; Merge duplicate committees</text>
+          <text x="378" y="286" font-size="11" fill="var(--ink)">&bull; Bless &amp; Sunset a finished season</text>
+        </g>
+
+        <!-- Bottom Vineyard Root Banner -->
+        <rect x="44" y="336" width="552" height="28" rx="14" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="1.2"/>
+        <text x="320" y="354" font-size="11" text-anchor="middle">
+          <tspan font-weight="700" fill="var(--primary)">THE TRUE VINE (John 15:1&ndash;2): </tspan><tspan fill="var(--ink)">Pruning 2+ hrs/wk of clutter at the trunk sends life upward into people</tspan>
         </text>
       `);
     },

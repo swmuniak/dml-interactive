@@ -421,7 +421,7 @@ window.DML_TOOLS = {
       "Calculate the concrete weekly hours freed (aim for 2+ hours/week per team member) and commit that time directly to Micro-Triads, Oikos hospitality, or Soul Care (REINVEST).",
       "Bring any sensitive program sunset proposal respectfully to your Elders and key stakeholders in Module 6 before acting publicly."
     ],
-    napkinScript: "Sketch a Y-shaped grapevine trunk rising from roots ('Christ the True Vine — Jn 15:1–2'). On the upper-left branch draw leaves ('1. KEEP & FEED fruitful groups'). On a lower-left shoot draw pruning shears snipping it off ('2. CUT or PAUSE 1–2 clutter meetings'). Draw an arrow flowing up the trunk into a big grape cluster on the right branch ('3. REINVEST 2+ hrs/wk into people'). Say: 'When a vinedresser snips a sucker shoot, the sap doesn't vanish—it surges into the fruit-bearing branch.'",
+    napkinScript: "Draw a vertical grapevine trunk rising from roots at the bottom ('Christ the Vine — Jn 15:1–2'). Branch left for '1. KEEP & FEED (living groups)' and branch right with pruning shears for '2. CUT OR PAUSE (1–2 clutter meetings).' Then draw a bold arrow surging straight UP the trunk into a wide fruit canopy at the top: '3. REINVEST MARGIN (2+ hrs/wk for Micro-Triads, Neighbor Tables & Soul Care).'",
     workedExample: "A leadership team decides to pause their monthly administrative 'Program Planning Night' and convert a 10-person midweek announcement-heavy meeting into two neighborhood triads (meeting 1–4x/month)—freeing hours immediately.",
     guardrails: "Retire programs with honor, gratitude, and clear pastoral communication—never with disdain for people who loved them."
   },
