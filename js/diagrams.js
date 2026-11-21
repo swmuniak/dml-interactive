@@ -150,10 +150,13 @@ window.DML_DIAGRAMS = (function () {
 
         <g class="svg-part" data-part="chew">
           <rect x="20" y="80" width="184" height="164" rx="12" fill="var(--primary)" fill-opacity="${c1.fillOpacity}" stroke="var(--primary)" stroke-width="${c1.strokeWidth}" style="filter:${c1.filter}"/>
-          <path d="M92,102 Q102,97 112,103 Q122,97 132,102 L132,120 Q122,115 112,121 Q102,115 92,120 Z" fill="none" stroke="var(--primary)" stroke-width="2"/>
-          <line x1="112" y1="90" x2="112" y2="121" stroke="var(--primary)" stroke-width="1.8"/>
-          <line x1="107" y1="94" x2="117" y2="94" stroke="var(--primary)" stroke-width="1.8"/>
-          <text x="112" y="144" font-size="13.5" font-weight="700" fill="var(--primary)" text-anchor="middle">1. LOOK (Head)</text>
+          <path d="M84,106 Q97,94 110,106 Q97,118 84,106 Z" fill="var(--card)" stroke="var(--primary)" stroke-width="2"/>
+          <circle cx="97" cy="106" r="4" fill="var(--primary)"/>
+          <circle cx="98.2" cy="104.8" r="1.2" fill="var(--card)"/>
+          <path d="M114,106 Q127,94 140,106 Q127,118 114,106 Z" fill="var(--card)" stroke="var(--primary)" stroke-width="2"/>
+          <circle cx="127" cy="106" r="4" fill="var(--primary)"/>
+          <circle cx="128.2" cy="104.8" r="1.2" fill="var(--card)"/>
+          <text x="112" y="144" font-size="13.5" font-weight="700" fill="var(--primary)" text-anchor="middle">1. LOOK (Eyes)</text>
           <text x="112" y="164" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">Text, Context &amp; Christ</text>
           <text x="112" y="188" font-size="11.5" fill="var(--ink)" text-anchor="middle">&ldquo;What does it say in</text>
           <text x="112" y="204" font-size="11.5" fill="var(--ink)" text-anchor="middle">context &amp; reveal about</text>
@@ -164,8 +167,11 @@ window.DML_DIAGRAMS = (function () {
 
         <g class="svg-part" data-part="digest">
           <rect x="228" y="80" width="184" height="164" rx="12" fill="var(--slate)" fill-opacity="${c2.fillOpacity}" stroke="var(--slate)" stroke-width="${c2.strokeWidth}" style="filter:${c2.filter}"/>
-          <path d="M320,121 C308,111 302,104 302,97 C302,91 307,88 313,90 C316,91 319,94 320,97 C321,94 324,91 327,90 C333,88 338,91 338,97 C338,104 332,111 320,121 Z" fill="none" stroke="var(--slate)" stroke-width="2"/>
-          <text x="320" y="144" font-size="13.5" font-weight="700" fill="var(--slate)" text-anchor="middle">2. LISTEN (Heart)</text>
+          <path d="M304,95 Q298,105 304,115" fill="none" stroke="var(--slate)" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M310,99 Q306,105 310,111" fill="none" stroke="var(--slate)" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M316,97 C316,88 333,88 333,100 C333,108 328,110 327,115 C326,120 318,121 316,116" fill="none" stroke="var(--slate)" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M321,98 C327,98 328,105 323,108 C321,109 320,111 321,113" fill="none" stroke="var(--slate)" stroke-width="1.8" stroke-linecap="round"/>
+          <text x="320" y="144" font-size="13.5" font-weight="700" fill="var(--slate)" text-anchor="middle">2. LISTEN (Ear)</text>
           <text x="320" y="164" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">Spirit &amp; Community</text>
           <text x="320" y="188" font-size="11.5" fill="var(--ink)" text-anchor="middle">&ldquo;What convicts, comforts,</text>
           <text x="320" y="204" font-size="11.5" fill="var(--ink)" text-anchor="middle">or stirs us&mdash;tested</text>
@@ -176,9 +182,25 @@ window.DML_DIAGRAMS = (function () {
 
         <g class="svg-part" data-part="act">
           <rect x="436" y="80" width="184" height="164" rx="12" fill="var(--success)" fill-opacity="${c3.fillOpacity}" stroke="var(--success)" stroke-width="${c3.strokeWidth}" style="filter:${c3.filter}"/>
-          <ellipse cx="520" cy="103" rx="5.5" ry="9" transform="rotate(-12 520 103)" fill="none" stroke="var(--success)" stroke-width="2"/>
-          <ellipse cx="536" cy="109" rx="5.5" ry="9" transform="rotate(10 536 109)" fill="none" stroke="var(--success)" stroke-width="2"/>
-          <text x="528" y="144" font-size="13.5" font-weight="700" fill="var(--success)" text-anchor="middle">3. LIVE (Hands)</text>
+          <g transform="translate(517, 108) rotate(-8)">
+            <path d="M-4.5,-2 C-5.5,-7 5,-7.5 4.5,-2 C4.2,1.5 2.5,3 0,3 C-2.5,3 -4,1.5 -4.5,-2 Z" fill="var(--success)" fill-opacity="0.22" stroke="var(--success)" stroke-width="1.6"/>
+            <ellipse cx="-0.5" cy="9" rx="3" ry="3.8" fill="var(--success)" fill-opacity="0.22" stroke="var(--success)" stroke-width="1.6"/>
+            <circle cx="-4.2" cy="-7.8" r="1.1" fill="var(--success)"/>
+            <circle cx="-2.1" cy="-9.2" r="1.2" fill="var(--success)"/>
+            <circle cx="0.2" cy="-10" r="1.3" fill="var(--success)"/>
+            <circle cx="2.6" cy="-10.3" r="1.5" fill="var(--success)"/>
+            <circle cx="4.9" cy="-9.8" r="1.8" fill="var(--success)"/>
+          </g>
+          <g transform="translate(539, 102) rotate(8)">
+            <path d="M-4.5,-2 C-5,-7.5 5.5,-7 4.5,-2 C4,1.5 2.5,3 0,3 C-2.5,3 -4.2,1.5 -4.5,-2 Z" fill="var(--success)" fill-opacity="0.22" stroke="var(--success)" stroke-width="1.6"/>
+            <ellipse cx="0.5" cy="9" rx="3" ry="3.8" fill="var(--success)" fill-opacity="0.22" stroke="var(--success)" stroke-width="1.6"/>
+            <circle cx="-4.9" cy="-9.8" r="1.8" fill="var(--success)"/>
+            <circle cx="-2.6" cy="-10.3" r="1.5" fill="var(--success)"/>
+            <circle cx="-0.2" cy="-10" r="1.3" fill="var(--success)"/>
+            <circle cx="2.1" cy="-9.2" r="1.2" fill="var(--success)"/>
+            <circle cx="4.2" cy="-7.8" r="1.1" fill="var(--success)"/>
+          </g>
+          <text x="528" y="144" font-size="13.5" font-weight="700" fill="var(--success)" text-anchor="middle">3. LIVE (Footprints)</text>
           <text x="528" y="164" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">Obey &amp; Share (48 Hrs)</text>
           <text x="528" y="188" font-size="11.5" fill="var(--ink)" text-anchor="middle">&ldquo;What concrete step</text>
           <text x="528" y="204" font-size="11.5" fill="var(--ink)" text-anchor="middle">will I take &amp; who will</text>

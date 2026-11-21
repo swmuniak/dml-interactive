@@ -92,11 +92,11 @@ window.DML_TOOLS = {
   "bible-circle": {
     id: "bible-circle",
     number: 3,
-    name: "Look • Listen • Live Bible Tool (Head / Heart / Hands)",
+    name: "Look • Listen • Live Bible Tool (Eyes / Ear / Footprints)",
     shortName: "Look • Listen • Live",
     week: 2,
     category: "Core Habit #1",
-    tagline: "Three sticky napkin icons—LOOK (Head/Cross: Context & Christ), LISTEN (Heart: Spirit & Community), LIVE (Hands/Feet: 48-Hr Obedience & Share).",
+    tagline: "Three sticky napkin icons—LOOK (Eyes: Text, Context & Christ), LISTEN (Ear: Spirit & Community), LIVE (Footprints: 48-Hr Obedience & Share).",
     whenToUse: "Use daily for personal devotion, in Micro-Triads (1–4x/month) and Beta groups, and toggle to Seeker DBS mode when reading with curious unbelievers.",
     originalSvgPath: "diagrams/bible_reading_tool.svg",
     scripture: "Luke 24:27; Psalm 119:18; 2 Timothy 3:16–17; James 1:22; 2 Peter 1:20",
@@ -110,19 +110,19 @@ window.DML_TOOLS = {
       },
       {
         key: "chew",
-        title: "1. LOOK (Head / Cross): Text, Context & Christ",
+        title: "1. LOOK (Eyes): Text, Context & Christ",
         summary: "What does the passage actually say in context, and how does it point to God's character and Jesus Christ (Luke 24:27)?",
         deep: "Pairs Spirit-dependence with a clear contextual guardrail before personal feelings take over. Ask: Who wrote this to whom? What is the plain meaning? What does it reveal about our need and Christ's grace?"
       },
       {
         key: "digest",
-        title: "2. LISTEN (Heart / Mirror): Spirit & Community Test",
+        title: "2. LISTEN (Ear): Spirit & Community Test",
         summary: "What is the Spirit convicting, comforting, or stirring in me—tested alongside trusted brothers and sisters (2 Pet 1:20)?",
         deep: "Notice a specific word, promise, or command that confronts our unbelief or idols. Sharing aloud in a triad keeps personal impressions anchored in healthy accountability."
       },
       {
         key: "act",
-        title: "3. LIVE (Hands / Footprints): Obey in 48 Hours & Share",
+        title: "3. LIVE (Footprints): Obey in 48 Hours & Share",
         summary: "What concrete step of obedience will I take in the next 48 hours, and who will I tell or pray with about it?",
         deep: "Turns insight into lived apprenticeship, pairing personal obedience with an outward prompt ('Who will you encourage or pass this to?') so Scripture reading naturally feeds neighbor love."
       }
@@ -133,7 +133,7 @@ window.DML_TOOLS = {
       "LISTEN together: share what convicts, comforts, or stirs your heart while testing impressions against the text.",
       "LIVE together: name one concrete action for the next 48 hours and one friend you can encourage or share it with."
     ],
-    napkinScript: "Draw three simple symbols down a napkin with a vertical Holy Spirit arrow alongside them: an Open Book/Cross ('1. LOOK — Head: Context & Christ'), a Heart ('2. LISTEN — Heart: Spirit & Community'), and Footprints ('3. LIVE — Hands: 48-hr step + Who will I tell?'). Say: 'Three icons anyone can teach in 60 seconds: Look at what God actually wrote, Listen for what his Spirit stirs in us, Live one small step within 48 hours.'",
+    napkinScript: "Draw three simple symbols down a napkin with a vertical Holy Spirit arrow alongside them: Eyes ('1. LOOK: Context & Christ'), an Ear ('2. LISTEN: Spirit & Community'), and Footprints ('3. LIVE: 48-hr step + Who will I tell?'). Say: 'Three icons anyone can teach in 60 seconds: Look at what God actually wrote, Listen for what his Spirit stirs in us, Live one small step within 48 hours.'",
     workedExample: "A Tuesday morning triad reads Luke 19:1–10. Instead of picking an isolated phrase, they notice Zacchaeus's social isolation and Jesus's initiative toward outsiders (Look), each member's reluctance to eat with difficult coworkers (Listen), and commit to inviting one colleague to lunch before Friday (Live).",
     guardrails: "Never jump straight to 'What does this verse feel like to me?' (Listen) before first checking context and Christ's gospel (Look). When reading with non-Christians, switch to the 4 Seeker DBS questions without assuming Bible familiarity."
   },

@@ -227,10 +227,10 @@ window.DML_CURRICULUM = {
         {
           id: "w2-c2",
           toolId: "bible-circle",
-          title: "2. Look • Listen • Live Bible Tool (Head, Heart, Hands)",
+          title: "2. Look • Listen • Live Bible Tool (Eyes, Ear, Footprints)",
           readMin: "3 min",
           bodyHtml: `
-            <p>Instead of an abstract geometric slice, <strong>Look &bull; Listen &bull; Live</strong> pairs <span class="term" data-term="pneumatology">Spirit-dependence</span> with three unforgettable Head/Heart/Hands icons: <strong>LOOK</strong> at the book/cross (what does the text mean in context and reveal about Christ?), <strong>LISTEN</strong> with your heart (what is the Spirit stirring in us together?), and <strong>LIVE</strong> with your feet (one 48-hour step and someone to encourage).</p>
+            <p>Instead of an abstract geometric slice, <strong>Look &bull; Listen &bull; Live</strong> pairs <span class="term" data-term="pneumatology">Spirit-dependence</span> with three unforgettable Eyes/Ear/Footprints icons: <strong>LOOK</strong> with your eyes (what does the text mean in context and reveal about Christ?), <strong>LISTEN</strong> with your ear (what is the Spirit stirring in us together?), and <strong>LIVE</strong> with your footprints (one 48-hour step and someone to encourage).</p>
             <p>Adding <span class="term" data-term="christocentric-reading">Christocentric reading</span> (Lk 24:27) and community testing (2 Pet 1:20) prevents subjective cherry-picking, while a quick toggle converts it to a <span class="term" data-term="seeker-dbs">Seeker DBS</span> with non-Christians.</p>
           `,
           seeMore: [
@@ -275,9 +275,9 @@ window.DML_CURRICULUM = {
       workshop: {
         totalMinutes: 90,
         agenda: [
-          { mins: "25m", title: "Live Look • Listen • Live Lab (Model -> Try)", instructions: "Read Mark 2:1–12 together using Head / Heart / Hands. Practice summarizing context and pointing to Christ before personal application." },
+          { mins: "25m", title: "Live Look • Listen • Live Lab (Model -> Try)", instructions: "Read Mark 2:1–12 together using Eyes / Ear / Footprints. Practice summarizing context and pointing to Christ before personal application." },
           { mins: "25m", title: "Live 4-Beat Prayer Ring Lab", instructions: "Pray in pairs: walk clockwise through Praise, Confess & Lament, Ask, and Go in a 2-minute round (30s/beat), then share honest Examen reflection." },
-          { mins: "20m", title: "30-Second Napkin Sketch Drill", instructions: "Close screens and draw both icons (Book/Heart/Footprints and Circle-Cross 4-Beat Ring) on scratch paper in under 30 seconds each, teaching them to your partner." },
+          { mins: "20m", title: "30-Second Napkin Sketch Drill", instructions: "Close screens and draw both icons (Eyes/Ear/Footprints and Circle-Cross 4-Beat Ring) on scratch paper in under 30 seconds each, teaching them to your partner." },
           { mins: "20m", title: "Schedule Micro-Triads", instructions: "Each person names 2–3 specific friends to invite right away and locks in a target day/time." }
         ],
         prompts: [
@@ -307,7 +307,7 @@ window.DML_CURRICULUM = {
         summary: "Launch your personal Micro-Triad (1–4x/month) and practice both sticky napkin habits.",
         checklist: [
           { id: "w2-f1", text: "Invite 2–3 friends and hold your first 45-minute Micro-Triad gathering (1–4x/month cadence)." },
-          { id: "w2-f2", text: "Practice Look • Listen • Live (Head / Heart / Hands) at least 3 days personally." },
+          { id: "w2-f2", text: "Practice Look • Listen • Live (Eyes / Ear / Footprints) at least 3 days personally." },
           { id: "w2-f3", text: "Use the 2-minute 4-Beat Prayer Ring or Cross-Centered Examen twice before bed." }
         ],
         reflectionPrompt: "How easily could you sketch and share Look • Listen • Live and the 4-Beat Prayer Ring with your triad?"
