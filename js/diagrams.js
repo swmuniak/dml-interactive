@@ -131,81 +131,119 @@ window.DML_DIAGRAMS = (function () {
     },
 
     "bible-circle": (active) => {
-      const sp = hi(active, "spirit", "var(--terracotta)", 0.14);
+      const sp = hi(active, "spirit", "var(--terracotta)", 0.13);
       const c1 = hi(active, "chew", "var(--primary)", 0.14);
       const c2 = hi(active, "digest", "var(--slate)", 0.14);
       const c3 = hi(active, "act", "var(--success)", 0.14);
-      return svgWrap("0 0 600 320", `
-        <g class="svg-part" data-part="chew">
-          <path d="M98,118 A122,122 0 0,1 322,118 Z" fill="var(--primary)" fill-opacity="${c1.fillOpacity}" stroke="var(--primary)" stroke-width="${c1.strokeWidth}"/>
-          <text x="210" y="76" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">1. CHEW (Context &amp; Christ)</text>
-          <text x="210" y="98" font-size="12" fill="var(--ink)" text-anchor="middle">Plain meaning + Lk 24:27</text>
-        </g>
-        <g class="svg-part" data-part="digest">
-          <path d="M98,118 L322,118 A122,122 0 0,1 322,202 L98,202 A122,122 0 0,1 98,118 Z" fill="var(--slate)" fill-opacity="${c2.fillOpacity}" stroke="var(--slate)" stroke-width="${c2.strokeWidth}"/>
-          <text x="210" y="155" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle">2. DIGEST (Heart &amp; Church)</text>
-          <text x="210" y="177" font-size="12" fill="var(--ink)" text-anchor="middle">What convicts or comforts us?</text>
-        </g>
-        <g class="svg-part" data-part="act">
-          <path d="M98,202 L322,202 A122,122 0 0,1 98,202 Z" fill="var(--success)" fill-opacity="${c3.fillOpacity}" stroke="var(--success)" stroke-width="${c3.strokeWidth}"/>
-          <text x="210" y="236" font-size="13" font-weight="700" fill="var(--success)" text-anchor="middle">3. ACT (Obey &amp; Share)</text>
-          <text x="210" y="256" font-size="12" fill="var(--ink)" text-anchor="middle">48-hr step + Who will I tell?</text>
-        </g>
+      return svgWrap("0 0 640 310", `
         <g class="svg-part" data-part="spirit">
-          <line x1="210" y1="24" x2="210" y2="294" stroke="var(--terracotta)" stroke-width="${sp.strokeWidth + 1}" stroke-dasharray="6,4"/>
-          <polygon points="202,288 218,288 210,305" fill="var(--terracotta)"/>
-          <rect x="362" y="54" width="214" height="212" rx="10" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${sp.strokeWidth}"/>
-          <text x="469" y="84" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">Holy Spirit Illumination</text>
-          <text x="380" y="114" font-size="12" fill="var(--ink)">&bull; Vertical arrow unites all 3</text>
-          <text x="380" y="138" font-size="12" fill="var(--ink)">&bull; Guarded by context</text>
-          <text x="380" y="162" font-size="12" fill="var(--ink)">&bull; Tested in community</text>
-          <line x1="380" y1="184" x2="558" y2="184" stroke="var(--border)"/>
-          <text x="469" y="210" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">Seeker DBS Toggle:</text>
-          <text x="469" y="232" font-size="12" fill="var(--muted)" text-anchor="middle">Notice / God / Us / Test</text>
+          <rect x="20" y="14" width="600" height="44" rx="8" fill="var(--terracotta)" fill-opacity="${sp.fillOpacity}" stroke="var(--terracotta)" stroke-width="${sp.strokeWidth}" style="filter:${sp.filter}"/>
+          <text x="320" y="33" font-size="12" font-weight="700" fill="var(--terracotta)" text-anchor="middle">HOLY SPIRIT ILLUMINATION</text>
+          <text x="320" y="49" font-size="11.5" fill="var(--ink)" text-anchor="middle">&ldquo;Open our eyes to see Jesus &amp; obey&rdquo; (Ps 119:18)</text>
+          <line x1="112" y1="58" x2="112" y2="73" stroke="var(--terracotta)" stroke-width="2" stroke-dasharray="3,2"/>
+          <polygon points="107,71 117,71 112,78" fill="var(--terracotta)"/>
+          <line x1="320" y1="58" x2="320" y2="73" stroke="var(--terracotta)" stroke-width="2" stroke-dasharray="3,2"/>
+          <polygon points="315,71 325,71 320,78" fill="var(--terracotta)"/>
+          <line x1="528" y1="58" x2="528" y2="73" stroke="var(--terracotta)" stroke-width="2" stroke-dasharray="3,2"/>
+          <polygon points="523,71 533,71 528,78" fill="var(--terracotta)"/>
+        </g>
+
+        <g class="svg-part" data-part="chew">
+          <rect x="20" y="80" width="184" height="164" rx="12" fill="var(--primary)" fill-opacity="${c1.fillOpacity}" stroke="var(--primary)" stroke-width="${c1.strokeWidth}" style="filter:${c1.filter}"/>
+          <path d="M92,102 Q102,97 112,103 Q122,97 132,102 L132,120 Q122,115 112,121 Q102,115 92,120 Z" fill="none" stroke="var(--primary)" stroke-width="2"/>
+          <line x1="112" y1="90" x2="112" y2="121" stroke="var(--primary)" stroke-width="1.8"/>
+          <line x1="107" y1="94" x2="117" y2="94" stroke="var(--primary)" stroke-width="1.8"/>
+          <text x="112" y="144" font-size="13.5" font-weight="700" fill="var(--primary)" text-anchor="middle">1. LOOK (Head)</text>
+          <text x="112" y="164" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">Text, Context &amp; Christ</text>
+          <text x="112" y="188" font-size="11.5" fill="var(--ink)" text-anchor="middle">&ldquo;What does it say in</text>
+          <text x="112" y="204" font-size="11.5" fill="var(--ink)" text-anchor="middle">context &amp; reveal about</text>
+          <text x="112" y="220" font-size="11.5" fill="var(--muted)" text-anchor="middle">Jesus?&rdquo; (Lk 24:27)</text>
+        </g>
+
+        <text x="216" y="166" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
+
+        <g class="svg-part" data-part="digest">
+          <rect x="228" y="80" width="184" height="164" rx="12" fill="var(--slate)" fill-opacity="${c2.fillOpacity}" stroke="var(--slate)" stroke-width="${c2.strokeWidth}" style="filter:${c2.filter}"/>
+          <path d="M320,121 C308,111 302,104 302,97 C302,91 307,88 313,90 C316,91 319,94 320,97 C321,94 324,91 327,90 C333,88 338,91 338,97 C338,104 332,111 320,121 Z" fill="none" stroke="var(--slate)" stroke-width="2"/>
+          <text x="320" y="144" font-size="13.5" font-weight="700" fill="var(--slate)" text-anchor="middle">2. LISTEN (Heart)</text>
+          <text x="320" y="164" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">Spirit &amp; Community</text>
+          <text x="320" y="188" font-size="11.5" fill="var(--ink)" text-anchor="middle">&ldquo;What convicts, comforts,</text>
+          <text x="320" y="204" font-size="11.5" fill="var(--ink)" text-anchor="middle">or stirs us&mdash;tested</text>
+          <text x="320" y="220" font-size="11.5" fill="var(--muted)" text-anchor="middle">together?&rdquo; (2 Pet 1:20)</text>
+        </g>
+
+        <text x="424" y="166" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
+
+        <g class="svg-part" data-part="act">
+          <rect x="436" y="80" width="184" height="164" rx="12" fill="var(--success)" fill-opacity="${c3.fillOpacity}" stroke="var(--success)" stroke-width="${c3.strokeWidth}" style="filter:${c3.filter}"/>
+          <ellipse cx="520" cy="103" rx="5.5" ry="9" transform="rotate(-12 520 103)" fill="none" stroke="var(--success)" stroke-width="2"/>
+          <ellipse cx="536" cy="109" rx="5.5" ry="9" transform="rotate(10 536 109)" fill="none" stroke="var(--success)" stroke-width="2"/>
+          <text x="528" y="144" font-size="13.5" font-weight="700" fill="var(--success)" text-anchor="middle">3. LIVE (Hands)</text>
+          <text x="528" y="164" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">Obey &amp; Share (48 Hrs)</text>
+          <text x="528" y="188" font-size="11.5" fill="var(--ink)" text-anchor="middle">&ldquo;What concrete step</text>
+          <text x="528" y="204" font-size="11.5" fill="var(--ink)" text-anchor="middle">will I take &amp; who will</text>
+          <text x="528" y="220" font-size="11.5" fill="var(--muted)" text-anchor="middle">I tell?&rdquo; (Jas 1:22)</text>
+        </g>
+
+        <g class="svg-part" data-part="spirit">
+          <rect x="20" y="258" width="600" height="38" rx="8" fill="var(--surface)" stroke="var(--terracotta)" stroke-width="1.2"/>
+          <text x="320" y="281" font-size="11.5" text-anchor="middle">
+            <tspan font-weight="700" fill="var(--terracotta)">Seeker DBS Toggle: </tspan><tspan fill="var(--ink)">What stood out? &bull; What about God/Jesus? &bull; What about people? &bull; One step to test?</tspan>
+          </text>
         </g>
       `);
     },
 
     "prayer-wheel": (active) => {
       const h = hi(active, "hub", "var(--terracotta)", 0.16);
-      const u = hi(active, "upward", "var(--primary)", 0.13);
-      const i = hi(active, "inward", "var(--slate)", 0.13);
-      const r = hi(active, "ring", "var(--gold)", 0.14);
-      return svgWrap("0 0 600 330", `
-        <g class="svg-part" data-part="ring">
-          <circle cx="205" cy="175" r="142" fill="var(--gold)" fill-opacity="${r.fillOpacity}" stroke="var(--gold)" stroke-width="${r.strokeWidth}" stroke-dasharray="6,4"/>
-          <text x="205" y="24" font-size="12" font-weight="700" fill="var(--gold)" text-anchor="middle">2-Min Ring: Praise • Confess • Ask • Go</text>
+      const p = hi(active, "praise", "var(--primary)", 0.13);
+      const cf = hi(active, "confess", "var(--slate)", 0.13);
+      const a = hi(active, "ask", "var(--gold)", 0.14);
+      const g = hi(active, "go", "var(--success)", 0.13);
+      return svgWrap("0 0 640 315", `
+        <g class="svg-part" data-part="praise">
+          <rect x="30" y="18" width="282" height="110" rx="14" fill="var(--primary)" fill-opacity="${p.fillOpacity}" stroke="var(--primary)" stroke-width="${p.strokeWidth}" style="filter:${p.filter}"/>
+          <text x="150" y="48" font-size="13.5" font-weight="700" fill="var(--primary)" text-anchor="middle">1. PRAISE (Up)</text>
+          <text x="150" y="72" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">&ldquo;Hallowed be your name&rdquo;</text>
+          <text x="150" y="95" font-size="11.5" fill="var(--muted)" text-anchor="middle">Adore God's character &amp; thank him</text>
         </g>
-        <g class="svg-part" data-part="upward">
-          <path d="M90,175 A115,115 0 0,1 320,175 L205,175 Z" fill="var(--primary)" fill-opacity="${u.fillOpacity}" stroke="var(--primary)" stroke-width="${u.strokeWidth}"/>
-          <text x="140" y="132" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">Deliverance</text>
-          <text x="270" y="132" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">Kingdom</text>
-          <text x="205" y="102" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">Character</text>
+
+        <g class="svg-part" data-part="confess">
+          <rect x="328" y="18" width="282" height="110" rx="14" fill="var(--slate)" fill-opacity="${cf.fillOpacity}" stroke="var(--slate)" stroke-width="${cf.strokeWidth}" style="filter:${cf.filter}"/>
+          <text x="490" y="48" font-size="13.5" font-weight="700" fill="var(--slate)" text-anchor="middle">2. CONFESS &amp; LAMENT (In)</text>
+          <text x="490" y="72" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">&ldquo;Forgive us as we forgive&rdquo;</text>
+          <text x="490" y="95" font-size="11.5" fill="var(--muted)" text-anchor="middle">Honest grief, cross pardon &amp; Examen</text>
         </g>
-        <g class="svg-part" data-part="inward">
-          <path d="M90,175 A115,115 0 0,0 320,175 L205,175 Z" fill="var(--slate)" fill-opacity="${i.fillOpacity}" stroke="var(--slate)" stroke-width="${i.strokeWidth}"/>
-          <text x="140" y="226" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">Guidance</text>
-          <text x="270" y="226" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">Provision</text>
-          <text x="205" y="266" font-size="12" font-weight="700" fill="var(--slate)" text-anchor="middle">Forgive &amp; Extend</text>
+
+        <g class="svg-part" data-part="ask">
+          <rect x="328" y="140" width="282" height="110" rx="14" fill="var(--gold)" fill-opacity="${a.fillOpacity}" stroke="var(--gold)" stroke-width="${a.strokeWidth}" style="filter:${a.filter}"/>
+          <text x="490" y="176" font-size="13.5" font-weight="700" fill="var(--gold)" text-anchor="middle">3. ASK (Around)</text>
+          <text x="490" y="200" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">&ldquo;Give us this day &amp; deliver&rdquo;</text>
+          <text x="490" y="223" font-size="11.5" fill="var(--muted)" text-anchor="middle">Daily bread, healing &amp; Oikos friends</text>
         </g>
+
+        <g class="svg-part" data-part="go">
+          <rect x="30" y="140" width="282" height="110" rx="14" fill="var(--success)" fill-opacity="${g.fillOpacity}" stroke="var(--success)" stroke-width="${g.strokeWidth}" style="filter:${g.filter}"/>
+          <text x="150" y="176" font-size="13.5" font-weight="700" fill="var(--success)" text-anchor="middle">4. GO (Out)</text>
+          <text x="150" y="200" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">&ldquo;Your kingdom come&rdquo;</text>
+          <text x="150" y="223" font-size="11.5" fill="var(--muted)" text-anchor="middle">Yield your will &amp; bless someone today</text>
+        </g>
+
+        <text x="320" y="48" font-size="14" font-weight="700" fill="var(--muted)" text-anchor="middle">&rarr;</text>
+        <text x="588" y="139" font-size="14" font-weight="700" fill="var(--muted)" text-anchor="middle">&darr;</text>
+        <text x="320" y="228" font-size="14" font-weight="700" fill="var(--muted)" text-anchor="middle">&larr;</text>
+        <text x="52" y="139" font-size="14" font-weight="700" fill="var(--muted)" text-anchor="middle">&uarr;</text>
+
         <g class="svg-part" data-part="hub">
-          <polygon points="172,56 238,56 205,100" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${h.strokeWidth}"/>
-          <text x="205" y="75" font-size="12" font-weight="700" fill="var(--terracotta)" text-anchor="middle">FATHER</text>
-          <circle cx="205" cy="175" r="46" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${h.strokeWidth}"/>
-          <circle cx="205" cy="175" r="42" fill="var(--terracotta)" fill-opacity="${h.fillOpacity}"/>
-          <text x="205" y="170" font-size="12" font-weight="700" fill="var(--terracotta)" text-anchor="middle">In Christ</text>
-          <text x="205" y="188" font-size="12" fill="var(--ink)" text-anchor="middle">+ Lament</text>
+          <circle cx="320" cy="134" r="56" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${h.strokeWidth + 0.5}" style="filter:${h.filter}"/>
+          <circle cx="320" cy="134" r="49" fill="var(--terracotta)" fill-opacity="${h.fillOpacity}"/>
+          <text x="320" y="128" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">OUR FATHER</text>
+          <text x="320" y="148" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">In Christ (Heb 4:16)</text>
         </g>
-        <g class="svg-part" data-part="ring">
-          <rect x="378" y="64" width="202" height="218" rx="10" fill="var(--card)" stroke="var(--gold)" stroke-width="1.8"/>
-          <text x="479" y="92" font-size="13" font-weight="700" fill="var(--gold)" text-anchor="middle">Three Anchors</text>
-          <text x="396" y="122" font-size="12" font-weight="600" fill="var(--ink)">1. Worship-based</text>
-          <text x="396" y="146" font-size="12" font-weight="600" fill="var(--ink)">2. Scripture-fed</text>
-          <text x="396" y="170" font-size="12" font-weight="600" fill="var(--ink)">3. Spirit-led</text>
-          <line x1="396" y1="192" x2="562" y2="192" stroke="var(--border)"/>
-          <text x="479" y="218" font-size="12" font-weight="700" fill="var(--terracotta)" text-anchor="middle">Cross-Centered Examen</text>
-          <text x="479" y="238" font-size="12" fill="var(--muted)" text-anchor="middle">Gratitude • Confession •</text>
-          <text x="479" y="256" font-size="12" fill="var(--muted)" text-anchor="middle">Discernment • Entrusting</text>
+
+        <g>
+          <rect x="30" y="264" width="580" height="38" rx="8" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="1.2"/>
+          <text x="320" y="287" font-size="11.5" fill="var(--ink)" text-anchor="middle"><tspan font-weight="700" fill="var(--terracotta)">Scales Naturally: </tspan>2-Minute Napkin Rhythm (30s &times; 4 beats) &bull; 20-Minute Soul Care &amp; Cross-Centered Examen</text>
         </g>
       `);
     },
@@ -507,8 +545,8 @@ window.DML_DIAGRAMS = (function () {
           <rect x="229" y="24" width="182" height="150" rx="12" fill="var(--primary)" fill-opacity="${f.fillOpacity}" stroke="var(--primary)" stroke-width="${f.strokeWidth}"/>
           <text x="320" y="54" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">2. HABIT FOCUS</text>
           <text x="320" y="76" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">(35 min Word &amp; Prayer)</text>
-          <text x="320" y="106" font-size="12" fill="var(--ink)" text-anchor="middle">Practice Bible Circle,</text>
-          <text x="320" y="126" font-size="12" fill="var(--ink)" text-anchor="middle">Prayer Wheel, or</text>
+          <text x="320" y="106" font-size="12" fill="var(--ink)" text-anchor="middle">Look &bull; Listen &bull; Live,</text>
+          <text x="320" y="126" font-size="12" fill="var(--ink)" text-anchor="middle">4-Beat Prayer Ring, or</text>
           <text x="320" y="146" font-size="12" fill="var(--ink)" text-anchor="middle">Jesus Pattern together</text>
         </g>
         <text x="422" y="104" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
@@ -606,7 +644,7 @@ window.DML_DIAGRAMS = (function () {
           <circle cx="300" cy="172" r="9" fill="var(--success)" fill-opacity="0.35" stroke="var(--success)"/>
           <circle cx="340" cy="172" r="9" fill="var(--success)" fill-opacity="0.35" stroke="var(--success)"/>
           <circle cx="378" cy="172" r="9" fill="var(--success)" fill-opacity="0.35" stroke="var(--success)"/>
-          <text x="320" y="208" font-size="12" fill="var(--ink)" text-anchor="middle">Prayer Wheel + Examen</text>
+          <text x="320" y="208" font-size="12" fill="var(--ink)" text-anchor="middle">4-Beat Ring + Examen</text>
           <text x="320" y="228" font-size="12" fill="var(--muted)" text-anchor="middle">Zero KPI policing</text>
         </g>
         <g class="svg-part" data-part="escalation">

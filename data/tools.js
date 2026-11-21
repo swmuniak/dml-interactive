@@ -92,11 +92,11 @@ window.DML_TOOLS = {
   "bible-circle": {
     id: "bible-circle",
     number: 3,
-    name: "Bible Reading Circle",
-    shortName: "Bible Circle",
+    name: "Look • Listen • Live Bible Tool (Head / Heart / Hands)",
+    shortName: "Look • Listen • Live",
     week: 2,
     category: "Core Habit #1",
-    tagline: "Three Spirit-illuminated movements—Chew (Context & Christ), Digest (Heart & Church), Act (Obey & Share)—with a built-in Seeker toggle.",
+    tagline: "Three sticky napkin icons—LOOK (Head/Cross: Context & Christ), LISTEN (Heart: Spirit & Community), LIVE (Hands/Feet: 48-Hr Obedience & Share).",
     whenToUse: "Use daily for personal devotion, weekly in Micro-Triads and Beta groups, and toggle to Seeker DBS mode when reading with curious unbelievers.",
     originalSvgPath: "diagrams/bible_reading_tool.svg",
     scripture: "Luke 24:27; Psalm 119:18; 2 Timothy 3:16–17; James 1:22; 2 Peter 1:20",
@@ -104,86 +104,92 @@ window.DML_TOOLS = {
     parts: [
       {
         key: "spirit",
-        title: "Vertical Axis: Holy Spirit Illumination",
-        summary: "We begin by asking the Spirit who inspired Scripture to open our eyes to Jesus and soften our wills to obey.",
-        deep: "Bible reading is not dissecting a cold specimen; it is listening to the living God. Yet the Spirit never contradicts what he already wrote in context."
+        title: "Holy Spirit Illumination & Seeker Toggle",
+        summary: "We begin by asking the Spirit who inspired Scripture to open our eyes to Jesus and soften our wills to obey—and switch cleanly to 4 Seeker DBS questions with unbelievers.",
+        deep: "Bible reading is not dissecting a cold specimen; it is listening to the living God. Yet the Spirit never contradicts what he already wrote in context, and with unchurched friends you can swap straight to the 4 Seeker DBS questions with zero Bible familiarity required."
       },
       {
         key: "chew",
-        title: "Band 1: CHEW (Text, Context & Christ)",
+        title: "1. LOOK (Head / Cross): Text, Context & Christ",
         summary: "What does the passage actually say in context, and how does it point to God's character and Jesus Christ (Luke 24:27)?",
         deep: "Pairs Spirit-dependence with a clear contextual guardrail before personal feelings take over. Ask: Who wrote this to whom? What is the plain meaning? What does it reveal about our need and Christ's grace?"
       },
       {
         key: "digest",
-        title: "Band 2: DIGEST (Heart & Community Test)",
+        title: "2. LISTEN (Heart / Mirror): Spirit & Community Test",
         summary: "What is the Spirit convicting, comforting, or stirring in me—tested alongside trusted brothers and sisters (2 Pet 1:20)?",
         deep: "Notice a specific word, promise, or command that confronts our unbelief or idols. Sharing aloud in a triad keeps personal impressions anchored in healthy accountability."
       },
       {
         key: "act",
-        title: "Band 3: ACT (Obey & Pass On)",
+        title: "3. LIVE (Hands / Footprints): Obey in 48 Hours & Share",
         summary: "What concrete step of obedience will I take in the next 48 hours, and who will I tell or pray with about it?",
-        deep: "Turns insight into lived apprenticeship, pairing personal obedience with an outward prompt ('Who will you pass this to?') so Scripture reading naturally feeds neighbor love and encouragement."
+        deep: "Turns insight into lived apprenticeship, pairing personal obedience with an outward prompt ('Who will you encourage or pass this to?') so Scripture reading naturally feeds neighbor love."
       }
     ],
     steps: [
       "Pray briefly: 'Father, by your Spirit, open our eyes to see Jesus and obey.'",
-      "Read a short passage (10–20 verses) aloud twice; have someone retell it in their own words (Chew: Context & Christ).",
-      "Share what convicts or comforts your heart and check impressions against the text together (Digest).",
-      "Name one concrete action for the next 48 hours and one friend you can encourage or share it with (Act)."
+      "Read a short passage (10–20 verses) aloud twice and LOOK together: summarize what happens in context and what it shows about God and Christ.",
+      "LISTEN together: share what convicts, comforts, or stirs your heart while testing impressions against the text.",
+      "LIVE together: name one concrete action for the next 48 hours and one friend you can encourage or share it with."
     ],
-    napkinScript: "Draw a circle, slice it horizontally twice, and draw a dashed arrow straight down through all three bands. Label the arrow 'Holy Spirit.' Write CHEW in top band ('What does it say in context & show about Christ?'), DIGEST in middle ('What is God stirring in us?'), ACT on bottom ('One step to obey + who will I tell?').",
-    workedExample: "A Tuesday morning triad reads Luke 19:1–10. Instead of picking an isolated phrase, they notice Zacchaeus's social isolation (Chew), Jesus's initiative to dine with sinners (Christ lens), each member's reluctance to eat with difficult coworkers (Digest), and commit to inviting one colleague to lunch before Friday (Act).",
-    guardrails: "Never jump straight to 'What does this verse feel like to me?' without first checking context and Christ's gospel. When reading with non-Christians, switch to the 4 Seeker DBS questions without assuming Bible familiarity."
+    napkinScript: "Draw three simple symbols down a napkin with a vertical Holy Spirit arrow alongside them: an Open Book/Cross ('1. LOOK — Head: Context & Christ'), a Heart ('2. LISTEN — Heart: Spirit & Community'), and Footprints ('3. LIVE — Hands: 48-hr step + Who will I tell?'). Say: 'Three icons anyone can teach in 60 seconds: Look at what God actually wrote, Listen for what his Spirit stirs in us, Live one small step within 48 hours.'",
+    workedExample: "A Tuesday morning triad reads Luke 19:1–10. Instead of picking an isolated phrase, they notice Zacchaeus's social isolation and Jesus's initiative toward outsiders (Look), each member's reluctance to eat with difficult coworkers (Listen), and commit to inviting one colleague to lunch before Friday (Live).",
+    guardrails: "Never jump straight to 'What does this verse feel like to me?' (Listen) before first checking context and Christ's gospel (Look). When reading with non-Christians, switch to the 4 Seeker DBS questions without assuming Bible familiarity."
   },
   "prayer-wheel": {
     id: "prayer-wheel",
     number: 4,
-    name: "Lord's Prayer Wheel (+ 2-Min Ring & Examen)",
-    shortName: "Prayer Wheel",
+    name: "4-Beat Prayer Ring (Praise • Confess • Ask • Go)",
+    shortName: "4-Beat Prayer Ring",
     week: 2,
     category: "Core Habit #2",
-    tagline: "Six Lord's Prayer movements anchored in Christ our Mediator, three Scriptural pillars, and an outer 2-minute napkin ring for beginners.",
-    whenToUse: "Use in private prayer, weekly Micro-Triads, Soul Care pods (with Cross-Centered Examen), and use the 2-Minute Outer Ring when praying beside newcomers.",
+    tagline: "Distills the Lord's Prayer into a 15-second napkin circle—Father in Christ at the center, four clockwise beats (Praise, Confess & Lament, Ask, Go) around the ring.",
+    whenToUse: "Use daily as a 2-minute beginner habit (30 seconds per beat), weekly in Micro-Triads, beside weeping seekers, or stretched to 20 minutes in 1:4–5 Soul Care pods.",
     originalSvgPath: "diagrams/prayer_tool_wheel.svg",
     scripture: "Matthew 6:9–13; Hebrews 4:14–16; Ephesians 6:18; Psalm 13; 1 John 1:9",
     relatedTerms: ["examen", "lament-endurance", "soul-care-pods", "fourfold-gospel"],
     parts: [
       {
         key: "hub",
-        title: "Hub & Pointer: FATHER -> In Christ + Honest Lament",
-        summary: "We pray to 'Our Father' exclusively through Jesus our merciful High Priest (Heb 4:14–16), bringing honest praise and raw lament.",
-        deep: "Explicitly grounds prayer in Christ's mediation and biblical lament. Because Jesus shed his blood, believers and broken saints don't have to clean up their emotions before approaching the Father."
+        title: "Center Hub: OUR FATHER (In Christ • Heb 4:16)",
+        summary: "We approach 'Our Father' exclusively through Jesus our merciful High Priest—welcomed by grace before speaking a single request.",
+        deep: "Anchors prayer in Christ's mediation rather than religious performance. Because Jesus opened the way by his cross, hesitant beginners and broken saints alike can come boldly just as they are."
       },
       {
-        key: "upward",
-        title: "Top Sectors: Character, Kingdom & Provision",
-        summary: "Adoring God's holy name ('Hallowed'), aligning with his reign ('Your kingdom come'), and trusting him for daily bread.",
-        deep: "Anchors prayer in worship before requests, reorienting anxious schedules around God's character and present kingdom mission."
+        key: "praise",
+        title: "Beat 1: PRAISE (Up — 'Hallowed be your name')",
+        summary: "Adore who God is and thank him aloud for one mercy—turning eyes upward before listing problems.",
+        deep: "Keeps prayer Worship-based and Scripture-fed: you can pray one attribute of God or one phrase from the passage you just read."
       },
       {
-        key: "inward",
-        title: "Bottom Sectors: Forgive & Extend, Guidance, Deliverance",
-        summary: "Receiving pardon at the cross while extending forgiveness to others (Mt 6:12), seeking wisdom, and praying for rescue from temptation and evil.",
-        deep: "Restores the horizontal reconciliation demand of Matthew 6:12 ('as we also have forgiven our debtors') and incorporates the Cross-Centered Examen for honest repentance."
+        key: "confess",
+        title: "Beat 2: CONFESS & LAMENT (In — 'Forgive us as we forgive')",
+        summary: "Bring honest sin, sorrow, and unresolved hurt to the cross—receiving pardon while extending forgiveness to others (Mt 6:12).",
+        deep: "Folds honest biblical Lament, horizontal reconciliation ('as we forgive'), and the Cross-Centered Examen into one crystal-clear beat so nobody wears a plastic smile."
       },
       {
-        key: "ring",
-        title: "Outer 2-Min Ring & Three Anchors",
-        summary: "Worship-based, Scripture-fed, Spirit-led — simplified for beginners into 4 quick cues: Praise • Confess • Ask • Go.",
-        deep: "Six wedges can feel overwhelming when praying beside a weeping friend or brand-new seeker. The outer 2-minute ring keeps prayer approachable anywhere while retaining the wheel's depth for longer retreats."
+        key: "ask",
+        title: "Beat 3: ASK (Around — 'Give us daily bread & deliver')",
+        summary: "Ask the Father for daily needs, healing, protection from temptation, and open doors for 1–2 Oikos neighbors by name.",
+        deep: "Unites provision, spiritual warfare, and neighbor intercession cleanly without needing four separate spokes on a crowded wheel."
+      },
+      {
+        key: "go",
+        title: "Beat 4: GO (Out — 'Your kingdom come')",
+        summary: "Yield your next few hours to God's reign and ask the Spirit: 'Who is one person I should encourage or serve today?'",
+        deep: "Connects prayer seamlessly to sent obedience and closes the ring Spirit-led as you stand up from the table."
       }
     ],
     steps: [
-      "Start at the Father pointer: pause 30 seconds to remember you are welcomed through Christ (Heb 4:16).",
-      "Choose either the 6-sector full wheel (1–2 minutes per slice, turning a Bible verse into prayer) or the 2-Minute Outer Ring (Praise, Confess, Ask, Go).",
-      "If carrying sorrow or failure, linger in the central Lament & Forgiveness hub—naming what needs Christ's healing and who you need to forgive.",
-      "Close by asking the Spirit who you should encourage or serve as you leave."
+      "Pause briefly at the center hub: remember you come to 'Our Father' welcomed through Jesus (Heb 4:16).",
+      "Walk clockwise around the four beats: 1. PRAISE -> 2. CONFESS & LAMENT -> 3. ASK -> 4. GO.",
+      "Take 30 seconds per beat for a 2-minute coffee-shop prayer—or linger 5 minutes per beat during Soul Care retreat check-ins (20 minutes total).",
+      "Let Scripture feed each beat gently—pray conversationally, never mechanically."
     ],
-    napkinScript: "Draw a circle with a triangle wedge pointing down from the top labeled 'FATHER.' Draw a small center circle labeled 'In Christ + Lament.' Slice the wheel into 6 pieces: Character, Kingdom, Provision, Forgive & Extend, Guidance, Deliverance. Around the rim write the 2-min starter: 'Praise • Confess • Ask • Go.'",
-    workedExample: "During a busy lunch break, two coworkers use the 2-Minute Outer Ring before parting: 30 sec thanking God for a grace from morning reading (Praise), 30 sec admitting impatience in a meeting (Confess), 30 sec praying for a neighbor facing surgery (Ask), and 30 sec committing to text a colleague (Go).",
-    guardrails: "Keep prayer conversational, never mechanical. Ensure 'Forgiveness' always includes both receiving Christ's pardon and forgiving those who hurt us."
+    napkinScript: "Draw a circle divided by a cross (+) with a small center circle labeled 'FATHER (In Christ).' Write 1. PRAISE (Up), 2. CONFESS & LAMENT (In), 3. ASK (Around), 4. GO (Out) in the four quarters. Say: 'If you can draw a circle and a cross in 15 seconds, you can pray anywhere—take 30 seconds a quarter for 2 minutes over lunch, or stretch it to 20 minutes in quiet reflection.'",
+    workedExample: "Before parting after lunch, two coworkers pray the 2-minute rhythm: 30s thanking God for a grace from morning reading (Praise), 30s admitting impatience in a meeting (Confess), 30s praying for a neighbor facing surgery (Ask), and 30s committing to check in on a lonely colleague (Go).",
+    guardrails: "Never rush past Beat 2 when someone is carrying real grief or needs to forgive someone. Keep every beat conversational and grounded in grace."
   },
   "jesus-pattern": {
     id: "jesus-pattern",
@@ -272,7 +278,7 @@ window.DML_TOOLS = {
       "Release them to lead a triad of their own while staying connected for Soul Care."
     ],
     napkinScript: "Draw a rising stepped triangle. Write TRUTH at the top, IMITATION on the right corner, and FAITHFUL MULTIPLICATION on the left corner. Draw a wall blocking the shortcut straight from Truth to Multiplication. Say: 'Churches fail because they jump from classroom Truth straight to telling people Go Multiply, skipping the road through shared life (Imitation).'",
-    workedExample: "Instead of giving a young adult a 40-page leader handbook, a mentor invites her to sit in on three Tuesday Micro-Triad gatherings, watch how he handles an awkward silence, lead the Bible Circle once together, and then start a triad with two college friends.",
+    workedExample: "Instead of giving a young adult a 40-page leader handbook, a mentor invites her to sit in on three Tuesday Micro-Triad gatherings, watch how he handles an awkward silence, lead Look • Listen • Live once together, and then start a triad with two college friends.",
     guardrails: "Do not skip Imitation in favor of premature Innovation. Live the four core habits for at least three months before modifying anything."
   },
   "reality-audit": {
@@ -452,7 +458,7 @@ window.DML_TOOLS = {
       "Present the three Legacy Small-Group Pathway options invitingly, affirming that nobody is being graded or replaced."
     ],
     napkinScript: "Draw a bridge with three planks: '1-Page Plain Story,' 'Listen First (Elders, Staff, Group Leads),' and '3 Respectful Paths for Existing Groups (Convert / Blend / Sunset).' Say: 'Healthy change moves at the speed of trust—nobody should ever wake up surprised by major church shifts.'",
-    workedExample: "Before launching pilot groups, a lead pastor and elder sit down with three veteran Sunday-school teachers over breakfast using the 1-Pager. One class chooses to Hybridize by adding 15 minutes of Bible Circle obedience sharing; another finishes its book study and Blesses & Sunsets into two neighborhood triads.",
+    workedExample: "Before launching pilot groups, a lead pastor and elder sit down with three veteran Sunday-school teachers over breakfast using the 1-Pager. One class chooses to Hybridize by adding 15 minutes of Look • Listen • Live obedience sharing; another finishes its book study and Blesses & Sunsets into two neighborhood triads.",
     guardrails: "Listening is not a manipulative sales pitch. Be genuinely willing to adapt schedules or wording based on Elder and Next-Gen wisdom."
   },
   "growth-loop": {
@@ -567,7 +573,7 @@ window.DML_TOOLS = {
       {
         key: "focus",
         title: "#2. Habit Focus in Scripture & Prayer (30–40 min)",
-        summary: "Practice one core habit together (Bible Circle, Prayer Wheel, or Jesus Pattern)—taking turns letting emerging apprentices facilitate.",
+        summary: "Practice one core habit together (Look • Listen • Live, 4-Beat Prayer Ring, or Jesus Pattern)—taking turns letting emerging apprentices facilitate.",
         deep: "Instead of a video lecture or passive Q&A, every gathering reinforces transferable 101 habits everyone can practice at home tomorrow."
       },
       {
@@ -590,7 +596,7 @@ window.DML_TOOLS = {
       "Complete the 7-point Launch Checklist (Who, When, Where, Leading, Apprentice Co-Lead, Soul Care Pod, 30/60/90-day Feedback)."
     ],
     napkinScript: "Draw three circles side-by-side: Party Cup ('1. Celebrate & Honest Check'), Open Book ('2. Practice Habit Together'), Footprints + House ('3. Next Step + One Neighbor This Week'). Say: 'An hour a week around a kitchen table—look back in grace, look up in the Word, look forward to obey and love one neighbor.'",
-    workedExample: "Three couples launch Tuesday night dessert-table triads (men and women splitting for 50 minutes after sharing dessert). By week 8 of their Beta, each group has an emerging co-leader facilitating the Bible Circle and has hosted two neighborhood cookouts.",
+    workedExample: "Three couples launch Tuesday night dessert-table triads (men and women splitting for 50 minutes after sharing dessert). By week 8 of their Beta, each group has an emerging co-leader facilitating Look • Listen • Live and has hosted two neighborhood cookouts.",
     guardrails: "Do not let 'Celebrate' turn into boastful bragging, and never revert to passive twice-a-month scheduling that kills continuity."
   },
   "culture-canvas": {
@@ -638,7 +644,7 @@ window.DML_TOOLS = {
       "Audit every phrase aloud: if a guest wouldn't understand it, rewrite it in plain English."
     ],
     napkinScript: "Draw a 4x5 grid: Practices, Language, Artifacts, Narratives on the left; Sunday Liturgy, Groups, Kids, Students, and Mercy Teams across the top. Say: 'We fill ONE shared canvas together—not five times in secret—so a 10-year-old, a college student, a pantry volunteer, and Sunday worship all speak the same Christ-centered language.'",
-    workedExample: "Together with the Youth Pastor and Worship Lead, the team integrates 60 seconds of silent cross-centered Examen before monthly Communion (Liturgy), gives parents a 3-question fridge card matching Sunday's kids passage (Children), and opens pantry volunteer huddles with a 3-minute prayer wheel.",
+    workedExample: "Together with the Youth Pastor and Worship Lead, the team integrates 60 seconds of silent cross-centered Examen before monthly Communion (Liturgy), gives parents a 3-question fridge card matching Sunday's kids passage (Children), and opens pantry volunteer huddles with a 2-minute 4-Beat Prayer Ring.",
     guardrails: "Keep changes light and additive-free: every new liturgical or Next-Gen habit should replace or simplify an existing clutter point."
   },
   "vetting-soulcare": {
@@ -663,7 +669,7 @@ window.DML_TOOLS = {
       {
         key: "soulcare",
         title: "2. Capped 1:4–5 Soul Care Pods",
-        summary: "Every coach cares personally for no more than 4–5 leaders—using the Prayer Wheel and Cross-Centered Examen strictly for grace-filled rest.",
+        summary: "Every coach cares personally for no more than 4–5 leaders—using the 4-Beat Prayer Ring and Cross-Centered Examen strictly for grace-filled rest.",
         deep: "Solves the capacity cliff when groups multiply toward 15–30 leaders. Pod meetings never turn into metric policing; they ask 'How is your soul, marriage, and joy in Jesus?'"
       },
       {

@@ -205,8 +205,8 @@ window.DML_CURRICULUM = {
       hook: "Ordinary believers rarely resist discipling others because they hate Jesus—they stay silent because churches hand them intimidating 12-week workbooks. What happens if every follower has two habits simple enough to sketch on a coffee-shop napkin?",
       keyTakeaway: "We learn Scripture and prayer by doing them together in small, grace-filled circles—anchored in Christ's context and launching real weekly Micro-Triads right now rather than waiting months.",
       outcomes: {
-        know: "How the Bible Reading Circle guards against subjective proof-texting, and how the Lord's Prayer Wheel unifies worship, lament, forgiveness, and a 2-minute beginner ring.",
-        feel: "Equipped and unafraid—confident you can open Scripture and pray with two friends this week without being a seminary scholar.",
+        know: "How Look • Listen • Live guards against subjective proof-texting with three sticky icons, and how the 4-Beat Prayer Ring turns the Lord's Prayer into a 15-second napkin sketch.",
+        feel: "Equipped and unafraid—confident you can open Scripture and pray with two friends right away without being a seminary scholar.",
         do: "Practice both habits live in session and schedule your first weekly 45-minute Micro-Triad within 7–14 days."
       },
       chunks: [
@@ -227,32 +227,32 @@ window.DML_CURRICULUM = {
         {
           id: "w2-c2",
           toolId: "bible-circle",
-          title: "2. The Bible Reading Circle (Chew, Digest, Act)",
+          title: "2. Look • Listen • Live Bible Tool (Head, Heart, Hands)",
           readMin: "3 min",
           bodyHtml: `
-            <p>The Bible Reading Circle pairs <span class="term" data-term="pneumatology">Spirit-dependence</span> (the vertical arrow) with three clear movements: <strong>Chew</strong> (what does the text mean in context and reveal about Christ?), <strong>Digest</strong> (what is the Spirit stirring in our hearts?), and <strong>Act</strong> (what concrete obedience will I take, and who will I tell?).</p>
+            <p>Instead of an abstract geometric slice, <strong>Look &bull; Listen &bull; Live</strong> pairs <span class="term" data-term="pneumatology">Spirit-dependence</span> with three unforgettable Head/Heart/Hands icons: <strong>LOOK</strong> at the book/cross (what does the text mean in context and reveal about Christ?), <strong>LISTEN</strong> with your heart (what is the Spirit stirring in us together?), and <strong>LIVE</strong> with your feet (one 48-hour step and someone to encourage).</p>
             <p>Adding <span class="term" data-term="christocentric-reading">Christocentric reading</span> (Lk 24:27) and community testing (2 Pet 1:20) prevents subjective cherry-picking, while a quick toggle converts it to a <span class="term" data-term="seeker-dbs">Seeker DBS</span> with non-Christians.</p>
           `,
           seeMore: [
             {
               label: "See More: Practicing a Passage Live (Luke 19:1–10)",
-              contentHtml: `<p>Try Band 1 on Zacchaeus: notice tax collectors were despised collaborators (context), and Jesus sought out an outsider to bring salvation to his house (Christ). Band 2: Where do I avoid people my neighbors look down on? Band 3: Invite one overlooked coworker to coffee and share what moved you.</p>`
+              contentHtml: `<p>Try Step 1 (LOOK) on Zacchaeus: notice tax collectors were despised collaborators (context), and Jesus sought out an outsider to bring salvation to his house (Christ). Step 2 (LISTEN): Where do I avoid people my neighbors look down on? Step 3 (LIVE): Invite one overlooked coworker to coffee within 48 hours and share what moved you.</p>`
             }
           ]
         },
         {
           id: "w2-c3",
           toolId: "prayer-wheel",
-          title: "3. Lord's Prayer Wheel (+ 2-Min Ring & Cross-Centered Examen)",
+          title: "3. 4-Beat Prayer Ring (Praise • Confess & Lament • Ask • Go)",
           readMin: "3 min",
           bodyHtml: `
-            <p>Modeled directly on Matthew 6:9–13, the Prayer Wheel approaches the Father exclusively through Christ our High Priest (Heb 4:16). Six slices walk through Character, Kingdom, Provision, Forgive &amp; Extend, Guidance, and Deliverance—anchored as Worship-based, Scripture-fed, and Spirit-led.</p>
-            <p>At the center sits Christ's mercy and honest <span class="term" data-term="lament-endurance">Lament</span>; around the rim sits a <strong>2-Minute Ring</strong> (Praise, Confess, Ask, Go) alongside the <span class="term" data-term="examen">Cross-Centered Examen</span> for daily reflection.</p>
+            <p>Rather than crowding six separate theology spokes onto a busy diagram, the <strong>4-Beat Prayer Ring</strong> draws one circle split by a cross (+): at the center sits <strong>Our Father, approached in Christ</strong> (Heb 4:16), surrounded by four clockwise beats from Matthew 6:9–13: <strong>1. Praise</strong> (Up), <strong>2. Confess &amp; Lament</strong> (In), <strong>3. Ask</strong> (Around), and <strong>4. Go</strong> (Out).</p>
+            <p>Beat 2 holds honest <span class="term" data-term="lament-endurance">Lament</span>, forgiving others as Christ pardoned us (Mt 6:12), and the <span class="term" data-term="examen">Cross-Centered Examen</span>—scaling smoothly from 2 minutes over lunch to 20 minutes in quiet reflection.</p>
           `,
           seeMore: [
             {
-              label: "See More: Why 'Forgive & Extend' Replaces One-Word 'Forgiveness'",
-              contentHtml: `<p>Jesus explicitly paired receiving God's pardon with forgiving others (Mt 6:12, 14–15). Likewise, folding the Examen into the cross of Christ ensures prayer isn't vague mood-checking—it leads us to real repentance and grace.</p>`
+              label: "See More: Why Four Beats Stick Where Six Spokes Overload",
+              contentHtml: `<p>Anyone can sketch a circle and a cross on a napkin in 15 seconds. Beginners can pray 30 seconds per beat (2 minutes total) beside a friend without freezing, while veteran Soul Care pods can linger five minutes per beat—anchoring prayer Worship-based, Scripture-fed, and Spirit-led.</p>`
             }
           ]
         },
@@ -275,9 +275,9 @@ window.DML_CURRICULUM = {
       workshop: {
         totalMinutes: 90,
         agenda: [
-          { mins: "25m", title: "Live Bible Circle Lab (Model -> Try)", instructions: "Read Mark 2:1–12 together using all three bands. Practice summarizing context and pointing to Christ before personal application." },
-          { mins: "25m", title: "Live Prayer Wheel Lab", instructions: "Pray in pairs: try 10 minutes walking the 6 sectors, then try the 2-Minute Outer Ring (Praise, Confess, Ask, Go) aloud." },
-          { mins: "20m", title: "Napkin Sketch Drill", instructions: "Close screens and draw both the Bible Circle and Prayer Wheel on scratch paper in under 60 seconds each, teaching them to your partner." },
+          { mins: "25m", title: "Live Look • Listen • Live Lab (Model -> Try)", instructions: "Read Mark 2:1–12 together using Head / Heart / Hands. Practice summarizing context and pointing to Christ before personal application." },
+          { mins: "25m", title: "Live 4-Beat Prayer Ring Lab", instructions: "Pray in pairs: walk clockwise through Praise, Confess & Lament, Ask, and Go in a 2-minute round (30s/beat), then share honest Examen reflection." },
+          { mins: "20m", title: "30-Second Napkin Sketch Drill", instructions: "Close screens and draw both icons (Book/Heart/Footprints and Circle-Cross 4-Beat Ring) on scratch paper in under 30 seconds each, teaching them to your partner." },
           { mins: "20m", title: "Schedule Micro-Triads", instructions: "Each person names 2–3 specific friends to invite right away and locks in a target day/time." }
         ],
         prompts: [
@@ -287,30 +287,30 @@ window.DML_CURRICULUM = {
       },
       scenarios: [
         {
-          prompt: "In your triad, someone reads Philippians 4:13 ('I can do all things through Christ') and says, 'God is stirring me to believe this guarantees my business won't fail this quarter.' Using the Bible Reading Circle, how do you respond?",
+          prompt: "In your triad, someone reads Philippians 4:13 ('I can do all things through Christ') and says, 'I feel led to believe this guarantees my business won't fail this quarter.' Using Look • Listen • Live, how do you respond?",
           options: [
-            { text: "Affirm it enthusiastically—Band 2 says whatever the Spirit stirs in me is automatically the passage's meaning.", correct: false, feedback: "Careful! Jumping straight to feelings without Band 1 context invites subjective misreading." },
-            { text: "Gently return to Band 1 (Context & Christ): notice Paul wrote this from prison about contentment in poverty or plenty through Christ's strength.", correct: true, feedback: "Exactly. Band 1 anchors what the text meant in context and how Christ strengthens us for endurance, not guaranteed material success." },
-            { text: "Tell them they aren't allowed to share personal impressions in the group.", correct: false, feedback: "We want Spirit-led heart engagement in Band 2—just tested warmly by Scripture's actual context." }
+            { text: "Affirm it enthusiastically—Step 2 (Listen) says whatever impression hits me first is automatically the passage's meaning.", correct: false, feedback: "Careful! Jumping straight to feelings in Listen without Step 1 Look invites subjective misreading." },
+            { text: "Gently return to Step 1 (LOOK): notice Paul wrote this from prison about contentment in poverty or plenty through Christ's strength.", correct: true, feedback: "Exactly. LOOK anchors what the text meant in context and how Christ strengthens us for endurance, not guaranteed material success." },
+            { text: "Tell them they aren't allowed to share personal impressions in the group.", correct: false, feedback: "We want Spirit-led heart engagement in LISTEN—just tested warmly by Scripture's actual context." }
           ]
         },
         {
-          prompt: "A brand-new believer joins your breakfast triad and freezes when asked to pray aloud around six different theology terms. Which adjustment helps immediately?",
+          prompt: "A brand-new believer joins your breakfast triad and freezes when asked to pray aloud, worried they don't know 'theological' prayer phrases. How does the 4-Beat Prayer Ring set them free immediately?",
           options: [
-            { text: "Switch to the 2-Minute Outer Ring (Praise, Confess, Ask, Go) and pray short, ordinary sentences together.", correct: true, feedback: "Wise! The 2-Minute Ring keeps prayer accessible Day 1 while maintaining the same biblical posture." },
-            { text: "Assign them to study the Lord's Prayer commentary alone for four weeks before praying aloud.", correct: false, feedback: "Prayer is caught through humble shared practice (Imitation), not homework prerequisites." },
+            { text: "Keep it to the 2-minute circle (30 seconds per beat: Praise, Confess, Ask, Go) using short, ordinary sentences to our Father in Christ.", correct: true, feedback: "Wise! Four intuitive beats around a 15-second cross-in-circle sketch remove performance anxiety from Day 1." },
+            { text: "Assign them to study a prayer handbook alone for four weeks before praying aloud.", correct: false, feedback: "Prayer is caught through humble shared practice (Imitation), not homework prerequisites." },
             { text: "Skip prayer altogether so nobody feels uncomfortable.", correct: false, feedback: "Modeling short, honest 2-sentence prayers frees beginners far better than silence." }
           ]
         }
       ],
       fieldPractice: {
-        summary: "Launch your personal Micro-Triad within 7 days and practice both tools.",
+        summary: "Launch your personal Micro-Triad within 7 days and practice both sticky napkin habits.",
         checklist: [
           { id: "w2-f1", text: "Invite 2–3 friends and hold your first 45-minute weekly Micro-Triad gathering." },
-          { id: "w2-f2", text: "Practice the Bible Reading Circle (Chew/Digest/Act) at least 3 days personally." },
-          { id: "w2-f3", text: "Use the 2-Minute Prayer Ring or Cross-Centered Examen twice before bed." }
+          { id: "w2-f2", text: "Practice Look • Listen • Live (Head / Heart / Hands) at least 3 days personally." },
+          { id: "w2-f3", text: "Use the 2-minute 4-Beat Prayer Ring or Cross-Centered Examen twice before bed." }
         ],
-        reflectionPrompt: "Where did the Bible Circle or Prayer Wheel feel effortless—and where did your triad stumble?"
+        reflectionPrompt: "How easily could you sketch and share Look • Listen • Live and the 4-Beat Prayer Ring with your triad?"
       }
     },
 
@@ -382,7 +382,7 @@ window.DML_CURRICULUM = {
       workshop: {
         totalMinutes: 90,
         agenda: [
-          { mins: "20m", title: "Micro-Triad Debrief", instructions: "Share candidly from Module 2's first triad: who showed up, what worked with Bible Circle / Prayer Wheel, and any awkward moments." },
+          { mins: "20m", title: "Micro-Triad Debrief", instructions: "Share candidly from Module 2's first triad: who showed up, what worked with Look • Listen • Live and the 4-Beat Prayer Ring, and any awkward moments." },
           { mins: "25m", title: "Jesus Pattern Calendar Audit", instructions: "Individually score your past 7 days (1–5) on UP, IN, and OUT. Notice which corner was starved—and ask where DOWN (humility) is inviting you." },
           { mins: "30m", title: "Training Triangle Audit", instructions: "Look at how your church trains new believers or volunteers: sketch where you jump straight from Truth to expected Multiplication without Imitation." },
           { mins: "15m", title: "Plan One Shared-Life Moment", instructions: "Pick one ordinary errand, meal, or neighbor visit before the next session to invite a triad friend along." }
@@ -521,7 +521,7 @@ window.DML_CURRICULUM = {
       fieldPractice: {
         summary: "Test your draft Disciple Definition & Reality notes with two fringe/lay members and sustain your Micro-Triad.",
         checklist: [
-          { id: "w4-f1", text: "Keep your weekly Micro-Triad active (have a partner lead part of the Bible Circle)." },
+          { id: "w4-f1", text: "Keep your weekly Micro-Triad active (have a partner lead part of Look • Listen • Live)." },
           { id: "w4-f2", text: "Share your 1-sentence Gospel Disciple Definition with 2 lay members outside your core circle for candid feedback." },
           { id: "w4-f3", text: "Initiate one personal calendar subtraction (saying 'no' or pausing one low-fruit task) to protect 2 hrs/week." }
         ],
@@ -691,7 +691,7 @@ window.DML_CURRICULUM = {
           title: "3. Bridging Legacy Small Groups With Equal Honor",
           readMin: "3 min",
           bodyHtml: `
-            <p>Existing small groups and adult classes carry deep relational loyalty. Our <span class="term" data-term="legacy-group-pathway">Legacy Small-Group Pathway</span> offers veteran leaders three respectful choices: (A) <strong>Convert</strong> gradually to the weekly life-on-life rhythm, (B) <strong>Hybridize</strong> by folding one napkin habit (like the Bible Circle) into existing sessions, or (C) <strong>Bless &amp; Sunset</strong> a long-running class with public gratitude.</p>
+            <p>Existing small groups and adult classes carry deep relational loyalty. Our <span class="term" data-term="legacy-group-pathway">Legacy Small-Group Pathway</span> offers veteran leaders three respectful choices: (A) <strong>Convert</strong> gradually to the weekly life-on-life rhythm, (B) <strong>Hybridize</strong> by folding one napkin habit (like Look &bull; Listen &bull; Live) into existing sessions, or (C) <strong>Bless &amp; Sunset</strong> a long-running class with public gratitude.</p>
             <p>Crucially: keep visible status markers out of Sunday gatherings so nobody ever feels divided between new pilot groups and faithful longstanding groups.</p>
           `,
           seeMore: [
@@ -876,7 +876,7 @@ window.DML_CURRICULUM = {
           title: "1. The 3-Part Weekly Life-on-Life Rhythm",
           readMin: "3 min",
           bodyHtml: `
-            <p>A healthy <span class="term" data-term="life-on-life-rhythm">Life-on-Life Gathering Rhythm</span> takes 60–75 minutes around a meal, coffee table, or living room: <strong>#1 Celebrate &amp; Honest Check-In</strong> (15m), <strong>#2 Habit Focus</strong> in the Bible Circle, Prayer Wheel, or Jesus Pattern (35m), and <strong>#3 Next Step + Weekly OUT Mission</strong> (15m).</p>
+            <p>A healthy <span class="term" data-term="life-on-life-rhythm">Life-on-Life Gathering Rhythm</span> takes 60–75 minutes around a meal, coffee table, or living room: <strong>#1 Celebrate &amp; Honest Check-In</strong> (15m), <strong>#2 Habit Focus</strong> in Look &bull; Listen &bull; Live, 4-Beat Prayer Ring, or Jesus Pattern (35m), and <strong>#3 Next Step + Weekly OUT Mission</strong> (15m).</p>
             <p>Crucially, rather than saving outreach for just one isolated 'mission week' in a monthly rotation, every single gathering ends with one obedience step and one named <span class="term" data-term="oikos">Oikos</span> neighbor.</p>
           `,
           seeMore: [
@@ -1012,7 +1012,7 @@ window.DML_CURRICULUM = {
           title: "3. Capped 1:4–5 Soul Care Pods (Jethro Math)",
           readMin: "3 min",
           bodyHtml: `
-            <p>One pastor can shepherd 4 pilot hosts directly; nobody can shepherd 25 multiplying leaders alone (Exod 18). Every leader sits inside a capped <span class="term" data-term="soul-care-pods">1:4–5 Soul Care Pod</span>—meeting monthly strictly for rest, prayer (<span class="term" data-term="examen">Cross-Centered Examen</span> + Prayer Wheel), and encouragement, never metric policing.</p>
+            <p>One pastor can shepherd 4 pilot hosts directly; nobody can shepherd 25 multiplying leaders alone (Exod 18). Every leader sits inside a capped <span class="term" data-term="soul-care-pods">1:4–5 Soul Care Pod</span>—meeting monthly strictly for rest, prayer (<span class="term" data-term="examen">Cross-Centered Examen</span> + 4-Beat Prayer Ring), and encouragement, never metric policing.</p>
           `,
           seeMore: [
             {
@@ -1032,7 +1032,7 @@ window.DML_CURRICULUM = {
           { mins: "20m", title: "Map 1:4–5 Soul Care Pods", instructions: "Assign every current pilot host and emerging co-leader into a pod of max 4–5 leaders, and book their first Soul Care meal." }
         ],
         prompts: [
-          { id: "w9-ministry-shift", question: "What ONE organic habit shift did Worship, Kids, Youth, and Mercy choose together on our single Culture Canvas?", placeholder: "e.g., Sunday Communion includes 60s silent Examen; Kids sends home 3-Q fridge card; Pantry opens with 3-min Prayer Wheel." },
+          { id: "w9-ministry-shift", question: "What ONE organic habit shift did Worship, Kids, Youth, and Mercy choose together on our single Culture Canvas?", placeholder: "e.g., Sunday Communion includes 60s silent Examen; Kids sends home 3-Q fridge card; Pantry opens with 2-min 4-Beat Prayer Ring." },
           { id: "w9-soulcare-pods", question: "Our Initial 1:4–5 Soul Care Pod Assignments & Crisis Escalation Contacts:", placeholder: "e.g., Pod 1 (Pastor + 4 hosts); Pod 2 (Elder + 3 co-leaders). 24-hr Crisis Elder Contacts: ..." }
         ]
       },
@@ -1229,7 +1229,7 @@ window.DML_CURRICULUM = {
     ],
     onboardingTemplateFields: [
       { id: "ob-def", label: "Our Gospel Definition of a Disciple (12–15 plain words)", placeholder: "Paste your church's ratified Module 1/6 definition..." },
-      { id: "ob-habits", label: "Our 4 Core Napkin Habits (+ Optional Max 1)", placeholder: "1. Bible Reading Circle  2. Lord's Prayer Wheel  3. Jesus Pattern Compass  4. Oikos & Gospel Bridge..." },
+      { id: "ob-habits", label: "Our 4 Core Napkin Habits (+ Optional Max 1)", placeholder: "1. Look • Listen • Live  2. 4-Beat Prayer Ring  3. Jesus Pattern Compass  4. Oikos & Gospel Bridge..." },
       { id: "ob-vetting", label: "Our Leader Vetting Gate & 24-Hr Crisis Escalation Contacts", placeholder: "Summarize your Module 9 Vetting Shield & Elder contacts..." },
       { id: "ob-soulcare", label: "Our 1:4–5 Soul Care Expectations & Pruned Commitments", placeholder: "How every leader is cared for monthly + what legacy programs remain retired..." }
     ]
