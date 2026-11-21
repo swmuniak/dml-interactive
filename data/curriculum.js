@@ -533,26 +533,26 @@ window.DML_CURRICULUM = {
     {
       week: 5,
       phase: 2,
-      title: "Sent to Neighbors: Oikos, Gospel Story & Seeker Discovery",
-      subtitle: "Connecting discipleship directly to relational neighbor prayer, a 3-minute Christ-centered story, and Seeker DBS",
+      title: "The Neighbor Table: Pray, Eat & Share",
+      subtitle: "Making neighbor witness natural through Pray • Eat • Share without sales scripts or weirdness",
       timeBudget: "90-Min Team Session + 1 Neighborhood Table Invitation",
       fourfoldAnchor: "Cross (Savior) Reconciliation to Neighbors",
-      scripture: "Luke 10:1–11; Mark 5:19; 2 Corinthians 5:14–21; Colossians 4:2–6",
-      hook: "Many church habits assume the person across the table already trusts the Bible and knows church songs. Yet our neighbors don't need an invitation to a committee—they need a friend who prays for them, listens deeply, and knows how to introduce Jesus over a meal.",
-      keyTakeaway: "Mission cannot be locked into one isolated week of a monthly group cycle. Using our fourth core habit—the Oikos & Gospel Bridge—ordinary believers pray daily for nearby friends, share a 3-minute story centered on Jesus's cross, and invite open seekers into 4-question Discovery Bible Study.",
+      scripture: "Luke 10:1–11; Mark 5:19; Colossians 4:2–6; 1 Peter 3:15; 2 Corinthians 5:14–21",
+      hook: "Many church habits assume the person across the table already trusts the Bible and knows church songs. Yet our neighbors don't need an invitation to a committee—they need a friend who prays for them, listens over a meal, and knows how to introduce Jesus naturally.",
+      keyTakeaway: "Mission belongs in everyday relational rhythms rather than one isolated week of a monthly cycle. Through our fourth core habit—The Neighbor Table (Pray • Eat • Share)—ordinary believers pray daily for 3–5 friends, share tables and listen deeply, and naturally open their story and a Gospel passage.",
       outcomes: {
-        know: "How Oikos mapping, a Christ-centered 3-minute story, and 4-question Seeker DBS engage skeptics without pressure or jargon.",
-        feel: "Warm, unhurried compassion toward nearby non-Christians—free from sales scripts or awkward cold-calling.",
-        do: "Map 3–5 Oikos names, rehearse your 3-minute story aloud, and take one hospitable step with a neighbor this week."
+        know: "How the Pray • Eat • Share rhythm connects Oikos prayer, unhurried hospitality, a plain 3-minute story, and Look • Listen • Live Seeker discovery.",
+        feel: "Warm, unhurried compassion toward nearby non-Christians—free from sales scripts or awkward pressure.",
+        do: "Map 3–5 Oikos names, rehearse your 3-minute story aloud, and invite one neighbor to coffee or dinner."
       },
       chunks: [
         {
           id: "w5-c1",
           toolId: "oikos-bridge",
-          title: "1. Your Oikos: Where God Already Placed You",
+          title: "1. PRAY: Your Oikos — 3 to 5 Neighbors Where God Placed You",
           readMin: "2 min",
           bodyHtml: `
-            <p>In the New Testament, the gospel moved along <span class="term" data-term="oikos">Oikos</span> networks—households, coworkers, and neighbors where you already live, work, learn, and play. Instead of pulling believers out of their neighborhoods into extra church nights, we pray daily for 3–5 friends far from God.</p>
+            <p>In the New Testament, the gospel moved along <span class="term" data-term="oikos">Oikos</span> networks—households, coworkers, and neighbors where you already live, work, learn, and play. Step 1 of <strong>The Neighbor Table</strong> simply asks you to write down and pray daily by name for 3–5 friends far from God (Col 4:2–3).</p>
             <p>Watch for a <span class="term" data-term="person-of-peace">Person of Peace</span> (Lk 10:5–9): someone who genuinely welcomes your friendship, appreciates spiritual conversation, and opens doors naturally.</p>
           `,
           seeMore: [
@@ -564,10 +564,11 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w5-c2",
-          title: "2. Telling a 3-Minute Story Anchored in the Cross",
+          title: "2. EAT & LISTEN: Shared Tables and a Plain 3-Minute Story",
           readMin: "3 min",
           bodyHtml: `
-            <p>When someone asks why you care or how you handle anxiety, avoid church buzzwords. Practice three simple sentences: (1) what life or struggle felt like before trusting Christ, (2) how Jesus's <span class="term" data-term="justification">cross and rescue</span> met your real need, and (3) what peace or purpose looks like today.</p>
+            <p>Most Christians don't need fancier apologetics—we need slower dinner tables. Step 2 moves us from waving in the driveway to eating, listening without fixing, and caring about real burdens. Only out of genuine friendship do we step toward Step 3: telling a 3-minute story in plain human English.</p>
+            <p>Keep three crisp movements ready: (1) what life or struggle felt like before trusting Christ, (2) how Jesus's <span class="term" data-term="justification">cross and rescue</span> met your real need, and (3) what peace or grace looks like today.</p>
           `,
           seeMore: [
             {
@@ -578,12 +579,12 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w5-c3",
-          title: "3. Four-Question Seeker Discovery Bible Study (DBS)",
+          title: "3. SHARE: Opening a Gospel Story With Curious Friends",
           readMin: "3 min",
           bodyHtml: `
-            <p>You do not need a seminary degree to open a Gospel story with an unchurched friend. A <span class="term" data-term="seeker-dbs">Seeker DBS</span> lets Jesus speak for himself using four inviting questions on a short text (like Luke 5 or Mark 4):</p>
+            <p>You do not need a separate curriculum when a friend grows curious—simply bring them into a low-pressure <span class="term" data-term="seeker-dbs">Seeker Discovery Study</span> using the same four questions from Look &bull; Listen &bull; Live on a short Gospel text (like Luke 5 or Mark 4):</p>
             <ol>
-              <li>What caught your attention in this story?</li>
+              <li>What stood out or caught your attention in this story?</li>
               <li>What does it seem to show about God or Jesus?</li>
               <li>What does it show about human nature / us?</li>
               <li>If this were true, what's one small thing worth testing this week?</li>
@@ -602,9 +603,9 @@ window.DML_CURRICULUM = {
         totalMinutes: 90,
         agenda: [
           { mins: "15m", title: "Micro-Triad & Definition Feedback Debrief", instructions: "Review what fringe/lay members said about your 1-sentence Disciple Definition. Polish confusing words." },
-          { mins: "20m", title: "Oikos Prayer Map", instructions: "Each person fills 3–5 real names across Live, Work, Learn, and Play—and prays aloud for them right now." },
-          { mins: "25m", title: "3-Minute Story Coaching", instructions: "Pair up and tell your 3-minute story using a 3-minute timer. Coach out any church jargon ('sanctified,' 'hedge of protection') into plain human speech." },
-          { mins: "30m", title: "Seeker DBS Role-Play", instructions: "Role-play Luke 19:1–10 with one person acting as a skeptical coworker. Practice asking the 4 questions without lecturing!" }
+          { mins: "20m", title: "1. PRAY — Map 3–5 Oikos Neighbors", instructions: "Each person fills 3–5 real names across Live, Work, Learn, and Play—and prays aloud for them right now." },
+          { mins: "25m", title: "2. EAT & LISTEN + 3-Min Story Coaching", instructions: "Practice asking unhurried listening questions, then share your 3-minute story using a timer—coaching out church jargon into plain English." },
+          { mins: "30m", title: "3. SHARE — Look • Listen • Live Role-Play", instructions: "Role-play Luke 19:1–10 with one person acting as a skeptical coworker. Practice asking the 4 discovery questions without lecturing!" }
         ],
         prompts: [
           { id: "w5-oikos-names", question: "My 3–5 Oikos Friends (initials/first names) & One Way I Can Bless One This Week:", placeholder: "e.g., Neighbor T (mowing/yard chat), Coworker M (coffee this Thu), Coach R (invite family for pizza)." },
@@ -1229,7 +1230,7 @@ window.DML_CURRICULUM = {
     ],
     onboardingTemplateFields: [
       { id: "ob-def", label: "Our Gospel Definition of a Disciple (12–15 plain words)", placeholder: "Paste your church's ratified Module 1/6 definition..." },
-      { id: "ob-habits", label: "Our 4 Core Napkin Habits (+ Optional Max 1)", placeholder: "1. Look • Listen • Live  2. 4-Beat Prayer Ring  3. Jesus Pattern Compass  4. Oikos & Gospel Bridge..." },
+      { id: "ob-habits", label: "Our 4 Core Napkin Habits (+ Optional Max 1)", placeholder: "1. Look • Listen • Live  2. 4-Beat Prayer Ring  3. Jesus Pattern Compass  4. The Neighbor Table (Pray • Eat • Share)..." },
       { id: "ob-vetting", label: "Our Leader Vetting Gate & 24-Hr Crisis Escalation Contacts", placeholder: "Summarize your Module 9 Vetting Shield & Elder contacts..." },
       { id: "ob-soulcare", label: "Our 1:4–5 Soul Care Expectations & Pruned Commitments", placeholder: "How every leader is cared for monthly + what legacy programs remain retired..." }
     ]

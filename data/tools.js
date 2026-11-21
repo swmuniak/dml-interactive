@@ -380,44 +380,44 @@ window.DML_TOOLS = {
   "oikos-bridge": {
     id: "oikos-bridge",
     number: 9,
-    name: "Oikos & Gospel Bridge Canvas (New Core Habit #4)",
-    shortName: "Oikos & Gospel Bridge",
+    name: "The Neighbor Table (Pray • Eat • Share)",
+    shortName: "Neighbor Table (Pray•Eat•Share)",
     week: 5,
     category: "Core Habit #4",
-    tagline: "Connects discipleship directly to everyday neighbor witness: Oikos Prayer Map -> 3-Minute Christ-Centered Story -> 4-Question Seeker DBS.",
-    whenToUse: "Launch in Module 5 for everyday neighbor relationships and embed into each gathering of your Life-on-Life Rhythm (Module 8) so mission never feels compartmentalized.",
+    tagline: "Replaces complicated evangelism scripts with three everyday movements: PRAY for 3–5 neighbors by name, EAT and listen around a table, SHARE your 3-minute story and a Gospel passage.",
+    whenToUse: "Launch in Module 5 for everyday neighbor relationships and embed into each gathering of your Life-on-Life Rhythm (Module 8) so mission stays woven into normal life.",
     originalSvgPath: null,
-    scripture: "Luke 10:1–11; Mark 5:19; 2 Corinthians 5:14–21; Colossians 4:2–6",
+    scripture: "Luke 10:1–11; Col 4:2–6; 1 Peter 3:15; 2 Corinthians 5:14–21",
     relatedTerms: ["oikos", "person-of-peace", "seeker-dbs", "justification"],
     parts: [
       {
         key: "oikos",
-        title: "1. Oikos Prayer Map (Live / Work / Learn / Play)",
-        summary: "Four concentric pockets where you already know 3–5 far-from-God neighbors by name to pray for daily and bless weekly.",
-        deep: "Breaks the myth that evangelism requires strangers or scripts. Start by noticing the barista, coworker, soccer parent, or next-door neighbor already in your week."
+        title: "1. PRAY: 3–5 Neighbors by Name (Live / Work / Learn / Play)",
+        summary: "Write down 3–5 specific people already in your daily orbit (Oikos) and pray daily for God to bless them and open doors (Col 4:2–3).",
+        deep: "Breaks the myth that witness requires cold-approaching strangers. Start with the barista, coworker, soccer parent, or next-door neighbor God already placed along your path."
       },
       {
         key: "story",
-        title: "2. 3-Minute Gospel Story Bridge",
-        summary: "Share three crisp movements: Life before trusting Jesus -> How his cross and rescue met you -> How his grace shapes your life today.",
-        deep: "Keeps Christ—specifically his substitutionary cross and resurrection (2 Cor 5:14–21)—at the center rather than turning testimony into a self-improvement brag."
+        title: "2. EAT: Table Hospitality & Generous Listening (Luke 10:5–9)",
+        summary: "Move from waving in the driveway to sharing coffee, lunch, or dinner—listening to real burdens and noticing spiritual openness (Person of Peace).",
+        deep: "Jesus ate his way through the Gospels. Unhurried meals, asking honest questions without a hidden sales script, build genuine trust and let you hear what aches in someone's life."
       },
       {
         key: "dbs",
-        title: "3. 4-Question Seeker Discovery Study",
-        summary: "An open-table invitation to read a short Gospel story together using 4 non-threatening questions requiring zero prior church background.",
-        deep: "Questions: (1) What caught your attention? (2) What does this show about God/Jesus? (3) What does it show about people? (4) What is one step worth testing? Invites honest dialogue with zero preaching."
+        title: "3. SHARE: 3-Minute Story & One Gospel Story",
+        summary: "When a door opens, share your 3-minute story in plain English (Before -> Cross -> Now) and offer to read a short Gospel story using Look • Listen • Live.",
+        deep: "Instead of memorizing a fourth separate curriculum, you simply invite curious friends around the same Look • Listen • Live table (4 open questions requiring zero church background)."
       }
     ],
     steps: [
-      "Write 3–5 specific names across Live, Work, Learn, and Play—people who don't yet know Christ's grace.",
-      "Pray daily by name for open doors and look for a Person of Peace (Luke 10) who welcomes friendship.",
-      "Practice telling your 3-minute story in plain, jargon-free English with your triad so it sounds natural over dinner.",
-      "When curiosity surfaces, ask: 'Would you ever want to grab coffee and read one short story about Jesus together to see what you make of it?'"
+      "PRAY: Write 3–5 specific names across Live, Work, Learn, and Play—people who don't yet know Christ—and pray daily for them by name.",
+      "EAT: Invite one of those friends for coffee, lunch, or porch dinner—listen deeply to their story and look for Luke 10 openness.",
+      "SHARE (Story): Practice telling your 3-minute story in plain human language (Life Before -> How Jesus's Cross Met Me -> New Grace Today) inside your triad.",
+      "SHARE (Word): When curiosity surfaces, ask: 'Would you ever want to grab coffee and read one short story about Jesus together to see what you make of it?'"
     ],
-    napkinScript: "Draw three linked stepping stones: a 4-slice circle ('Oikos: Live/Work/Learn/Play'), a cross bridge ('3-Min Story: Before / Rescue / Now'), and an open book with '4 Qs' ('Notice? / God? / Us? / Test?'). Say: 'We don't drag neighbors to weird events; we pray for 5 friends, listen well, share how Jesus rescued us, and invite curious friends to look at a Gospel story.'",
-    workedExample: "A church member prays daily for two neighbors on her cul-de-sac. After helping one fix a fence, over porch iced tea the neighbor asks how she stays calm during family stress. She shares a 3-minute story of Christ's peace and offers to read Mark 4 together next Tuesday.",
-    guardrails: "Never treat neighbors as evangelism projects or KPI tallies. Love, listen, and serve generously whether or not someone immediately asks to study Scripture."
+    napkinScript: "Draw three simple doodles across a napkin: a 4-slice circle ('1. PRAY: 3–5 Names'), a coffee mug ('2. EAT: Table & Listen'), and a cross over an open book ('3. SHARE: 3-Min Story & Gospel Story'). Say: 'No scripts or weirdness—just pray for 5 friends, share real tables, and be ready to tell your story or open Jesus's story together.'",
+    workedExample: "A church member prays daily for two neighbors on her cul-de-sac (Pray). After fixing a fence and sharing porch iced tea (Eat), her neighbor asks how she stays calm during family stress. She shares a 3-minute story of Christ's peace and offers to read Mark 4 together next week (Share).",
+    guardrails: "Never treat neighbors as evangelism projects or scoreboard tallies. Love, listen, and serve generously whether or not someone ever opens Scripture."
   },
   "stakeholder-bridge": {
     id: "stakeholder-bridge",

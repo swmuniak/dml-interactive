@@ -475,39 +475,55 @@ window.DML_DIAGRAMS = (function () {
       const oi = hi(active, "oikos", "var(--primary)", 0.13);
       const st = hi(active, "story", "var(--terracotta)", 0.13);
       const db = hi(active, "dbs", "var(--success)", 0.13);
-      return svgWrap("0 0 640 280", `
+      return svgWrap("0 0 640 305", `
         <g class="svg-part" data-part="oikos">
-          <rect x="20" y="28" width="182" height="224" rx="12" fill="var(--primary)" fill-opacity="${oi.fillOpacity}" stroke="var(--primary)" stroke-width="${oi.strokeWidth}"/>
-          <text x="111" y="56" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">1. Oikos Map</text>
-          <circle cx="111" cy="126" r="46" fill="var(--card)" stroke="var(--primary)" stroke-width="1.5"/>
-          <line x1="65" y1="126" x2="157" y2="126" stroke="var(--border-strong)"/>
-          <line x1="111" y1="80" x2="111" y2="172" stroke="var(--border-strong)"/>
-          <text x="88" y="114" font-size="12" fill="var(--ink)" text-anchor="middle">Live</text>
-          <text x="134" y="114" font-size="12" fill="var(--ink)" text-anchor="middle">Work</text>
-          <text x="88" y="148" font-size="12" fill="var(--ink)" text-anchor="middle">Learn</text>
-          <text x="134" y="148" font-size="12" fill="var(--ink)" text-anchor="middle">Play</text>
-          <text x="111" y="206" font-size="12" fill="var(--ink)" text-anchor="middle">Pray daily for 3–5</text>
-          <text x="111" y="226" font-size="12" fill="var(--muted)" text-anchor="middle">neighbors by name</text>
+          <rect x="20" y="24" width="184" height="214" rx="12" fill="var(--primary)" fill-opacity="${oi.fillOpacity}" stroke="var(--primary)" stroke-width="${oi.strokeWidth}" style="filter:${oi.filter}"/>
+          <text x="112" y="52" font-size="13.5" font-weight="700" fill="var(--primary)" text-anchor="middle">1. PRAY (3&ndash;5 Names)</text>
+          <circle cx="112" cy="118" r="42" fill="var(--card)" stroke="var(--primary)" stroke-width="1.6"/>
+          <line x1="70" y1="118" x2="154" y2="118" stroke="var(--border-strong)"/>
+          <line x1="112" y1="76" x2="112" y2="160" stroke="var(--border-strong)"/>
+          <text x="92" y="108" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Live</text>
+          <text x="132" y="108" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Work</text>
+          <text x="92" y="136" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Learn</text>
+          <text x="132" y="136" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Play</text>
+          <text x="112" y="186" font-size="11.5" fill="var(--ink)" text-anchor="middle">Pray daily for 3&ndash;5 nearby</text>
+          <text x="112" y="204" font-size="11.5" fill="var(--ink)" text-anchor="middle">friends far from God</text>
+          <text x="112" y="222" font-size="11" fill="var(--muted)" text-anchor="middle">(Col 4:2&ndash;3)</text>
         </g>
-        <text x="215" y="146" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
+
+        <text x="216" y="134" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
+
         <g class="svg-part" data-part="story">
-          <rect x="229" y="28" width="182" height="224" rx="12" fill="var(--terracotta)" fill-opacity="${st.fillOpacity}" stroke="var(--terracotta)" stroke-width="${st.strokeWidth}"/>
-          <text x="320" y="56" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">2. 3-Min Story</text>
-          <text x="320" y="102" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">Life before Christ</text>
-          <text x="320" y="136" font-size="12" font-weight="700" fill="var(--terracotta)" text-anchor="middle">+ Cross &amp; Rescue +</text>
-          <text x="320" y="170" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">New grace today</text>
-          <text x="320" y="218" font-size="12" fill="var(--muted)" text-anchor="middle">Plain, jargon-free</text>
+          <rect x="228" y="24" width="184" height="214" rx="12" fill="var(--terracotta)" fill-opacity="${st.fillOpacity}" stroke="var(--terracotta)" stroke-width="${st.strokeWidth}" style="filter:${st.filter}"/>
+          <text x="320" y="52" font-size="13.5" font-weight="700" fill="var(--terracotta)" text-anchor="middle">2. EAT (Table &amp; Listen)</text>
+          <line x1="296" y1="128" x2="344" y2="128" stroke="var(--terracotta)" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M306,98 L332,98 L330,120 C330,125 326,127 319,127 C312,127 308,125 308,120 Z" fill="var(--card)" stroke="var(--terracotta)" stroke-width="1.8"/>
+          <path d="M332,103 C339,103 339,117 331,117" fill="none" stroke="var(--terracotta)" stroke-width="1.8"/>
+          <path d="M314,92 Q311,86 315,80" fill="none" stroke="var(--terracotta)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M323,92 Q320,86 324,80" fill="none" stroke="var(--terracotta)" stroke-width="1.5" stroke-linecap="round"/>
+          <text x="320" y="162" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">Share a meal or coffee</text>
+          <text x="320" y="186" font-size="11.5" fill="var(--ink)" text-anchor="middle">Listen deeply for burdens</text>
+          <text x="320" y="206" font-size="11.5" fill="var(--muted)" text-anchor="middle">Watch for Luke 10 openness</text>
         </g>
-        <text x="424" y="146" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
+
+        <text x="424" y="134" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
+
         <g class="svg-part" data-part="dbs">
-          <rect x="438" y="28" width="182" height="224" rx="12" fill="var(--success)" fill-opacity="${db.fillOpacity}" stroke="var(--success)" stroke-width="${db.strokeWidth}"/>
-          <text x="529" y="56" font-size="13" font-weight="700" fill="var(--success)" text-anchor="middle">3. Seeker DBS</text>
-          <text x="529" y="96" font-size="12" fill="var(--ink)" text-anchor="middle">1. What stands out?</text>
-          <text x="529" y="124" font-size="12" fill="var(--ink)" text-anchor="middle">2. Shows about God?</text>
-          <text x="529" y="152" font-size="12" fill="var(--ink)" text-anchor="middle">3. Shows about us?</text>
-          <text x="529" y="180" font-size="12" fill="var(--ink)" text-anchor="middle">4. One step to test?</text>
-          <text x="529" y="218" font-size="12" font-weight="600" fill="var(--success)" text-anchor="middle">Look for Luke 10 peace</text>
+          <rect x="436" y="24" width="184" height="214" rx="12" fill="var(--success)" fill-opacity="${db.fillOpacity}" stroke="var(--success)" stroke-width="${db.strokeWidth}" style="filter:${db.filter}"/>
+          <text x="528" y="52" font-size="13.5" font-weight="700" fill="var(--success)" text-anchor="middle">3. SHARE (Story &amp; Word)</text>
+          <line x1="528" y1="78" x2="528" y2="106" stroke="var(--success)" stroke-width="2.2" stroke-linecap="round"/>
+          <line x1="521" y1="86" x2="535" y2="86" stroke="var(--success)" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M504,104 Q516,98 528,106 Q540,98 552,104 L552,126 Q540,120 528,128 Q516,120 504,126 Z" fill="var(--card)" stroke="var(--success)" stroke-width="1.8"/>
+          <text x="528" y="160" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">3-Min Story</text>
+          <text x="528" y="177" font-size="11" fill="var(--muted)" text-anchor="middle">(Before / Cross / Now)</text>
+          <text x="528" y="200" font-size="11.5" fill="var(--ink)" text-anchor="middle">+ Open 1 Gospel story using</text>
+          <text x="528" y="218" font-size="11.5" font-weight="600" fill="var(--success)" text-anchor="middle">Look &bull; Listen &bull; Live (4 Qs)</text>
         </g>
+
+        <rect x="20" y="252" width="600" height="38" rx="8" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="1.2"/>
+        <text x="320" y="275" font-size="11.5" text-anchor="middle">
+          <tspan font-weight="700" fill="var(--terracotta)">Everyday Witness: </tspan><tspan fill="var(--ink)">Pray by Name (Col 4:2) &rarr; Eat &amp; Listen (Lk 10:5&ndash;9) &rarr; Share Story &amp; Word (1 Pet 3:15)</tspan>
+        </text>
       `);
     },
 
