@@ -512,11 +512,11 @@ window.DML_TOOLS = {
   "growth-loop": {
     id: "growth-loop",
     number: 12,
-    name: "The Map: Apprenticeship Growth Loop (D1–D4)",
+    name: "The Map: Apprenticeship Growth Loop (D1–D4 & L1–L4)",
     shortName: "The Map (Growth Loop)",
     week: 7,
     category: "Coaching & Care",
-    tagline: "Domain-specific coaching loop guiding disciples from Humble Beginner through Friction Valley to Spirit-Dependent Maturity.",
+    tagline: "Pairs where a Disciple is (D1–D4: Skill & Confidence) with how a Leader matches them (L1–L4: Model -> Shepherd -> Coach -> Empower).",
     whenToUse: "Use in Module 7 when Micro-Triads hit real relational friction, sin relapse, or crisis, and whenever coaching Beta apprentices.",
     originalSvgPath: "diagrams/the_map_apprenticeship_square.svg",
     scripture: "1 Thessalonians 2:7–12; 5:14; Galatians 6:1–5; John 15:5; 1 Timothy 1:15",
@@ -524,36 +524,36 @@ window.DML_TOOLS = {
     parts: [
       {
         key: "d1",
-        title: "1. Humble Beginner (D1 / L1: Directive)",
-        summary: "'I do, you watch.' High enthusiasm, low skill; needs clear modeling, gentle patience, and humble curiosity.",
-        deep: "Don't throw beginners into deep water alone. Invite them beside you at the table while you model simple prayer or reading Scripture."
+        title: "1. Humble Beginner — D1 Disciple + L1 Leader (Model)",
+        summary: "D1 (Disciple): High enthusiasm, low skill—eager but doesn't know how yet. L1 (Leader — Model): 'I do, you watch.'",
+        deep: "Don't throw beginners into deep water alone. Invite them beside you at the table while you clearly model simple prayer, reading Scripture, or loving a neighbor."
       },
       {
         key: "d2",
-        title: "2. Friction Valley (D2 / L2: Shepherding)",
-        summary: "'I do, you help.' Awkwardness, sin relapse, or grief hits ('I quit!'); requires compassionate presence without lowering Jesus's call.",
+        title: "2. Friction Valley — D2 Disciple + L2 Leader (Shepherd)",
+        summary: "D2 (Disciple): Low confidence and stuck—awkwardness, sin relapse, or grief hits ('I quit!'). L2 (Leader — Shepherd): 'I do, you help.'",
         deep: "Unlike true bereavement or dark providence (Ps 23), learning friction is a normal part of stepping into real obedience. People rarely grow uniformly—someone may be D4 in Bible knowledge yet D1/D2 in sharing faith or overcoming anger."
       },
       {
         key: "d3",
-        title: "3. Growing Co-Laborer (D3 / L3: Coaching)",
-        summary: "'You do, I help.' Emerging competence; guard against leader Over-Functioning (rescuing) while maintaining mutual burden-bearing.",
-        deep: "Christian mutual burden-bearing (Gal 6:2) is essential—we only avoid rescuing when a disciple simply needs room to step out. Step back from taking over while debriefing humbly after they lead."
+        title: "3. Growing Co-Laborer — D3 Disciple + L3 Leader (Coach)",
+        summary: "D3 (Disciple): Growing skill, uneven confidence—capable, yet nervous to step out alone. L3 (Leader — Coach): 'You do, I help.'",
+        deep: "Christian mutual burden-bearing (Gal 6:2) is essential—we only avoid rescuing (Over-Functioning) when a disciple simply needs room to step out. Step back from taking over while debriefing humbly after they lead."
       },
       {
         key: "d4",
-        title: "4. Spirit-Dependent Maturity (D4 / L4: Empowering)",
-        summary: "'You do, I cheer & stay close.' Actively reproducing in others while growing *more* reliant on Christ's grace (John 15:5).",
-        deep: "Focuses on ongoing reliance upon Christ rather than autonomous mastery. Mature believers never graduate from confession, Soul Care, or abiding in the Vine."
+        title: "4. Spirit-Dependent Maturity — D4 Disciple + L4 Leader (Empower)",
+        summary: "D4 (Disciple): Faithful, reproducing, and abiding deeper in Christ (Jn 15:5). L4 (Leader — Empower): 'You do, I cheer & stay close.'",
+        deep: "Focuses on ongoing reliance upon Christ rather than autonomous mastery. Mature believers never graduate from confession, Soul Care, or abiding in the Vine—and restart at D1 whenever stepping into a brand-new area."
       }
     ],
     steps: [
-      "Remember growth is domain-specific: assess a disciple in one real area (e.g., Scripture, Prayer, Hospitality, Conflict) rather than slapping one label on their soul.",
-      "Match your leadership posture to their actual need: model clearly (L1), weep and shepherd patiently in Friction Valley (L2), coach without taking over (L3), cheer and keep praying together (L4).",
+      "Identify the Disciple's Stage (D1–D4) in ONE specific area (e.g., Scripture, Prayer, Hospitality, Conflict)—never slap one permanent label on someone's whole soul.",
+      "Match your Leader Posture (L1–L4) to their stage: Model clearly (L1: 'I do, you watch'), Shepherd patiently in Friction Valley (L2: 'I do, you help'), Coach without rescuing (L3: 'You do, I help'), or Empower and stay close in Soul Care (L4: 'You do, I cheer').",
       "When sin relapse or bereavement hits a group, slow down the timeline immediately—shepherding souls outranks finishing a schedule.",
       "Ask yourself honestly in L3: 'Am I answering questions they could wrestle through with the Spirit just so I feel needed?'"
     ],
-    napkinScript: "Draw a circular 4-quadrant loop. Label corners: 1. Humble Beginner (I do, watch) -> 2. Friction Valley (I do, help) -> 3. Co-Laborer (You do, help) -> 4. Spirit-Dependent Maturity (You do, cheer). Draw arrows circling back inward to Christ at the center: 'We never graduate from Jesus; we grow deeper in grace while learning to pass it on.'",
+    napkinScript: "Draw a 4-stage clockwise loop with 'Abiding in Christ' in the center. Write 'D = Disciple's Stage, L = Leader's Posture' at the top. Label the 4 corners: 1. Beginner (D1 eager -> L1 'I do, you watch'), 2. Friction Valley (D2 stuck -> L2 'I do, you help'), 3. Co-Laborer (D3 capable/nervous -> L3 'You do, I help'), 4. Spirit-Dependent Maturity (D4 reproducing -> L4 'You do, I cheer').",
     workedExample: "A member who led Sunday hospitality effortlessly for years freezes when praying aloud with a non-Christian friend (D2 Friction Valley in OUT mission). Instead of giving a lecture, her mentor sits with her through two dinners, prays aloud first, lets her pray one sentence next week, and celebrates courage.",
     guardrails: "Never rush a grieving or struggling believer out of Friction Valley to hit a 90-day timeline, and never stop checking in on mature D4 leaders."
   },

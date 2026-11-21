@@ -748,38 +748,119 @@ window.DML_DIAGRAMS = (function () {
 
     "growth-loop": (active) => {
       const p1 = hi(active, "d1", "var(--slate)", 0.13);
-      const p2 = hi(active, "d2", "var(--terracotta)", 0.15);
+      const p2 = hi(active, "d2", "var(--terracotta)", 0.14);
       const p3 = hi(active, "d3", "var(--gold)", 0.14);
-      const p4 = hi(active, "d4", "var(--success)", 0.14);
-      return svgWrap("0 0 600 320", `
+      const p4 = hi(active, "d4", "var(--success)", 0.13);
+      return svgWrap("0 0 640 398", `
+        <!-- Top Legend: Clearly Defining D1-D4 vs L1-L4 -->
+        <rect x="20" y="10" width="292" height="34" rx="8" fill="var(--surface)" stroke="var(--primary)" stroke-width="1.3"/>
+        <text x="166" y="31" font-size="11" text-anchor="middle">
+          <tspan font-weight="700" fill="var(--primary)">D1&ndash;D4 = DISCIPLE&rsquo;S STAGE </tspan><tspan fill="var(--ink)">(Skill &amp; Confidence)</tspan>
+        </text>
+        <rect x="328" y="10" width="292" height="34" rx="8" fill="var(--surface)" stroke="var(--terracotta)" stroke-width="1.3"/>
+        <text x="474" y="31" font-size="11" text-anchor="middle">
+          <tspan font-weight="700" fill="var(--terracotta)">L1&ndash;L4 = LEADER&rsquo;S POSTURE </tspan><tspan fill="var(--ink)">(Matching Response)</tspan>
+        </text>
+
+        <!-- Clockwise Loop Arrows -->
+        <!-- 1 -> 2 (Top) -->
+        <line x1="298" y1="120" x2="334" y2="120" stroke="var(--primary)" stroke-width="2.8" stroke-linecap="round"/>
+        <polygon points="331,114 342,120 331,126" fill="var(--primary)"/>
+        <!-- 2 -> 3 (Right) -->
+        <line x1="482" y1="186" x2="482" y2="212" stroke="var(--primary)" stroke-width="2.8" stroke-linecap="round"/>
+        <polygon points="476,209 488,209 482,220" fill="var(--primary)"/>
+        <!-- 3 -> 4 (Bottom) -->
+        <line x1="342" y1="286" x2="306" y2="286" stroke="var(--primary)" stroke-width="2.8" stroke-linecap="round"/>
+        <polygon points="309,280 298,286 309,292" fill="var(--primary)"/>
+        <!-- 4 -> 1 (Left Return Loop) -->
+        <line x1="158" y1="220" x2="158" y2="194" stroke="var(--primary)" stroke-width="2.4" stroke-dasharray="4,3"/>
+        <polygon points="152,197 164,197 158,186" fill="var(--primary)"/>
+
+        <!-- Center Christ-Centered Anchor Pill -->
+        <rect x="218" y="187" width="204" height="30" rx="15" fill="var(--card)" stroke="var(--primary)" stroke-width="1.6"/>
+        <text x="320" y="206" font-size="10.5" font-weight="700" fill="var(--primary)" text-anchor="middle">ABIDING IN CHRIST (John 15:5)</text>
+
+        <!-- 1. HUMBLE BEGINNER (D1 / L1) -->
         <g class="svg-part" data-part="d1">
-          <rect x="30" y="24" width="242" height="114" rx="10" fill="var(--slate)" fill-opacity="${p1.fillOpacity}" stroke="var(--slate)" stroke-width="${p1.strokeWidth}"/>
-          <text x="151" y="54" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle">1. Humble Beginner (D1/L1)</text>
-          <text x="151" y="78" font-size="12" fill="var(--ink)" text-anchor="middle">Directive: "I do, you watch"</text>
-          <text x="151" y="102" font-size="12" fill="var(--muted)" text-anchor="middle">Clear modeling &amp; patience</text>
+          <rect x="20" y="56" width="276" height="128" rx="12" fill="var(--card)" stroke="var(--slate)" stroke-width="${p1.strokeWidth}"/>
+          <rect x="20" y="56" width="276" height="128" rx="12" fill="var(--slate)" fill-opacity="${p1.fillOpacity}" style="filter:${p1.filter}"/>
+          <circle cx="44" cy="78" r="12" fill="var(--slate)"/>
+          <text x="44" y="82.5" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+          <text x="64" y="82" font-size="12.5" font-weight="700" fill="var(--slate)">HUMBLE BEGINNER</text>
+          <!-- D1 Row -->
+          <rect x="32" y="98" width="252" height="34" rx="6" fill="var(--surface)"/>
+          <text x="40" y="113" font-size="10.5" font-weight="700" fill="var(--slate)">D1 Disciple:</text>
+          <text x="108" y="113" font-size="10.5" fill="var(--ink)">High enthusiasm, low skill</text>
+          <text x="40" y="127" font-size="10" fill="var(--muted)">Eager to learn; doesn&rsquo;t know how yet</text>
+          <!-- L1 Row -->
+          <rect x="32" y="138" width="252" height="36" rx="6" fill="var(--card)" stroke="var(--slate)" stroke-width="1"/>
+          <text x="40" y="153" font-size="10.5" font-weight="700" fill="var(--primary)">L1 Leader (Model):</text>
+          <text x="142" y="153" font-size="10.5" font-weight="700" fill="var(--ink)">&ldquo;I do, you watch&rdquo;</text>
+          <text x="40" y="167" font-size="10" fill="var(--muted)">Show clearly &amp; invite them beside you</text>
         </g>
-        <text x="300" y="84" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
+
+        <!-- 2. FRICTION VALLEY (D2 / L2) -->
         <g class="svg-part" data-part="d2">
-          <rect x="328" y="24" width="242" height="114" rx="10" fill="var(--terracotta)" fill-opacity="${p2.fillOpacity}" stroke="var(--terracotta)" stroke-width="${p2.strokeWidth}"/>
-          <text x="449" y="54" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">2. Friction Valley (D2/L2)</text>
-          <text x="449" y="78" font-size="12" fill="var(--ink)" text-anchor="middle">Shepherding: "I do, you help"</text>
-          <text x="449" y="102" font-size="12" fill="var(--terracotta)" text-anchor="middle">Sin relapse, grief, "I quit"</text>
+          <rect x="344" y="56" width="276" height="128" rx="12" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${p2.strokeWidth}"/>
+          <rect x="344" y="56" width="276" height="128" rx="12" fill="var(--terracotta)" fill-opacity="${p2.fillOpacity}" style="filter:${p2.filter}"/>
+          <circle cx="368" cy="78" r="12" fill="var(--terracotta)"/>
+          <text x="368" y="82.5" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+          <text x="388" y="82" font-size="12.5" font-weight="700" fill="var(--terracotta)">FRICTION VALLEY</text>
+          <!-- D2 Row -->
+          <rect x="356" y="98" width="252" height="34" rx="6" fill="var(--surface)"/>
+          <text x="364" y="113" font-size="10.5" font-weight="700" fill="var(--terracotta)">D2 Disciple:</text>
+          <text x="432" y="113" font-size="10.5" fill="var(--ink)">Low confidence, stuck</text>
+          <text x="364" y="127" font-size="10" fill="var(--muted)">Awkwardness, sin relapse, grief (&ldquo;I quit&rdquo;)</text>
+          <!-- L2 Row -->
+          <rect x="356" y="138" width="252" height="36" rx="6" fill="var(--card)" stroke="var(--terracotta)" stroke-width="1"/>
+          <text x="364" y="153" font-size="10.5" font-weight="700" fill="var(--terracotta)">L2 Leader (Shepherd):</text>
+          <text x="480" y="153" font-size="10.5" font-weight="700" fill="var(--ink)">&ldquo;I do, you help&rdquo;</text>
+          <text x="364" y="167" font-size="10" fill="var(--muted)">Stay close, weep, pray &amp; encourage</text>
         </g>
-        <text x="449" y="164" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&darr;</text>
+
+        <!-- 3. GROWING CO-LABORER (D3 / L3) -->
         <g class="svg-part" data-part="d3">
-          <rect x="328" y="182" width="242" height="114" rx="10" fill="var(--gold)" fill-opacity="${p3.fillOpacity}" stroke="var(--gold)" stroke-width="${p3.strokeWidth}"/>
-          <text x="449" y="212" font-size="13" font-weight="700" fill="var(--gold)" text-anchor="middle">3. Co-Laborer (D3/L3)</text>
-          <text x="449" y="236" font-size="12" fill="var(--ink)" text-anchor="middle">Coaching: "You do, I help"</text>
-          <text x="449" y="260" font-size="12" fill="var(--muted)" text-anchor="middle">Guard vs. Over-Functioning</text>
+          <rect x="344" y="222" width="276" height="128" rx="12" fill="var(--card)" stroke="var(--gold)" stroke-width="${p3.strokeWidth}"/>
+          <rect x="344" y="222" width="276" height="128" rx="12" fill="var(--gold)" fill-opacity="${p3.fillOpacity}" style="filter:${p3.filter}"/>
+          <circle cx="368" cy="244" r="12" fill="var(--gold)"/>
+          <text x="368" y="248.5" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+          <text x="388" y="248" font-size="12.5" font-weight="700" fill="var(--gold)">GROWING CO-LABORER</text>
+          <!-- D3 Row -->
+          <rect x="356" y="264" width="252" height="34" rx="6" fill="var(--surface)"/>
+          <text x="364" y="279" font-size="10.5" font-weight="700" fill="var(--gold)">D3 Disciple:</text>
+          <text x="432" y="279" font-size="10.5" fill="var(--ink)">Growing skill, hesitant</text>
+          <text x="364" y="293" font-size="10" fill="var(--muted)">Capable, yet nervous to step out alone</text>
+          <!-- L3 Row -->
+          <rect x="356" y="304" width="252" height="36" rx="6" fill="var(--card)" stroke="var(--gold)" stroke-width="1"/>
+          <text x="364" y="319" font-size="10.5" font-weight="700" fill="var(--gold)">L3 Leader (Coach):</text>
+          <text x="466" y="319" font-size="10.5" font-weight="700" fill="var(--ink)">&ldquo;You do, I help&rdquo;</text>
+          <text x="364" y="333" font-size="10" fill="var(--muted)">Debrief warmly; guard vs. over-functioning</text>
         </g>
-        <text x="300" y="244" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&larr;</text>
+
+        <!-- 4. SPIRIT-DEPENDENT MATURITY (D4 / L4) -->
         <g class="svg-part" data-part="d4">
-          <rect x="30" y="182" width="242" height="114" rx="10" fill="var(--success)" fill-opacity="${p4.fillOpacity}" stroke="var(--success)" stroke-width="${p4.strokeWidth}"/>
-          <text x="151" y="212" font-size="13" font-weight="700" fill="var(--success)" text-anchor="middle">4. Spirit-Dependent Maturity</text>
-          <text x="151" y="236" font-size="12" fill="var(--ink)" text-anchor="middle">Empowering: "You do, I cheer"</text>
-          <text x="151" y="260" font-size="12" fill="var(--muted)" text-anchor="middle">Abiding deeper in John 15:5</text>
+          <rect x="20" y="222" width="276" height="128" rx="12" fill="var(--card)" stroke="var(--success)" stroke-width="${p4.strokeWidth}"/>
+          <rect x="20" y="222" width="276" height="128" rx="12" fill="var(--success)" fill-opacity="${p4.fillOpacity}" style="filter:${p4.filter}"/>
+          <circle cx="44" cy="244" r="12" fill="var(--success)"/>
+          <text x="44" y="248.5" font-size="11.5" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+          <text x="64" y="248" font-size="12.5" font-weight="700" fill="var(--success)">SPIRIT-DEPENDENT MATURITY</text>
+          <!-- D4 Row -->
+          <rect x="32" y="264" width="252" height="34" rx="6" fill="var(--surface)"/>
+          <text x="40" y="279" font-size="10.5" font-weight="700" fill="var(--success)">D4 Disciple:</text>
+          <text x="108" y="279" font-size="10.5" fill="var(--ink)">Reproducing &amp; humble</text>
+          <text x="40" y="293" font-size="10" fill="var(--muted)">Never autonomous&mdash;abiding deeper in Christ</text>
+          <!-- L4 Row -->
+          <rect x="32" y="304" width="252" height="36" rx="6" fill="var(--card)" stroke="var(--success)" stroke-width="1"/>
+          <text x="40" y="319" font-size="10.5" font-weight="700" fill="var(--success)">L4 Leader (Empower):</text>
+          <text x="155" y="319" font-size="10.5" font-weight="700" fill="var(--ink)">&ldquo;You do, I cheer&rdquo;</text>
+          <text x="40" y="333" font-size="10" fill="var(--muted)">Release to multiply &amp; stay close in Soul Care</text>
         </g>
-        <text x="151" y="164" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">&uarr; Domain-Specific &bull; Never Autonomous</text>
+
+        <!-- Bottom Domain-Specific Rule Banner -->
+        <rect x="20" y="362" width="600" height="28" rx="14" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="1.2"/>
+        <text x="320" y="380" font-size="10.5" text-anchor="middle">
+          <tspan font-weight="700" fill="var(--primary)">DOMAIN-SPECIFIC LOOP: </tspan><tspan fill="var(--ink)">A D4 Bible reader can still be a D1 beginner in praying with neighbors&mdash;restart the loop per area!</tspan>
+        </text>
       `);
     },
 

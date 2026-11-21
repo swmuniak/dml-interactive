@@ -772,16 +772,22 @@ window.DML_CURRICULUM = {
       outcomes: {
         know: "Why growth is domain-specific toward Spirit-Dependent Maturity (never autonomous perfection), and how Picture/Mirror/Window + the 5-Point Rubric test any visual aid.",
         feel: "Patient, unhurried pastoral tenderness—ready to sit in grief and failure alongside Christ our Healer.",
-        do: "Role-play hard Friction Valley coaching scenes and test your starter 4-tool starter kit (+ max 1 optional contextual aid) with two laypeople."
+        do: "Role-play hard Friction Valley coaching scenes and test your 4-tool starter kit (+ max 1 optional contextual aid) with two laypeople."
       },
       chunks: [
         {
           id: "w7-c1",
           toolId: "growth-loop",
-          title: "1. The Map: Apprenticeship Growth Loop (Domain-Specific Grace)",
+          title: "1. The Map: Apprenticeship Growth Loop (D1–D4 & L1–L4)",
           readMin: "3 min",
           bodyHtml: `
-            <p>Built around the situational <strong>Apprenticeship Growth Loop (D1–D4)</strong>, leaders discern four postures per area of life: Humble Beginner (D1: I do, you watch), <span class="term" data-term="friction-valley">Friction Valley</span> (D2: I do, you help), Co-Laborer (D3: You do, I help), and <span class="term" data-term="spirit-dependent-maturity">Spirit-Dependent Maturity</span> (D4: You do, I cheer)—recognizing believers never graduate from depending on Christ.</p>
+            <p><strong>The Map</strong> pairs two simple letters for any single area of discipleship (such as reading Scripture, praying aloud, or loving neighbors): <strong>D1&ndash;D4</strong> names the <strong>Disciple&rsquo;s Stage</strong> (their current skill and confidence), and <strong>L1&ndash;L4</strong> names the <strong>Leader&rsquo;s Matching Posture</strong>:</p>
+            <ul>
+              <li><strong>Stage 1 (Humble Beginner):</strong> <em>D1</em> is eager with low skill &rarr; <em>L1 Leader Models</em> (<strong>&ldquo;I do, you watch&rdquo;</strong>).</li>
+              <li><strong>Stage 2 (<span class="term" data-term="friction-valley">Friction Valley</span>):</strong> <em>D2</em> hits awkwardness, sin relapse, or discouragement &rarr; <em>L2 Leader Shepherds</em> (<strong>&ldquo;I do, you help&rdquo;</strong>).</li>
+              <li><strong>Stage 3 (Growing Co-Laborer):</strong> <em>D3</em> has growing skill yet feels nervous alone &rarr; <em>L3 Leader Coaches</em> (<strong>&ldquo;You do, I help&rdquo;</strong>).</li>
+              <li><strong>Stage 4 (<span class="term" data-term="spirit-dependent-maturity">Spirit-Dependent Maturity</span>):</strong> <em>D4</em> reproduces faithfully while abiding deeper in Christ (Jn 15:5) &rarr; <em>L4 Leader Empowers</em> (<strong>&ldquo;You do, I cheer&rdquo;</strong>).</li>
+            </ul>
           `,
           seeMore: [
             {
