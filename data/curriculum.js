@@ -487,13 +487,13 @@ window.DML_CURRICULUM = {
           title: "3. The John 15 Pruning & Margin Tool (Keep • Cut • Reinvest)",
           readMin: "3 min",
           bodyHtml: `
-            <p>John 15:1–2 teaches <span class="term" data-term="pneumatology">Spirit-dependent</span> fruitfulness: the Father prunes fruitful branches so they bear lasting fruit. Rather than adding new burdens onto exhausted teams, our 3-step calendar triage walks through <strong>1. Keep &amp; Feed</strong> fruitful spaces, <strong>2. Cut or Pause</strong> 1–2 redundant commitments (90-Day Sabbatical Pause, Merge, or Bless &amp; Sunset), and <strong>3. Reinvest</strong> 2+ hours/week directly into people.</p>
+            <p>John 15:1–2 teaches <span class="term" data-term="pneumatology">Spirit-dependent</span> fruitfulness: the Father prunes fruitful branches so they bear lasting fruit. Rather than adding new burdens onto exhausted teams, our 3-step calendar triage walks through <strong>1. Keep &amp; Feed</strong> fruitful spaces, <strong>2. Cut or Pause</strong> 1–2 redundant commitments (using natural seasonal off-ramps, scaling back high-prep events, or cutting meeting frequency), and <strong>3. Reinvest</strong> 2+ hours/week directly into people.</p>
             <p>Your <span class="term" data-term="pruning-audit">John 15 Pruning &amp; Margin Audit</span> ensures every new relational rhythm is funded by real calendar margin.</p>
           `,
           seeMore: [
             {
               label: "See More: Three Gentle Ways to 'STOP' Without Whiplash",
-              contentHtml: `<p>(1) Put an overcrowded planning committee on a 90-day sabbatical; (2) fold a redundant bulletin announcement meeting into existing staff prayer; (3) let a winding-down book study finish its term warmly before transitioning toward triads.</p>`
+              contentHtml: `<p><strong>(1) Use Natural Seasonal Off-Ramps:</strong> Instead of abruptly canceling a class or program mid-year, let it finish its fall or spring semester warmly, celebrate what God did, and simply don't auto-renew it next term. <strong>(2) Scale Back High-Prep Events:</strong> Trim or simplify labor-intensive one-off events that exhaust your core volunteers without building ongoing relationships. <strong>(3) Cut Meeting Frequency &amp; Move Logistics to Email:</strong> Handle routine team updates or scheduling by email so committees and ministry teams can meet less often—freeing whole evenings for people and neighbors.</p>`
             }
           ]
         }
@@ -509,7 +509,7 @@ window.DML_CURRICULUM = {
         ],
         prompts: [
           { id: "w4-what-is", question: "What 3 existing spaces in our church already carry genuine relational life (Stewarded Fruit)?", placeholder: "e.g., Thursday women's prayer breakfast, youth small-group leaders, hospitality crew." },
-          { id: "w4-stop-gate", question: "Which 1–2 low-fruit commitments can we propose pausing or merging to free 2+ hours/week?", placeholder: "e.g., Merge two separate monthly promo meetings into one 20-min huddle; pause midweek slide prep." }
+          { id: "w4-stop-gate", question: "Which 1–2 low-fruit commitments can we propose pausing or merging to free 2+ hours/week?", placeholder: "e.g., Let our low-attendance midweek elective conclude cleanly at the semester break; move monthly team status updates to email; scale back two high-prep seasonal events." }
         ]
       },
       scenarios: [

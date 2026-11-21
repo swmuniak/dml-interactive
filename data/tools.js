@@ -405,8 +405,8 @@ window.DML_TOOLS = {
       {
         key: "gate",
         title: "2. CUT OR PAUSE (The Pruning Shears)",
-        summary: "Select 1–2 low-fruit or overlapping obligations using three pastoral shears: a 90-Day Sabbatical Pause, Merging Redundant Meetings, or Blessing & Sunsetting.",
-        deep: "Without concrete subtraction, new disciplemaking practices simply pile onto exhausted staff and volunteers until burnout sets in. Choosing 1–2 specific meetings to pause or merge creates real breathing room."
+        summary: "Select 1–2 low-fruit or exhausting commitments using three practical shears: Natural Seasonal Off-Ramps (not auto-renewing at semester break), Scaling Back High-Prep Events, or Cutting Meeting Frequency.",
+        deep: "Without concrete subtraction, new disciplemaking rhythms simply pile onto tired staff and volunteers. Using natural calendar transitions and trimming heavy event production creates real margin without church whiplash."
       },
       {
         key: "grace",
@@ -417,12 +417,12 @@ window.DML_TOOLS = {
     ],
     steps: [
       "Review your Module 4 'What Is' calendar strip: underline the fruitful branches worth feeding (KEEP).",
-      "Apply the Pruning Shears (CUT OR PAUSE): select 1–2 low-fruit meetings or overlapping events to put on a 90-day sabbatical, merge, or bless & sunset.",
+      "Apply the Pruning Shears (CUT OR PAUSE): select 1–2 low-fruit commitments to conclude at the next semester break, scale back in event complexity, or reduce in meeting frequency.",
       "Calculate the concrete weekly hours freed (aim for 2+ hours/week per team member) and commit that time directly to Micro-Triads, Oikos hospitality, or Soul Care (REINVEST).",
       "Bring any sensitive program sunset proposal respectfully to your Elders and key stakeholders in Module 6 before acting publicly."
     ],
     napkinScript: "Draw a vertical grapevine trunk rising from roots at the bottom ('Christ the Vine — Jn 15:1–2'). Branch left for '1. KEEP & FEED (living groups)' and branch right with pruning shears for '2. CUT OR PAUSE (1–2 clutter meetings).' Then draw a bold arrow surging straight UP the trunk into a wide fruit canopy at the top: '3. REINVEST MARGIN (2+ hrs/wk for Micro-Triads, Neighbor Tables & Soul Care).'",
-    workedExample: "A leadership team decides to pause their monthly administrative 'Program Planning Night' and convert a 10-person midweek announcement-heavy meeting into two neighborhood triads (meeting 1–4x/month)—freeing hours immediately.",
+    workedExample: "A leadership team realizes the same six families run every event and committee. They decide not to auto-renew a low-attendance midweek lecture series after Christmas, scale back two labor-intensive seasonal banquets into simple potlucks, and move routine team updates to email—freeing an evening every week for Micro-Triads and neighbor tables.",
     guardrails: "Retire programs with honor, gratitude, and clear pastoral communication—never with disdain for people who loved them."
   },
   "oikos-bridge": {

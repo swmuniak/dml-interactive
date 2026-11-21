@@ -644,9 +644,9 @@ window.DML_DIAGRAMS = (function () {
           <text x="424" y="203" font-size="13" font-weight="700" fill="var(--terracotta)">2. CUT OR PAUSE</text>
           <text x="424" y="220" font-size="11" font-weight="600" fill="var(--muted)">The Pruning Shears (1&ndash;2 Items)</text>
           <line x1="378" y1="232" x2="602" y2="232" stroke="var(--border-strong)" stroke-width="1"/>
-          <text x="378" y="250" font-size="11" fill="var(--ink)">&bull; 90-Day Sabbatical Pause</text>
-          <text x="378" y="268" font-size="11" fill="var(--ink)">&bull; Merge duplicate committees</text>
-          <text x="378" y="286" font-size="11" fill="var(--ink)">&bull; Bless &amp; Sunset a finished season</text>
+          <text x="378" y="250" font-size="11" fill="var(--ink)">&bull; Use natural seasonal off-ramps</text>
+          <text x="378" y="268" font-size="11" fill="var(--ink)">&bull; Scale back high-prep events</text>
+          <text x="378" y="286" font-size="11" fill="var(--ink)">&bull; Cut meeting frequency (use email)</text>
         </g>
 
         <!-- Bottom Vineyard Root Banner -->
