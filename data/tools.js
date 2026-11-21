@@ -194,50 +194,50 @@ window.DML_TOOLS = {
   "jesus-pattern": {
     id: "jesus-pattern",
     number: 5,
-    name: "Jesus Pattern Compass (UP / IN / OUT + DOWN)",
+    name: "Jesus Pattern Mountain Compass (UP / IN / DOWN / OUT)",
     shortName: "Jesus Pattern",
     week: 3,
     category: "Core Habit #3",
-    tagline: "Diagrams relational balance—UP with the Father, IN with the church, OUT to neighbors—centered on DOWN (cross-bearing union with Jesus).",
+    tagline: "Evokes Jesus's mountain rhythm in Luke 6:12–19—UP the mountain to the Father, IN with his disciples, DOWN to the level place in cross-bearing humility, and OUT to minister to the crowds.",
     whenToUse: "Use in Micro-Triads (1–4x/month) and Betas to audit calendar health (where have we drifted?) while remembering Christ's unique saving cross.",
     originalSvgPath: "diagrams/jesus_pattern_tool.svg",
-    scripture: "Mark 1:35–39; Luke 6:12–19; Philippians 2:5–8; Luke 9:23",
+    scripture: "Luke 6:12–19; Mark 3:13–15; Luke 9:23, 28–43; Philippians 2:5–8",
     relatedTerms: ["cross-bearing", "union-with-christ", "oikos", "life-on-life-rhythm"],
     parts: [
       {
         key: "up",
-        title: "UP: Communion with the Father",
-        summary: "Unrushed solitude in Scripture and prayer, learning Jesus's filial dependence on his Father.",
-        deep: "Jesus withdrew to lonely places to pray (Lk 5:16). Without UP, IN becomes shallow social networking and OUT burns out into activist pride."
+        title: "UP the Mountain: Solitude With the Father (Luke 6:12)",
+        summary: "Leaving the crowds to go up on the mountain and pray through the night to God—learning Jesus's filial dependence.",
+        deep: "Luke 6:12 shows Jesus departing from the busyness of the plain up into solitary communion with his Father (also Mk 1:35; Lk 5:16). Without UP, IN becomes shallow social networking and OUT burns out into activist pride."
       },
       {
         key: "in",
-        title: "IN: Covenant Life with Believers",
-        summary: "Shared meals, mutual confession, Word & Table, and accountability with a core few and the local congregation.",
-        deep: "Jesus chose the Twelve to be with him (Mk 3:14) and invested deeply in Peter, James, and John. We never mature in isolation."
-      },
-      {
-        key: "out",
-        title: "OUT: Sent Compassion to Neighbors",
-        summary: "Everyday presence, hospitality, healing kindness, and gospel witness among people far from God.",
-        deep: "Notice that Jesus's OUT was uniquely his atoning ransom (Mk 10:45), which we cannot repeat—we announce his finished rescue as joyful ambassadors."
+        title: "IN on the Mountainside: Covenant Life With Disciples (Luke 6:13–16)",
+        summary: "Calling his disciples to himself on the mountain and naming the Twelve 'so that they might be with him' (Mk 3:13–14).",
+        deep: "Before coming down to the crowds, Jesus brought a core band of disciples into close fellowship, shared meals, mutual confession, and Word-and-Table formation."
       },
       {
         key: "down",
-        title: "CENTER: DOWN (Cross-Bearing & Union)",
-        summary: "The humble self-emptying of Philippians 2:5–8 that keeps UP, IN, and OUT from becoming self-improvement hobbies.",
-        deep: "Adding DOWN at the center distinguishes the Jesus Pattern visually from the Training Triangle and protects against triumphalism: we carry the cross in every direction."
+        title: "DOWN to the Level Place: Cross-Bearing Descent (Luke 6:17a; Phil 2:5–8)",
+        summary: "'And he came down with them and stood on a level place' (Lk 6:17a)—stepping from the mountaintop into human need and the humble path of the cross.",
+        deep: "Like coming down the Mount of Transfiguration into a demonized valley (Lk 9:37), Jesus refuses to cling to mountaintop comfort. Placing DOWN at the base of the mountain honors Philippians 2:5–8 and Luke 9:23—remembering Jesus's literal descent for our sake."
+      },
+      {
+        key: "out",
+        title: "OUT to the Crowds: Compassionate Ministry & Witness (Luke 6:17b–19)",
+        summary: "Moving outward across the plain to teach, heal, and announce God's kingdom among neighbors far from God.",
+        deep: "Note that Jesus's OUT culminated in his unrepeatable atoning ransom (Mk 10:45), which we do not re-enact—we follow him down into the valley to love neighbors and bear witness to his finished rescue."
       }
     ],
     steps: [
-      "Draw the compass triangle with DOWN (the Cross) at its heart and rate your past week 1–5 on UP, IN, and OUT.",
-      "Identify your weakest rhythm—most churches over-index on IN (church meetings) while starving OUT (relationships with unbelievers) or hurried UP.",
-      "Pick one calendar trade this week: subtract one low-value commitment to free an hour for your weakest direction.",
-      "Ask: 'Where is Jesus inviting me to take the downward path of humility (DOWN) in that relationship?'"
+      "Sketch a snowcapped mountain resting on a valley floor: write UP at the peak (Father, Lk 6:12), IN on the slope (Disciples, Lk 6:13), an arrow pointing DOWN to the valley cross (Level Place, Lk 6:17a), and an arrow going OUT across the plain (Crowds, Lk 6:17b–19).",
+      "Rate your past season 1–5 along UP, IN, and OUT—where has one direction quietly disappeared from your calendar?",
+      "Pick one concrete calendar trade to free space for your weakest rhythm.",
+      "Ask together: 'Where is Jesus inviting me to walk DOWN from spiritual comfort to meet someone on the level place this week?'"
     ],
-    napkinScript: "Draw a triangle inside a dashed compass ring with a bold cross at the center. Label the top UP (Father), bottom-right IN (Church family), bottom-left OUT (Neighbors), and center DOWN (Cross-bearing union). Ask: 'Look at your last seven days—which side of the triangle has disappeared from your calendar?'",
-    workedExample: "A triad realizes they score 4/5 on IN (attending services and small group) and 3/5 on UP, yet 1/5 on OUT—none of them shared a meal with a non-Christian all month. They decide to swap one internal Thursday committee meeting for hosting neighbors on their porch.",
-    guardrails: "Never flatten Jesus's unrepeatable messianic death into a mere 'productivity tip.' Only his finished cross gives us the grace to walk UP, IN, and OUT."
+    napkinScript: "Draw a mountain peak with a wavy snowcap line resting above a flat valley ground line. Write UP at the peak ('Went up to pray — Lk 6:12'), IN inside the mountain ('Called the disciples — Lk 6:13'), draw a big arrow pointing DOWN to the valley floor with a cross ('Came down to the level place — Lk 6:17a; Phil 2:8'), and an arrow going OUT across the plain ('Ministered to crowds — Lk 6:17b–19').",
+    workedExample: "A triad realizes they score 4/5 on IN (attending services and small group) and 3/5 on UP, yet 1/5 on OUT—staying comfortable on the mountainside instead of coming down to the level place. They swap one internal Thursday committee meeting to host neighbors on their porch.",
+    guardrails: "Never flatten Jesus's unrepeatable messianic death into a mere 'productivity tip.' Only his descent to the cross gives us the grace to walk UP, IN, DOWN, and OUT."
   },
   "training-triangle": {
     id: "training-triangle",

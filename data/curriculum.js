@@ -319,31 +319,31 @@ window.DML_CURRICULUM = {
       week: 3,
       phase: 1,
       title: "Core Habits II: The Jesus Pattern & Everyday Imitation",
-      subtitle: "Balancing UP, IN, and OUT around the cross while shifting from classroom lectures to shared life",
+      subtitle: "Following Jesus's Luke 6 mountain rhythm (UP, IN, DOWN, OUT) and shifting from lectures to shared life",
       timeBudget: "90-Min Team Session + Micro-Triad (1–4x/Month)",
       fourfoldAnchor: "Cross (Kenotic Descent) & Laver (Imitation)",
-      scripture: "Mark 3:14; Philippians 2:5–8; 1 Corinthians 4:14–17; 11:1; 2 Timothy 2:2",
+      scripture: "Luke 6:12–19; Mark 3:13–15; Luke 9:23, 28–43; Philippians 2:5–8; 1 Corinthians 4:14–17; 2 Timothy 2:2",
       hook: "Why can someone attend 500 Sunday sermons and still freeze when a coworker asks about grief or prayer? Because Western churches treat Truth as a classroom download and skip the middle bridge Jesus and Paul relied on every day: shared-life imitation.",
-      keyTakeaway: "Healthy discipleship pairs the Jesus Pattern (UP/IN/OUT centered on cross-bearing DOWN) with the Training Triangle (Truth -> Imitation -> Faithful Multiplication)—so people catch Christ's way at your table, not just from a podium.",
+      keyTakeaway: "Healthy discipleship follows Jesus's Luke 6:12–19 mountain pattern—going UP to the Father, calling disciples IN, stepping DOWN to the level place in cross-bearing humility, and moving OUT to crowds—paired with the Training Triangle (Truth -> Imitation -> Faithful Multiplication).",
       outcomes: {
-        know: "Why 'DOWN' (Philippians 2 cross-bearing) anchors UP/IN/OUT, and why Imitation must bridge Truth and Faithful Multiplication.",
-        feel: "Liberated from feeling like a polished lecturer; willing to let 2–3 friends see your real dependence on Christ.",
-        do: "Audit your calendar with the Jesus Pattern Compass and invite one triad friend into an ordinary errand or meal this week."
+        know: "How Jesus's Luke 6 mountain rhythm links UP, IN, DOWN (humble descent to the level place & cross), and OUT, and why Imitation bridges Truth and Multiplication.",
+        feel: "Liberated from feeling like a polished lecturer; willing to step down beside 2–3 friends in real dependence on Christ.",
+        do: "Audit your calendar with the Jesus Pattern Mountain Compass and invite one triad friend into an ordinary errand or meal this week."
       },
       chunks: [
         {
           id: "w3-c1",
           toolId: "jesus-pattern",
-          title: "1. UP / IN / OUT Centered on DOWN (Jesus Pattern Compass)",
+          title: "1. Jesus's Mountain Rhythm: UP, IN, DOWN, and OUT (Luke 6:12–19)",
           readMin: "3 min",
           bodyHtml: `
-            <p>The Jesus Pattern Compass traces three rhythms in Jesus's ministry: <strong>UP</strong> (communion with the Father), <strong>IN</strong> (covenant community with disciples), and <strong>OUT</strong> (compassionate presence among outsiders). Yet Jesus's life was never balanced self-care—he walked downward in humility to the cross.</p>
-            <p>Placing <strong>DOWN</strong> (<span class="term" data-term="cross-bearing">Cross-Bearing &amp; Union with Christ</span>, Phil 2:5–8) at the center ensures we never flatten Jesus's atoning rescue into a mere lifestyle hack—and keeps our rhythms shaped by humble service.</p>
+            <p>Look closely at Luke 6:12–19: Jesus leaves the crowds and goes <strong>UP</strong> the mountain to pray all night to his Father (v. 12). On the mountainside, he calls his disciples <strong>IN</strong> and names the Twelve to be with him (v. 13–16; Mk 3:14). Then <em>'he came DOWN with them and stood on a level place'</em> (v. 17a) to move <strong>OUT</strong> teaching and healing the multitudes (v. 17b–19).</p>
+            <p>Placing <strong>DOWN</strong> physically at the valley base (<span class="term" data-term="cross-bearing">Cross-Bearing &amp; Union with Christ</span>, Lk 9:23; Phil 2:5–8) reminds us we never stay insulated on mountaintops—Jesus descends with us into real human need.</p>
           `,
           seeMore: [
             {
               label: "See More: Remembering Exemplum vs. Sacramentum",
-              contentHtml: `<p>Christ's 'OUT' was his unique substitutionary ransom (Mk 10:45), which only he could accomplish. Because we are united to him (<span class="term" data-term="union-with-christ">Union with Christ</span>), our 'OUT' rhythm proclaims his finished rescue and shares his mercy with neighbors.</p>`
+              contentHtml: `<p>Christ's descent went all the way to his unique substitutionary cross (Mk 10:45; Lk 9:37), which only he could accomplish. Because we are united to him (<span class="term" data-term="union-with-christ">Union with Christ</span>), our coming <strong>DOWN</strong> and going <strong>OUT</strong> announces his finished rescue and shares his mercy with neighbors on the level place.</p>`
             }
           ]
         },
