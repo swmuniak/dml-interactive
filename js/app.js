@@ -571,13 +571,13 @@
         <summary>See More: Compare With Original Workbook Diagram</summary>
         <div class="see-more-body" style="text-align:center;">
           <p style="font-size:0.84rem; color:var(--muted); margin-bottom:0.75rem;">Original printed diagram from workbook (note unlabeled shapes and missing theological/pastoral guardrails):</p>
-          <img src="${esc(t.originalSvgPath)}" alt="Original diagram for ${esc(t.name)}" style="max-width:440px; width:100%; border:1px solid var(--border); border-radius:var(--radius-sm); background:#fff; padding:0.5rem;" />
+          <img src="${esc(t.originalSvgPath)}" alt="Original diagram for ${esc(t.name)}" style="max-width:820px; width:100%; border:1px solid var(--border); border-radius:var(--radius-sm); background:#fff; padding:0.75rem;" />
         </div>
       </details>` : "";
 
     const wrapperStyle = embedded
-      ? "margin-top:1rem; padding:1rem 1.1rem; background:var(--surface); border:1px solid var(--border-strong); border-left:4px solid var(--primary); border-radius:var(--radius-md); display:flex; flex-direction:column; gap:0.9rem;"
-      : "display:flex; flex-direction:column; gap:1rem;";
+      ? "margin-top:1.15rem; padding:1.35rem 1.5rem; background:var(--surface); border:1px solid var(--border-strong); border-left:4px solid var(--primary); border-radius:var(--radius-md); display:flex; flex-direction:column; gap:1.1rem;"
+      : "display:flex; flex-direction:column; gap:1.15rem;";
     const wrapperTag = embedded ? "section" : "article";
     const wrapperClass = embedded ? "integrated-tool-panel" : "card";
     const explainBg = embedded ? "background:var(--card); border:1px solid var(--border); border-left:4px solid var(--primary);" : "border-left:4px solid var(--primary);";
@@ -586,29 +586,29 @@
     return `
       <${wrapperTag} id="lesson-tool-${esc(t.id)}" class="${wrapperClass}" style="${wrapperStyle}">
         <div>
-          <div style="display:flex; gap:0.45rem; flex-wrap:wrap; margin-bottom:0.35rem;">
+          <div style="display:flex; gap:0.45rem; flex-wrap:wrap; margin-bottom:0.4rem;">
             <span class="badge badge-primary">Tool #${t.number}</span>
             <span class="badge badge-slate">${esc(t.category)}</span>
             <span class="badge badge-gold">Integrated Practice Tool</span>
           </div>
-          <h4 style="font-size:1.15rem;">${esc(t.name)}</h4>
-          <p style="font-size:0.88rem; color:var(--muted); margin-top:0.15rem;">${esc(t.tagline)}</p>
+          <h4 style="font-size:1.3rem;">${esc(t.name)}</h4>
+          <p style="font-size:0.95rem; color:var(--muted); margin-top:0.2rem;">${esc(t.tagline)}</p>
         </div>
 
         <!-- Clickable Interactive SVG Stage -->
         <div class="diagram-stage" data-tool-stage="${t.id}">
           <div class="diagram-svg-scroll">${window.DML_DIAGRAMS.render(t.id, curPartKey)}</div>
-          <div style="font-size:0.78rem; color:var(--muted); margin-top:0.55rem;">Click any shaded zone in the diagram or button below to inspect each piece:</div>
-          <div style="display:flex; flex-wrap:wrap; gap:0.4rem; justify-content:center; margin-top:0.45rem;">
+          <div style="font-size:0.84rem; color:var(--muted); margin-top:0.65rem; text-align:center;">Click any shaded zone in the diagram or button below to inspect each piece:</div>
+          <div style="display:flex; flex-wrap:wrap; gap:0.45rem; justify-content:center; margin-top:0.5rem;">
             ${partPills}
           </div>
         </div>
 
         <!-- Selected Part Explanation -->
         <div class="card-subtle" style="${explainBg}">
-          <div style="font-weight:700; font-size:0.96rem; color:var(--primary);">${esc(curPart.title)}</div>
-          <p style="font-size:0.9rem; font-weight:600; margin-top:0.25rem;">${esc(curPart.summary)}</p>
-          <p style="font-size:0.86rem; color:var(--muted);">${esc(curPart.deep)}</p>
+          <div style="font-weight:700; font-size:1.05rem; color:var(--primary);">${esc(curPart.title)}</div>
+          <p style="font-size:0.95rem; font-weight:600; margin-top:0.25rem;">${esc(curPart.summary)}</p>
+          <p style="font-size:0.9rem; color:var(--muted);">${esc(curPart.deep)}</p>
         </div>
 
         <!-- Progressive Disclosure Details -->

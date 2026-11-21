@@ -373,7 +373,7 @@ button, input, textarea, select {
 }
 
 .content-wrap {
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -683,20 +683,27 @@ details.see-more[open] summary {
    Interactive Tool Diagrams & Scenarios
    ========================================================================== */
 .diagram-stage {
-  background: var(--surface);
+  background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 1rem;
+  padding: 1.35rem 1.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
+}
+
+.diagram-svg-scroll {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .diagram-stage svg {
   width: 100%;
-  max-width: 660px;
+  max-width: 920px;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 
 .svg-part {
@@ -709,11 +716,11 @@ details.see-more[open] summary {
 }
 
 .part-pill {
-  padding: 0.4rem 0.7rem;
+  padding: 0.5rem 0.85rem;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
   background: var(--card);
-  font-size: 0.8rem;
+  font-size: 0.86rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.15s ease;
@@ -833,7 +840,7 @@ textarea.field-input:focus, input.field-input:focus {
   .step-tabs { width: 100%; }
   .step-tab { flex: 1 1 auto; text-align: center; }
   .diagram-stage { align-items: stretch; padding: 0.75rem; }
-  .diagram-svg-scroll { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .diagram-svg-scroll { width: 100%; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .diagram-svg-scroll svg { min-width: 460px; }
 }
 
