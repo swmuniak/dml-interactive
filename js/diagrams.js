@@ -405,29 +405,69 @@ window.DML_DIAGRAMS = (function () {
     },
 
     "pruning-curve": (active) => {
-      const ax = hi(active, "axes", "var(--slate)", 0.13);
+      const ax = hi(active, "axes", "var(--primary)", 0.13);
       const gt = hi(active, "gate", "var(--terracotta)", 0.16);
       const gr = hi(active, "grace", "var(--success)", 0.14);
-      return svgWrap("0 0 600 300", `
+      return svgWrap("0 0 640 315", `
+        <rect x="20" y="14" width="600" height="40" rx="8" fill="var(--surface)" stroke="var(--primary)" stroke-width="1.4"/>
+        <text x="320" y="31" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">THE TRUE VINE (John 15:1&ndash;2)</text>
+        <text x="320" y="47" font-size="11" fill="var(--ink)" text-anchor="middle">&ldquo;Every branch that bears fruit he prunes, that it may bear more fruit&rdquo;</text>
+
+        <line x1="112" y1="54" x2="112" y2="68" stroke="var(--border-strong)" stroke-width="1.6"/>
+        <line x1="320" y1="54" x2="320" y2="68" stroke="var(--border-strong)" stroke-width="1.6"/>
+        <line x1="528" y1="54" x2="528" y2="68" stroke="var(--border-strong)" stroke-width="1.6"/>
+
         <g class="svg-part" data-part="axes">
-          <line x1="78" y1="242" x2="555" y2="242" stroke="var(--slate)" stroke-width="${ax.strokeWidth}"/>
-          <line x1="78" y1="36" x2="78" y2="242" stroke="var(--slate)" stroke-width="${ax.strokeWidth}"/>
-          <text x="316" y="272" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle">Faithful Sowing &amp; Weekly Habits Over Time</text>
-          <text x="38" y="138" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle" transform="rotate(-90,38,138)">Generational Fruit</text>
+          <rect x="20" y="68" width="184" height="176" rx="12" fill="var(--primary)" fill-opacity="${ax.fillOpacity}" stroke="var(--primary)" stroke-width="${ax.strokeWidth}" style="filter:${ax.filter}"/>
+          <line x1="112" y1="84" x2="112" y2="114" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M112,100 Q95,93 97,82 Q112,86 112,100 Z" fill="var(--primary)" fill-opacity="0.25" stroke="var(--primary)" stroke-width="1.6"/>
+          <path d="M112,107 Q129,99 127,88 Q112,92 112,107 Z" fill="var(--primary)" fill-opacity="0.25" stroke="var(--primary)" stroke-width="1.6"/>
+          <text x="112" y="135" font-size="13.5" font-weight="700" fill="var(--primary)" text-anchor="middle">1. KEEP &amp; FEED</text>
+          <text x="112" y="154" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">Fruitful Branches</text>
+          <text x="112" y="180" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; Protect life-giving groups</text>
+          <text x="112" y="200" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; Celebrate faithful hosts</text>
+          <text x="112" y="220" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; Clear away red tape</text>
         </g>
-        <g class="svg-part" data-part="grace">
-          <path d="M78,224 C180,220 235,205 280,180 C350,140 420,95 535,52" fill="none" stroke="var(--success)" stroke-width="${gr.strokeWidth + 2}"/>
-          <rect x="338" y="162" width="212" height="58" rx="8" fill="var(--success)" fill-opacity="${gr.fillOpacity}" stroke="var(--success)" stroke-width="${gr.strokeWidth}"/>
-          <text x="444" y="186" font-size="12" font-weight="700" fill="var(--success)" text-anchor="middle">"Only God gives growth"</text>
-          <text x="444" y="206" font-size="12" fill="var(--ink)" text-anchor="middle">Mk 4:26–29 • 1 Cor 3:7</text>
-        </g>
+
+        <text x="216" y="160" font-size="18" font-weight="700" fill="var(--muted)" text-anchor="middle">+</text>
+
         <g class="svg-part" data-part="gate">
-          <line x1="280" y1="42" x2="280" y2="242" stroke="var(--terracotta)" stroke-width="2.5" stroke-dasharray="6,4"/>
-          <rect x="172" y="34" width="216" height="56" rx="8" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${gt.strokeWidth}"/>
-          <rect x="172" y="34" width="216" height="56" rx="8" fill="var(--terracotta)" fill-opacity="${gt.fillOpacity}"/>
-          <text x="280" y="57" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">PRUNE / STOP GATE</text>
-          <text x="280" y="77" font-size="12" fill="var(--ink)" text-anchor="middle">Retire 1–2 low-fruit programs</text>
+          <rect x="228" y="68" width="184" height="176" rx="12" fill="var(--terracotta)" fill-opacity="${gt.fillOpacity}" stroke="var(--terracotta)" stroke-width="${gt.strokeWidth}" style="filter:${gt.filter}"/>
+          <line x1="311" y1="84" x2="327" y2="108" stroke="var(--terracotta)" stroke-width="2.2" stroke-linecap="round"/>
+          <line x1="329" y1="84" x2="313" y2="108" stroke="var(--terracotta)" stroke-width="2.2" stroke-linecap="round"/>
+          <circle cx="320" cy="97" r="2.2" fill="var(--terracotta)"/>
+          <circle cx="311" cy="112" r="4.2" fill="none" stroke="var(--terracotta)" stroke-width="2"/>
+          <circle cx="329" cy="112" r="4.2" fill="none" stroke="var(--terracotta)" stroke-width="2"/>
+          <text x="320" y="135" font-size="13.5" font-weight="700" fill="var(--terracotta)" text-anchor="middle">2. CUT OR PAUSE</text>
+          <text x="320" y="154" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">The Pruning Shears</text>
+          <text x="320" y="180" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; 90-Day Sabbatical Pause</text>
+          <text x="320" y="200" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; Merge duplicate meetings</text>
+          <text x="320" y="220" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; Bless &amp; Sunset warmly</text>
         </g>
+
+        <text x="424" y="160" font-size="18" font-weight="700" fill="var(--success)" text-anchor="middle">&rarr;</text>
+
+        <g class="svg-part" data-part="grace">
+          <rect x="436" y="68" width="184" height="176" rx="12" fill="var(--success)" fill-opacity="${gr.fillOpacity}" stroke="var(--success)" stroke-width="${gr.strokeWidth}" style="filter:${gr.filter}"/>
+          <line x1="528" y1="81" x2="528" y2="88" stroke="var(--success)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M528,85 Q536,80 541,85 Q535,89 528,85 Z" fill="var(--success)" fill-opacity="0.3" stroke="var(--success)" stroke-width="1.4"/>
+          <circle cx="520" cy="93" r="4.2" fill="var(--success)" fill-opacity="0.28" stroke="var(--success)" stroke-width="1.6"/>
+          <circle cx="528" cy="93" r="4.2" fill="var(--success)" fill-opacity="0.28" stroke="var(--success)" stroke-width="1.6"/>
+          <circle cx="536" cy="93" r="4.2" fill="var(--success)" fill-opacity="0.28" stroke="var(--success)" stroke-width="1.6"/>
+          <circle cx="524" cy="100" r="4.2" fill="var(--success)" fill-opacity="0.28" stroke="var(--success)" stroke-width="1.6"/>
+          <circle cx="532" cy="100" r="4.2" fill="var(--success)" fill-opacity="0.28" stroke="var(--success)" stroke-width="1.6"/>
+          <circle cx="528" cy="108" r="4.2" fill="var(--success)" fill-opacity="0.28" stroke="var(--success)" stroke-width="1.6"/>
+          <text x="528" y="135" font-size="13.5" font-weight="700" fill="var(--success)" text-anchor="middle">3. REINVEST MARGIN</text>
+          <text x="528" y="154" font-size="12" font-weight="600" fill="var(--ink)" text-anchor="middle">2+ Hrs/Wk Freed</text>
+          <text x="528" y="180" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; Micro-Triads (1&ndash;4x/mo)</text>
+          <text x="528" y="200" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; Oikos neighbor tables</text>
+          <text x="528" y="220" font-size="11.5" fill="var(--ink)" text-anchor="middle">&bull; 1:4&ndash;5 Leader Soul Care</text>
+        </g>
+
+        <rect x="20" y="258" width="600" height="40" rx="8" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="1.2"/>
+        <text x="320" y="282" font-size="11.5" text-anchor="middle">
+          <tspan font-weight="700" fill="var(--terracotta)">The Margin Rule: </tspan><tspan fill="var(--ink)">No New Expectation Without Pruning 2+ Hrs/Week of Clutter (John 15:2)</tspan>
+        </text>
       `);
     },
 

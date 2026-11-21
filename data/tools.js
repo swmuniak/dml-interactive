@@ -338,42 +338,42 @@ window.DML_TOOLS = {
   "pruning-curve": {
     id: "pruning-curve",
     number: 8,
-    name: "Pruning & Multiplication Curve (+ STOP Gate)",
-    shortName: "Pruning Curve",
+    name: "John 15 Pruning & Margin Tool (Keep • Cut • Reinvest)",
+    shortName: "Pruning & Margin Tool",
     week: 4,
     category: "Church Leadership",
-    tagline: "Pictures Mark 4 organic growth rather than forced hype—including an explicit STOP Gate to clear low-fruit clutter before launching new things.",
+    tagline: "A practical 3-step calendar triage rooted in John 15:1–2—Keep fruitful branches, Cut or Pause 1–2 low-fruit meetings, and Reinvest 2+ hours/week directly into people.",
     whenToUse: "Use immediately after the Reality Audit in Module 4, and revisit in Module 10's Annual Pruning Review.",
-    originalSvgPath: "diagrams/moonshot_exercise_curve.svg",
-    scripture: "John 15:1–2; Mark 4:26–29; 1 Corinthians 3:6–7; Hebrews 12:1",
+    originalSvgPath: null,
+    scripture: "John 15:1–2; Exodus 18:17–23; 1 Corinthians 3:6–7; Hebrews 12:1",
     relatedTerms: ["pruning-audit", "pneumatology", "elder-ratification"],
     parts: [
       {
         key: "axes",
-        title: "Labeled Organic Axes",
-        summary: "Horizontal: Faithful Sowing & Habit Continuity Over Time. Vertical: Generational Fruit (1 Cor 3:7 — 'Only God gives growth').",
-        deep: "Explicitly naming both axes reminds leaders that unseen spiritual root-growth always precedes visible multi-generational fruit."
+        title: "1. KEEP & FEED (Fruitful Branches)",
+        summary: "Identify existing ministries and rhythms genuinely forming disciples—protect and nourish them rather than reinventing everything.",
+        deep: "In John 15:2, pruning serves living fruit, not destruction. Spot the 2–3 spaces where God is already growing humility and care, celebrate their hosts, and strip away needless administrative paperwork around them."
       },
       {
         key: "gate",
-        title: "Mandatory PRUNE / STOP Gate",
-        summary: "A concrete decision point requiring teams to pause, combine, or retire 1–2 legacy meetings to free 2+ hours per week of leader capacity.",
-        deep: "Without an intentional STOP Gate, new disciplemaking groups simply pile onto exhausted staff and volunteers until burnout sets in by Month 6."
+        title: "2. CUT OR PAUSE (The Pruning Shears)",
+        summary: "Select 1–2 low-fruit or overlapping obligations using three pastoral shears: a 90-Day Sabbatical Pause, Merging Redundant Meetings, or Blessing & Sunsetting.",
+        deep: "Without concrete subtraction, new disciplemaking practices simply pile onto exhausted staff and volunteers until burnout sets in. Choosing 1–2 specific meetings to pause or merge creates real breathing room."
       },
       {
         key: "grace",
-        title: "Spirit-Sovereign Trajectory",
-        summary: "Steady, unhurried multiplication replacing rushed growth expectations—expecting pruning seasons along the way.",
-        deep: "In John 15:2, even fruitful branches are pruned by the Father. Steady sowing yields lasting fruit without manipulative urgency."
+        title: "3. REINVEST MARGIN (2+ Hours/Week for People)",
+        summary: "Protect the freed hours specifically for relational disciplemaking—Micro-Triads, Oikos tables, and Soul Care—before admin clutter refills the slot.",
+        deep: "Parkinson's Law applies to church calendars: freed hours get swallowed by new committee chatter unless immediately committed to real relationships and prayer (1 Cor 3:7)."
       }
     ],
     steps: [
-      "Review your Module 4 'What Is' list and underline every meeting consuming leader hours with minimal relational transformation.",
-      "Apply the STOP Gate test: Which 1–2 low-fruit events, committees, or redundant studies can we pause or merge this quarter?",
-      "Calculate the real weekly hours freed (aim for 2+ hours/week per team member) to protect Micro-Triads and Oikos hospitality.",
-      "Take any sensitive program sunset proposal to your Elders and key stakeholders in Module 6 rather than acting abruptly."
+      "Review your Module 4 'What Is' calendar strip: underline the fruitful branches worth feeding (KEEP).",
+      "Apply the Pruning Shears (CUT OR PAUSE): select 1–2 low-fruit meetings or overlapping events to put on a 90-day sabbatical, merge, or bless & sunset.",
+      "Calculate the concrete weekly hours freed (aim for 2+ hours/week per team member) and commit that time directly to Micro-Triads, Oikos hospitality, or Soul Care (REINVEST).",
+      "Bring any sensitive program sunset proposal respectfully to your Elders and key stakeholders in Module 6 before acting publicly."
     ],
-    napkinScript: "Draw an organic rising curve with 'Time & Faithful Sowing' on the bottom and 'Generational Fruit' on the side. Draw a vertical dashed gate halfway across labeled 'PRUNE / STOP.' Say: 'Only God gives the growth (1 Cor 3:7)—we can't force a rocket launch. What we CAN do is pass through the pruning gate and stop 1 or 2 busy things so our leaders actually have time to love people.'",
+    napkinScript: "Draw a vine branching into three boxes under the rule 'Never add without subtracting': 1. Leaf ('KEEP & FEED fruitful groups'), 2. Shears ('CUT or PAUSE 1–2 busy things'), 3. Grape Cluster ('REINVEST 2+ hrs/wk into people'). Say: 'In John 15, even healthy branches get pruned—so before adding new habits, let's free real hours to love people well.'",
     workedExample: "A leadership team decides to pause their monthly administrative 'Program Planning Night' and convert a 10-person midweek announcement-heavy meeting into two neighborhood triads (meeting 1–4x/month)—freeing hours immediately.",
     guardrails: "Retire programs with honor, gratitude, and clear pastoral communication—never with disdain for people who loved them."
   },

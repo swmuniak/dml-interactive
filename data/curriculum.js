@@ -472,11 +472,11 @@ window.DML_CURRICULUM = {
         {
           id: "w4-c3",
           toolId: "pruning-curve",
-          title: "3. The Pruning & Multiplication Curve (STOP Gate)",
+          title: "3. The John 15 Pruning & Margin Tool (Keep • Cut • Reinvest)",
           readMin: "3 min",
           bodyHtml: `
-            <p>Rather than rushed growth expectations, Mark 4:26–29 teaches <span class="term" data-term="pneumatology">Spirit-dependent</span> growth: humans sow and water; God alone brings fruit. Yet John 15:2 shows the Father prunes healthy branches so they bear lasting fruit.</p>
-            <p>Your <span class="term" data-term="pruning-audit">Sacred Cow &amp; Pruning Audit (STOP Gate)</span> challenges your team to pause, merge, or retire 1–2 low-fruit commitments so you protect 2+ hours/week of margin.</p>
+            <p>John 15:1–2 teaches <span class="term" data-term="pneumatology">Spirit-dependent</span> fruitfulness: the Father prunes fruitful branches so they bear lasting fruit. Rather than adding new burdens onto exhausted teams, our 3-step calendar triage walks through <strong>1. Keep &amp; Feed</strong> fruitful spaces, <strong>2. Cut or Pause</strong> 1–2 redundant commitments (90-Day Sabbatical Pause, Merge, or Bless &amp; Sunset), and <strong>3. Reinvest</strong> 2+ hours/week directly into people.</p>
+            <p>Your <span class="term" data-term="pruning-audit">John 15 Pruning &amp; Margin Audit</span> ensures every new relational rhythm is funded by real calendar margin.</p>
           `,
           seeMore: [
             {

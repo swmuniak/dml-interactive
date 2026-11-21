@@ -248,9 +248,9 @@ window.DML_GLOSSARY = {
   },
   "pruning-audit": {
     id: "pruning-audit",
-    term: "Sacred Cow & Pruning Audit (STOP Gate)",
+    term: "John 15 Pruning & Margin Audit (Keep • Cut • Reinvest)",
     category: "Church Leadership",
-    short: "The intentional decision to pause, merge, or retire 1–2 low-fruit programs or meetings so leaders have real margin for relational discipling.",
+    short: "A 3-step calendar triage rooted in John 15:2—Keep & Feed fruitful ministries, Cut or Pause 1–2 low-fruit meetings, and Reinvest 2+ hours/week into relational discipling.",
     deep: "Healthy branches require pruning to bear lasting fruit (Jn 15:2). Most church initiatives fail not from bad theology, but because teams pile new expectations on top of maxed-out calendars. Naming what to STOP honors volunteer energy and protects family life.",
     scripture: "John 15:1–2; Exodus 18:17–23; Hebrews 12:1",
     misconception: "Leaving 'STOP' as an undefined slogan while keeping every committee, bulletin announcement, and legacy class intact.",
