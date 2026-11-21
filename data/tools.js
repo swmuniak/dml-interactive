@@ -44,7 +44,7 @@ window.DML_TOOLS = {
       "Notice which wing your church neglects: strong PLAN without PATH breeds activity without reproduction; strong PATH without PLAN stays a hidden clique."
     ],
     napkinScript: "Draw two triangles meeting at a circle. Say: 'Most churches measure how many attend, connect, and serve on the left—great, yet only 2% usually help someone else follow Jesus on the right. To shift a whole church, we don't pick between Sunday culture and mentoring. The left wing needs a PLAN (Practices, Language, Artifacts, Narratives); the right wing needs a clear PATH (Destination, Growth Loop, Weekly Rhythm, Simple Habits).'",
-    workedExample: "A 180-member congregation notices 160 people attend Sunday worship and 55 serve on hospitality or kids teams, yet only 4 elders or small-group leaders regularly meet 1-on-3 to read Scripture and pray with emerging believers. They use the Bowtie to commit equal leadership energy to launching weekly triads (PATH) and aligning sermon stories and communion testimonies (PLAN).",
+    workedExample: "A 180-member congregation notices 160 people attend Sunday worship and 55 serve on hospitality or kids teams, yet only 4 elders or small-group leaders regularly meet 1-on-3 to read Scripture and pray with emerging believers. They use the Bowtie to commit equal leadership energy to launching life-on-life triads (PATH) and aligning sermon stories and communion testimonies (PLAN).",
     guardrails: "Never treat '16% tipping point' as a mechanical trigger that makes Spirit-dependence unnecessary, and never let Left-Wing marketing swallow Right-Wing relationships."
   },
   "gospel-definition": {
@@ -97,7 +97,7 @@ window.DML_TOOLS = {
     week: 2,
     category: "Core Habit #1",
     tagline: "Three sticky napkin icons—LOOK (Head/Cross: Context & Christ), LISTEN (Heart: Spirit & Community), LIVE (Hands/Feet: 48-Hr Obedience & Share).",
-    whenToUse: "Use daily for personal devotion, weekly in Micro-Triads and Beta groups, and toggle to Seeker DBS mode when reading with curious unbelievers.",
+    whenToUse: "Use daily for personal devotion, in Micro-Triads (1–4x/month) and Beta groups, and toggle to Seeker DBS mode when reading with curious unbelievers.",
     originalSvgPath: "diagrams/bible_reading_tool.svg",
     scripture: "Luke 24:27; Psalm 119:18; 2 Timothy 3:16–17; James 1:22; 2 Peter 1:20",
     relatedTerms: ["christocentric-reading", "sanctification", "seeker-dbs", "napkin-tool"],
@@ -145,7 +145,7 @@ window.DML_TOOLS = {
     week: 2,
     category: "Core Habit #2",
     tagline: "Distills the Lord's Prayer into a 15-second napkin circle—Father in Christ at the center, four clockwise beats (Praise, Confess & Lament, Ask, Go) around the ring.",
-    whenToUse: "Use daily as a 2-minute beginner habit (30 seconds per beat), weekly in Micro-Triads, beside weeping seekers, or stretched to 20 minutes in 1:4–5 Soul Care pods.",
+    whenToUse: "Use daily as a 2-minute beginner habit (30 seconds per beat), in Micro-Triads (1–4x/month), beside weeping seekers, or stretched to 20 minutes in 1:4–5 Soul Care pods.",
     originalSvgPath: "diagrams/prayer_tool_wheel.svg",
     scripture: "Matthew 6:9–13; Hebrews 4:14–16; Ephesians 6:18; Psalm 13; 1 John 1:9",
     relatedTerms: ["examen", "lament-endurance", "soul-care-pods", "fourfold-gospel"],
@@ -199,7 +199,7 @@ window.DML_TOOLS = {
     week: 3,
     category: "Core Habit #3",
     tagline: "Diagrams relational balance—UP with the Father, IN with the church, OUT to neighbors—centered on DOWN (cross-bearing union with Jesus).",
-    whenToUse: "Use weekly in Micro-Triads and Betas to audit calendar health (where have we drifted?) while remembering Christ's unique saving cross.",
+    whenToUse: "Use in Micro-Triads (1–4x/month) and Betas to audit calendar health (where have we drifted?) while remembering Christ's unique saving cross.",
     originalSvgPath: "diagrams/jesus_pattern_tool.svg",
     scripture: "Mark 1:35–39; Luke 6:12–19; Philippians 2:5–8; Luke 9:23",
     relatedTerms: ["cross-bearing", "union-with-christ", "oikos", "life-on-life-rhythm"],
@@ -374,7 +374,7 @@ window.DML_TOOLS = {
       "Take any sensitive program sunset proposal to your Elders and key stakeholders in Module 6 rather than acting abruptly."
     ],
     napkinScript: "Draw an organic rising curve with 'Time & Faithful Sowing' on the bottom and 'Generational Fruit' on the side. Draw a vertical dashed gate halfway across labeled 'PRUNE / STOP.' Say: 'Only God gives the growth (1 Cor 3:7)—we can't force a rocket launch. What we CAN do is pass through the pruning gate and stop 1 or 2 busy things so our leaders actually have time to love people.'",
-    workedExample: "A leadership team decides to pause their monthly administrative 'Program Planning Night' and convert a 10-person midweek announcement-heavy meeting into two weekly neighborhood triads—freeing 3 hours/week immediately.",
+    workedExample: "A leadership team decides to pause their monthly administrative 'Program Planning Night' and convert a 10-person midweek announcement-heavy meeting into two neighborhood triads (meeting 1–4x/month)—freeing hours immediately.",
     guardrails: "Retire programs with honor, gratitude, and clear pastoral communication—never with disdain for people who loved them."
   },
   "oikos-bridge": {

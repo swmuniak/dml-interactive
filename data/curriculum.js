@@ -41,7 +41,7 @@ window.DML_CURRICULUM = {
       title: "Phase 1: Rooted & Practicing",
       weeks: "Modules 1–3",
       image: "assets/images/phase-1-rooted.png",
-      summary: "Anchor identity in union with Christ and launch personal weekly Micro-Triads using three core Scripture, prayer, and rhythm habits."
+      summary: "Anchor identity in union with Christ and launch personal Micro-Triads (1–4x/month) using three core Scripture, prayer, and rhythm habits."
     },
     {
       id: 2,
@@ -140,7 +140,7 @@ window.DML_CURRICULUM = {
           readMin: "2 min",
           bodyHtml: `
             <p>Teams flourish when shared discernment stays paired with lived relationships and transparent partnership with their <span class="term" data-term="stakeholder-alignment">Elders</span>. Built on <span class="term" data-term="andragogy">chunked adult learning</span>, this 10-module path runs two synchronized tracks.</p>
-            <p><strong>Track A (Personal Obedience)</strong> puts every team member into a weekly <span class="term" data-term="micro-triad">Micro-Triad</span> starting in Module 2. <strong>Track B (Church Alignment)</strong> moves honesty, pruning, and board listening ahead of wider pilots so trust grows alongside practice.</p>
+            <p><strong>Track A (Personal Obedience)</strong> puts every team member into a <span class="term" data-term="micro-triad">Micro-Triad</span> (meeting 1–4 times per month) starting in Module 2. <strong>Track B (Church Alignment)</strong> moves honesty, pruning, and board listening ahead of wider pilots so trust grows alongside practice.</p>
           `,
           seeMore: [
             {
@@ -187,7 +187,7 @@ window.DML_CURRICULUM = {
         checklist: [
           { id: "w1-f1", text: "Confirm Elder Board covenant sign-off & 2-Page Baseline Reality Snapshot (Pre-Launch Gate)." },
           { id: "w1-f2", text: "Ask 2 ordinary congregation members: 'In your own words, what is a disciple of Jesus?'" },
-          { id: "w1-f3", text: "Pray daily through Galatians 2:20 and list 2–3 friends you might invite into a weekly Micro-Triad in Module 2." }
+          { id: "w1-f3", text: "Pray daily through Galatians 2:20 and list 2–3 friends you might invite into a Micro-Triad (1–4x/month) in Module 2." }
         ],
         reflectionPrompt: "What surprised you most when listening to ordinary members describe a disciple?"
       }
@@ -198,16 +198,16 @@ window.DML_CURRICULUM = {
       week: 2,
       phase: 1,
       title: "Core Habits I: Listening to Scripture & Praying with the Father",
-      subtitle: "Mastering two 101-level napkin tools and launching personal Micro-Triads within 7 days",
-      timeBudget: "90-Min Team Session + Launch Weekly 45-Min Micro-Triad",
+      subtitle: "Mastering two 101-level napkin tools and launching personal Micro-Triads (1–4x/month)",
+      timeBudget: "90-Min Team Session + Launch 45-Min Micro-Triad (1–4x/Month)",
       fourfoldAnchor: "Laver (Sanctifier) & Cross (Forgiveness)",
       scripture: "Luke 24:27; 2 Peter 1:20; Matthew 6:9–13; Hebrews 4:14–16; James 1:22",
       hook: "Ordinary believers rarely resist discipling others because they hate Jesus—they stay silent because churches hand them intimidating 12-week workbooks. What happens if every follower has two habits simple enough to sketch on a coffee-shop napkin?",
-      keyTakeaway: "We learn Scripture and prayer by doing them together in small, grace-filled circles—anchored in Christ's context and launching real weekly Micro-Triads right now rather than waiting months.",
+      keyTakeaway: "We learn Scripture and prayer by doing them together in small, grace-filled circles—anchored in Christ's context and launching real Micro-Triads (1–4 times per month) right now rather than waiting months.",
       outcomes: {
         know: "How Look • Listen • Live guards against subjective proof-texting with three sticky icons, and how the 4-Beat Prayer Ring turns the Lord's Prayer into a 15-second napkin sketch.",
         feel: "Equipped and unafraid—confident you can open Scripture and pray with two friends right away without being a seminary scholar.",
-        do: "Practice both habits live in session and schedule your first weekly 45-minute Micro-Triad within 7–14 days."
+        do: "Practice both habits live in session and schedule your first 45-minute Micro-Triad (meeting 1–4 times per month)."
       },
       chunks: [
         {
@@ -261,12 +261,12 @@ window.DML_CURRICULUM = {
           title: "4. Track A Deployment: Launching Your Micro-Triad Now",
           readMin: "2 min",
           bodyHtml: `
-            <p>Delayed obedience slows spiritual momentum. Rather than waiting until Module 8 to start church-wide pilots, every lab participant gathers 2–3 friends (or open seekers) into a weekly 45-minute <span class="term" data-term="micro-triad">Personal Micro-Triad</span> starting right away over coffee, breakfast, or a living room.</p>
+            <p>Delayed obedience slows spiritual momentum. Rather than waiting until Module 8 to start church-wide pilots, every lab participant gathers 2–3 friends (or open seekers) into a 45-minute <span class="term" data-term="micro-triad">Personal Micro-Triad</span> (meeting 1–4 times per month) starting right away over coffee, breakfast, or a living room.</p>
           `,
           seeMore: [
             {
               label: "See More: How to Invite Two Friends Without Being Awkward",
-              contentHtml: `<p>Keep it completely human: <em>'I'm trying to grow in actually reading the Bible and praying in real life, not just Sunday mornings. Would you two want to grab coffee for 45 minutes on Thursday mornings for the next month and try a super simple habit together?'</em></p>`
+              contentHtml: `<p>Keep it completely human: <em>'I'm trying to grow in actually reading the Bible and praying in real life, not just Sunday mornings. Would you two want to grab coffee for 45 minutes a couple times a month (1–4x/month) and try a super simple habit together?'</em></p>`
             }
           ]
         }
@@ -281,7 +281,7 @@ window.DML_CURRICULUM = {
           { mins: "20m", title: "Schedule Micro-Triads", instructions: "Each person names 2–3 specific friends to invite right away and locks in a target day/time." }
         ],
         prompts: [
-          { id: "w2-triad-plan", question: "Who are the 2–3 people I am inviting into my weekly 45-min Micro-Triad (Day / Time / Location)?", placeholder: "e.g., Sam and Jordan — Tuesdays 7:00 AM at Corner Bakery (or living room)." },
+          { id: "w2-triad-plan", question: "Who are the 2–3 people I am inviting into my 45-min Micro-Triad (1–4x/month — Cadence / Day / Time / Location)?", placeholder: "e.g., Sam and Jordan — 2x/month on Tuesdays 7:00 AM at Corner Bakery (or living room)." },
           { id: "w2-debrief-insight", question: "From Module 1 parishioner interviews, what stood out in how most members described a disciple?", placeholder: "e.g., Most emphasized attending church or being moral, almost none mentioned union with Christ or passing faith on." }
         ]
       },
@@ -304,9 +304,9 @@ window.DML_CURRICULUM = {
         }
       ],
       fieldPractice: {
-        summary: "Launch your personal Micro-Triad within 7 days and practice both sticky napkin habits.",
+        summary: "Launch your personal Micro-Triad (1–4x/month) and practice both sticky napkin habits.",
         checklist: [
-          { id: "w2-f1", text: "Invite 2–3 friends and hold your first 45-minute weekly Micro-Triad gathering." },
+          { id: "w2-f1", text: "Invite 2–3 friends and hold your first 45-minute Micro-Triad gathering (1–4x/month cadence)." },
           { id: "w2-f2", text: "Practice Look • Listen • Live (Head / Heart / Hands) at least 3 days personally." },
           { id: "w2-f3", text: "Use the 2-minute 4-Beat Prayer Ring or Cross-Centered Examen twice before bed." }
         ],
@@ -320,7 +320,7 @@ window.DML_CURRICULUM = {
       phase: 1,
       title: "Core Habits II: The Jesus Pattern & Everyday Imitation",
       subtitle: "Balancing UP, IN, and OUT around the cross while shifting from classroom lectures to shared life",
-      timeBudget: "90-Min Team Session + Weekly Micro-Triad",
+      timeBudget: "90-Min Team Session + Micro-Triad (1–4x/Month)",
       fourfoldAnchor: "Cross (Kenotic Descent) & Laver (Imitation)",
       scripture: "Mark 3:14; Philippians 2:5–8; 1 Corinthians 4:14–17; 11:1; 2 Timothy 2:2",
       hook: "Why can someone attend 500 Sunday sermons and still freeze when a coworker asks about grief or prayer? Because Western churches treat Truth as a classroom download and skip the middle bridge Jesus and Paul relied on every day: shared-life imitation.",
@@ -411,9 +411,9 @@ window.DML_CURRICULUM = {
         }
       ],
       fieldPractice: {
-        summary: "Keep your weekly Micro-Triad rolling and add one intentional Imitation + OUT rhythm.",
+        summary: "Keep your Micro-Triad (1–4x/month) rolling and add one intentional Imitation + OUT rhythm.",
         checklist: [
-          { id: "w3-f1", text: "Hold your next weekly Micro-Triad gathering (let another member summarize the Bible passage first)." },
+          { id: "w3-f1", text: "Hold your next Micro-Triad gathering (let another member summarize the Bible passage first)." },
           { id: "w3-f2", text: "Invite one triad friend into an ordinary moment of service, meal prep, or hospitality (Imitation)." },
           { id: "w3-f3", text: "Do a 5-minute Sunday evening UP/IN/OUT/DOWN check in your journal." }
         ],
@@ -521,7 +521,7 @@ window.DML_CURRICULUM = {
       fieldPractice: {
         summary: "Test your draft Disciple Definition & Reality notes with two fringe/lay members and sustain your Micro-Triad.",
         checklist: [
-          { id: "w4-f1", text: "Keep your weekly Micro-Triad active (have a partner lead part of Look • Listen • Live)." },
+          { id: "w4-f1", text: "Keep your Micro-Triad (1–4x/month) active (have a partner lead part of Look • Listen • Live)." },
           { id: "w4-f2", text: "Share your 1-sentence Gospel Disciple Definition with 2 lay members outside your core circle for candid feedback." },
           { id: "w4-f3", text: "Initiate one personal calendar subtraction (saying 'no' or pausing one low-fruit task) to protect 2 hrs/week." }
         ],
@@ -634,7 +634,7 @@ window.DML_CURRICULUM = {
         checklist: [
           { id: "w5-f1", text: "Pray daily by name for your 3–5 Oikos friends (at breakfast or commute)." },
           { id: "w5-f2", text: "Share one unhurried meal, walk, or coffee with an Oikos friend—listening generously and sharing your 3-min story or DBS invite if open." },
-          { id: "w5-f3", text: "Continue your weekly Micro-Triad, praying together for each other's Oikos." }
+          { id: "w5-f3", text: "Continue your Micro-Triad (1–4x/month), praying together for each other's Oikos." }
         ],
         reflectionPrompt: "How did praying daily for 3–5 neighbors change what you noticed in everyday conversations?"
       }
@@ -739,7 +739,7 @@ window.DML_CURRICULUM = {
         checklist: [
           { id: "w6-f1", text: "Share your plain-English 1-Pager with Elders and at least 2 non-lab ministry/group leaders; listen carefully to their feedback." },
           { id: "w6-f2", text: "Confirm which Module 4 STOP/pruning step has alignment to proceed cleanly." },
-          { id: "w6-f3", text: "Keep your weekly Micro-Triad and daily Oikos prayer going." }
+          { id: "w6-f3", text: "Keep your Micro-Triad (1–4x/month) and daily Oikos prayer going." }
         ],
         reflectionPrompt: "What valid concern or helpful insight surfaced when you listened to a stakeholder outside your team?"
       }
