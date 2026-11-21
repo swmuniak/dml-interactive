@@ -1016,10 +1016,14 @@ window.DML_CURRICULUM = {
           title: "2. Character Vetting & Crisis Escalation Shield",
           readMin: "3 min",
           bodyHtml: `
-            <p>Remember the <span class="term" data-term="character-competency">Character &amp; Competency Matrix</span>: high skill paired with unrepentant pride produces 'urgent guardrail risk,' whereas God routinely uses humble ordinary saints (1 Cor 1:27).</p>
+            <p>When deploying multiplying leaders, weigh every candidate on the <span class="term" data-term="character-competency">Character &amp; Competency Matrix</span>—where Christlike character always outranks ministry skill (1 Tim 3; Ps 78:72). High character with low skill is <em>Ready for Coaching</em> (God delights in using ordinary saints, 1 Cor 1:27), whereas high skill paired with unrepentant pride is an <strong>Urgent Guardrail Risk</strong>.</p>
             <p>Before any Beta apprentice leads a 2nd-generation group, every candidate walks through a 1-page <span class="term" data-term="vetting-gate">Leader Vetting &amp; Escalation Protocol</span> checking gospel orthodoxy, personal integrity, elder endorsement, and clear 24-hour crisis referral paths.</p>
           `,
           seeMore: [
+            {
+              label: "See More: The 4 Quadrants of Character & Competency",
+              contentHtml: `<ul><li><strong>High Character + High Competency (Trusted Steward):</strong> Ready to lead and coach others inside a 1:4–5 Soul Care pod.</li><li><strong>High Character + Low Competency (Ready for Coaching):</strong> Humble and trustworthy—walk beside them on The Map (L1–L3) so skill grows safely.</li><li><strong>Low Character + High Competency (Urgent Guardrail Risk):</strong> Charismatic or articulate yet proud, divisive, or unrepentant—pause leadership and shepherd their heart first.</li><li><strong>Low Character + Low Competency (Care &amp; Disciple First):</strong> Welcome warmly as a learner in a group, not yet a leader.</li></ul>`
+            },
             {
               label: "See More: Why Simple Tools Need Clear Doctrinal & Safety Guardrails",
               contentHtml: `<p>When groups meet in living rooms, peer leaders will eventually encounter marital crisis, trauma, addiction, or bizarre theology. A written 1-page Escalation Path ensures peer companions love warmly while calling Elders immediately when pastoral/clinical expertise is required.</p>`

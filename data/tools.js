@@ -712,7 +712,7 @@ window.DML_TOOLS = {
         key: "vetting",
         title: "1. Character & Orthodoxy Vetting Shield",
         summary: "Four clear readiness checks before multiplying: Gospel Clarity, Integrity & Repentance, Relational Peace, and Elder Endorsement.",
-        deep: "Wires Module 1's Character & Competency Matrix directly into practice. Protects the flock from deploying charismatic or fast-talking novices lacking moral stability."
+        deep: "Puts the Character & Competency Matrix (Character > Skill) directly into practice. Protects the flock from deploying charismatic or fast-talking novices lacking moral stability."
       },
       {
         key: "soulcare",

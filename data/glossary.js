@@ -353,8 +353,8 @@ window.DML_GLOSSARY = {
     deep: "High skill paired with unrepentant pride creates severe spiritual harm (1 Tim 3; Ps 78:72). Conversely, God delights in using ordinary, weak believers with high integrity (1 Cor 1:27). Character determines readiness for leadership trust; competency grows through coaching.",
     scripture: "Psalm 78:72; 1 Corinthians 1:26–29; 1 Timothy 3:1–13",
     misconception: "Promising 'unlimited breakthrough' based on human skill rather than God's grace and moral trustworthiness.",
-    relatedWeeks: [1, 9],
-    relatedTools: ["vetting-soulcare", "gospel-definition"]
+    relatedWeeks: [9],
+    relatedTools: ["vetting-soulcare"]
   },
   "vetting-gate": {
     id: "vetting-gate",
