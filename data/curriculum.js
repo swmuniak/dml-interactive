@@ -15,7 +15,7 @@ window.DML_CURRICULUM = {
   disseminationPrinciples: [
     {
       title: "1. Chunked Working Memory",
-      summary: "Every module breaks complex strategy into 5 predictable steps and 3–4 bite-sized micro-lessons (100–150 words each) so learners digest core concepts smoothly."
+      summary: "Every module breaks complex strategy into 4 predictable steps with interactive visual tools integrated directly inside 3–4 bite-sized micro-lessons so learners practice concepts right where they are taught."
     },
     {
       title: "2. Three-Tier Progressive Disclosure",
@@ -96,6 +96,7 @@ window.DML_CURRICULUM = {
       chunks: [
         {
           id: "w1-c1",
+          toolId: "bowtie",
           title: "1. Exposing the Attractional Funnel (Bowtie Diagnosis)",
           readMin: "3 min",
           bodyHtml: `
@@ -115,6 +116,7 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w1-c2",
+          toolId: "gospel-definition",
           title: "2. Fixing Our Definition: Union with Christ Before Technique",
           readMin: "4 min",
           bodyHtml: `
@@ -224,6 +226,7 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w2-c2",
+          toolId: "bible-circle",
           title: "2. The Bible Reading Circle (Chew, Digest, Act)",
           readMin: "3 min",
           bodyHtml: `
@@ -239,6 +242,7 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w2-c3",
+          toolId: "prayer-wheel",
           title: "3. Lord's Prayer Wheel (+ 2-Min Ring & Cross-Centered Examen)",
           readMin: "3 min",
           bodyHtml: `
@@ -329,6 +333,7 @@ window.DML_CURRICULUM = {
       chunks: [
         {
           id: "w3-c1",
+          toolId: "jesus-pattern",
           title: "1. UP / IN / OUT Centered on DOWN (Jesus Pattern Compass)",
           readMin: "3 min",
           bodyHtml: `
@@ -344,6 +349,7 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w3-c2",
+          toolId: "training-triangle",
           title: "2. The Training Triangle: No Classroom Shortcuts",
           readMin: "3 min",
           bodyHtml: `
@@ -449,6 +455,7 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w4-c2",
+          toolId: "reality-audit",
           title: "2. Stewardship & Reality Diagnostic (Pastoral Discernment)",
           readMin: "3 min",
           bodyHtml: `
@@ -464,6 +471,7 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w4-c3",
+          toolId: "pruning-curve",
           title: "3. The Pruning & Multiplication Curve (STOP Gate)",
           readMin: "3 min",
           bodyHtml: `
@@ -540,6 +548,7 @@ window.DML_CURRICULUM = {
       chunks: [
         {
           id: "w5-c1",
+          toolId: "oikos-bridge",
           title: "1. Your Oikos: Where God Already Placed You",
           readMin: "2 min",
           bodyHtml: `
@@ -664,6 +673,7 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w6-c2",
+          toolId: "stakeholder-bridge",
           title: "2. The Plain 1-Pager & Stakeholder Listening Matrix",
           readMin: "3 min",
           bodyHtml: `
@@ -754,6 +764,7 @@ window.DML_CURRICULUM = {
       chunks: [
         {
           id: "w7-c1",
+          toolId: "growth-loop",
           title: "1. The Apprenticeship Growth Loop (Domain-Specific Grace)",
           readMin: "3 min",
           bodyHtml: `
@@ -772,6 +783,7 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w7-c2",
+          toolId: "napkin-rubric",
           title: "2. Picture / Mirror / Window & 5-Point Napkin Rubric",
           readMin: "3 min",
           bodyHtml: `
@@ -860,6 +872,7 @@ window.DML_CURRICULUM = {
       chunks: [
         {
           id: "w8-c1",
+          toolId: "gathering-rhythm",
           title: "1. The 3-Part Weekly Life-on-Life Rhythm",
           readMin: "3 min",
           bodyHtml: `
@@ -964,6 +977,7 @@ window.DML_CURRICULUM = {
       chunks: [
         {
           id: "w9-c1",
+          toolId: "culture-canvas",
           title: "1. One Shared Culture Canvas (Co-Designed, Never Retrofitted)",
           readMin: "3 min",
           bodyHtml: `
@@ -979,6 +993,7 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w9-c2",
+          toolId: "vetting-soulcare",
           title: "2. Character Vetting & Crisis Escalation Shield",
           readMin: "3 min",
           bodyHtml: `
@@ -1069,6 +1084,7 @@ window.DML_CURRICULUM = {
       chunks: [
         {
           id: "w10-c1",
+          toolId: "stewardship-roadmap",
           title: "1. Grounding Long-Range Plans in James 4:15 Stewardship",
           readMin: "3 min",
           bodyHtml: `
@@ -1098,6 +1114,7 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w10-c3",
+          toolId: "bowtie",
           title: "3. Commissioning Around Word & Table",
           readMin: "2 min",
           bodyHtml: `

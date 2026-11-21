@@ -84,7 +84,7 @@ window.DML_DIAGRAMS = (function () {
         </g>
 
         <g>
-          <rect x="45" y="226" width="590" height="48" rx="8" fill="var(--bg-alt)" stroke="var(--border-strong)" stroke-width="1.2"/>
+          <rect x="45" y="226" width="590" height="48" rx="8" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="1.2"/>
           <text x="340" y="245" font-size="11" font-weight="700" fill="var(--muted)" text-anchor="middle" letter-spacing="0.04em">TYPICAL CHURCH PERCENTAGES (BASELINE DIAGNOSIS)</text>
           <text x="340" y="264" font-size="11.5" text-anchor="middle">
             <tspan fill="var(--ink)">100% Attend &rarr; 60% Connect &rarr; 30% Serve &rarr; </tspan><tspan font-weight="700" fill="var(--terracotta)">Only ~2% Multiplying</tspan><tspan fill="var(--muted)">  |  </tspan><tspan font-weight="700" fill="var(--primary)">Shift Goal: ~16% Tipping Point</tspan>

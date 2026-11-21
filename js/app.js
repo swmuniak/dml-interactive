@@ -10,12 +10,12 @@
 
   let state = loadState();
   let currentRoute = { view: "home", param: null };
-  let activeWeekStep = 1; // 1..5 or "all"
+  let activeWeekStep = 1; // 1..4 or "all"
   let activeToolParts = {}; // toolId -> activePartKey
   let scenarioAnswers = {}; // "w1-s0" -> optionIdx
   let glossaryFilterCat = "All";
   let glossaryQuery = "";
-  let toolFilterCat = "All";
+  let pendingScrollToolId = null;
   let hoverHideTimer = null;
   let pinnedTermEl = null;
 
@@ -98,10 +98,11 @@
       const n = parseInt(h.split("/")[1], 10);
       if (n >= 1 && n <= 10) return { view: "week", param: n };
     }
-    if (h === "tools") return { view: "tools", param: null };
+    if (h === "tools") return { view: "toolRedirect", param: 1, toolId: null };
     if (h.startsWith("tool/")) {
       const id = h.slice(5);
-      if (window.DML_TOOLS[id]) return { view: "tool", param: id };
+      const t = window.DML_TOOLS[id];
+      if (t) return { view: "toolRedirect", param: t.week, toolId: id };
     }
     if (h === "glossary") return { view: "glossary", param: null };
     if (h === "facilitator") return { view: "facilitator", param: null };
@@ -116,6 +117,14 @@
       window.location.hash = "#" + hash;
     }
     closeMobileSidebar();
+  };
+
+  window.jumpToLessonTool = function (toolId) {
+    const t = window.DML_TOOLS[toolId];
+    if (!t) return;
+    activeWeekStep = 2;
+    pendingScrollToolId = toolId;
+    navigate("module/" + t.week);
   };
 
   function renderSidebar() {
@@ -146,9 +155,6 @@
       ${weeksHtml}
 
       <div class="nav-section-label">Reference &amp; Sustainability</div>
-      <button class="nav-item ${isActive("tools") || isActive("tool") ? "active" : ""}" onclick="navigate('tools')">
-        <span>16 Core Visual Tools</span>
-      </button>
       <button class="nav-item ${isActive("glossary") ? "active" : ""}" onclick="navigate('glossary')">
         <span>Full Glossary (${Object.keys(window.DML_GLOSSARY).length})</span>
       </button>
@@ -170,8 +176,16 @@
     `;
   }
 
-  function renderRoute() {
+  function renderRoute(preserveScroll) {
     currentRoute = parseHash();
+    if (currentRoute.view === "toolRedirect") {
+      activeWeekStep = 2;
+      if (currentRoute.toolId) pendingScrollToolId = currentRoute.toolId;
+      currentRoute = { view: "week", param: currentRoute.param };
+      if (window.history && window.history.replaceState) {
+        window.history.replaceState(null, "", "#module/" + currentRoute.param);
+      }
+    }
     hideTooltip(true);
     renderSidebar();
     updateGlobalProgress();
@@ -183,10 +197,6 @@
       root.innerHTML = renderHome();
     } else if (currentRoute.view === "week") {
       root.innerHTML = renderWeek(currentRoute.param);
-    } else if (currentRoute.view === "tools") {
-      root.innerHTML = renderToolsLibrary();
-    } else if (currentRoute.view === "tool") {
-      root.innerHTML = renderSingleToolPage(currentRoute.param);
     } else if (currentRoute.view === "glossary") {
       root.innerHTML = renderGlossaryPage();
     } else if (currentRoute.view === "facilitator") {
@@ -196,7 +206,17 @@
     }
 
     bindDynamicListeners();
-    window.scrollTo(0, 0);
+
+    if (pendingScrollToolId) {
+      const targetId = pendingScrollToolId;
+      pendingScrollToolId = null;
+      setTimeout(() => {
+        const el = document.getElementById("lesson-tool-" + targetId);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 40);
+    } else if (!preserveScroll) {
+      window.scrollTo(0, 0);
+    }
   }
 
   // =========================================================================
@@ -253,7 +273,6 @@
           <p style="font-size:0.94rem; color:var(--muted);">${esc(c.meta.promise)}</p>
           <div style="display:flex; gap:0.65rem; flex-wrap:wrap; margin-top:0.35rem;">
             <button class="btn btn-primary" onclick="navigate('module/1')">Start Module 1 &rarr;</button>
-            <button class="btn" onclick="navigate('tools')">Browse 16 Visual Tools</button>
             <button class="btn" onclick="navigate('glossary')">Explore Glossary</button>
           </div>
           <div style="font-size:0.8rem; color:var(--muted); padding-top:0.35rem;">
@@ -309,7 +328,7 @@
   }
 
   // =========================================================================
-  // VIEW 2: WEEKLY WORKSPACE (5-STEP CHUNK SWITCHER)
+  // VIEW 2: MODULE WORKSPACE (4-STEP CHUNK & INTEGRATED-TOOL SWITCHER)
   // =========================================================================
   function renderWeek(weekNum) {
     const w = window.DML_CURRICULUM.weeks.find(x => x.week === weekNum);
@@ -319,10 +338,9 @@
 
     const stepBtns = [
       { key: 1, label: "1. Hook & Anchor" },
-      { key: 2, label: "2. Core Teaching" },
-      { key: 3, label: "3. Interactive Tools" },
-      { key: 4, label: "4. Workshop & Scenarios" },
-      { key: 5, label: "5. Field Practice" }
+      { key: 2, label: "2. Lessons & Tools" },
+      { key: 3, label: "3. Workshop & Scenarios" },
+      { key: 4, label: "4. Field Practice" }
     ].map(s => `<button class="step-tab ${activeWeekStep === s.key ? "active" : ""}" onclick="setWeekStep(${s.key})">${s.label}</button>`).join("");
 
     // Step 1 HTML
@@ -355,13 +373,19 @@
         </div>
       </div>`;
 
-    // Step 2 HTML
+    // Step 2 HTML (Core Lessons + Embedded Interactive Tools)
+    const usedToolIds = new Set();
     const chunksHtml = w.chunks.map(ch => {
       const seeMores = (ch.seeMore || []).map(sm => `
         <details class="see-more">
           <summary>${esc(sm.label)}</summary>
           <div class="see-more-body">${sm.contentHtml}</div>
         </details>`).join("");
+      let embeddedToolHtml = "";
+      if (ch.toolId && window.DML_TOOLS[ch.toolId]) {
+        usedToolIds.add(ch.toolId);
+        embeddedToolHtml = renderInteractiveToolCard(ch.toolId, true);
+      }
       return `
         <article class="card">
           <div style="display:flex; justify-content:space-between; align-items:center; gap:0.5rem; margin-bottom:0.55rem;">
@@ -369,16 +393,17 @@
             <span class="badge badge-slate">${esc(ch.readMin)} read</span>
           </div>
           <div style="font-size:0.95rem; line-height:1.68;">${ch.bodyHtml}</div>
+          ${embeddedToolHtml}
           ${seeMores}
         </article>`;
     }).join("");
-    const step2Html = `<div style="display:flex; flex-direction:column; gap:1rem;">${chunksHtml}</div>`;
+    const extraToolsHtml = (w.featuredTools || [])
+      .filter(tid => !usedToolIds.has(tid) && window.DML_TOOLS[tid])
+      .map(tid => renderInteractiveToolCard(tid, true))
+      .join("");
+    const step2Html = `<div style="display:flex; flex-direction:column; gap:1rem;">${chunksHtml}${extraToolsHtml ? `<div class="card" style="display:flex; flex-direction:column; gap:1rem;">${extraToolsHtml}</div>` : ""}</div>`;
 
-    // Step 3 HTML (Interactive Tools)
-    const toolsHtml = w.featuredTools.map(tid => renderInteractiveToolCard(tid)).join("");
-    const step3Html = `<div style="display:flex; flex-direction:column; gap:1.25rem;">${toolsHtml}</div>`;
-
-    // Step 4 HTML (Workshop & Retrieval Scenarios)
+    // Step 3 HTML (Workshop & Retrieval Scenarios)
     const agendaHtml = w.workshop.agenda.map(a => `
       <div class="card-subtle" style="display:flex; gap:0.85rem; align-items:flex-start;">
         <span class="badge badge-primary" style="flex-shrink:0; margin-top:2px;">${esc(a.mins)}</span>
@@ -422,7 +447,7 @@
         </div>`;
     }).join("");
 
-    const step4Html = `
+    const step3Html = `
       <div style="display:flex; flex-direction:column; gap:1rem;">
         <div class="card" style="display:flex; flex-direction:column; gap:0.85rem;">
           <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">
@@ -438,7 +463,7 @@
         ${scenariosHtml}
       </div>`;
 
-    // Step 5 HTML (Field Practice & Completion)
+    // Step 4 HTML (Field Practice & Completion)
     const fpChecks = w.fieldPractice.checklist.map(ch => {
       const checked = !!state.checks[ch.id];
       return `
@@ -450,9 +475,9 @@
     const refId = `w${w.week}-field-reflect`;
     const refVal = state.notes[refId] || "";
 
-    const step5Html = `
+    const step4Html = `
       <div class="card" style="display:flex; flex-direction:column; gap:1rem;">
-        <span class="badge badge-success" style="align-self:flex-start;">Step 5 • Between-Module Relational Obedience</span>
+        <span class="badge badge-success" style="align-self:flex-start;">Step 4 • Between-Module Relational Obedience</span>
         <h3 style="font-size:1.2rem;">Between-Session Field Practice</h3>
         <p style="font-size:0.95rem; color:var(--muted);">${esc(w.fieldPractice.summary)}</p>
         <div style="display:flex; flex-direction:column; gap:0.55rem;">${fpChecks}</div>
@@ -471,12 +496,11 @@
 
     let bodyContent = "";
     if (showAll) {
-      bodyContent = `${step1Html}${step2Html}${step3Html}${step4Html}${step5Html}`;
+      bodyContent = `${step1Html}${step2Html}${step3Html}${step4Html}`;
     } else if (activeWeekStep === 1) bodyContent = step1Html;
     else if (activeWeekStep === 2) bodyContent = step2Html;
     else if (activeWeekStep === 3) bodyContent = step3Html;
-    else if (activeWeekStep === 4) bodyContent = step4Html;
-    else bodyContent = step5Html;
+    else bodyContent = step4Html;
 
     const stepFooterNav = !showAll ? `
       <div class="no-print" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem;">
@@ -484,7 +508,7 @@
           ${activeWeekStep > 1 ? `<button class="btn" onclick="setWeekStep(${activeWeekStep - 1})">&larr; Previous Step</button>` : ""}
         </div>
         <div style="display:flex; gap:0.5rem;">
-          ${activeWeekStep < 5 ? `<button class="btn btn-primary" onclick="setWeekStep(${activeWeekStep + 1})">Next Step &rarr;</button>` : ""}
+          ${activeWeekStep < 4 ? `<button class="btn btn-primary" onclick="setWeekStep(${activeWeekStep + 1})">Next Step &rarr;</button>` : ""}
         </div>
       </div>` : "";
 
@@ -512,7 +536,7 @@
         </div>
       </section>
 
-      <!-- 5-Step Chunk Navigation -->
+      <!-- 4-Step Chunk Navigation -->
       <div class="step-bar no-print">
         <div class="step-tabs">${stepBtns}</div>
         <button class="step-tab ${showAll ? "active" : ""}" onclick="setWeekStep('all')">Show All / Print View</button>
@@ -523,7 +547,7 @@
     `;
   }
 
-  function renderInteractiveToolCard(toolId) {
+  function renderInteractiveToolCard(toolId, embedded) {
     const t = window.DML_TOOLS[toolId];
     if (!t) return "";
     const curPartKey = activeToolParts[toolId] || t.parts[0].key;
@@ -539,7 +563,7 @@
     }).join("");
 
     const origCompareHtml = t.originalSvgPath ? `
-      <details class="see-more">
+      <details class="see-more" ${embedded ? 'style="background:var(--card);"' : ""}>
         <summary>See More: Compare With Original Workbook Diagram</summary>
         <div class="see-more-body" style="text-align:center;">
           <p style="font-size:0.84rem; color:var(--muted); margin-bottom:0.75rem;">Original printed diagram from workbook (note unlabeled shapes and missing theological/pastoral guardrails):</p>
@@ -547,19 +571,24 @@
         </div>
       </details>` : "";
 
+    const wrapperStyle = embedded
+      ? "margin-top:1rem; padding:1rem 1.1rem; background:var(--surface); border:1px solid var(--border-strong); border-left:4px solid var(--primary); border-radius:var(--radius-md); display:flex; flex-direction:column; gap:0.9rem;"
+      : "display:flex; flex-direction:column; gap:1rem;";
+    const wrapperTag = embedded ? "section" : "article";
+    const wrapperClass = embedded ? "integrated-tool-panel" : "card";
+    const explainBg = embedded ? "background:var(--card); border:1px solid var(--border); border-left:4px solid var(--primary);" : "border-left:4px solid var(--primary);";
+    const detailsStyle = embedded ? 'style="margin-top:0; background:var(--card);"' : 'style="margin-top:0;"';
+
     return `
-      <article class="card" style="display:flex; flex-direction:column; gap:1rem;">
-        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.75rem;">
-          <div>
-            <div style="display:flex; gap:0.45rem; flex-wrap:wrap; margin-bottom:0.35rem;">
-              <span class="badge badge-primary">Tool #${t.number}</span>
-              <span class="badge badge-slate">${esc(t.category)}</span>
-              <span class="badge badge-gold">Module ${t.week}</span>
-            </div>
-            <h3 style="font-size:1.25rem;">${esc(t.name)}</h3>
-            <p style="font-size:0.9rem; color:var(--muted); margin-top:0.2rem;">${esc(t.tagline)}</p>
+      <${wrapperTag} id="lesson-tool-${esc(t.id)}" class="${wrapperClass}" style="${wrapperStyle}">
+        <div>
+          <div style="display:flex; gap:0.45rem; flex-wrap:wrap; margin-bottom:0.35rem;">
+            <span class="badge badge-primary">Tool #${t.number}</span>
+            <span class="badge badge-slate">${esc(t.category)}</span>
+            <span class="badge badge-gold">Integrated Practice Tool</span>
           </div>
-          <button class="btn btn-sm no-print" onclick="navigate('tool/${t.id}')">Standalone Tool View &nearr;</button>
+          <h4 style="font-size:1.15rem;">${esc(t.name)}</h4>
+          <p style="font-size:0.88rem; color:var(--muted); margin-top:0.15rem;">${esc(t.tagline)}</p>
         </div>
 
         <!-- Clickable Interactive SVG Stage -->
@@ -572,15 +601,15 @@
         </div>
 
         <!-- Selected Part Explanation -->
-        <div class="card-subtle" style="border-left:4px solid var(--primary);">
-          <div style="font-weight:700; font-size:0.98rem; color:var(--primary);">${esc(curPart.title)}</div>
+        <div class="card-subtle" style="${explainBg}">
+          <div style="font-weight:700; font-size:0.96rem; color:var(--primary);">${esc(curPart.title)}</div>
           <p style="font-size:0.9rem; font-weight:600; margin-top:0.25rem;">${esc(curPart.summary)}</p>
           <p style="font-size:0.86rem; color:var(--muted);">${esc(curPart.deep)}</p>
         </div>
 
         <!-- Progressive Disclosure Details -->
         <div style="display:flex; flex-direction:column; gap:0.35rem;">
-          <details class="see-more" style="margin-top:0;">
+          <details class="see-more" ${detailsStyle}>
             <summary>Step-by-Step How to Use &amp; 3-Minute Napkin Script</summary>
             <div class="see-more-body">
               <p style="font-size:0.86rem; color:var(--muted);"><strong>When to use:</strong> ${esc(t.whenToUse)}</p>
@@ -594,7 +623,7 @@
             </div>
           </details>
 
-          <details class="see-more" style="margin-top:0;">
+          <details class="see-more" ${detailsStyle}>
             <summary>See More: Worked Local Church Example, Scripture &amp; Guardrails</summary>
             <div class="see-more-body">
               <p><strong>Worked Example:</strong> ${esc(t.workedExample)}</p>
@@ -606,58 +635,7 @@
 
           ${origCompareHtml}
         </div>
-      </article>`;
-  }
-
-  // =========================================================================
-  // VIEW 3: 16-TOOL LIBRARY & SINGLE TOOL PAGE
-  // =========================================================================
-  function renderToolsLibrary() {
-    const allTools = Object.values(window.DML_TOOLS);
-    const cats = ["All", ...new Set(allTools.map(t => t.category))];
-    const filtered = toolFilterCat === "All" ? allTools : allTools.filter(t => t.category === toolFilterCat);
-
-    const catBtns = cats.map(c => `
-      <button class="btn btn-sm ${toolFilterCat === c ? "btn-primary" : ""}" onclick="setToolFilter('${esc(c)}')">${esc(c)}</button>`
-    ).join("");
-
-    const cards = filtered.map(t => `
-      <article class="card" style="display:flex; flex-direction:column; gap:0.7rem;">
-        <div style="display:flex; justify-content:space-between; align-items:center; gap:0.5rem;">
-          <span class="badge badge-primary">Tool #${t.number} &bull; Module ${t.week}</span>
-          <span class="badge badge-slate">${esc(t.category)}</span>
-        </div>
-        <h3 style="font-size:1.12rem;">${esc(t.name)}</h3>
-        <div class="diagram-stage" style="padding:0.6rem;">
-          <div class="diagram-svg-scroll">${window.DML_DIAGRAMS.render(t.id, null)}</div>
-        </div>
-        <p style="font-size:0.86rem; color:var(--muted);">${esc(t.tagline)}</p>
-        <div style="display:flex; gap:0.5rem; margin-top:auto;">
-          <button class="btn btn-sm btn-primary" onclick="navigate('tool/${t.id}')">Open Full Guide &rarr;</button>
-          <button class="btn btn-sm" onclick="navigate('module/${t.week}')">Go to Module ${t.week}</button>
-        </div>
-      </article>`).join("");
-
-    return `
-      <section class="card">
-        <span class="badge badge-primary">Complete Toolkit (16 Visuals)</span>
-        <h1 style="font-size:1.6rem; margin-top:0.4rem;">Visual Tools &amp; Napkin Habits Library</h1>
-        <p style="font-size:0.93rem; color:var(--muted); margin-top:0.25rem;">Every framework is fully labeled, interactive, paired with a 3-minute napkin script, and clear of consulting jargon.</p>
-        <div style="display:flex; gap:0.45rem; flex-wrap:wrap; margin-top:0.85rem;">${catBtns}</div>
-      </section>
-      <div class="grid-2">${cards}</div>
-    `;
-  }
-
-  function renderSingleToolPage(toolId) {
-    const t = window.DML_TOOLS[toolId];
-    return `
-      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">
-        <button class="btn btn-sm" onclick="navigate('tools')">&larr; Back to All 16 Tools</button>
-        <button class="btn btn-sm btn-primary" onclick="navigate('module/${t.week}')">Jump to Module ${t.week} Lesson &rarr;</button>
-      </div>
-      ${renderInteractiveToolCard(toolId)}
-    `;
+      </${wrapperTag}>`;
   }
 
   // =========================================================================
@@ -693,7 +671,7 @@
             <p style="margin-top:0.5rem; color:var(--danger);"><strong>Watch Out For:</strong> ${esc(e.misconception)}</p>
             <div style="display:flex; gap:0.4rem; flex-wrap:wrap; margin-top:0.65rem;">
               ${(e.relatedWeeks || []).map(wk => `<button class="btn btn-sm" onclick="navigate('module/${wk}')">Module ${wk}</button>`).join("")}
-              ${(e.relatedTools || []).map(tid => `<button class="btn btn-sm" onclick="navigate('tool/${tid}')">${esc(window.DML_TOOLS[tid] ? window.DML_TOOLS[tid].shortName : tid)}</button>`).join("")}
+              ${(e.relatedTools || []).map(tid => { const t = window.DML_TOOLS[tid]; return `<button class="btn btn-sm" onclick="jumpToLessonTool('${tid}')">Module ${t ? t.week : 1}: ${esc(t ? t.shortName : tid)}</button>`; }).join("")}
             </div>
           </div>
         </details>
@@ -871,7 +849,7 @@
         <div style="font-size:0.8rem; font-weight:700; color:var(--muted); margin-bottom:0.4rem;">Appears In:</div>
         <div style="display:flex; gap:0.4rem; flex-wrap:wrap;">
           ${(entry.relatedWeeks || []).map(wk => `<button class="btn btn-sm" onclick="closeGlossaryDrawer(); navigate('module/${wk}')">Module ${wk}</button>`).join("")}
-          ${(entry.relatedTools || []).map(tid => `<button class="btn btn-sm btn-primary" onclick="closeGlossaryDrawer(); navigate('tool/${tid}')">${esc(window.DML_TOOLS[tid] ? window.DML_TOOLS[tid].shortName : tid)}</button>`).join("")}
+          ${(entry.relatedTools || []).map(tid => { const t = window.DML_TOOLS[tid]; return `<button class="btn btn-sm btn-primary" onclick="closeGlossaryDrawer(); jumpToLessonTool('${tid}')">Module ${t ? t.week : 1}: ${esc(t ? t.shortName : tid)}</button>`; }).join("")}
         </div>
       </div>
     `;
@@ -915,7 +893,7 @@
 
     Object.values(window.DML_TOOLS).forEach(t => {
       if (!q || t.name.toLowerCase().includes(q) || t.tagline.toLowerCase().includes(q)) {
-        results.push({ type: "Tool #" + t.number, title: t.name, sub: t.tagline, action: `closeSearchModal(); navigate('tool/${t.id}')` });
+        results.push({ type: `Tool #${t.number} • Module ${t.week}`, title: t.name, sub: t.tagline, action: `closeSearchModal(); jumpToLessonTool('${t.id}')` });
       }
     });
 
@@ -965,17 +943,12 @@
 
   window.selectToolPart = function (toolId, partKey) {
     activeToolParts[toolId] = partKey;
-    renderRoute();
+    renderRoute(true);
   };
 
   window.answerScenario = function (sKey, oIdx) {
     scenarioAnswers[sKey] = oIdx;
-    renderRoute();
-  };
-
-  window.setToolFilter = function (cat) {
-    toolFilterCat = cat;
-    renderRoute();
+    renderRoute(true);
   };
 
   window.setGlossaryCat = function (cat) {
