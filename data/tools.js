@@ -284,56 +284,50 @@ window.DML_TOOLS = {
   "what-is-audit": {
     id: "what-is-audit",
     number: 7,
-    name: "The 'What Is' Church Reality Mirror (PATH & PLAN Audit)",
-    shortName: "'What Is' Reality Mirror",
+    name: "The 'What Is' Snapshot (Current PATH Inventory)",
+    shortName: "'What Is' Snapshot",
     week: 4,
     category: "Church Leadership",
-    tagline: "Holds an honest mirror (Jas 1:23; Prov 27:23) up to your church's actual scorecard, post-baptism pathway, rooms, habits, and volunteer calendar—separating 'Brochure Claims' from 'What Actually Is.'",
-    whenToUse: "Use at the start of Module 4 to inventory every active gathering, class, and team on your church calendar before sorting them into the 4 Stewardship Quadrants.",
+    tagline: "A simple 4-column inventory (Destination • Map • Vehicles • Tools) to list what currently exists in your church before sorting or pruning.",
+    whenToUse: "Use first in Module 4 to get every existing group, class, committee, and unspoken assumption out on the table honestly.",
     originalSvgPath: "diagrams/whats_your_path_inventory.svg",
     scripture: "Proverbs 27:23; James 1:22–25; Haggai 1:5–7; Revelation 3:1–3",
     relatedTerms: ["relational-apprenticeship-path", "culture-making-plan", "pruning-audit", "bowtie-master-tool"],
     parts: [
       {
         key: "destination",
-        title: "1. DESTINATION: Brochure Rhetoric vs. Unspoken Scorecard",
-        summary: "Our website promises 'Christlike disciples,' yet our stage announcements, budget lines, and applause quietly tell people what actually counts as a 'good member.'",
-        deep: "Ask honestly: If a brand-new visitor watched us for four Sundays, what would they conclude wins affirmation here—showing up, serving nursery shifts, joining committees, or helping someone follow Jesus?"
+        title: "1. DESTINATION: Our Current Unspoken Goal",
+        summary: "What defines a 'good member' in our congregation today—compared with what our brochure says?",
+        deep: "Notice the gap between printed vision statements ('Christlike disciples') and what stage announcements, applause, and budgets quietly reward (attending Sundays, filling committee slots, or loving neighbors and discipling friends)."
       },
       {
         key: "map",
-        title: "2. GROWTH MAP: Post-Baptism Path vs. Lecture Conveyor Belt",
-        summary: "After someone trusts Christ or is baptized, what intentional coaching loop actually walks beside them—or do they ride an endless Sunday/Bible-class conveyor belt?",
-        deep: "Notice where new believers vanish after Month 2, and where 20-year veterans can quote theology yet have never prayed aloud with a coworker or walked a young believer through Scripture."
+        title: "2. THE MAP: Our Actual Growth Path",
+        summary: "How do new believers and longtime members mature after joining—through guided coaching or unstructured classes?",
+        deep: "List whether there is a clear coaching path after baptism or whether adults simply ride a decades-long conveyor belt of Sunday sermons and topical studies with no clear next step."
       },
       {
         key: "vehicles",
-        title: "3. GATHERINGS: Program Islands vs. Life-on-Life Greenhouses",
-        summary: "Walk room by room through every adult study, youth night, deacon board, and ministry team: which ones cultivate life-on-life apprenticeship, and which run as isolated logistics islands?",
-        deep: "Not every faithful gathering needs to shut down! Yet listing every weekly room candidly reveals where social connection or event coordination masquerades as spiritual transformation."
+        title: "3. VEHICLES: Current Groups, Classes & Volunteer Calendar",
+        summary: "List every weekly gathering, small group, class, youth night, and committee currently meeting—and see which top lay leaders hold them up.",
+        deep: "Walking room by room across your weekly calendar exposes two truths at once: where genuine life-on-life relationships are already happening, and where your keenest volunteers spend too many nights maintaining overlapping internal meetings."
       },
       {
         key: "tools",
-        title: "4. HABIT TOOLS: Staff Binders vs. Pocket-Ready Habits",
-        summary: "Waitress Test: Could 50% of your regular adults sketch one simple Bible reading, prayer, or neighbor-conversation habit on a napkin for a friend tomorrow?",
-        deep: "If disciplemaking habits live solely inside multi-week staff PDFs or pulpit series, ordinary saints remain dependent spectators rather than equipped priests (Eph 4:12)."
-      },
-      {
-        key: "calendar",
-        title: "5. THE 168-HOUR LEADER & CULTURE MIRROR (PLAN)",
-        summary: "Test your top 10 most faithful lay volunteers: how many nights a month go to internal church maintenance vs. unhurried tables with emerging disciples and Oikos neighbors?",
-        deep: "Exhausted key leaders rarely lack dedication—their 168 hours are already mortgaged to good-hearted church maintenance. Naming that calendar bottleneck honestly prepares us for John 15 pruning."
+        title: "4. TOOLS: What Daily Habits Can Members Pass On?",
+        summary: "Which discipleship practices in our church require a binder or staff teacher, and which can an ordinary member sketch on a napkin for a friend?",
+        deep: "Write down the actual Bible study, prayer, and evangelism guides currently in circulation—asking honestly how many adults feel confident sharing them tomorrow with a coworker."
       }
     ],
     steps: [
-      "Put two columns on a whiteboard: 'What Our Church Brochure Claims' vs. 'What Our Calendar & Checkbook Show.'",
-      "Walk chronologically across every weekly room, class, youth gathering, and volunteer team—labeling each honestly as a Program Island (mostly info/logistics) or a Greenhouse (shared Scripture, honesty, prayer, and mission).",
-      "Run the 168-Hour Test on your top 10 lay leaders: add up how many hours they already spend maintaining church meetings each week.",
-      "Take your raw inventory straight into the 4-Quadrant Stewardship Diagnostic to separate internal clutter from faithful fruit and uncontrollable trials."
+      "Draw the 4 columns across a whiteboard: 1. Destination, 2. Map, 3. Vehicles (Gatherings), 4. Tools (Daily Habits).",
+      "Spend 20 minutes filling in honest sticky notes describing 'What Actually Exists Right Now'—without defending or attacking past decisions.",
+      "Under Vehicles, mark each room with a simple 'G' (Greenhouse of life-on-life growth) or 'I' (Program Island / mostly info or logistics) and note which volunteers carry the load.",
+      "Bring your sticky notes straight into Tool #8 (The Stewardship Crossroads) to sort what to feed, what to prune, and what to bring before God in lament or prayer."
     ],
-    napkinScript: "Draw a handheld mirror divided into 5 quick checks: 1. Scorecard ('What gets applauded?'), 2. Map ('After baptism, what next?'), 3. Rooms ('Islands or Greenhouses?'), 4. Habits ('Napkin-simple?'), 5. Top-10 Leaders' Clock ('Hours in meetings vs. with people?'). Say: 'Before prescribing medicine, good shepherds look in the mirror honestly—not to shame volunteers, but to see clearly where life is already growing and where our calendar is jammed.'",
-    workedExample: "An 8-person team writes every Sunday and midweek ministry across a butcher-paper wall. To their surprise, their Thursday night moms' playgroup and elderly hospital visitation team show deep life-on-life confession and prayer (Greenhouses), while three overlapping planning committees consume 6 hours/month of the exact same five lay leaders (Program Islands).",
-    guardrails: "Look in the mirror with Christ's mercy (Ps 139:23–24), never cynicism. Every ministry on your calendar was launched by faithful believers who cared—honor their heart while telling the truth about current fruit."
+    napkinScript: "Draw four columns labeled Destination, Map, Vehicles, Tools. Say: 'Before prescribing anything new, take a 20-minute snapshot of what is already here: What goal are we actually aiming at? How do people grow? What rooms fill our calendar? And what simple habits can ordinary believers pass on?'",
+    workedExample: "An 8-person team writes every Sunday and midweek gathering across four whiteboard columns. Under Vehicles, they discover a Thursday moms' prayer table already acts like a thriving Greenhouse, while three overlapping monthly committees consume 6 hours of the same five lay leaders' week.",
+    guardrails: "Keep this step purely descriptive and grateful (Prov 27:23)—never weaponize a 'What Is' inventory to shame faithful volunteers who built what exists today."
   },
   "reality-audit": {
     id: "reality-audit",
@@ -343,7 +337,7 @@ window.DML_TOOLS = {
     week: 4,
     category: "Church Leadership",
     tagline: "A 4-quadrant cross-axis (+) sorting what lies in our hands vs. God's hands: 1. PRUNE internal clutter, 2. FEED healthy fruit, 3. LAMENT external trials without false guilt, 4. STEP IN to open doors.",
-    whenToUse: "Use right after the 'What Is' Church Mirror in Module 4 so your team distinguishes repentable church clutter from trials requiring lament and endurance.",
+    whenToUse: "Use right after the 'What Is' Snapshot in Module 4 so your team distinguishes repentable church clutter from trials requiring lament and endurance.",
     originalSvgPath: "diagrams/spiritual_swot_matrix.svg",
     scripture: "Psalm 139:23–24; Proverbs 27:23; 2 Corinthians 11:23–30; Revelation 3:8",
     relatedTerms: ["pruning-audit", "lament-endurance", "culture-making-plan", "relational-apprenticeship-path"],
@@ -380,7 +374,7 @@ window.DML_TOOLS = {
       }
     ],
     steps: [
-      "Bring forward the sticky notes or list of rooms, rhythms, and pressures uncovered in Tool #7 ('What Is' Reality Mirror).",
+      "Bring forward the sticky notes or list of rooms, rhythms, and pressures uncovered in Tool #7 ('What Is' Snapshot).",
       "Sort honest church observations into the four Stewardship Crossroads quadrants—treating uncontrollable external hardships as places for lament rather than self-blame.",
       "Celebrate Stewarded Fruit publicly and pray through Lament & Endurance together.",
       "Pick 1–2 cluttered items in 'PRUNE' to take straight into the Pruning Audit."

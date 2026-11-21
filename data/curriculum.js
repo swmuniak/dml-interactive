@@ -435,33 +435,33 @@ window.DML_CURRICULUM = {
       outcomes: {
         know: "Where existing church programs reward passive attendance vs. genuine growth—and why uncontrollable external trials are NOT moral failure.",
         feel: "Relieved of false pastoral guilt over things outside human control, and courageous enough to stop 1–2 cluttered commitments.",
-        do: "Complete the 'What Is' Church Mirror across your rooms and top-10 volunteers' calendars, then identify 1–2 commitments for your Pruning Gate."
+        do: "Complete the 4-column 'What Is' Snapshot across your rooms and volunteer calendar, then identify 1–2 commitments for your Pruning Gate."
       },
       chunks: [
         {
           id: "w4-c1",
           toolId: "what-is-audit",
-          title: "1. The 'What Is' Church Mirror: Brochure Claims vs. Calendar Reality",
-          readMin: "4 min",
+          title: "1. The 'What Is' Snapshot: Taking Honest Stock of Where We Are",
+          readMin: "3 min",
           bodyHtml: `
-            <p>Every church carries two invisible blueprints: the <strong>Aspirational Brochure</strong> (&ldquo;We make growing followers of Jesus&rdquo;) and the <strong>Actual Calendar</strong>—what our staff hours, announcements, rooms, and checkbooks quietly reward every Tuesday night. Scripture urges shepherds to &ldquo;know well the condition of your flocks&rdquo; (Prov 27:23) and &ldquo;consider your ways&rdquo; (Hag 1:5) before prescribing another cure.</p>
-            <p>Rather than adding a shiny new group onto an already congested week, <strong>The &lsquo;What Is&rsquo; Church Mirror</strong> inspects five concrete places across your <span class="term" data-term="relational-apprenticeship-path">PATH</span> and <span class="term" data-term="culture-making-plan">PLAN</span>:</p>
+            <p>Before a leadership team can map <em>What Could Be</em>, shepherds must tell the truth about <em>What Is</em> (&ldquo;Know well the condition of your flocks,&rdquo; Prov 27:23). Too often, churches bolt new small-group habits onto an already maxed-out calendar without ever taking an honest look at what currently fills the week.</p>
+            <p><strong>The &lsquo;What Is&rsquo; Snapshot</strong> lays everything out on one clean 4-column table across your <span class="term" data-term="relational-apprenticeship-path">PATH</span> and <span class="term" data-term="culture-making-plan">PLAN</span>:</p>
             <ol>
-              <li><strong>Unspoken Scorecard:</strong> If a guest shadowed your church for a month, would they think maturity means volunteering for logistics, or helping someone follow Jesus?</li>
-              <li><strong>Post-Baptism Drift:</strong> After someone trusts Christ, do we walk beside them intentionally—or drop them onto an endless Sunday and class conveyor belt?</li>
-              <li><strong>Program Islands vs. Greenhouses:</strong> Go room by room across every study, youth night, deacon team, and committee. Which spaces are <em>Program Islands</em> (talking about faith or coordinating events), and where are genuine <em>Life-on-Life Greenhouses</em> practicing honesty, Scripture, and <span class="term" data-term="oikos">Oikos</span> care?</li>
-              <li><strong>Pocket-Ready Habits:</strong> Could half your regular adults pull out a blank napkin and walk a coworker through a <span class="term" data-term="napkin-tool">simple Bible, prayer, or neighbor habit</span> tomorrow?</li>
-              <li><strong>The 168-Hour Volunteer Mirror:</strong> Add up the nights your top 10 lay leaders already spend in church meetings. Most dedicated members aren&rsquo;t apathetic—their week is simply full of church maintenance.</li>
+              <li><strong>1. Destination:</strong> What does our church brochure say a disciple is—and what does our Sunday stage or budget actually applaud?</li>
+              <li><strong>2. Map:</strong> Once someone joins or is baptized, is there an intentional coaching path, or just endless Sunday lectures?</li>
+              <li><strong>3. Vehicles (Gatherings):</strong> List every active room, group, youth night, and committee—spotting where life-on-life growth happens vs. where busyness drains key volunteers.</li>
+              <li><strong>4. Tools:</strong> Could half your adults sketch one <span class="term" data-term="napkin-tool">simple Bible, prayer, or neighbor habit</span> for a friend tomorrow?</li>
             </ol>
+            <p>Once your raw Snapshot is on the board, Lesson 2 sorts it cleanly on <strong>The Stewardship Crossroads</strong> and Lesson 3 prunes clutter on the <strong>John 15 Vine</strong>.</p>
           `,
           seeMore: [
             {
-              label: "See More: 60-Second Litmus Test — 'Program Island' vs. 'Disciplemaking Greenhouse'",
-              contentHtml: `<p>Ask three blunt diagnostic questions about every weekly room on your calendar: <strong>(1) Voice Ratio:</strong> Does one leader talk 80% of the night, or do 3–5 friends open Scripture and confess honestly? <strong>(2) Next-48-Hour Obedience:</strong> Do people leave naming one specific action and one <span class="term" data-term="oikos">Oikos</span> neighbor? <strong>(3) Bench Depth:</strong> If the host got the flu for a month, is someone else trained to step in and multiply?</p>`
+              label: "See More: Quick Litmus Test — 'Program Island' vs. 'Disciplemaking Greenhouse'",
+              contentHtml: `<p>As you list rooms under Column 3 (Vehicles), ask three gentle questions: <strong>(1) Voice Ratio:</strong> Does one teacher talk 80% of the time, or do 3–5 friends open Scripture and share honestly? <strong>(2) 48-Hour Step:</strong> Do people leave with one obedience step and an <span class="term" data-term="oikos">Oikos</span> neighbor? <strong>(3) Bench Depth:</strong> If the host is away for a month, can an apprentice lead naturally?</p>`
             },
             {
-              label: "See More: The Top-10 Lay Leader Calendar Test (Inventorying With Gratitude)",
-              contentHtml: `<p>Every ministry on your calendar was started by someone who loved Jesus and saw a need. Inventory every class and committee with genuine gratitude—honoring faithful volunteers—while calculating honestly how many hours your most devoted lay elders, moms, and teachers spend maintaining meetings instead of sharing dinner with young believers and neighbors.</p>`
+              label: "See More: Inventorying Volunteer Load With Gratitude",
+              contentHtml: `<p>Every ministry on your calendar was started by someone who cared. Honor faithful volunteers while checking how many nights a week your top 10 lay leaders spend maintaining internal meetings rather than sharing tables with young believers and neighbors.</p>`
             }
           ]
         },
@@ -503,7 +503,7 @@ window.DML_CURRICULUM = {
         totalMinutes: 90,
         agenda: [
           { mins: "15m", title: "Micro-Triad Debrief", instructions: "How did Module 3's Imitation invitation go? Pray briefly for each triad." },
-          { mins: "30m", title: "'What Is' Church Mirror: Islands vs. Greenhouses", instructions: "Walk room by room across every weekly gathering, class, and team—then run the 168-Hour Calendar Test on your top 10 lay leaders." },
+          { mins: "30m", title: "4-Column 'What Is' Snapshot", instructions: "List what currently fills your Destination, Map, Vehicles (weekly groups/classes/committees), and Tools—spotting which volunteers carry the heaviest load." },
           { mins: "25m", title: "Stewardship Crossroads 4-Quadrant Sort", instructions: "Place honest observations into the 4 Stewardship Crossroads quadrants—carefully separating Lament & Endurance from Needs Pruning." },
           { mins: "20m", title: "Name 1–2 Commitments to STOP", instructions: "Pass through the Pruning Gate: nominate 1–2 low-fruit meetings/programs to pause or simplify (to discuss respectfully with Elders/stakeholders in Module 6)." }
         ],
