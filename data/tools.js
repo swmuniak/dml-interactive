@@ -21,20 +21,20 @@ window.DML_TOOLS = {
       {
         key: "left",
         title: "Left Wing: Culture Making (PLAN)",
-        summary: "Exposes the Sunday funnel (Attend 100% -> Connect 60% -> Serve 30%) and asks how shared Practices, Language, Artifacts, and Narratives shape everyone.",
-        deep: "Most churches focus 95% of staff energy on the left wing—making weekends better—yet still stall at 30% volunteer involvement. Reforming the left wing means aligning Sunday Word & Table, children, students, and shared stories around making disciples rather than promoting events."
+        summary: "Typical church baseline along the Sunday funnel shows ~100% Attend -> ~60% Connect -> ~30% Serve—asking how shared Practices, Language, Artifacts, and Narratives shape everyone.",
+        deep: "Most churches focus the bulk of staff energy on the left wing—making weekends welcoming—yet typically plateau around 30% volunteer involvement. Reforming the left wing means aligning Sunday Word & Table, children, students, and shared stories around making disciples rather than promoting events."
       },
       {
         key: "center",
         title: "Center Hub: Sent Body (Word & Table)",
-        summary: "Christ's gathered and sent community—roughly 2% actively making disciples who make disciples—where personal apprenticeship turns outward.",
-        deep: "Instead of a passive doorway between rooms, the center is the living Body of Christ nourished by Scripture, Baptism, and Communion. When ordinary believers step off the spectator conveyor belt into small triads and neighborhood hospitality, multiplication begins."
+        summary: "Christ's gathered and sent Word-and-Table community where personal apprenticeship turns outward—though in a typical church, only ~2% currently cross this threshold into active disciplemaking.",
+        deep: "Instead of a passive doorway between rooms, the center is the living Body of Christ nourished by Scripture, Baptism, and Communion. Even when baseline percentages sit around 2%, ordinary believers stepping off the spectator conveyor belt into small triads and neighborhood hospitality spark real multiplication."
       },
       {
         key: "right",
         title: "Right Wing: Relational Apprenticeship (PATH)",
-        summary: "Four elements—Destination, Growth Loop, Gathering Rhythm, and 4 Core Habits—multiplying life-on-life across generations (16% descriptive shift).",
-        deep: "The right wing cannot rely on stage announcements. It grows person-to-person as leaders model simple napkin habits in homes and coffee shops. The 16% mark is descriptive encouragement, never a guarantee: only God gives the growth (1 Cor 3:7)."
+        summary: "People being multiplied generation-to-generation (2 -> 4 -> 6 -> 9 -> 12+) through four PATH elements—Destination, Growth Loop, Gathering Rhythm, and 4 Core Habits—toward a ~16% cultural tipping point.",
+        deep: "The right wing cannot rely on stage announcements. It grows person-to-person as leaders model simple napkin habits in homes and coffee shops and pass them on across generations. The 16% tipping-point benchmark is descriptive encouragement, never a guarantee: only God gives the growth (1 Cor 3:7)."
       }
     ],
     steps: [

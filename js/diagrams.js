@@ -23,45 +23,72 @@ window.DML_DIAGRAMS = (function () {
       const l = hi(active, "left", "var(--terracotta)", 0.12);
       const c = hi(active, "center", "var(--gold)", 0.18);
       const r = hi(active, "right", "var(--primary)", 0.14);
-      return svgWrap("0 0 680 340", `
-        <text x="140" y="28" font-size="14" font-weight="700" fill="var(--terracotta)" text-anchor="middle">Culture Making (Congregation)</text>
-        <text x="540" y="28" font-size="14" font-weight="700" fill="var(--primary)" text-anchor="middle">Relational Apprenticeship</text>
+      const cols = [
+        { x: 420, ys: [122, 138] },
+        { x: 468, ys: [109, 123, 137, 151] },
+        { x: 516, ys: [97, 110, 123, 136, 149, 162] },
+        { x: 557, ys: [104, 117, 130, 143, 156] },
+        { x: 571, ys: [110, 123, 136, 149] },
+        { x: 603, ys: [97, 110, 123, 136, 149, 162] },
+        { x: 619, ys: [97, 110, 123, 136, 149, 162] }
+      ];
+      const peopleIcons = cols.map(col =>
+        col.ys.map(y => `<use href="#bt-person" transform="translate(${col.x},${y})"/>`).join("")
+      ).join("");
+      return svgWrap("0 0 680 385", `
+        <defs>
+          <g id="bt-person">
+            <circle cx="0" cy="-3.6" r="2.1" fill="var(--primary)"/>
+            <path d="M-3,4.8 C-3,0.4 -1.8,-0.7 0,-0.7 C1.8,-0.7 3,0.4 3,4.8 Z" fill="var(--primary)"/>
+          </g>
+        </defs>
+
+        <text x="165" y="23" font-size="14" font-weight="700" fill="var(--terracotta)" text-anchor="middle">Culture Making (Congregation)</text>
+        <text x="518" y="23" font-size="14" font-weight="700" fill="var(--primary)" text-anchor="middle">Relational Apprenticeship</text>
+        <text x="518" y="39" font-size="10.5" fill="var(--muted)" text-anchor="middle">Generational Multiplication (Disciples Making Disciples)</text>
 
         <g class="svg-part" data-part="left">
-          <polygon points="45,55 290,140 45,225" fill="var(--terracotta)" fill-opacity="${l.fillOpacity}" stroke="var(--terracotta)" stroke-width="${l.strokeWidth}" style="filter:${l.filter}"/>
-          <line x1="125" y1="83" x2="125" y2="197" stroke="var(--border-strong)" stroke-width="1.5"/>
-          <line x1="202" y1="110" x2="202" y2="170" stroke="var(--border-strong)" stroke-width="1.5"/>
-          <text x="85" y="135" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">Attend</text>
-          <text x="85" y="154" font-size="12" fill="var(--muted)" text-anchor="middle">100%</text>
-          <text x="164" y="135" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">Connect</text>
-          <text x="164" y="154" font-size="12" fill="var(--muted)" text-anchor="middle">60%</text>
-          <text x="242" y="145" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">Serve 30%</text>
-          <rect x="45" y="242" width="245" height="78" rx="8" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${l.strokeWidth}"/>
-          <text x="168" y="266" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">Needs a PLAN</text>
-          <text x="168" y="287" font-size="12" fill="var(--ink)" text-anchor="middle">Practices • Language</text>
-          <text x="168" y="305" font-size="12" fill="var(--ink)" text-anchor="middle">Artifacts • Narratives</text>
+          <polygon points="45,50 285,130 45,210" fill="var(--terracotta)" fill-opacity="${l.fillOpacity}" stroke="var(--terracotta)" stroke-width="${l.strokeWidth}" style="filter:${l.filter}"/>
+          <line x1="125" y1="77" x2="125" y2="183" stroke="var(--border-strong)" stroke-width="1.5"/>
+          <line x1="205" y1="103" x2="205" y2="157" stroke="var(--border-strong)" stroke-width="1.5"/>
+          <text x="85" y="134" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">Attend</text>
+          <text x="165" y="134" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">Connect</text>
+          <text x="242" y="134" font-size="11.5" font-weight="700" fill="var(--ink)" text-anchor="middle">Serve</text>
+          <rect x="45" y="288" width="245" height="78" rx="8" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${l.strokeWidth}"/>
+          <text x="168" y="312" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">Needs a PLAN</text>
+          <text x="168" y="333" font-size="12" fill="var(--ink)" text-anchor="middle">Practices &bull; Language</text>
+          <text x="168" y="351" font-size="12" fill="var(--ink)" text-anchor="middle">Artifacts &bull; Narratives</text>
         </g>
 
         <g class="svg-part" data-part="right">
-          <polygon points="390,115 635,55 635,225 390,165" fill="var(--primary)" fill-opacity="${r.fillOpacity}" stroke="var(--primary)" stroke-width="${r.strokeWidth}" style="filter:${r.filter}"/>
-          <line x1="455" y1="99" x2="455" y2="181" stroke="var(--border-strong)" stroke-width="1.5"/>
-          <line x1="518" y1="84" x2="518" y2="196" stroke="var(--border-strong)" stroke-width="1.5"/>
-          <line x1="578" y1="69" x2="578" y2="211" stroke="var(--border-strong)" stroke-width="1.5"/>
-          <text x="515" y="128" font-size="13" font-weight="700" fill="var(--ink)" text-anchor="middle">Peer-to-Peer</text>
-          <text x="515" y="147" font-size="13" font-weight="700" fill="var(--ink)" text-anchor="middle">Multiplication</text>
-          <text x="515" y="168" font-size="12" fill="var(--primary)" font-weight="600" text-anchor="middle">16% Cultural Shift</text>
-          <rect x="390" y="242" width="245" height="78" rx="8" fill="var(--card)" stroke="var(--primary)" stroke-width="${r.strokeWidth}"/>
-          <text x="512" y="266" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">Needs a PATH</text>
-          <text x="512" y="287" font-size="12" fill="var(--ink)" text-anchor="middle">Destination • Growth Loop</text>
-          <text x="512" y="305" font-size="12" fill="var(--ink)" text-anchor="middle">Weekly Rhythm • 4 Habits</text>
+          <polygon points="395,108 635,48 635,212 395,152" fill="var(--primary)" fill-opacity="${r.fillOpacity}" stroke="var(--primary)" stroke-width="${r.strokeWidth}" style="filter:${r.filter}"/>
+          <line x1="445" y1="96" x2="445" y2="164" stroke="var(--border-strong)" stroke-width="1.5"/>
+          <line x1="492" y1="84" x2="492" y2="176" stroke="var(--border-strong)" stroke-width="1.5"/>
+          <line x1="540" y1="72" x2="540" y2="188" stroke="var(--border-strong)" stroke-width="1.5"/>
+          <line x1="588" y1="60" x2="588" y2="200" stroke="var(--border-strong)" stroke-width="1.5"/>
+          ${peopleIcons}
+          <rect x="390" y="288" width="245" height="78" rx="8" fill="var(--card)" stroke="var(--primary)" stroke-width="${r.strokeWidth}"/>
+          <text x="512" y="312" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">Needs a PATH</text>
+          <text x="512" y="333" font-size="12" fill="var(--ink)" text-anchor="middle">Destination &bull; Growth Loop</text>
+          <text x="512" y="351" font-size="12" fill="var(--ink)" text-anchor="middle">Weekly Rhythm &bull; 4 Habits</text>
         </g>
 
         <g class="svg-part" data-part="center">
-          <circle cx="340" cy="140" r="60" fill="var(--card)" stroke="var(--gold)" stroke-width="${c.strokeWidth + 1}" style="filter:${c.filter}"/>
-          <circle cx="340" cy="140" r="52" fill="var(--gold)" fill-opacity="${c.fillOpacity}"/>
-          <text x="340" y="124" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">SENT BODY</text>
-          <text x="340" y="144" font-size="12" fill="var(--muted)" text-anchor="middle">Word &amp; Table</text>
-          <text x="340" y="164" font-size="12" font-weight="700" fill="var(--gold)" text-anchor="middle">2% Multiplying</text>
+          <circle cx="340" cy="130" r="56" fill="var(--card)" stroke="var(--gold)" stroke-width="${c.strokeWidth + 1}" style="filter:${c.filter}"/>
+          <circle cx="340" cy="130" r="49" fill="var(--gold)" fill-opacity="${c.fillOpacity}"/>
+          <circle cx="340" cy="95" r="3.4" fill="var(--gold)"/>
+          <path d="M334.5,107 C334.5,101.2 336.8,99.5 340,99.5 C343.2,99.5 345.5,101.2 345.5,107 Z" fill="var(--gold)"/>
+          <text x="340" y="123" font-size="12" font-weight="700" fill="var(--ink)" text-anchor="middle">SENT BODY</text>
+          <text x="340" y="140" font-size="11.5" fill="var(--muted)" text-anchor="middle">Word &amp; Table</text>
+          <text x="340" y="157" font-size="11.5" font-weight="700" fill="var(--gold)" text-anchor="middle">Disciplemakers</text>
+        </g>
+
+        <g>
+          <rect x="45" y="226" width="590" height="48" rx="8" fill="var(--bg-alt)" stroke="var(--border-strong)" stroke-width="1.2"/>
+          <text x="340" y="245" font-size="11" font-weight="700" fill="var(--muted)" text-anchor="middle" letter-spacing="0.04em">TYPICAL CHURCH PERCENTAGES (BASELINE DIAGNOSIS)</text>
+          <text x="340" y="264" font-size="11.5" text-anchor="middle">
+            <tspan fill="var(--ink)">100% Attend &rarr; 60% Connect &rarr; 30% Serve &rarr; </tspan><tspan font-weight="700" fill="var(--terracotta)">Only ~2% Multiplying</tspan><tspan fill="var(--muted)">  |  </tspan><tspan font-weight="700" fill="var(--primary)">Shift Goal: ~16% Tipping Point</tspan>
+          </text>
         </g>
       `);
     },
