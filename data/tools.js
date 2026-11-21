@@ -338,11 +338,11 @@ window.DML_TOOLS = {
   "reality-audit": {
     id: "reality-audit",
     number: 8,
-    name: "Integrated Reality & Stewardship Diagnostic",
-    shortName: "Reality & Stewardship",
+    name: "The Stewardship Crossroads (Prune • Feed • Lament • Step In)",
+    shortName: "Stewardship Crossroads",
     week: 4,
     category: "Church Leadership",
-    tagline: "Moves directly from your 'What Is' Mirror into a pastoral 4-quadrant diagnostic separating internal stewardship from external trials beyond our control.",
+    tagline: "A 4-quadrant cross-axis (+) sorting what lies in our hands vs. God's hands: 1. PRUNE internal clutter, 2. FEED healthy fruit, 3. LAMENT external trials without false guilt, 4. STEP IN to open doors.",
     whenToUse: "Use right after the 'What Is' Church Mirror in Module 4 so your team distinguishes repentable church clutter from trials requiring lament and endurance.",
     originalSvgPath: "diagrams/spiritual_swot_matrix.svg",
     scripture: "Psalm 139:23–24; Proverbs 27:23; 2 Corinthians 11:23–30; Revelation 3:8",
@@ -350,42 +350,42 @@ window.DML_TOOLS = {
     parts: [
       {
         key: "pathplan",
-        title: "Top Input: Raw Findings From the 'What Is' Church Mirror",
-        summary: "Carries forward every gathering, volunteer calendar strain, bright spot, and neighborhood pressure you surfaced in your room-by-room PATH & PLAN inventory.",
-        deep: "Instead of leaping straight from a church audit into blame or panic, holding those concrete observations at the top lets your team sort each one biblically across the four Stewardship Quadrants."
+        title: "Center Axes (+): The Crossroads (In Our Hands vs. In God's Hands)",
+        summary: "The vertical axis separates what lies Within Our Stewardship (top) from Providence Beyond Our Control (bottom); the horizontal axis separates Friction & Hardship (left) from Fruit & Opportunity (right).",
+        deep: "Drawing these two intersecting axes (+) before sorting your 'What Is' inventory protects pastors from blaming themselves for uncontrollable trials while giving courage to prune internal clutter."
       },
       {
         key: "pruning",
-        title: "Top-Left: Needs Pruning (Stewarded + Friction)",
+        title: "1. PRUNE (Top-Left: In Our Hands + Friction)",
         summary: "Unhealthy habits, duplicated meetings, or unclear expectations within our responsibility that require humble repentance or stopping.",
         deep: "Instead of vague 'Frustration,' this quadrant asks what we can directly repent of, simplify, or stop."
       },
       {
         key: "fruit",
-        title: "Top-Right: Stewarded Fruit (Stewarded + Bearing Fruit)",
+        title: "2. FEED (Top-Right: In Our Hands + Fruit)",
         summary: "Current practices and ministries where God's Spirit is clearly producing authentic growth—thank God and cultivate carefully.",
         deep: "Honors what God is already doing in the congregation so the Lab never acts as though nothing good existed prior to Day 1."
       },
       {
         key: "lament",
-        title: "Bottom-Left: Lament & Endurance (Beyond Control + Friction)",
+        title: "3. LAMENT (Bottom-Left: In God's Hands + Hardship)",
         summary: "Painful external realities—illness, regional demographics, bereavement, hostility—that call for faithful endurance, NOT false guilt.",
         deep: "Crucial pastoral distinction: uncontrollable providential hardships call for biblical lament and steadfast hope rather than false pastoral guilt."
       },
       {
         key: "opendoor",
-        title: "Bottom-Right: Open Door (Beyond Control + Fruit)",
+        title: "4. STEP IN (Bottom-Right: In God's Hands + Opportunity)",
         summary: "Unexpected neighborhood receptivity, cultural shifts, or new neighbors God brings across our path—answered with prayerful discernment.",
         deep: "Frames mission openings in Paul's biblical language of 'a wide door for effective work' (1 Cor 16:9; Col 4:3) to be stepped through prayerfully."
       }
     ],
     steps: [
       "Bring forward the sticky notes or list of rooms, rhythms, and pressures uncovered in Tool #7 ('What Is' Reality Mirror).",
-      "Sort honest church observations into the four Stewardship Quadrants—treating uncontrollable external hardships as places for lament rather than self-blame.",
+      "Sort honest church observations into the four Stewardship Crossroads quadrants—treating uncontrollable external hardships as places for lament rather than self-blame.",
       "Celebrate Stewarded Fruit publicly and pray through Lament & Endurance together.",
-      "Pick 1–2 cluttered items in 'Needs Pruning' to take straight into the Pruning Audit."
+      "Pick 1–2 cluttered items in 'PRUNE' to take straight into the Pruning Audit."
     ],
-    napkinScript: "Draw a cross-axis. Label top 'Within Our Stewardship,' bottom 'Beyond Our Control,' left 'Grief & Friction,' right 'Bearing Fruit.' Say: 'Before adding anything new, let's separate what God calls us to change (top-left: Needs Pruning) from hardships we endure by faith (bottom-left: Lament) and open doors he gives (bottom-right).'",
+    napkinScript: "Draw a bold cross-axis (+) in the middle of a napkin. Label top 'In Our Hands,' bottom 'In God's Hands,' left 'Friction,' right 'Fruit.' Write the 4 actions in the corners: 1. PRUNE (top-left clutter), 2. FEED (top-right fruit), 3. LAMENT (bottom-left trials—not moral failure!), and 4. STEP IN (bottom-right open doors).",
     workedExample: "A team notices declining attendance in a long-running Wednesday midweek lecture (Needs Pruning), genuine warmth in a mom's morning group (Stewarded Fruit), grief over recent layoffs in town (Lament & Endurance), and rising numbers of young families moving onto nearby streets (Open Door).",
     guardrails: "Never weaponize this diagnostic against faithful volunteers, and never induce false pastoral guilt over external trials beyond human control."
   },

@@ -468,42 +468,71 @@ window.DML_DIAGRAMS = (function () {
     },
 
     "reality-audit": (active) => {
-      const pp = hi(active, "pathplan", "var(--slate)", 0.14);
-      const pr = hi(active, "pruning", "var(--terracotta)", 0.13);
-      const fr = hi(active, "fruit", "var(--success)", 0.13);
-      const lm = hi(active, "lament", "var(--gold)", 0.14);
+      const pp = hi(active, "pathplan", "var(--slate)", 0.16);
+      const pr = hi(active, "pruning", "var(--terracotta)", 0.14);
+      const fr = hi(active, "fruit", "var(--success)", 0.14);
+      const lm = hi(active, "lament", "var(--gold)", 0.15);
       const op = hi(active, "opendoor", "var(--primary)", 0.14);
-      return svgWrap("0 0 640 340", `
-        <g class="svg-part" data-part="pathplan">
-          <rect x="40" y="14" width="560" height="52" rx="8" fill="var(--slate)" fill-opacity="${pp.fillOpacity}" stroke="var(--slate)" stroke-width="${pp.strokeWidth}"/>
-          <text x="320" y="37" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle">Step 2 Input: Findings From Your &ldquo;What Is&rdquo; Church Mirror (Prov 27:23)</text>
-          <text x="320" y="55" font-size="12" fill="var(--ink)" text-anchor="middle">Sort every room, habit, pressure &amp; open door into the 4 Pastoral Quadrants below</text>
-        </g>
+      return svgWrap("0 0 640 370", `
+        <!-- Pole Labels at the 4 Ends of the Central Axes -->
+        <text x="320" y="20" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">&uarr; WITHIN OUR STEWARDSHIP (In Our Hands)</text>
+        <text x="320" y="358" font-size="12" font-weight="700" fill="var(--slate)" text-anchor="middle">&darr; BEYOND OUR CONTROL (In God&rsquo;s Hands / Providence)</text>
+        <text x="20" y="185" font-size="11.5" font-weight="700" fill="var(--terracotta)" text-anchor="middle" transform="rotate(-90,20,185)">&larr; FRICTION &amp; HARDSHIP</text>
+        <text x="620" y="185" font-size="11.5" font-weight="700" fill="var(--success)" text-anchor="middle" transform="rotate(90,620,185)">FRUIT &amp; OPPORTUNITY &rarr;</text>
 
-        <text x="320" y="88" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">WITHIN OUR STEWARDSHIP (Internal)</text>
-        <text x="320" y="328" font-size="12" font-weight="700" fill="var(--muted)" text-anchor="middle">BEYOND OUR CONTROL (Providence / External)</text>
-        <text x="34" y="198" font-size="12" font-weight="700" fill="var(--terracotta)" text-anchor="middle" transform="rotate(-90,34,198)">GRIEF &amp; FRICTION</text>
-        <text x="606" y="198" font-size="12" font-weight="700" fill="var(--success)" text-anchor="middle" transform="rotate(-90,606,198)">BEARING FRUIT</text>
-
+        <!-- Q1 Top-Left: PRUNE (Needs Pruning) -->
         <g class="svg-part" data-part="pruning">
-          <rect x="65" y="98" width="248" height="100" rx="6" fill="var(--terracotta)" fill-opacity="${pr.fillOpacity}" stroke="var(--terracotta)" stroke-width="${pr.strokeWidth}"/>
-          <text x="189" y="136" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">NEEDS PRUNING</text>
-          <text x="189" y="158" font-size="12" fill="var(--ink)" text-anchor="middle">Repent, simplify, or STOP clutter</text>
+          <rect x="48" y="42" width="252" height="124" rx="10" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${pr.strokeWidth}"/>
+          <rect x="48" y="42" width="252" height="124" rx="10" fill="var(--terracotta)" fill-opacity="${pr.fillOpacity}" style="filter:${pr.filter}"/>
+          <text x="174" y="72" font-size="13.5" font-weight="700" fill="var(--terracotta)" text-anchor="middle">1. PRUNE (Needs Pruning)</text>
+          <text x="174" y="95" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Internal clutter, drift, or duplicated meetings</text>
+          <text x="174" y="116" font-size="11" fill="var(--muted)" text-anchor="middle">Within our hands + causing friction</text>
+          <text x="174" y="142" font-size="11.5" font-weight="700" fill="var(--terracotta)" text-anchor="middle">&rarr; Repent, simplify, or cut (John 15:2)</text>
         </g>
+
+        <!-- Q2 Top-Right: FEED (Stewarded Fruit) -->
         <g class="svg-part" data-part="fruit">
-          <rect x="327" y="98" width="248" height="100" rx="6" fill="var(--success)" fill-opacity="${fr.fillOpacity}" stroke="var(--success)" stroke-width="${fr.strokeWidth}"/>
-          <text x="451" y="136" font-size="13" font-weight="700" fill="var(--success)" text-anchor="middle">STEWARDED FRUIT</text>
-          <text x="451" y="158" font-size="12" fill="var(--ink)" text-anchor="middle">Thank God &amp; cultivate further</text>
+          <rect x="340" y="42" width="252" height="124" rx="10" fill="var(--card)" stroke="var(--success)" stroke-width="${fr.strokeWidth}"/>
+          <rect x="340" y="42" width="252" height="124" rx="10" fill="var(--success)" fill-opacity="${fr.fillOpacity}" style="filter:${fr.filter}"/>
+          <text x="466" y="72" font-size="13.5" font-weight="700" fill="var(--success)" text-anchor="middle">2. FEED (Stewarded Fruit)</text>
+          <text x="466" y="95" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Greenhouses where disciples are growing</text>
+          <text x="466" y="116" font-size="11" fill="var(--muted)" text-anchor="middle">Within our hands + bearing real fruit</text>
+          <text x="466" y="142" font-size="11.5" font-weight="700" fill="var(--success)" text-anchor="middle">&rarr; Thank God, protect &amp; cultivate</text>
         </g>
+
+        <!-- Q3 Bottom-Left: LAMENT (Lament & Endurance) -->
         <g class="svg-part" data-part="lament">
-          <rect x="65" y="208" width="248" height="100" rx="6" fill="var(--gold)" fill-opacity="${lm.fillOpacity}" stroke="var(--gold)" stroke-width="${lm.strokeWidth}"/>
-          <text x="189" y="246" font-size="13" font-weight="700" fill="var(--gold)" text-anchor="middle">LAMENT &amp; ENDURANCE</text>
-          <text x="189" y="268" font-size="12" fill="var(--ink)" text-anchor="middle">Suffering is NOT moral failure</text>
+          <rect x="48" y="204" width="252" height="124" rx="10" fill="var(--card)" stroke="var(--gold)" stroke-width="${lm.strokeWidth}"/>
+          <rect x="48" y="204" width="252" height="124" rx="10" fill="var(--gold)" fill-opacity="${lm.fillOpacity}" style="filter:${lm.filter}"/>
+          <text x="174" y="234" font-size="13.5" font-weight="700" fill="var(--gold)" text-anchor="middle">3. LAMENT (Lament &amp; Endurance)</text>
+          <text x="174" y="257" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Illness, layoffs, demographics, or grief</text>
+          <text x="174" y="278" font-size="11" fill="var(--muted)" text-anchor="middle">Beyond our control + painful trial</text>
+          <text x="174" y="304" font-size="11.5" font-weight="700" fill="var(--gold)" text-anchor="middle">&rarr; Not moral failure; weep &amp; endure (2 Cor 12)</text>
         </g>
+
+        <!-- Q4 Bottom-Right: STEP IN (Open Door) -->
         <g class="svg-part" data-part="opendoor">
-          <rect x="327" y="208" width="248" height="100" rx="6" fill="var(--primary)" fill-opacity="${op.fillOpacity}" stroke="var(--primary)" stroke-width="${op.strokeWidth}"/>
-          <text x="451" y="246" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">OPEN DOOR</text>
-          <text x="451" y="268" font-size="12" fill="var(--ink)" text-anchor="middle">Prayerful discernment (Col 4:3)</text>
+          <rect x="340" y="204" width="252" height="124" rx="10" fill="var(--card)" stroke="var(--primary)" stroke-width="${op.strokeWidth}"/>
+          <rect x="340" y="204" width="252" height="124" rx="10" fill="var(--primary)" fill-opacity="${op.fillOpacity}" style="filter:${op.filter}"/>
+          <text x="466" y="234" font-size="13.5" font-weight="700" fill="var(--primary)" text-anchor="middle">4. STEP IN (Open Door)</text>
+          <text x="466" y="257" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Unexpected neighbor openness or shift</text>
+          <text x="466" y="278" font-size="11" fill="var(--muted)" text-anchor="middle">Beyond our control + Spirit-opened door</text>
+          <text x="466" y="304" font-size="11.5" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr; Discern prayerfully &amp; walk through (Col 4:3)</text>
+        </g>
+
+        <!-- Central Intersecting Axes (+) & Crossroads Hub -->
+        <g class="svg-part" data-part="pathplan">
+          <line x1="320" y1="30" x2="320" y2="340" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/>
+          <polyline points="312,42 320,28 328,42" fill="none" stroke="var(--ink)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="312,328 320,342 328,328" fill="none" stroke="var(--ink)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <line x1="36" y1="185" x2="604" y2="185" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/>
+          <polyline points="48,177 34,185 48,193" fill="none" stroke="var(--ink)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="592,177 606,185 592,193" fill="none" stroke="var(--ink)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <rect x="254" y="168" width="132" height="34" rx="17" fill="var(--card)" stroke="var(--slate)" stroke-width="${pp.strokeWidth}"/>
+          <rect x="254" y="168" width="132" height="34" rx="17" fill="var(--slate)" fill-opacity="${pp.fillOpacity}" style="filter:${pp.filter}"/>
+          <text x="320" y="189" font-size="11" font-weight="700" fill="var(--ink)" text-anchor="middle">THE CROSSROADS (+)</text>
         </g>
       `);
     },

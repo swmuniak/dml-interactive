@@ -468,11 +468,11 @@ window.DML_CURRICULUM = {
         {
           id: "w4-c2",
           toolId: "reality-audit",
-          title: "2. Stewardship & Reality Diagnostic (Pastoral Discernment)",
+          title: "2. The Stewardship Crossroads: Prune, Feed, Lament, or Step In?",
           readMin: "3 min",
           bodyHtml: `
-            <p>Rather than treating every painful trial as organizational failure—tempting pastors to blame themselves for community aging, illness, or hardship—our <strong>Stewardship &amp; Reality Diagnostic</strong> separates what lies <em>Within Our Stewardship</em> from what lies <em>Beyond Our Control</em>.</p>
-            <p>Hardships beyond our control belong in <span class="term" data-term="lament-endurance">Lament &amp; Endurance</span>—not shame. Unexpected receptive opportunities call for prayerful discernment as an <strong>Open Door</strong> (Col 4:3). Only internal clutter calls for pruning.</p>
+            <p>Rather than treating every painful trial as organizational failure—tempting pastors to blame themselves for community aging, illness, or hardship—<strong>The Stewardship Crossroads</strong> (<em>Prune &bull; Feed &bull; Lament &bull; Step In</em>) draws intersecting axes (+) separating what lies <em>Within Our Stewardship</em> from what lies <em>Beyond Our Control</em>.</p>
+            <p>Once your Mirror findings cross those four quadrants, wisdom becomes clear: <strong>1. Prune</strong> internal clutter, <strong>2. Feed</strong> healthy fruit, bring external trials into <span class="term" data-term="lament-endurance">3. Lament &amp; Endurance</span> rather than shame, and prayerfully <strong>4. Step In</strong> when God opens a missionary door (Col 4:3).</p>
           `,
           seeMore: [
             {
@@ -504,7 +504,7 @@ window.DML_CURRICULUM = {
         agenda: [
           { mins: "15m", title: "Micro-Triad Debrief", instructions: "How did Module 3's Imitation invitation go? Pray briefly for each triad." },
           { mins: "30m", title: "'What Is' Church Mirror: Islands vs. Greenhouses", instructions: "Walk room by room across every weekly gathering, class, and team—then run the 168-Hour Calendar Test on your top 10 lay leaders." },
-          { mins: "25m", title: "Stewardship Diagnostic Sort", instructions: "Place honest observations into the 4 Stewardship quadrants—carefully separating Lament & Endurance from Needs Pruning." },
+          { mins: "25m", title: "Stewardship Crossroads 4-Quadrant Sort", instructions: "Place honest observations into the 4 Stewardship Crossroads quadrants—carefully separating Lament & Endurance from Needs Pruning." },
           { mins: "20m", title: "Name 1–2 Commitments to STOP", instructions: "Pass through the Pruning Gate: nominate 1–2 low-fruit meetings/programs to pause or simplify (to discuss respectfully with Elders/stakeholders in Module 6)." }
         ],
         prompts: [
@@ -514,7 +514,7 @@ window.DML_CURRICULUM = {
       },
       scenarios: [
         {
-          prompt: "A factory closes in your town, causing several families to move away and reducing Sunday attendance by 12%. Where does this belong on the Stewardship & Reality Diagnostic?",
+          prompt: "A factory closes in your town, causing several families to move away and reducing Sunday attendance by 12%. Where does this belong on The Stewardship Crossroads?",
           options: [
             { text: "Needs Pruning—we didn't market well enough.", correct: false, feedback: "Economic upheaval in your town is outside your church's stewardship control." },
             { text: "Lament & Endurance—grieve faithfully with affected families without inventing false moral failure.", correct: true, feedback: "Yes! Separating external providential trials from internal neglect protects leaders from false guilt and turns pain into prayer." },
