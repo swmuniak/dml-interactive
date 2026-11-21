@@ -324,9 +324,9 @@ window.DML_CURRICULUM = {
       fourfoldAnchor: "Cross (Kenotic Descent) & Laver (Imitation)",
       scripture: "Luke 6:12–19; Mark 3:13–15; Luke 9:23, 28–43; Philippians 2:5–8; 1 Corinthians 4:14–17; 2 Timothy 2:2",
       hook: "Why can someone attend 500 Sunday sermons and still freeze when a coworker asks about grief or prayer? Because Western churches treat Truth as a classroom download and skip the middle bridge Jesus and Paul relied on every day: shared-life imitation.",
-      keyTakeaway: "Healthy discipleship follows Jesus's Luke 6:12–19 mountain pattern—going UP to the Father, calling disciples IN, stepping DOWN to the level place in cross-bearing humility, and moving OUT to crowds—paired with the TIM Tool (Truth -> Imitation -> Multiplication).",
+      keyTakeaway: "Healthy discipleship follows Jesus's sequential Luke 6:12–19 progression—going 1. UP to the Father -> calling disciples 2. IN -> stepping DOWN to the level place in cross-bearing humility -> pouring 3. OUT to the crowds—paired with the TIM Tool (Truth -> Imitation -> Multiplication).",
       outcomes: {
-        know: "How Jesus's Luke 6 mountain rhythm links UP, IN, DOWN (humble descent to the level place & cross), and OUT, and why Imitation bridges Truth and Multiplication.",
+        know: "How Jesus's Luke 6 mountain progression flows sequentially from 1. UP -> 2. IN -> DOWN (humble descent to the level place & cross) -> 3. OUT, and why Imitation bridges Truth and Multiplication.",
         feel: "Liberated from feeling like a polished lecturer; willing to step down beside 2–3 friends in real dependence on Christ.",
         do: "Audit your calendar with the Jesus Pattern Mountain Compass and invite one triad friend into an ordinary errand or meal this week."
       },
@@ -334,11 +334,11 @@ window.DML_CURRICULUM = {
         {
           id: "w3-c1",
           toolId: "jesus-pattern",
-          title: "1. Jesus's Mountain Rhythm: UP, IN, DOWN, and OUT (Luke 6:12–19)",
+          title: "1. Jesus's Mountain Progression: 1. UP &rarr; 2. IN &rarr; DOWN &rarr; 3. OUT (Luke 6:12–19)",
           readMin: "3 min",
           bodyHtml: `
-            <p>Look closely at Luke 6:12–19: Jesus leaves the crowds and goes <strong>UP</strong> the mountain to pray all night to his Father (v. 12). On the mountainside, he calls his disciples <strong>IN</strong> and names the Twelve to be with him (v. 13–16; Mk 3:14). Then <em>'he came DOWN with them and stood on a level place'</em> (v. 17a) to move <strong>OUT</strong> teaching and healing the multitudes (v. 17b–19).</p>
-            <p>Placing <strong>DOWN</strong> physically at the valley base (<span class="term" data-term="cross-bearing">Cross-Bearing &amp; Union with Christ</span>, Lk 9:23; Phil 2:5–8) reminds us we never stay insulated on mountaintops—Jesus descends with us into real human need.</p>
+            <p>Look closely at the cause-and-effect progression in Luke 6:12–19: Jesus first leaves the noise and goes <strong>1. UP</strong> the mountain to pray all night to his Father (v. 12). Out of that communion, he calls his disciples <strong>2. IN</strong> and names the Twelve to be with him (vv. 13–16; Mk 3:14). Then <em>'he came <strong>DOWN</strong> with them and stood on a level place'</em> (v. 17a) so they could pour <strong>3. OUT</strong> teaching and healing the multitudes (vv. 17b–19).</p>
+            <p>Notice the order: <strong>UP &rarr; IN &rarr; OUT</strong> (carried <strong>DOWN</strong> into real life). Without <strong>1. UP</strong>, <strong>2. IN</strong> becomes shallow socializing; without stepping <strong>DOWN</strong> to the valley base (<span class="term" data-term="cross-bearing">Cross-Bearing &amp; Union with Christ</span>, Lk 9:23; Phil 2:5–8), disciples stay insulated on the mountainside instead of pouring <strong>3. OUT</strong> to neighbors.</p>
           `,
           seeMore: [
             {

@@ -198,7 +198,7 @@ window.DML_TOOLS = {
     shortName: "Jesus Pattern",
     week: 3,
     category: "Core Habit #3",
-    tagline: "Evokes Jesus's mountain rhythm in Luke 6:12–19—UP the mountain to the Father, IN with his disciples, DOWN to the level place in cross-bearing humility, and OUT to minister to the crowds.",
+    tagline: "Traces Jesus's sequential Luke 6:12–19 progression—1. UP the mountain to the Father -> 2. IN with his disciples -> DOWN to the level place in cross-bearing humility -> 3. OUT to minister to the crowds.",
     whenToUse: "Use in Micro-Triads (1–4x/month) and Betas to audit calendar health (where have we drifted?) while remembering Christ's unique saving cross.",
     originalSvgPath: "diagrams/jesus_pattern_tool.svg",
     scripture: "Luke 6:12–19; Mark 3:13–15; Luke 9:23, 28–43; Philippians 2:5–8",
@@ -206,36 +206,36 @@ window.DML_TOOLS = {
     parts: [
       {
         key: "up",
-        title: "UP the Mountain: Solitude With the Father (Luke 6:12)",
+        title: "1. UP the Mountain: Solitude With the Father First (Luke 6:12)",
         summary: "Leaving the crowds to go up on the mountain and pray through the night to God—learning Jesus's filial dependence.",
         deep: "Luke 6:12 shows Jesus departing from the busyness of the plain up into solitary communion with his Father (also Mk 1:35; Lk 5:16). Without UP, IN becomes shallow social networking and OUT burns out into activist pride."
       },
       {
         key: "in",
-        title: "IN on the Mountainside: Covenant Life With Disciples (Luke 6:13–16)",
+        title: "2. IN on the Mountainside: Calling & Forming Disciples (Luke 6:13–16)",
         summary: "Calling his disciples to himself on the mountain and naming the Twelve 'so that they might be with him' (Mk 3:13–14).",
-        deep: "Before coming down to the crowds, Jesus brought a core band of disciples into close fellowship, shared meals, mutual confession, and Word-and-Table formation."
+        deep: "Out of all-night prayer with the Father, Jesus brings a core band of disciples into close fellowship, shared meals, mutual confession, and Word-and-Table formation."
       },
       {
         key: "down",
         title: "DOWN to the Level Place: Cross-Bearing Descent (Luke 6:17a; Phil 2:5–8)",
         summary: "'And he came down with them and stood on a level place' (Lk 6:17a)—stepping from the mountaintop into human need and the humble path of the cross.",
-        deep: "Like coming down the Mount of Transfiguration into a demonized valley (Lk 9:37), Jesus refuses to cling to mountaintop comfort. Placing DOWN at the base of the mountain honors Philippians 2:5–8 and Luke 9:23—remembering Jesus's literal descent for our sake."
+        deep: "Like coming down the Mount of Transfiguration into a demonized valley (Lk 9:37), Jesus refuses to cling to mountaintop comfort. Placing DOWN at the base of the mountain honors Philippians 2:5–8 and Luke 9:23—showing that humble descent carries IN outward to the crowds."
       },
       {
         key: "out",
-        title: "OUT to the Crowds: Compassionate Ministry & Witness (Luke 6:17b–19)",
+        title: "3. OUT to the Crowds: Compassionate Ministry & Witness (Luke 6:17b–19)",
         summary: "Moving outward across the plain to teach, heal, and announce God's kingdom among neighbors far from God.",
         deep: "Note that Jesus's OUT culminated in his unrepeatable atoning ransom (Mk 10:45), which we do not re-enact—we follow him down into the valley to love neighbors and bear witness to his finished rescue."
       }
     ],
     steps: [
-      "Sketch a snowcapped mountain resting on a valley floor: write UP at the peak (Father, Lk 6:12), IN on the slope (Disciples, Lk 6:13), an arrow pointing DOWN to the valley cross (Level Place, Lk 6:17a), and an arrow going OUT across the plain (Crowds, Lk 6:17b–19).",
-      "Rate your past season 1–5 along UP, IN, and OUT—where has one direction quietly disappeared from your calendar?",
+      "Sketch a snowcapped mountain above a valley floor and number the progression: 1. UP at the peak (Father, Lk 6:12) -> arrow to 2. IN on the slope (Disciples, Lk 6:13) -> descending arrow DOWN to the valley cross (Level Place, Lk 6:17a) -> arrow to 3. OUT across the plain (Crowds, Lk 6:17b–19).",
+      "Rate your past season 1–5 along 1. UP -> 2. IN -> 3. OUT—where has the flow broken down or disappeared from your calendar?",
       "Pick one concrete calendar trade to free space for your weakest rhythm.",
-      "Ask together: 'Where is Jesus inviting me to walk DOWN from spiritual comfort to meet someone on the level place this week?'"
+      "Ask together: 'Where is Jesus inviting me to walk DOWN from spiritual comfort to carry what he is doing IN me OUT to someone on the level place this week?'"
     ],
-    napkinScript: "Draw a mountain peak with a wavy snowcap line resting above a flat valley ground line. Write UP at the peak ('Went up to pray — Lk 6:12'), IN inside the mountain ('Called the disciples — Lk 6:13'), draw a big arrow pointing DOWN to the valley floor with a cross ('Came down to the level place — Lk 6:17a; Phil 2:8'), and an arrow going OUT across the plain ('Ministered to crowds — Lk 6:17b–19').",
+    napkinScript: "Draw a mountain peak above a flat valley line. Number the progression with connecting arrows: 1. UP at the peak ('Went up to pray — Lk 6:12') -> arrow into 2. IN on the mountainside ('Called the Twelve — Lk 6:13') -> arrow dropping DOWN to the valley floor with a cross ('Came down to the level place — Lk 6:17a; Phil 2:8') -> arrow flowing into 3. OUT to the crowds ('Ministered to multitudes — Lk 6:17b–19'). Say: 'Prayer UP overflows into community IN, which steps DOWN in humility to pour OUT to neighbors.'",
     workedExample: "A triad realizes they score 4/5 on IN (attending services and small group) and 3/5 on UP, yet 1/5 on OUT—staying comfortable on the mountainside instead of coming down to the level place. They swap one internal Thursday committee meeting to host neighbors on their porch.",
     guardrails: "Never flatten Jesus's unrepeatable messianic death into a mere 'productivity tip.' Only his descent to the cross gives us the grace to walk UP, IN, DOWN, and OUT."
   },

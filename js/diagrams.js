@@ -275,55 +275,78 @@ window.DML_DIAGRAMS = (function () {
       const inn = hi(active, "in", "var(--slate)", 0.14);
       const out = hi(active, "out", "var(--gold)", 0.14);
       const dn = hi(active, "down", "var(--terracotta)", 0.16);
-      return svgWrap("0 0 620 355", `
+      return svgWrap("0 0 620 378", `
         <!-- Valley Ground Line & Mountain Peak -->
-        <line x1="40" y1="238" x2="580" y2="238" stroke="var(--border-strong)" stroke-width="1.8"/>
-        <polygon points="310,68 130,238 490,238" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="2" stroke-linejoin="round"/>
-        <path d="M246,128 Q278,144 310,126 Q338,112 374,128" fill="none" stroke="var(--border-strong)" stroke-width="2" stroke-linecap="round"/>
+        <line x1="34" y1="238" x2="586" y2="238" stroke="var(--border-strong)" stroke-width="1.8"/>
+        <polygon points="310,66 124,238 496,238" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M245,126 Q278,142 310,124 Q338,110 375,126" fill="none" stroke="var(--border-strong)" stroke-width="2" stroke-linecap="round"/>
 
-        <!-- Vertical arrows evoking ascent UP and kenotic descent DOWN -->
-        <line x1="310" y1="68" x2="310" y2="60" stroke="var(--primary)" stroke-width="2"/>
-        <line x1="310" y1="142" x2="310" y2="249" stroke="var(--terracotta)" stroke-width="2.5" stroke-dasharray="4,3"/>
-        <polygon points="304,244 316,244 310,255" fill="var(--terracotta)"/>
+        <!-- PROGRESSION ARROW A: 1. UP -> 2. IN (Curved flow from Peak into Disciples on Mountainside) -->
+        <path d="M220,62 Q168,88 176,127" fill="none" stroke="var(--primary)" stroke-width="2.8" stroke-linecap="round"/>
+        <polygon points="170,124 182,123 177,135" fill="var(--primary)"/>
+        <rect x="144" y="80" width="54" height="19" rx="9" fill="var(--card)" stroke="var(--primary)" stroke-width="1.4"/>
+        <text x="171" y="93" font-size="10" font-weight="700" fill="var(--primary)" text-anchor="middle">1 &rarr; 2</text>
 
-        <!-- UP: Peak -->
+        <!-- PROGRESSION ARROW B: 2. IN -> 3. OUT (Direct horizontal flow across mountainside to crowds) -->
+        <line x1="286" y1="175" x2="332" y2="175" stroke="var(--gold)" stroke-width="3"/>
+        <polygon points="329,169 341,175 329,181" fill="var(--gold)"/>
+        <rect x="285" y="143" width="52" height="19" rx="9" fill="var(--card)" stroke="var(--gold)" stroke-width="1.4"/>
+        <text x="311" y="156" font-size="10" font-weight="700" fill="var(--gold)" text-anchor="middle">2 &rarr; 3</text>
+
+        <!-- DESCENT & LEVEL-PLACE BRIDGE: 2. IN -> DOWN (Valley Base) -> 3. OUT -->
+        <line x1="310" y1="184" x2="310" y2="246" stroke="var(--terracotta)" stroke-width="2.6" stroke-dasharray="4,3"/>
+        <polygon points="304,242 316,242 310,253" fill="var(--terracotta)"/>
+        <path d="M448,254 Q468,236 462,220" fill="none" stroke="var(--terracotta)" stroke-width="2.2" stroke-dasharray="4,3"/>
+        <polygon points="456,223 468,222 461,212" fill="var(--terracotta)"/>
+
+        <!-- 1. UP: Peak -->
         <g class="svg-part" data-part="up">
-          <rect x="170" y="10" width="280" height="50" rx="10" fill="var(--card)" stroke="var(--primary)" stroke-width="${up.strokeWidth}"/>
-          <rect x="170" y="10" width="280" height="50" rx="10" fill="var(--primary)" fill-opacity="${up.fillOpacity}" style="filter:${up.filter}"/>
-          <text x="310" y="31" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">&uarr; UP &mdash; Mountain Prayer to Father</text>
-          <text x="310" y="49" font-size="11.5" fill="var(--ink)" text-anchor="middle">Luke 6:12 &bull; Solitude &amp; Communion</text>
+          <rect x="165" y="10" width="290" height="52" rx="10" fill="var(--card)" stroke="var(--primary)" stroke-width="${up.strokeWidth}"/>
+          <rect x="165" y="10" width="290" height="52" rx="10" fill="var(--primary)" fill-opacity="${up.fillOpacity}" style="filter:${up.filter}"/>
+          <circle cx="191" cy="36" r="14" fill="var(--primary)"/>
+          <text x="191" y="41" font-size="12.5" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+          <text x="322" y="31" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">UP &mdash; Mountain Prayer to Father</text>
+          <text x="322" y="49" font-size="11.5" fill="var(--ink)" text-anchor="middle">Luke 6:12 &bull; Solitude &amp; Communion First</text>
         </g>
 
-        <!-- IN: On the Mountainside with Disciples -->
+        <!-- 2. IN: On the Mountainside with Disciples -->
         <g class="svg-part" data-part="in">
-          <rect x="82" y="138" width="206" height="76" rx="10" fill="var(--card)" stroke="var(--slate)" stroke-width="${inn.strokeWidth}"/>
-          <rect x="82" y="138" width="206" height="76" rx="10" fill="var(--slate)" fill-opacity="${inn.fillOpacity}" style="filter:${inn.filter}"/>
-          <text x="185" y="162" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle">IN &bull; Called Disciples</text>
-          <text x="185" y="181" font-size="11.5" fill="var(--ink)" text-anchor="middle">Together on the mountainside</text>
-          <text x="185" y="199" font-size="11" fill="var(--muted)" text-anchor="middle">Luke 6:13&ndash;16; Mark 3:13&ndash;14</text>
+          <rect x="68" y="136" width="218" height="78" rx="10" fill="var(--card)" stroke="var(--slate)" stroke-width="${inn.strokeWidth}"/>
+          <rect x="68" y="136" width="218" height="78" rx="10" fill="var(--slate)" fill-opacity="${inn.fillOpacity}" style="filter:${inn.filter}"/>
+          <circle cx="92" cy="160" r="13" fill="var(--slate)"/>
+          <text x="92" y="165" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+          <text x="188" y="162" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle">IN &bull; Called Disciples</text>
+          <text x="177" y="182" font-size="11.5" fill="var(--ink)" text-anchor="middle">Formed together on the mountain</text>
+          <text x="177" y="200" font-size="11" fill="var(--muted)" text-anchor="middle">Luke 6:13&ndash;16; Mark 3:13&ndash;14</text>
         </g>
 
-        <!-- OUT: Level Plain & Crowds -->
+        <!-- 3. OUT: Level Plain & Crowds -->
         <g class="svg-part" data-part="out">
-          <rect x="332" y="138" width="214" height="76" rx="10" fill="var(--card)" stroke="var(--gold)" stroke-width="${out.strokeWidth}"/>
-          <rect x="332" y="138" width="214" height="76" rx="10" fill="var(--gold)" fill-opacity="${out.fillOpacity}" style="filter:${out.filter}"/>
-          <text x="439" y="162" font-size="13" font-weight="700" fill="var(--gold)" text-anchor="middle">OUT &bull; Minister to Crowds</text>
-          <text x="439" y="181" font-size="11.5" fill="var(--ink)" text-anchor="middle">Teaching, healing &amp; compassion</text>
-          <text x="439" y="199" font-size="11" fill="var(--muted)" text-anchor="middle">Luke 6:17b&ndash;19</text>
-          <line x1="546" y1="176" x2="574" y2="176" stroke="var(--gold)" stroke-width="2.5"/>
-          <polygon points="571,171 581,176 571,181" fill="var(--gold)"/>
+          <rect x="342" y="136" width="218" height="78" rx="10" fill="var(--card)" stroke="var(--gold)" stroke-width="${out.strokeWidth}"/>
+          <rect x="342" y="136" width="218" height="78" rx="10" fill="var(--gold)" fill-opacity="${out.fillOpacity}" style="filter:${out.filter}"/>
+          <circle cx="366" cy="160" r="13" fill="var(--gold)"/>
+          <text x="366" y="165" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+          <text x="462" y="162" font-size="13" font-weight="700" fill="var(--gold)" text-anchor="middle">OUT &bull; Minister to Crowds</text>
+          <text x="451" y="182" font-size="11.5" fill="var(--ink)" text-anchor="middle">Teaching, healing &amp; compassion</text>
+          <text x="451" y="200" font-size="11" fill="var(--muted)" text-anchor="middle">Luke 6:17b&ndash;19</text>
+          <line x1="560" y1="175" x2="588" y2="175" stroke="var(--gold)" stroke-width="2.8"/>
+          <polygon points="585,169 596,175 585,181" fill="var(--gold)"/>
         </g>
 
         <!-- DOWN: Physically at the Valley Floor -->
         <g class="svg-part" data-part="down">
-          <rect x="130" y="256" width="360" height="84" rx="12" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${dn.strokeWidth}"/>
-          <rect x="130" y="256" width="360" height="84" rx="12" fill="var(--terracotta)" fill-opacity="${dn.fillOpacity}" style="filter:${dn.filter}"/>
-          <line x1="162" y1="278" x2="162" y2="318" stroke="var(--terracotta)" stroke-width="3.5" stroke-linecap="round"/>
-          <line x1="150" y1="290" x2="174" y2="290" stroke="var(--terracotta)" stroke-width="3.5" stroke-linecap="round"/>
-          <text x="322" y="281" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">DOWN &mdash; Came Down to the Level Place (Cross)</text>
-          <text x="322" y="301" font-size="11.5" fill="var(--ink)" text-anchor="middle">Left the peak for human need &amp; servant humility</text>
-          <text x="322" y="320" font-size="11" fill="var(--muted)" text-anchor="middle">Luke 6:17a; Luke 9:37; Phil 2:5&ndash;8; Luke 9:23</text>
+          <rect x="125" y="255" width="370" height="80" rx="12" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${dn.strokeWidth}"/>
+          <rect x="125" y="255" width="370" height="80" rx="12" fill="var(--terracotta)" fill-opacity="${dn.fillOpacity}" style="filter:${dn.filter}"/>
+          <line x1="156" y1="275" x2="156" y2="315" stroke="var(--terracotta)" stroke-width="3.5" stroke-linecap="round"/>
+          <line x1="144" y1="287" x2="168" y2="287" stroke="var(--terracotta)" stroke-width="3.5" stroke-linecap="round"/>
+          <text x="322" y="279" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">DOWN &mdash; Came Down to the Level Place (Cross)</text>
+          <text x="322" y="299" font-size="11.5" fill="var(--ink)" text-anchor="middle">Humble descent from the mountain carries IN out to the crowds</text>
+          <text x="322" y="318" font-size="11" fill="var(--muted)" text-anchor="middle">Luke 6:17a; Luke 9:23, 37; Phil 2:5&ndash;8</text>
         </g>
+
+        <!-- Bottom Progression Summary Strip -->
+        <rect x="44" y="346" width="532" height="24" rx="12" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="1.2"/>
+        <text x="310" y="362" font-size="11" font-weight="700" fill="var(--ink)" text-anchor="middle">LUKE 6:12&ndash;19 FLOW:  1. UP to Father  &rarr;  2. IN with Disciples  &rarr;  (DOWN to Level Place)  &rarr;  3. OUT to Crowds</text>
       `);
     },
 
