@@ -560,11 +560,11 @@ window.DML_TOOLS = {
   "napkin-rubric": {
     id: "napkin-rubric",
     number: 13,
-    name: "Picture / Mirror / Window & 5-Point Napkin Rubric",
-    shortName: "Napkin Rubric",
+    name: "The Napkin Test: Picture • Mirror • Window + 5-Point Gate",
+    shortName: "The Napkin Test",
     week: 7,
     category: "Learning & Tools",
-    tagline: "Pairs three formation lenses with a concrete 5-point checklist for vetting optional contextual tools.",
+    tagline: "Three visual lenses (Picture • Mirror • Window), a 5-point 60-second Napkin Test, and the 4 + 1 Tool Cap.",
     whenToUse: "Use in Module 7 ONLY if an authentic ministry gap remains after practicing the 4 Core Tools—never to manufacture 5–6 redundant diagrams.",
     originalSvgPath: "diagrams/tool_metaphors_picture_mirror_window.svg",
     scripture: "Habakkuk 2:2; James 1:22–25; John 4:35; 1 Corinthians 14:19",
@@ -573,20 +573,20 @@ window.DML_TOOLS = {
       {
         key: "lenses",
         title: "Three Lenses: Picture / Mirror / Window",
-        summary: "Picture shows how to act; Mirror reflects our heart before God; Window turns eyes outward to neighbors and God's world.",
+        summary: "Picture shows what to do; Mirror checks my heart before God; Window looks out to neighbors and God's world.",
         deep: "Checking every tool against all three lenses ensures tools don't collapse into dry flowcharts (Picture only) or navel-gazing (Mirror without Window)."
       },
       {
         key: "rubric",
-        title: "5-Point Napkin Quality Rubric",
-        summary: "1. Simple (draw < 60s) • 2. Visual (3–4 distinct cues) • 3. Actionable (how-to) • 4. Transferable (layperson teaches in 3m) • 5. 101-Level.",
+        title: "The 5-Point Napkin Test (60s Draw • 3–4 Icons • Action • 3m Teach • 101)",
+        summary: "1. <60s Draw from memory • 2. 3–4 visual icons • 3. Clear how-to steps • 4. Any member teaches in 3m • 5. 101-Deep.",
         deep: "Tests clarity objectively with real congregants rather than assuming 90% readiness on intuition alone. If two ordinary non-staff believers cannot sketch it back to you, simplify or retire it."
       },
       {
         key: "exemplar",
-        title: "Worked Exemplar: Messy Draft -> Clean Napkin",
-        summary: "Shows how a cluttered 12-bullet checklist collapses into one visual 3-step loop tested with real laypeople.",
-        deep: "Provides concrete scaffolding within learners' Zone of Proximal Development so nobody stares at a blank 'Tool #3' page wondering what good looks like."
+        title: "The 4 + 1 Tool Cap & 2-Layperson Sketch Test",
+        summary: "Master the 4 Core Tools first (+ max 1 optional church tool), and only keep it if two ordinary laypeople can draw it back in 60 seconds.",
+        deep: "Provides concrete scaffolding within learners' Zone of Proximal Development so teams stay focused on deeply lived, transferable tools rather than bloated binders."
       }
     ],
     steps: [

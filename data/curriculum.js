@@ -797,7 +797,7 @@ window.DML_CURRICULUM = {
         {
           id: "w7-c2",
           toolId: "napkin-rubric",
-          title: "2. Picture / Mirror / Window & 5-Point Napkin Rubric",
+          title: "2. The Napkin Test: Picture • Mirror • Window & 5-Point Gate",
           readMin: "3 min",
           bodyHtml: `
             <p>Respecting <span class="term" data-term="andragogy">Zone of Proximal Development</span> limits, start by mastering four proven core tools rather than rushing into five or six separate diagrams. Use <span class="term" data-term="picture-mirror-window">Picture / Mirror / Window</span> plus our <strong>5-Point Napkin Rubric</strong> to check our 4 shared tools—and refine at most <strong>one</strong> optional contextual aid only if a genuine ministry gap remains.</p>

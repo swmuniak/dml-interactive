@@ -787,29 +787,91 @@ window.DML_DIAGRAMS = (function () {
       const ln = hi(active, "lenses", "var(--primary)", 0.13);
       const rb = hi(active, "rubric", "var(--gold)", 0.14);
       const ex = hi(active, "exemplar", "var(--terracotta)", 0.13);
-      return svgWrap("0 0 640 280", `
+      return svgWrap("0 0 640 365", `
+        <!-- TOP BAND: PICTURE / MIRROR / WINDOW (Illustrated Icons) -->
         <g class="svg-part" data-part="lenses">
-          <rect x="24" y="22" width="592" height="96" rx="10" fill="var(--primary)" fill-opacity="${ln.fillOpacity}" stroke="var(--primary)" stroke-width="${ln.strokeWidth}"/>
-          <text x="122" y="54" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">PICTURE</text>
-          <text x="122" y="76" font-size="12" fill="var(--ink)" text-anchor="middle">Shows how to act</text>
-          <text x="320" y="54" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">MIRROR</text>
-          <text x="320" y="76" font-size="12" fill="var(--ink)" text-anchor="middle">Examines my heart</text>
-          <text x="518" y="54" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">WINDOW</text>
-          <text x="518" y="76" font-size="12" fill="var(--ink)" text-anchor="middle">Opens eyes to neighbors</text>
+          <rect x="20" y="12" width="600" height="154" rx="14" fill="var(--card)" stroke="var(--primary)" stroke-width="${ln.strokeWidth}"/>
+          <rect x="20" y="12" width="600" height="154" rx="14" fill="var(--primary)" fill-opacity="${ln.fillOpacity}" style="filter:${ln.filter}"/>
+          <text x="320" y="33" font-size="11" font-weight="700" fill="var(--primary)" text-anchor="middle" letter-spacing="0.06em">EVERY GREAT TOOL WORKS AS THREE LENSES</text>
+
+          <!-- 1. PICTURE Icon (Framed Mountain & Sun) -->
+          <rect x="92" y="45" width="60" height="52" rx="4" fill="var(--surface)" stroke="var(--primary)" stroke-width="2.2"/>
+          <circle cx="109" cy="60" r="6" fill="var(--gold)" fill-opacity="0.35" stroke="var(--primary)" stroke-width="1.6"/>
+          <polyline points="94,91 112,72 125,84 136,70 150,91" fill="none" stroke="var(--primary)" stroke-width="2.2" stroke-linejoin="round"/>
+          <text x="122" y="118" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">PICTURE</text>
+          <text x="122" y="135" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Shows What to Do</text>
+          <text x="122" y="152" font-size="10.5" fill="var(--muted)" text-anchor="middle">&ldquo;Can I see the steps?&rdquo;</text>
+
+          <!-- Vertical Divider 1 -->
+          <line x1="220" y1="48" x2="220" y2="152" stroke="var(--border-strong)" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+          <!-- 2. MIRROR Icon (Oval Vanity Mirror on Stand with Glint) -->
+          <ellipse cx="320" cy="67" rx="18" ry="22" fill="var(--surface)" stroke="var(--primary)" stroke-width="2.2"/>
+          <line x1="311" y1="58" x2="318" y2="51" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="312" y1="67" x2="323" y2="56" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M298,70 C298,90 342,90 342,70" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+          <line x1="320" y1="88" x2="320" y2="97" stroke="var(--primary)" stroke-width="2.2"/>
+          <line x1="306" y1="97" x2="334" y2="97" stroke="var(--primary)" stroke-width="2.2" stroke-linecap="round"/>
+          <text x="320" y="118" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">MIRROR</text>
+          <text x="320" y="135" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Checks My Heart</text>
+          <text x="320" y="152" font-size="10.5" fill="var(--muted)" text-anchor="middle">&ldquo;Where am I convicted?&rdquo;</text>
+
+          <!-- Vertical Divider 2 -->
+          <line x1="420" y1="48" x2="420" y2="152" stroke="var(--border-strong)" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+          <!-- 3. WINDOW Icon (4-Pane Open Window) -->
+          <rect x="492" y="44" width="52" height="54" rx="3" fill="var(--surface)" stroke="var(--primary)" stroke-width="2.2"/>
+          <rect x="497" y="49" width="42" height="44" fill="none" stroke="var(--primary)" stroke-width="1.5"/>
+          <line x1="518" y1="49" x2="518" y2="93" stroke="var(--primary)" stroke-width="1.8"/>
+          <line x1="497" y1="71" x2="539" y2="71" stroke="var(--primary)" stroke-width="1.8"/>
+          <text x="518" y="118" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">WINDOW</text>
+          <text x="518" y="135" font-size="11.5" font-weight="600" fill="var(--ink)" text-anchor="middle">Looks Out to Neighbors</text>
+          <text x="518" y="152" font-size="10.5" fill="var(--muted)" text-anchor="middle">&ldquo;Who else needs this?&rdquo;</text>
         </g>
+
+        <!-- BOTTOM-LEFT: ILLUSTRATED FOLDED PAPER NAPKIN (5-Point Test) -->
         <g class="svg-part" data-part="rubric">
-          <rect x="24" y="136" width="320" height="122" rx="10" fill="var(--gold)" fill-opacity="${rb.fillOpacity}" stroke="var(--gold)" stroke-width="${rb.strokeWidth}"/>
-          <text x="184" y="162" font-size="13" font-weight="700" fill="var(--gold)" text-anchor="middle">5-Point Napkin Quality Gate</text>
-          <text x="42" y="186" font-size="12" fill="var(--ink)">1. Simple (&lt; 60 sec draw) &bull; 2. Visual cues</text>
-          <text x="42" y="208" font-size="12" fill="var(--ink)">3. Process how-to &bull; 4. Layperson teaches (3m)</text>
-          <text x="42" y="230" font-size="12" fill="var(--ink)">5. 101-Level (grows from Day 1 to Year 10)</text>
+          <path d="M20,182 L344,182 L366,204 L366,352 L20,352 Z" fill="var(--card)" stroke="var(--gold)" stroke-width="${rb.strokeWidth}" stroke-linejoin="round"/>
+          <path d="M20,182 L344,182 L366,204 L366,352 L20,352 Z" fill="var(--gold)" fill-opacity="${rb.fillOpacity}" style="filter:${rb.filter}"/>
+          <!-- Folded Napkin Corner Triangle -->
+          <polygon points="344,182 344,204 366,204" fill="var(--surface)" stroke="var(--gold)" stroke-width="1.6" stroke-linejoin="round"/>
+          <!-- Inner Napkin Stitch Border -->
+          <rect x="28" y="190" width="330" height="154" rx="4" fill="none" stroke="var(--gold)" stroke-width="0.9" stroke-dasharray="3,3" stroke-opacity="0.6"/>
+          <text x="184" y="212" font-size="13" font-weight="700" fill="var(--gold)" text-anchor="middle">THE 5-POINT NAPKIN TEST</text>
+
+          <text x="42" y="238" font-size="11.5" fill="var(--ink)"><tspan font-weight="700" fill="var(--gold)">&#10003; 1. &lt; 60s Draw</tspan> &mdash; Sketch from memory</text>
+          <text x="42" y="261" font-size="11.5" fill="var(--ink)"><tspan font-weight="700" fill="var(--gold)">&#10003; 2. 3&ndash;4 Icons</tspan> &mdash; Visual, not a wall of text</text>
+          <text x="42" y="284" font-size="11.5" fill="var(--ink)"><tspan font-weight="700" fill="var(--gold)">&#10003; 3. Actionable</tspan> &mdash; Clear how-to steps</text>
+          <text x="42" y="307" font-size="11.5" fill="var(--ink)"><tspan font-weight="700" fill="var(--gold)">&#10003; 4. 3-Min Teach</tspan> &mdash; Any member passes it on</text>
+          <text x="42" y="330" font-size="11.5" fill="var(--ink)"><tspan font-weight="700" fill="var(--gold)">&#10003; 5. 101-Deep</tspan> &mdash; Day 1 simple, Year 10 rich</text>
         </g>
+
+        <!-- BOTTOM-RIGHT: THE 4 + 1 TOOL CAP & LAYPERSON TEST -->
         <g class="svg-part" data-part="exemplar">
-          <rect x="364" y="136" width="252" height="122" rx="10" fill="var(--terracotta)" fill-opacity="${ex.fillOpacity}" stroke="var(--terracotta)" stroke-width="${ex.strokeWidth}"/>
-          <text x="490" y="162" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">Optional Tool Cap</text>
-          <text x="490" y="188" font-size="12" fill="var(--ink)" text-anchor="middle">4 Core Tools FIRST</text>
-          <text x="490" y="210" font-size="12" fill="var(--ink)" text-anchor="middle">+ Max 1 Optional Church Tool</text>
-          <text x="490" y="234" font-size="12" fill="var(--muted)" text-anchor="middle">Tested with 2 laypeople</text>
+          <rect x="384" y="182" width="236" height="170" rx="14" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${ex.strokeWidth}"/>
+          <rect x="384" y="182" width="236" height="170" rx="14" fill="var(--terracotta)" fill-opacity="${ex.fillOpacity}" style="filter:${ex.filter}"/>
+          <text x="502" y="210" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">THE 4 + 1 TOOL CAP</text>
+          <text x="502" y="228" font-size="11" fill="var(--muted)" text-anchor="middle">Master 4 Core Tools Before Adding</text>
+
+          <!-- 4 Solid Core Tool Tiles + 1 Dashed Optional Slot -->
+          <rect x="404" y="242" width="32" height="36" rx="6" fill="var(--primary)" fill-opacity="0.2" stroke="var(--primary)" stroke-width="1.8"/>
+          <text x="420" y="265" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">1</text>
+          <rect x="442" y="242" width="32" height="36" rx="6" fill="var(--primary)" fill-opacity="0.2" stroke="var(--primary)" stroke-width="1.8"/>
+          <text x="458" y="265" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">2</text>
+          <rect x="480" y="242" width="32" height="36" rx="6" fill="var(--primary)" fill-opacity="0.2" stroke="var(--primary)" stroke-width="1.8"/>
+          <text x="496" y="265" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">3</text>
+          <rect x="518" y="242" width="32" height="36" rx="6" fill="var(--primary)" fill-opacity="0.2" stroke="var(--primary)" stroke-width="1.8"/>
+          <text x="534" y="265" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">4</text>
+
+          <text x="559" y="265" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">+</text>
+
+          <rect x="568" y="242" width="34" height="36" rx="6" fill="var(--surface)" stroke="var(--terracotta)" stroke-width="1.8" stroke-dasharray="4,3"/>
+          <text x="585" y="265" font-size="11.5" font-weight="700" fill="var(--terracotta)" text-anchor="middle">1?</text>
+
+          <!-- Layperson Sketch Test Stamp -->
+          <rect x="404" y="292" width="196" height="44" rx="8" fill="var(--surface)" stroke="var(--terracotta)" stroke-width="1.2"/>
+          <text x="502" y="311" font-size="11" font-weight="700" fill="var(--terracotta)" text-anchor="middle">2-LAYPERSON SKETCH TEST</text>
+          <text x="502" y="327" font-size="10.5" fill="var(--ink)" text-anchor="middle">Can they draw it back in 60s?</text>
         </g>
       `);
     },
