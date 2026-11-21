@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Disciple Making Lab — Comprehensive Glossary (39 Essential Terms)
+   Disciple Making Lab — Comprehensive Glossary (40 Essential Terms)
    Every major theological, pastoral, missiological, and learning term
    ========================================================================== */
 
@@ -145,7 +145,7 @@ window.DML_GLOSSARY = {
     scripture: "Mark 3:14; 1 Corinthians 11:1; 1 Thessalonians 2:8",
     misconception: "Engineering an elaborate organizational PATH on whiteboards for five months before personally walking with 2–3 friends.",
     relatedWeeks: [1, 4, 7, 8],
-    relatedTools: ["bowtie", "reality-audit", "gathering-rhythm"]
+    relatedTools: ["bowtie", "what-is-audit", "growth-loop", "gathering-rhythm"]
   },
   "tipping-point": {
     id: "tipping-point",
@@ -218,7 +218,7 @@ window.DML_GLOSSARY = {
     term: "Faithful Multiplication",
     category: "Theology",
     short: "Entrusting tested, gospel-rooted habits to reliable believers who can live them and pass them along to a fourth generation (2 Tim 2:2).",
-    deep: "Replacing the Silicon Valley term 'Innovation,' Faithful Multiplication balances contextual adaptability (speaking a neighbor's language) with apostolic fidelity—making sure the next generation holds the true gospel rather than watered-down shortcuts.",
+    deep: "Rather than chasing novel 'Innovation' for its own sake, Faithful Multiplication balances contextual adaptability (speaking a neighbor's language) with apostolic fidelity—making sure the next generation holds the true gospel rather than watered-down shortcuts.",
     scripture: "2 Timothy 1:13–14; 2:2; Jude 3",
     misconception: "Requiring every church or leader to reinvent proprietary methods instead of stewarding proven, reproducible patterns.",
     relatedWeeks: [3, 7, 9],
@@ -295,7 +295,7 @@ window.DML_GLOSSARY = {
     term: "Spirit-Dependent Maturity (D4 Posture)",
     category: "Theology",
     short: "Seasoned faithfulness where a believer naturally reproduces habits in others while growing *more* aware of their daily need for Jesus's grace.",
-    deep: "Replaces the secular leadership label 'Unconscious Competence.' In Christian formation, nobody graduates into autopilot mastery. The closer Paul walked with Christ, the deeper his humility grew (1 Tim 1:15; Jn 15:5)—empowering others while remaining rooted in Christ.",
+    deep: "Unlike secular models of 'Unconscious Competence,' in Christian formation nobody graduates into autopilot mastery. The closer Paul walked with Christ, the deeper his humility grew (1 Tim 1:15; Jn 15:5)—empowering others while remaining rooted in Christ.",
     scripture: "John 15:5; 1 Timothy 1:15; Philippians 3:12–15",
     misconception: "Assuming mature leaders no longer need Soul Care, confession, or close accountability.",
     relatedWeeks: [7, 9],
@@ -394,7 +394,7 @@ window.DML_GLOSSARY = {
     term: "Prayerful Stewardship Roadmap",
     category: "Church Leadership",
     short: "A 4-horizon planning chart (90-Day, 1-Year, 3-Year, Prayerful Vision) aligning apprenticeship (PATH) and culture (PLAN) humbly under James 4:15 ('If the Lord wills').",
-    deep: "Replacing corporate aerospace 'Moonshot' guarantees, this roadmap pairs short-term operational clarity with sober budget/calendar checks and theological humility: we plant and water diligently, while trusting God alone for the harvest (1 Cor 3:7).",
+    deep: "Rather than making triumphalist guarantees, this roadmap pairs short-term operational clarity with sober budget/calendar checks and theological humility: we plant and water diligently, while trusting God alone for the harvest (1 Cor 3:7).",
     scripture: "James 4:13–15; 1 Corinthians 3:6–9; Proverbs 16:9",
     misconception: "Writing triumphalist pledges claiming a culture shift 'could only be derailed if you intentionally tried to stop it.'",
     relatedWeeks: [10],
@@ -408,7 +408,7 @@ window.DML_GLOSSARY = {
     deep: "Many church initiatives collapse in Year 2 when a key champion leaves or budget season tightens. Securing board ratification and handing every incoming pastor or elder a 2-page primer in their first 30 days embeds the DNA into church governance.",
     scripture: "1 Timothy 5:17; Titus 1:5; Deuteronomy 31:7–9",
     misconception: "Ending a 10-module lab with personal inspiration while leaving the wider church board and future hires out of the loop.",
-    relatedWeeks: [1, 10],
+    relatedWeeks: [1, 6, 10],
     relatedTools: ["stewardship-roadmap", "stakeholder-bridge"]
   },
   "commissioning": {
@@ -420,7 +420,7 @@ window.DML_GLOSSARY = {
     scripture: "Matthew 28:18–20; Acts 13:2–3; 1 Corinthians 11:26",
     misconception: "Framing the end of a training cohort as graduation into self-reliant organizational management.",
     relatedWeeks: [10],
-    relatedTools: ["stewardship-roadmap", "bowtie"]
+    relatedTools: ["stewardship-roadmap"]
   },
   "examen": {
     id: "examen",

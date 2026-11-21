@@ -212,15 +212,15 @@ window.DML_CURRICULUM = {
       chunks: [
         {
           id: "w2-c1",
-          title: "1. What Makes a 101-Level Napkin Tool?",
+          title: "1. Why We Start With Four Pocket-Ready Tools",
           readMin: "2 min",
           bodyHtml: `
-            <p>Instead of inventing six custom diagrams from scratch, we focus on four shared <span class="term" data-term="napkin-tool">101-Level Napkin Tools</span> over Modules 2–5. Good tools are simple (sketchable in under 60 seconds), visual, action-oriented, transferable, and deep enough to grow with a saint for decades.</p>
+            <p>Instead of asking church teams to invent custom diagrams before walking with real people, Modules 2–5 equip you with four shared <span class="term" data-term="napkin-tool">101-Level Napkin Tools</span>—covering Scripture, Prayer, Life-on-Life Rhythm, and Neighbor Witness. Later in Module 7 you will use <strong>The Napkin Test</strong> to evaluate whether your church needs any optional contextual aid; for now, simply live these four tools personally.</p>
           `,
           seeMore: [
             {
               label: "See More: Why We Master Proven Tools Before Customizing",
-              contentHtml: `<p>Forcing church teams to invent 5–6 bespoke tools quickly overwhelms busy laypeople and breaks multi-generational transfer. A truck driver or busy parent can pass on three or four clear napkin tools across four generations.</p>`
+              contentHtml: `<p>Forcing church teams to invent 5–6 bespoke tools quickly overwhelms busy laypeople and breaks multi-generational transfer. A truck driver or busy parent can pass on four clear napkin tools across generations.</p>`
             }
           ]
         },
@@ -231,7 +231,7 @@ window.DML_CURRICULUM = {
           readMin: "3 min",
           bodyHtml: `
             <p>Instead of an abstract geometric slice, <strong>Look &bull; Listen &bull; Live</strong> pairs <span class="term" data-term="pneumatology">Spirit-dependence</span> with three unforgettable Eyes/Ear/Footprints icons: <strong>LOOK</strong> with your eyes (what does the text mean in context and reveal about Christ?), <strong>LISTEN</strong> with your ear (what is the Spirit stirring in us together?), and <strong>LIVE</strong> with your footprints (one 48-hour step and someone to encourage).</p>
-            <p>Adding <span class="term" data-term="christocentric-reading">Christocentric reading</span> (Lk 24:27) and community testing (2 Pet 1:20) prevents subjective cherry-picking, while a quick toggle converts it to a <span class="term" data-term="seeker-dbs">Seeker DBS</span> with non-Christians.</p>
+            <p>Adding <span class="term" data-term="christocentric-reading">Christocentric reading</span> (Lk 24:27) and community testing (2 Pet 1:20) prevents subjective cherry-picking—and in Module 5 we will practice its 4-question <span class="term" data-term="seeker-dbs">Seeker Discovery</span> mode alongside curious neighbors.</p>
           `,
           seeMore: [
             {
@@ -275,9 +275,10 @@ window.DML_CURRICULUM = {
       workshop: {
         totalMinutes: 90,
         agenda: [
+          { mins: "10m", title: "Module 1 Interview & Pre-Launch Debrief", instructions: "Share what stood out from your Module 1 parishioner interviews ('What is a disciple?') and confirm your Pre-Launch Elder Covenant is signed." },
           { mins: "25m", title: "Live Look • Listen • Live Lab (Model -> Try)", instructions: "Read Mark 2:1–12 together using Eyes / Ear / Footprints. Practice summarizing context and pointing to Christ before personal application." },
-          { mins: "25m", title: "Live 4-Beat Prayer Ring Lab", instructions: "Pray in pairs: walk clockwise through Praise, Confess & Lament, Ask, and Go in a 2-minute round (30s/beat), then share honest Examen reflection." },
-          { mins: "20m", title: "30-Second Napkin Sketch Drill", instructions: "Close screens and draw both icons (Eyes/Ear/Footprints and Circle-Cross 4-Beat Ring) on scratch paper in under 30 seconds each, teaching them to your partner." },
+          { mins: "20m", title: "Live 4-Beat Prayer Ring Lab", instructions: "Pray in pairs: walk clockwise through Praise, Confess & Lament, Ask, and Go in a 2-minute round (30s/beat), then share honest Examen reflection." },
+          { mins: "15m", title: "30-Second Napkin Sketch Drill", instructions: "Close screens and draw both icons (Eyes/Ear/Footprints and Circle-Cross 4-Beat Ring) on scratch paper in under 30 seconds each, teaching them to your partner." },
           { mins: "20m", title: "Schedule Micro-Triads", instructions: "Each person names 2–3 specific friends to invite right away and locks in a target day/time." }
         ],
         prompts: [
@@ -368,7 +369,7 @@ window.DML_CURRICULUM = {
           title: "3. First Micro-Triad Debrief: Learning From Real Dirt",
           readMin: "2 min",
           bodyHtml: `
-            <p>Every session from Module 3 onward starts with honest debriefing from your lived <span class="term" data-term="micro-triad">Micro-Triads</span>. What felt natural? Where did scheduling collapse? Real experience in Modules 2–4 prepares your team to audit church clutter wisely in Module 4.</p>
+            <p>Every session from Module 3 onward starts with honest debriefing from your lived <span class="term" data-term="micro-triad">Micro-Triads</span>. What felt natural? Where did scheduling collapse? Real experience in Modules 2–3 prepares your team to audit church clutter wisely in Module 4.</p>
           `,
           seeMore: [
             {
@@ -472,7 +473,7 @@ window.DML_CURRICULUM = {
           readMin: "3 min",
           bodyHtml: `
             <p>Rather than treating every painful trial as organizational failure—tempting pastors to blame themselves for community aging, illness, or hardship—<strong>The Stewardship Crossroads</strong> (<em>Prune &bull; Feed &bull; Lament &bull; Step In</em>) draws intersecting axes (+) separating what lies <em>Within Our Stewardship</em> from what lies <em>Beyond Our Control</em>.</p>
-            <p>Once your Mirror findings cross those four quadrants, wisdom becomes clear: <strong>1. Prune</strong> internal clutter, <strong>2. Feed</strong> healthy fruit, bring external trials into <span class="term" data-term="lament-endurance">3. Lament &amp; Endurance</span> rather than shame, and prayerfully <strong>4. Step In</strong> when God opens a missionary door (Col 4:3).</p>
+            <p>Once your &lsquo;What Is&rsquo; Snapshot findings cross those four quadrants, wisdom becomes clear: <strong>1. Prune</strong> internal clutter, <strong>2. Feed</strong> healthy fruit, bring external trials into <span class="term" data-term="lament-endurance">3. Lament &amp; Endurance</span> rather than shame, and prayerfully <strong>4. Step In</strong> when God opens a missionary door (Col 4:3).</p>
           `,
           seeMore: [
             {
@@ -534,7 +535,7 @@ window.DML_CURRICULUM = {
         summary: "Test your draft Disciple Definition & Reality notes with two fringe/lay members and sustain your Micro-Triad.",
         checklist: [
           { id: "w4-f1", text: "Keep your Micro-Triad (1–4x/month) active (have a partner lead part of Look • Listen • Live)." },
-          { id: "w4-f2", text: "Share your 1-sentence Gospel Disciple Definition with 2 lay members outside your core circle for candid feedback." },
+          { id: "w4-f2", text: "Share your Module 1 working Disciple Definition with 2 lay members outside your core circle to polish any confusing wording before Module 6's 1-Pager." },
           { id: "w4-f3", text: "Initiate one personal calendar subtraction (saying 'no' or pausing one low-fruit task) to protect 2 hrs/week." }
         ],
         reflectionPrompt: "What felt hardest—and most freeing—about naming something to prune?"
@@ -690,7 +691,7 @@ window.DML_CURRICULUM = {
           title: "2. The Plain 1-Pager & Stakeholder Listening Matrix",
           readMin: "3 min",
           bodyHtml: `
-            <p>With your Module 4 'What Is' audit in hand, draft a clear 1-page summary answering four questions: Why this matters, what ordinary members will experience, what legacy clutter we are respectfully pausing, and who is listening. Use it to host early <span class="term" data-term="stakeholder-alignment">Stakeholder Alignment</span> coffees with Elders, Worship, Kids, and Youth leads.</p>
+            <p>With your Module 4 &lsquo;What Is&rsquo; Snapshot and Pruning list in hand, draft a clear 1-page summary answering four questions: Why this matters, what ordinary members will experience, what legacy clutter we are respectfully pausing, and who is listening. Use it to host early <span class="term" data-term="stakeholder-alignment">Stakeholder Alignment</span> coffees with Elders, Worship, Kids, and Youth leads.</p>
           `,
           seeMore: [
             {
@@ -722,7 +723,7 @@ window.DML_CURRICULUM = {
           { mins: "15m", title: "Oikos & Triad Debrief", instructions: "Share one neighbor conversation or prayer highlight from Module 5." },
           { mins: "25m", title: "Jargon-Free 1-Pager Draft", instructions: "Write the 4 sections of your 1-Pager together. Read every sentence aloud and strike every consulting buzzword." },
           { mins: "25m", title: "Stakeholder Listening Matrix", instructions: "Map Elders, Non-Lab Staff, Kids/Youth leads, and Legacy Group hosts—note each group's valid concern and assign who will meet whom before launching pilots." },
-          { mins: "25m", title: "Legacy Small-Group Pathway Plan", instructions: "Review your Module 4 'What Is' group list and sketch hopeful Convert / Hybridize / Sunset conversations alongside your STOP proposals." }
+          { mins: "25m", title: "Legacy Small-Group Pathway Plan", instructions: "Review your Module 4 'What Is' Snapshot group list and sketch hopeful Convert / Hybridize / Sunset conversations alongside your STOP proposals." }
         ],
         prompts: [
           { id: "w6-onepager", question: "Draft 3–4 plain-English sentences explaining our church's vision without ANY lab jargon:", placeholder: "e.g., Over the next season, we want every follower of Jesus to have 2–3 trusted friends around a table learning Scripture, praying honestly, and loving neighbors..." },
@@ -791,7 +792,7 @@ window.DML_CURRICULUM = {
           `,
           seeMore: [
             {
-              label: "See More: Why 'Over-Functioning' Replaces 'Co-Dependence'",
+              label: "See More: Distinguishing Biblical Care From 'Over-Functioning'",
               contentHtml: `<p>Bearing one another's burdens (Gal 6:2) is godly—never 'co-dependence.' What hurts growing D3 disciples is <span class="term" data-term="over-functioning">Over-Functioning</span>: when a mentor insists on rescuing or answering every question so they still feel needed.</p>`
             },
             {
@@ -806,7 +807,7 @@ window.DML_CURRICULUM = {
           title: "2. The Napkin Test: Picture • Mirror • Window & 5-Point Gate",
           readMin: "3 min",
           bodyHtml: `
-            <p>Respecting <span class="term" data-term="andragogy">Zone of Proximal Development</span> limits, start by mastering four proven core tools rather than rushing into five or six separate diagrams. Use <span class="term" data-term="picture-mirror-window">Picture / Mirror / Window</span> plus our <strong>5-Point Napkin Rubric</strong> to check our 4 shared tools—and refine at most <strong>one</strong> optional contextual aid only if a genuine ministry gap remains.</p>
+            <p>Now that your team has lived the 4 Core Tools from Modules 2–5, move from practitioner to careful architect. Before you ever add a new church diagram, vet both our core cards and at most <strong>one</strong> optional contextual tool (such as a Kids/Family card) through <span class="term" data-term="picture-mirror-window">Picture / Mirror / Window</span> and our <strong>5-Point Napkin Test</strong>—respecting <span class="term" data-term="andragogy">Zone of Proximal Development</span> limits so your toolkit stays transferable.</p>
           `,
           seeMore: [
             {
@@ -982,7 +983,7 @@ window.DML_CURRICULUM = {
       week: 9,
       phase: 4,
       title: "Weaving Culture, Guardrails & Leader Soul Care",
-      subtitle: "Co-designing liturgy & Next-Gen habits together while installing Vetting Gates and 1:4–5 Soul Care pods",
+      subtitle: "Co-designing liturgy & Next-Gen tools together while installing Vetting Gates and 1:4–5 Soul Care pods",
       timeBudget: "90-Min Co-Design Session + Soul Care Pod Launch",
       fourfoldAnchor: "Pitcher (Healer) & Laver (Sanctifier) Guardrails",
       scripture: "Deuteronomy 6:4–9; 1 Timothy 3:1–13; 2 Timothy 2:1–7; Exodus 18:13–26; Acts 20:28",
@@ -1050,12 +1051,12 @@ window.DML_CURRICULUM = {
         totalMinutes: 90,
         agenda: [
           { mins: "15m", title: "30-Day Pilot Debrief Scorecard", instructions: "Review attendance, weekly obedience follow-through, and early D2 Friction Valley stories across your active weekly Betas." },
-          { mins: "35m", title: "Cross-Ministry Co-Design Lab", instructions: "With Worship, Kids, Youth, and Mercy representatives at the table, fill ONE Master Culture Canvas—choosing max 1 organic habit shift per ministry (replacing clutter rather than adding workload)." },
+          { mins: "35m", title: "Cross-Ministry Co-Design Lab", instructions: "With Worship, Kids, Youth, and Mercy representatives at the table, fill ONE Master Culture Canvas—choosing max 1 organic practice or tool shift per ministry (replacing clutter rather than adding workload)." },
           { mins: "20m", title: "Adopt Vetting & Escalation Protocol", instructions: "Walk through the 4 Vetting Shield checks and confirm your 24-hour Elder crisis escalation contact flow." },
           { mins: "20m", title: "Map 1:4–5 Soul Care Pods", instructions: "Assign every current pilot host and emerging co-leader into a pod of max 4–5 leaders, and book their first Soul Care meal." }
         ],
         prompts: [
-          { id: "w9-ministry-shift", question: "What ONE organic habit shift did Worship, Kids, Youth, and Mercy choose together on our single Culture Canvas?", placeholder: "e.g., Sunday Communion includes 60s silent Examen; Kids sends home 3-Q fridge card; Pantry opens with 2-min 4-Beat Prayer Ring." },
+          { id: "w9-ministry-shift", question: "What ONE organic practice or tool shift did Worship, Kids, Youth, and Mercy choose together on our single Culture Canvas?", placeholder: "e.g., Sunday Communion includes 60s silent Examen; Kids sends home 3-Q fridge card; Pantry opens with 2-min 4-Beat Prayer Ring." },
           { id: "w9-soulcare-pods", question: "Our Initial 1:4–5 Soul Care Pod Assignments & Crisis Escalation Contacts:", placeholder: "e.g., Pod 1 (Pastor + 4 hosts); Pod 2 (Elder + 3 co-leaders). 24-hr Crisis Elder Contacts: ..." }
         ]
       },
@@ -1082,7 +1083,7 @@ window.DML_CURRICULUM = {
         checklist: [
           { id: "w9-f1", text: "Hold one unhurried Soul Care meal/prayer check-in (zero KPI policing) for your active pilot hosts." },
           { id: "w9-f2", text: "Coach 1 emerging apprentice inside each Beta group to lead #2 Tool Focus at least once before Module 10." },
-          { id: "w9-f3", text: "Pilot ONE co-designed liturgical or Next-Gen habit shift (replacing one competing announcement or program)." }
+          { id: "w9-f3", text: "Pilot ONE co-designed liturgical or Next-Gen practice/tool shift (replacing one competing announcement or program)." }
         ],
         reflectionPrompt: "How did your ministry peers respond when co-designing one shared Culture Canvas together?"
       }
@@ -1137,11 +1138,15 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w10-c3",
-          toolId: "bowtie",
-          title: "3. Commissioning Around Word & Table",
-          readMin: "2 min",
+          title: "3. Full-Circle Bowtie Synthesis & Commissioning Around Word & Table",
+          readMin: "3 min",
           bodyHtml: `
-            <p>Culture-building structures always serve a higher calling: shaping living witnesses of Jesus. Around Scripture and the Lord's Supper, we close with <span class="term" data-term="commissioning">Word-and-Table Commissioning</span>: <strong>'YOU ARE DISCIPLEMAKERS — GO MULTIPLY IN CHRIST.'</strong></p>
+            <p>Look back at the entire 10-Module arc you just lived: both wings of the <span class="term" data-term="bowtie-master-tool">Master Bowtie</span> are now knitted together around Christ's table:</p>
+            <ul>
+              <li><strong>Right Wing (<span class="term" data-term="relational-apprenticeship-path">PATH</span>):</strong> Clear <em>Destination</em> (Module 1) &rarr; 4 pocket-ready <em>Core Tools</em> practiced in Micro-Triads &amp; Neighbor Tables (Modules 2–5) &rarr; <em>The Map</em> for Friction Valley coaching (Module 7) &rarr; Weekly <em>Vehicles</em> multiplying 2nd-generation co-leaders (Module 8).</li>
+              <li><strong>Left Wing (<span class="term" data-term="culture-making-plan">PLAN</span>):</strong> Honest Ground &amp; John 15 Pruning (Module 4) &rarr; Plain-Language Elder &amp; Legacy Group alignment (Module 6) &rarr; Co-designed Worship/Next-Gen Culture Canvas, Vetting Gates &amp; 1:4–5 Soul Care (Module 9) &rarr; Year-2 Continuity &amp; Onboarding (Module 10).</li>
+            </ul>
+            <p>Structures always serve a higher calling: shaping living witnesses of Jesus. Around Scripture and the Lord's Supper, we close with <span class="term" data-term="commissioning">Word-and-Table Commissioning</span>: <strong>'YOU ARE DISCIPLEMAKERS — GO MULTIPLY IN CHRIST.'</strong></p>
           `,
           seeMore: [
             {
@@ -1151,11 +1156,11 @@ window.DML_CURRICULUM = {
           ]
         }
       ],
-      featuredTools: ["stewardship-roadmap", "bowtie"],
+      featuredTools: ["stewardship-roadmap"],
       workshop: {
         totalMinutes: 90,
         agenda: [
-          { mins: "15m", title: "Pilot Harvest & 2nd-Gen Check", instructions: "Review real fruit from your Beta weeks: retention, Oikos meals, emerging co-leaders ready to launch next waves." },
+          { mins: "15m", title: "Pilot Harvest, Soul Care & Culture Debrief", instructions: "Debrief Module 9's first 1:4–5 Soul Care Pod meal, your co-designed liturgical/Next-Gen pilot shift, and Beta harvest fruit (retention, Oikos meals, emerging 2nd-gen co-leaders)." },
           { mins: "30m", title: "Draft 4-Horizon Stewardship Roadmap", instructions: "Fill 90-Day, 1-Year, and 3-Year PATH & PLAN boxes humbly under James 4:15—checking budget and fall calendar conflicts honestly." },
           { mins: "25m", title: "Finalize 2-Page Onboarding Manual & Year-2 Dates", instructions: "Complete your church's 2-page New Staff/Elder Onboarding summary (Destination Definition, 4 Core Tools, Vetting Gate, 1:4–5 Soul Care) and put Elder Ratification + Year-2 Huddles on the calendar." },
           { mins: "20m", title: "Word-and-Table Commissioning Prayer", instructions: "Share key learnings, name where your church most needs God's mercy, break bread (if appropriate), and pray Matthew 28:18–20 over each other." }

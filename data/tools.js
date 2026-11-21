@@ -13,7 +13,7 @@ window.DML_TOOLS = {
     week: 1,
     category: "Architecture",
     tagline: "Balances congregation-wide Culture Making (PLAN) with peer-to-peer Apprenticeship (PATH) around a sent Word-and-Table community.",
-    whenToUse: "Use in Module 1 to diagnose Sunday consumerism, in Module 4 during reality audits, in Module 9 to weave ministries together, and in Module 10 to synthesize your journey.",
+    whenToUse: "Use in Module 1 to diagnose Sunday consumerism, revisit in Module 4 during the 'What Is' Snapshot, align in Module 9 on the Culture Canvas, and synthesize at Module 10 Commissioning.",
     originalSvgPath: "diagrams/discipling_culture_master_tool.svg",
     scripture: "Acts 2:42–47; Ephesians 4:11–16; 2 Timothy 2:2",
     relatedTerms: ["bowtie-master-tool", "culture-making-plan", "relational-apprenticeship-path", "tipping-point", "word-and-table"],
@@ -391,7 +391,7 @@ window.DML_TOOLS = {
     week: 4,
     category: "Church Leadership",
     tagline: "A practical 3-step calendar triage rooted in John 15:1–2—Keep fruitful branches, Cut or Pause 1–2 low-fruit meetings, and Reinvest 2+ hours/week directly into people.",
-    whenToUse: "Use immediately after the Reality Audit in Module 4, and revisit in Module 10's Annual Pruning Review.",
+    whenToUse: "Use immediately after The Stewardship Crossroads in Module 4, and revisit in Module 10's Annual Pruning Review.",
     originalSvgPath: null,
     scripture: "John 15:1–2; Exodus 18:17–23; 1 Corinthians 3:6–7; Hebrews 12:1",
     relatedTerms: ["pruning-audit", "pneumatology", "elder-ratification"],
@@ -416,7 +416,7 @@ window.DML_TOOLS = {
       }
     ],
     steps: [
-      "Review your Module 4 'What Is' calendar strip: underline the fruitful branches worth feeding (KEEP).",
+      "Review your Module 4 'What Is' Snapshot & Stewardship Crossroads: underline the fruitful branches worth feeding (KEEP).",
       "Apply the Pruning Shears (CUT OR PAUSE): select 1–2 low-fruit commitments to conclude at the next semester break, scale back in event complexity, or reduce in meeting frequency.",
       "Calculate the concrete weekly hours freed (aim for 2+ hours/week per team member) and commit that time directly to Micro-Triads, Oikos hospitality, or Soul Care (REINVEST).",
       "Bring any sensitive program sunset proposal respectfully to your Elders and key stakeholders in Module 6 before acting publicly."
