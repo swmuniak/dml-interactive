@@ -242,11 +242,11 @@ window.DML_TOOLS = {
   "training-triangle": {
     id: "training-triangle",
     number: 6,
-    name: "Training Triangle (Truth -> Imitation -> Multiplication)",
-    shortName: "Training Triangle",
+    name: "The TIM Tool (Truth • Imitation • Multiplication)",
+    shortName: "TIM Tool",
     week: 3,
     category: "Learning & Tools",
-    tagline: "Exposes classroom-only Christianity and sequences growth: Biblical Truth -> Life-on-Life Imitation -> Faithful Multiplication.",
+    tagline: "A sticky 3-letter triangle (T-I-M, like Paul & Timothy) exposing classroom-only Christianity: Truth -> Imitation -> Multiplication.",
     whenToUse: "Use in Module 3 to structure how you disciple friends in your Micro-Triad, and in Module 9 when designing leader onboarding.",
     originalSvgPath: "diagrams/training_triangle.svg",
     scripture: "Mark 3:14; 1 Corinthians 4:14–17; 11:1; 1 Thessalonians 2:8; 2 Timothy 2:2",
@@ -254,19 +254,19 @@ window.DML_TOOLS = {
     parts: [
       {
         key: "truth",
-        title: "1. Truth (Rooted in God's Word)",
+        title: "1. T — Truth (Rooted in God's Word)",
         summary: "Clear, Christ-centered Scripture and gospel doctrine—essential foundation, never sufficient by itself.",
         deep: "Most church training stops here: sermons, podcasts, and classes transmit Truth cognitively while leaving apprentices alone to figure out how to pray with a grieving neighbor."
       },
       {
         key: "imitation",
-        title: "2. Imitation (Life-on-Life Proximity)",
+        title: "2. I — Imitation (Life-on-Life Proximity)",
         summary: "Sharing your actual schedule, kitchen table, failures, and prayers so apprentices catch what truth looks like in real time.",
-        deep: "Paul contrasted 10,000 classroom 'tutors' with spiritual 'fathers' who said, 'Imitate me as I imitate Christ' (1 Cor 4:15–17). Imitation turns abstract truth into lived habit."
+        deep: "Paul contrasted 10,000 classroom 'tutors' with spiritual 'fathers' who said, 'Imitate me as I imitate Christ' and sent Timothy to remind them of his ways in Christ (1 Cor 4:15–17)."
       },
       {
         key: "multiplication",
-        title: "3. Faithful Multiplication (2 Tim 2:2)",
+        title: "3. M — Multiplication (2 Tim 2:2)",
         summary: "Releasing trained apprentices to live and pass on the apostolic gospel in their own contexts—guarding the deposit.",
         deep: "Focuses the third movement on passing on the apostolic gospel faithfully rather than merely inventing new ideas—commissioning tested believers ('I do -> We do -> You do')."
       }
@@ -277,7 +277,7 @@ window.DML_TOOLS = {
       "Let your apprentice co-lead one habit segment while you debrief gently afterward.",
       "Release them to lead a triad of their own while staying connected for Soul Care."
     ],
-    napkinScript: "Draw a rising stepped triangle. Write TRUTH at the top, IMITATION on the right corner, and FAITHFUL MULTIPLICATION on the left corner. Draw a wall blocking the shortcut straight from Truth to Multiplication. Say: 'Churches fail because they jump from classroom Truth straight to telling people Go Multiply, skipping the road through shared life (Imitation).'",
+    napkinScript: "Draw a rising stepped triangle and write T - I - M inside the center (recalling Paul and Timothy in 1 Cor 4:17; 2 Tim 2:2): label the top T (Truth), the right corner I (Imitation), and the left corner M (Multiplication). Draw a dashed barrier blocking the shortcut straight from T to M. Say: 'Churches stall when they jump from Truth straight to telling people Go Multiply, skipping the road through shared life (Imitation).'",
     workedExample: "Instead of giving a young adult a 40-page leader handbook, a mentor invites her to sit in on three Tuesday Micro-Triad gatherings, watch how he handles an awkward silence, lead Look • Listen • Live once together, and then start a triad with two college friends.",
     guardrails: "Do not skip Imitation in favor of premature Innovation. Live the four core habits for at least three months before modifying anything."
   },

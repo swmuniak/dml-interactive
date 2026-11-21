@@ -204,10 +204,10 @@ window.DML_GLOSSARY = {
   },
   "training-triangle": {
     id: "training-triangle",
-    term: "Training Triangle (Truth -> Imitation -> Multiplication)",
+    term: "The TIM Tool (Truth -> Imitation -> Multiplication)",
     category: "Learning & Tools",
-    short: "A 3-step apprenticeship pattern showing that real skill transfer requires shared life (Imitation) between biblical Truth and Faithful Multiplication.",
-    deep: "Western churches frequently jump straight from classroom Truth (sermons/classes) to expecting people to go multiply, skipping Imitation ('Watch me, walk with me, try it together'). Jesus and Paul modeled life-on-life apprenticeship in homes, roads, and meals.",
+    short: "A sticky 3-letter apprenticeship triangle (T-I-M, echoing Paul and Timothy in 1 Cor 4:17; 2 Tim 2:2) showing that real transfer requires shared life (Imitation) between Truth and Multiplication.",
+    deep: "Western churches frequently jump straight from classroom Truth (sermons/classes) to expecting people to multiply, skipping Imitation ('Watch me, walk with me, try it together'). Naming the triangle T-I-M helps anyone sketch it in 10 seconds while remembering how Paul mentored Timothy through shared homes, roads, and meals.",
     scripture: "Mark 3:14; 1 Corinthians 4:14–17; 11:1; 2 Timothy 2:2",
     misconception: "Interpreting the third vertex ('Innovation') as permission to constantly invent brand-new tools rather than faithfully passing on what you lived.",
     relatedWeeks: [3, 7],

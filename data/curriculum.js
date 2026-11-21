@@ -324,7 +324,7 @@ window.DML_CURRICULUM = {
       fourfoldAnchor: "Cross (Kenotic Descent) & Laver (Imitation)",
       scripture: "Luke 6:12–19; Mark 3:13–15; Luke 9:23, 28–43; Philippians 2:5–8; 1 Corinthians 4:14–17; 2 Timothy 2:2",
       hook: "Why can someone attend 500 Sunday sermons and still freeze when a coworker asks about grief or prayer? Because Western churches treat Truth as a classroom download and skip the middle bridge Jesus and Paul relied on every day: shared-life imitation.",
-      keyTakeaway: "Healthy discipleship follows Jesus's Luke 6:12–19 mountain pattern—going UP to the Father, calling disciples IN, stepping DOWN to the level place in cross-bearing humility, and moving OUT to crowds—paired with the Training Triangle (Truth -> Imitation -> Faithful Multiplication).",
+      keyTakeaway: "Healthy discipleship follows Jesus's Luke 6:12–19 mountain pattern—going UP to the Father, calling disciples IN, stepping DOWN to the level place in cross-bearing humility, and moving OUT to crowds—paired with the TIM Tool (Truth -> Imitation -> Multiplication).",
       outcomes: {
         know: "How Jesus's Luke 6 mountain rhythm links UP, IN, DOWN (humble descent to the level place & cross), and OUT, and why Imitation bridges Truth and Multiplication.",
         feel: "Liberated from feeling like a polished lecturer; willing to step down beside 2–3 friends in real dependence on Christ.",
@@ -350,10 +350,10 @@ window.DML_CURRICULUM = {
         {
           id: "w3-c2",
           toolId: "training-triangle",
-          title: "2. The Training Triangle: No Classroom Shortcuts",
+          title: "2. The TIM Tool (Truth • Imitation • Multiplication): No Classroom Shortcuts",
           readMin: "3 min",
           bodyHtml: `
-            <p>In 1 Corinthians 4:14–17, Paul reminded Corinth they had ten thousand classroom 'tutors,' yet few spiritual fathers. The <span class="term" data-term="training-triangle">Training Triangle</span> shows why classes rarely multiply: we try jumping from biblical <strong>Truth</strong> directly to sending people out.</p>
+            <p>In 1 Corinthians 4:14–17, Paul reminded Corinth they had ten thousand classroom 'tutors,' yet few spiritual fathers—and sent <strong>Timothy</strong> to remind them of his lived ways in Christ. The sticky <span class="term" data-term="training-triangle">TIM Tool</span> (<strong>T</strong>ruth &bull; <strong>I</strong>mitation &bull; <strong>M</strong>ultiplication) shows why classes rarely multiply: we try jumping from biblical Truth directly to sending people out.</p>
             <p>Real apprenticeship walks down through <strong>Imitation</strong> (sharing meals, home life, setbacks, and prayer side-by-side) into <span class="term" data-term="faithful-multiplication">Faithful Multiplication</span> (2 Tim 2:2)—guarding the gospel deposit as we pass it to others.</p>
           `,
           seeMore: [
@@ -384,7 +384,7 @@ window.DML_CURRICULUM = {
         agenda: [
           { mins: "20m", title: "Micro-Triad Debrief", instructions: "Share candidly from Module 2's first triad: who showed up, what worked with Look • Listen • Live and the 4-Beat Prayer Ring, and any awkward moments." },
           { mins: "25m", title: "Jesus Pattern Calendar Audit", instructions: "Individually score your past 7 days (1–5) on UP, IN, and OUT. Notice which corner was starved—and ask where DOWN (humility) is inviting you." },
-          { mins: "30m", title: "Training Triangle Audit", instructions: "Look at how your church trains new believers or volunteers: sketch where you jump straight from Truth to expected Multiplication without Imitation." },
+          { mins: "30m", title: "TIM Tool Audit", instructions: "Look at how your church trains new believers or volunteers: sketch where you jump straight from Truth (T) to expected Multiplication (M) without Imitation (I)." },
           { mins: "15m", title: "Plan One Shared-Life Moment", instructions: "Pick one ordinary errand, meal, or neighbor visit before the next session to invite a triad friend along." }
         ],
         prompts: [
@@ -394,7 +394,7 @@ window.DML_CURRICULUM = {
       },
       scenarios: [
         {
-          prompt: "A keen leader suggests: 'Our church knows how to preach Truth, so let's launch a 4-week workshop where everyone creates their own custom discipleship diagrams next month.' What warning does the Training Triangle give?",
+          prompt: "A keen leader suggests: 'Our church knows how to preach Truth, so let's launch a 4-week workshop where everyone creates their own custom discipleship diagrams next month.' What warning does the TIM Tool give?",
           options: [
             { text: "Great idea—creativity speeds up ownership.", correct: false, feedback: "Rushing into inventing custom tools skips lived Imitation and overwhelms ordinary believers." },
             { text: "Jumping straight from Truth to inventing/multiplying skips months of lived Imitation, producing untested abstractions.", correct: true, feedback: "Spot on. Live inside the core habits alongside real friends for months before adapting anything." },

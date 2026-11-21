@@ -311,28 +311,31 @@ window.DML_DIAGRAMS = (function () {
       const mu = hi(active, "multiplication", "var(--terracotta)", 0.14);
       return svgWrap("0 0 600 310", `
         <line x1="300" y1="68" x2="145" y2="232" stroke="var(--danger)" stroke-width="2" stroke-dasharray="4,4"/>
-        <text x="180" y="138" font-size="12" font-weight="700" fill="var(--danger)" text-anchor="middle">No Classroom Shortcut!</text>
+        <text x="165" y="138" font-size="12" font-weight="700" fill="var(--danger)" text-anchor="middle">No Classroom Shortcut!</text>
         <line x1="300" y1="68" x2="455" y2="232" stroke="var(--primary)" stroke-width="3.5"/>
         <line x1="455" y1="232" x2="145" y2="232" stroke="var(--primary)" stroke-width="3.5"/>
+
+        <text x="300" y="158" font-size="15" font-weight="700" fill="var(--primary)" text-anchor="middle" letter-spacing="0.1em">T &bull; I &bull; M</text>
+        <text x="300" y="177" font-size="11.5" fill="var(--muted)" text-anchor="middle">Paul &amp; Timothy (2 Tim 2:2)</text>
 
         <g class="svg-part" data-part="truth">
           <rect x="200" y="22" width="200" height="62" rx="10" fill="var(--card)" stroke="var(--slate)" stroke-width="${tr.strokeWidth}"/>
           <rect x="200" y="22" width="200" height="62" rx="10" fill="var(--slate)" fill-opacity="${tr.fillOpacity}"/>
-          <text x="300" y="48" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle">1. BIBLICAL TRUTH</text>
-          <text x="300" y="69" font-size="12" fill="var(--ink)" text-anchor="middle">Rooted in God's Word</text>
+          <text x="300" y="48" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle">1. T &mdash; TRUTH (God's Word)</text>
+          <text x="300" y="69" font-size="12" fill="var(--ink)" text-anchor="middle">Rooted in Scripture &amp; Gospel</text>
         </g>
 
         <g class="svg-part" data-part="imitation">
           <rect x="355" y="210" width="215" height="72" rx="10" fill="var(--card)" stroke="var(--primary)" stroke-width="${im.strokeWidth}"/>
           <rect x="355" y="210" width="215" height="72" rx="10" fill="var(--primary)" fill-opacity="${im.fillOpacity}"/>
-          <text x="462" y="238" font-size="13" font-weight="700" fill="var(--primary)" text-anchor="middle">2. IMITATION (Life-on-Life)</text>
-          <text x="462" y="259" font-size="12" fill="var(--ink)" text-anchor="middle">"Walk with me, watch me"</text>
+          <text x="462" y="238" font-size="12.5" font-weight="700" fill="var(--primary)" text-anchor="middle">2. I &mdash; IMITATION (Life-on-Life)</text>
+          <text x="462" y="259" font-size="12" fill="var(--ink)" text-anchor="middle">&ldquo;Walk with me, watch me&rdquo;</text>
         </g>
 
         <g class="svg-part" data-part="multiplication">
           <rect x="30" y="210" width="235" height="72" rx="10" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${mu.strokeWidth}"/>
           <rect x="30" y="210" width="235" height="72" rx="10" fill="var(--terracotta)" fill-opacity="${mu.fillOpacity}"/>
-          <text x="148" y="238" font-size="13" font-weight="700" fill="var(--terracotta)" text-anchor="middle">3. FAITHFUL MULTIPLICATION</text>
+          <text x="148" y="238" font-size="12.5" font-weight="700" fill="var(--terracotta)" text-anchor="middle">3. M &mdash; MULTIPLICATION</text>
           <text x="148" y="259" font-size="12" fill="var(--ink)" text-anchor="middle">Guard &amp; entrust (2 Tim 2:2)</text>
         </g>
       `);
