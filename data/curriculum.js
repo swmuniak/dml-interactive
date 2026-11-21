@@ -23,7 +23,7 @@ window.DML_CURRICULUM = {
     },
     {
       title: "3. Dual-Coded Interactive Visuals",
-      summary: "Every one of the 16 tools pairs concise explanation with a clickable, fully labeled SVG diagram—giving teams clear visual anchors from Day 1."
+      summary: "Every one of the 17 visual tools pairs concise explanation with a clickable, fully labeled SVG diagram—giving teams clear visual anchors from Day 1."
     },
     {
       title: "4. Practice Before Systematizing",
@@ -431,25 +431,37 @@ window.DML_CURRICULUM = {
       fourfoldAnchor: "Crown (Coming King) Sober Stewardship",
       scripture: "John 15:1–8; Mark 4:26–29; 1 Corinthians 3:6–9; 2 Corinthians 11:23–12:10",
       hook: "Most church initiatives die by Month 6 for one dull reason: leaders keep piling new groups and tools onto an already maxed-out calendar until volunteers break. Before we ever launch church-wide groups, we must take an honest look at what already exists—and decide what to prune.",
-      keyTakeaway: "Positioned early ahead of group launches, Module 4 pairs an unvarnished 'What Is' audit with a theology of pruning and lament: separate what God calls us to stop from external hardships beyond our control.",
+      keyTakeaway: "You cannot navigate to 'What Could Be' until you tell the truth about 'What Is.' Module 4 pairs an honest mirror of your church's actual rooms and volunteer calendar with a 4-quadrant pastoral diagnostic and John 15 pruning: separating internal clutter we must stop from external trials we lament by faith.",
       outcomes: {
         know: "Where existing church programs reward passive attendance vs. genuine growth—and why uncontrollable external trials are NOT moral failure.",
         feel: "Relieved of false pastoral guilt over things outside human control, and courageous enough to stop 1–2 cluttered commitments.",
-        do: "Complete your horizontal PATH + PLAN Reality Audit and identify 1–2 low-fruit activities for your Pruning (STOP) Gate."
+        do: "Complete the 'What Is' Church Mirror across your rooms and top-10 volunteers' calendars, then identify 1–2 commitments for your Pruning Gate."
       },
       chunks: [
         {
           id: "w4-c1",
-          title: "1. Auditing 'What Is' Before Building 'What Could Be'",
-          readMin: "3 min",
+          toolId: "what-is-audit",
+          title: "1. The 'What Is' Church Mirror: Brochure Claims vs. Calendar Reality",
+          readMin: "4 min",
           bodyHtml: `
-            <p>Positioning our horizontal <strong>What Is Audit</strong> here in Module 4—well before launching church-wide groups—lets you see every existing study, youth group, deacon team, and staff meeting clearly.</p>
-            <p>Instead of launching isolated cliques, list every ministry across your <span class="term" data-term="relational-apprenticeship-path">PATH</span> and <span class="term" data-term="culture-making-plan">PLAN</span> and ask honestly: <em>Where is life-on-life discipleship actually happening, and where are leaders simply running separate islands?</em></p>
+            <p>Every church carries two invisible blueprints: the <strong>Aspirational Brochure</strong> (&ldquo;We make growing followers of Jesus&rdquo;) and the <strong>Actual Calendar</strong>—what our staff hours, announcements, rooms, and checkbooks quietly reward every Tuesday night. Scripture urges shepherds to &ldquo;know well the condition of your flocks&rdquo; (Prov 27:23) and &ldquo;consider your ways&rdquo; (Hag 1:5) before prescribing another cure.</p>
+            <p>Rather than adding a shiny new group onto an already congested week, <strong>The &lsquo;What Is&rsquo; Church Mirror</strong> inspects five concrete places across your <span class="term" data-term="relational-apprenticeship-path">PATH</span> and <span class="term" data-term="culture-making-plan">PLAN</span>:</p>
+            <ol>
+              <li><strong>Unspoken Scorecard:</strong> If a guest shadowed your church for a month, would they think maturity means volunteering for logistics, or helping someone follow Jesus?</li>
+              <li><strong>Post-Baptism Drift:</strong> After someone trusts Christ, do we walk beside them intentionally—or drop them onto an endless Sunday and class conveyor belt?</li>
+              <li><strong>Program Islands vs. Greenhouses:</strong> Go room by room across every study, youth night, deacon team, and committee. Which spaces are <em>Program Islands</em> (talking about faith or coordinating events), and where are genuine <em>Life-on-Life Greenhouses</em> practicing honesty, Scripture, and <span class="term" data-term="oikos">Oikos</span> care?</li>
+              <li><strong>Pocket-Ready Habits:</strong> Could half your regular adults pull out a blank napkin and walk a coworker through a <span class="term" data-term="napkin-tool">simple Bible, prayer, or neighbor habit</span> tomorrow?</li>
+              <li><strong>The 168-Hour Volunteer Mirror:</strong> Add up the nights your top 10 lay leaders already spend in church meetings. Most dedicated members aren&rsquo;t apathetic—their week is simply full of church maintenance.</li>
+            </ol>
           `,
           seeMore: [
             {
-              label: "See More: How to Inventory Without Attacking People",
-              contentHtml: `<p>Every ministry on your calendar was started by someone who cared. Inventory with gratitude—honoring faithful volunteers—while asking gently whether each meeting still produces spiritual maturity.</p>`
+              label: "See More: 60-Second Litmus Test — 'Program Island' vs. 'Disciplemaking Greenhouse'",
+              contentHtml: `<p>Ask three blunt diagnostic questions about every weekly room on your calendar: <strong>(1) Voice Ratio:</strong> Does one leader talk 80% of the night, or do 3–5 friends open Scripture and confess honestly? <strong>(2) Next-48-Hour Obedience:</strong> Do people leave naming one specific action and one <span class="term" data-term="oikos">Oikos</span> neighbor? <strong>(3) Bench Depth:</strong> If the host got the flu for a month, is someone else trained to step in and multiply?</p>`
+            },
+            {
+              label: "See More: The Top-10 Lay Leader Calendar Test (Inventorying With Gratitude)",
+              contentHtml: `<p>Every ministry on your calendar was started by someone who loved Jesus and saw a need. Inventory every class and committee with genuine gratitude—honoring faithful volunteers—while calculating honestly how many hours your most devoted lay elders, moms, and teachers spend maintaining meetings instead of sharing dinner with young believers and neighbors.</p>`
             }
           ]
         },
@@ -486,12 +498,12 @@ window.DML_CURRICULUM = {
           ]
         }
       ],
-      featuredTools: ["reality-audit", "pruning-curve"],
+      featuredTools: ["what-is-audit", "reality-audit", "pruning-curve"],
       workshop: {
         totalMinutes: 90,
         agenda: [
           { mins: "15m", title: "Micro-Triad Debrief", instructions: "How did Module 3's Imitation invitation go? Pray briefly for each triad." },
-          { mins: "30m", title: "Horizontal 'What Is' Inventory", instructions: "List every weekly gathering, class, and team meeting in your church—mark which ones have real life-on-life apprenticeship vs. pure logistics." },
+          { mins: "30m", title: "'What Is' Church Mirror: Islands vs. Greenhouses", instructions: "Walk room by room across every weekly gathering, class, and team—then run the 168-Hour Calendar Test on your top 10 lay leaders." },
           { mins: "25m", title: "Stewardship Diagnostic Sort", instructions: "Place honest observations into the 4 Stewardship quadrants—carefully separating Lament & Endurance from Needs Pruning." },
           { mins: "20m", title: "Name 1–2 Commitments to STOP", instructions: "Pass through the Pruning Gate: nominate 1–2 low-fruit meetings/programs to pause or simplify (to discuss respectfully with Elders/stakeholders in Module 6)." }
         ],
@@ -651,7 +663,7 @@ window.DML_CURRICULUM = {
       fourfoldAnchor: "Covenant Unity & Honor (Philippians 2)",
       scripture: "Proverbs 15:22; Philippians 2:1–5; Romans 12:10; 1 Corinthians 14:9",
       hook: "Before any congregation-wide pilot begins, faithful leaders invite elders, staff, and longtime small-group hosts into honest conversation—speaking plain Christian English rather than insider acronyms and honoring veteran volunteers with equal dignity.",
-      keyTakeaway: "Positioned prior to church-wide pilots, Module 6 equips teams to write a plain-English 1-Pager, listen to Elders, staff, and Next-Gen leads, and offer veteran small groups dignified pathways forward rooted in shared humility.",
+      keyTakeaway: "Before launching church-wide pilots, Module 6 equips teams to write a plain-English 1-Pager, listen to Elders, staff, and Next-Gen leads, and offer veteran small groups dignified pathways forward rooted in shared humility.",
       outcomes: {
         know: "Why insider lab jargon alienates congregations, and how Convert / Hybridize / Bless & Sunset pathways honor existing group leaders.",
         feel: "Deep respect and collaborative patience toward veteran volunteers, non-lab staff, and Elders.",

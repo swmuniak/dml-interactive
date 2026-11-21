@@ -284,7 +284,7 @@ window.DML_GLOSSARY = {
     term: "Over-Functioning (L3 Trap)",
     category: "Frontline Practice",
     short: "A mentor's temptation to keep rescuing, answering every question, or doing ministry for a capable disciple instead of coaching them to step forward.",
-    deep: "Earlier versions of the course mislabeled this 'co-dependence' (which confused healthy Christian burden-bearing with enabling). Over-functioning occurs when a leader's need to feel needed keeps a growing believer (D3) passive rather than releasing them to pray, lead, and learn.",
+    deep: "Healthy Christian burden-bearing (Gal 6:2) is a biblical command, never unhealthy 'co-dependence.' Over-functioning occurs when a leader's need to feel needed keeps a growing believer (D3) passive rather than releasing them to pray, lead, and learn.",
     scripture: "Exodus 18:13–23; Ephesians 4:12; 2 Timothy 1:6",
     misconception: "Confusing unhealthy rescuing with biblical mutual care (Gal 6:2), or pulling away abruptly without coaching support.",
     relatedWeeks: [7],

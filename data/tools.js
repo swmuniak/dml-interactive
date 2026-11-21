@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Disciple Making Lab — 16 Visual Tools & Frameworks Library
+   Disciple Making Lab — 17 Visual Tools & Frameworks Library
    Each tool includes clickable parts, step-by-step usage, 3-minute napkin
    teaching script, worked church example, guardrails, & original SVG comparison
    ========================================================================== */
@@ -281,24 +281,78 @@ window.DML_TOOLS = {
     workedExample: "Instead of giving a young adult a 40-page leader handbook, a mentor invites her to sit in on three Tuesday Micro-Triad gatherings, watch how he handles an awkward silence, lead Look • Listen • Live once together, and then start a triad with two college friends.",
     guardrails: "Do not skip Imitation in favor of premature Innovation. Live the four core habits for at least three months before modifying anything."
   },
+  "what-is-audit": {
+    id: "what-is-audit",
+    number: 7,
+    name: "The 'What Is' Church Reality Mirror (PATH & PLAN Audit)",
+    shortName: "'What Is' Reality Mirror",
+    week: 4,
+    category: "Church Leadership",
+    tagline: "Holds an honest mirror (Jas 1:23; Prov 27:23) up to your church's actual scorecard, post-baptism pathway, rooms, habits, and volunteer calendar—separating 'Brochure Claims' from 'What Actually Is.'",
+    whenToUse: "Use at the start of Module 4 to inventory every active gathering, class, and team on your church calendar before sorting them into the 4 Stewardship Quadrants.",
+    originalSvgPath: "diagrams/whats_your_path_inventory.svg",
+    scripture: "Proverbs 27:23; James 1:22–25; Haggai 1:5–7; Revelation 3:1–3",
+    relatedTerms: ["relational-apprenticeship-path", "culture-making-plan", "pruning-audit", "bowtie-master-tool"],
+    parts: [
+      {
+        key: "destination",
+        title: "1. DESTINATION: Brochure Rhetoric vs. Unspoken Scorecard",
+        summary: "Our website promises 'Christlike disciples,' yet our stage announcements, budget lines, and applause quietly tell people what actually counts as a 'good member.'",
+        deep: "Ask honestly: If a brand-new visitor watched us for four Sundays, what would they conclude wins affirmation here—showing up, serving nursery shifts, joining committees, or helping someone follow Jesus?"
+      },
+      {
+        key: "map",
+        title: "2. GROWTH MAP: Post-Baptism Path vs. Lecture Conveyor Belt",
+        summary: "After someone trusts Christ or is baptized, what intentional coaching loop actually walks beside them—or do they ride an endless Sunday/Bible-class conveyor belt?",
+        deep: "Notice where new believers vanish after Month 2, and where 20-year veterans can quote theology yet have never prayed aloud with a coworker or walked a young believer through Scripture."
+      },
+      {
+        key: "vehicles",
+        title: "3. GATHERINGS: Program Islands vs. Life-on-Life Greenhouses",
+        summary: "Walk room by room through every adult study, youth night, deacon board, and ministry team: which ones cultivate life-on-life apprenticeship, and which run as isolated logistics islands?",
+        deep: "Not every faithful gathering needs to shut down! Yet listing every weekly room candidly reveals where social connection or event coordination masquerades as spiritual transformation."
+      },
+      {
+        key: "tools",
+        title: "4. HABIT TOOLS: Staff Binders vs. Pocket-Ready Habits",
+        summary: "Waitress Test: Could 50% of your regular adults sketch one simple Bible reading, prayer, or neighbor-conversation habit on a napkin for a friend tomorrow?",
+        deep: "If disciplemaking habits live solely inside multi-week staff PDFs or pulpit series, ordinary saints remain dependent spectators rather than equipped priests (Eph 4:12)."
+      },
+      {
+        key: "calendar",
+        title: "5. THE 168-HOUR LEADER & CULTURE MIRROR (PLAN)",
+        summary: "Test your top 10 most faithful lay volunteers: how many nights a month go to internal church maintenance vs. unhurried tables with emerging disciples and Oikos neighbors?",
+        deep: "Exhausted key leaders rarely lack dedication—their 168 hours are already mortgaged to good-hearted church maintenance. Naming that calendar bottleneck honestly prepares us for John 15 pruning."
+      }
+    ],
+    steps: [
+      "Put two columns on a whiteboard: 'What Our Church Brochure Claims' vs. 'What Our Calendar & Checkbook Show.'",
+      "Walk chronologically across every weekly room, class, youth gathering, and volunteer team—labeling each honestly as a Program Island (mostly info/logistics) or a Greenhouse (shared Scripture, honesty, prayer, and mission).",
+      "Run the 168-Hour Test on your top 10 lay leaders: add up how many hours they already spend maintaining church meetings each week.",
+      "Take your raw inventory straight into the 4-Quadrant Stewardship Diagnostic to separate internal clutter from faithful fruit and uncontrollable trials."
+    ],
+    napkinScript: "Draw a handheld mirror divided into 5 quick checks: 1. Scorecard ('What gets applauded?'), 2. Map ('After baptism, what next?'), 3. Rooms ('Islands or Greenhouses?'), 4. Habits ('Napkin-simple?'), 5. Top-10 Leaders' Clock ('Hours in meetings vs. with people?'). Say: 'Before prescribing medicine, good shepherds look in the mirror honestly—not to shame volunteers, but to see clearly where life is already growing and where our calendar is jammed.'",
+    workedExample: "An 8-person team writes every Sunday and midweek ministry across a butcher-paper wall. To their surprise, their Thursday night moms' playgroup and elderly hospital visitation team show deep life-on-life confession and prayer (Greenhouses), while three overlapping planning committees consume 6 hours/month of the exact same five lay leaders (Program Islands).",
+    guardrails: "Look in the mirror with Christ's mercy (Ps 139:23–24), never cynicism. Every ministry on your calendar was launched by faithful believers who cared—honor their heart while telling the truth about current fruit."
+  },
   "reality-audit": {
     id: "reality-audit",
-    number: 7,
+    number: 8,
     name: "Integrated Reality & Stewardship Diagnostic",
     shortName: "Reality & Stewardship",
     week: 4,
     category: "Church Leadership",
-    tagline: "Combines horizontal PATH + PLAN 'What Is' auditing with a pastoral 4-quadrant diagnostic separating stewardship from external trials.",
-    whenToUse: "Use in Module 4—well ahead of launching church-wide Betas—so your team sees honest church reality before planning next steps.",
+    tagline: "Moves directly from your 'What Is' Mirror into a pastoral 4-quadrant diagnostic separating internal stewardship from external trials beyond our control.",
+    whenToUse: "Use right after the 'What Is' Church Mirror in Module 4 so your team distinguishes repentable church clutter from trials requiring lament and endurance.",
     originalSvgPath: "diagrams/spiritual_swot_matrix.svg",
     scripture: "Psalm 139:23–24; Proverbs 27:23; 2 Corinthians 11:23–30; Revelation 3:8",
     relatedTerms: ["pruning-audit", "lament-endurance", "culture-making-plan", "relational-apprenticeship-path"],
     parts: [
       {
         key: "pathplan",
-        title: "Horizontal 'What Is' Strip (PATH & PLAN)",
-        summary: "Reorients the vertical Path boxes left-to-right alongside your real weekly calendar of studies, teams, kids, youth, and meetings.",
-        deep: "Lists every active group, class, ministry team, and communication rhythm honestly. Where does actual life-on-life discipleship already happen—and where are leaders exhausted running 'islands' of church activity?"
+        title: "Top Input: Raw Findings From the 'What Is' Church Mirror",
+        summary: "Carries forward every gathering, volunteer calendar strain, bright spot, and neighborhood pressure you surfaced in your room-by-room PATH & PLAN inventory.",
+        deep: "Instead of leaping straight from a church audit into blame or panic, holding those concrete observations at the top lets your team sort each one biblically across the four Stewardship Quadrants."
       },
       {
         key: "pruning",
@@ -326,7 +380,7 @@ window.DML_TOOLS = {
       }
     ],
     steps: [
-      "List every existing ministry meeting, class, and group horizontally under your current PATH and PLAN.",
+      "Bring forward the sticky notes or list of rooms, rhythms, and pressures uncovered in Tool #7 ('What Is' Reality Mirror).",
       "Sort honest church observations into the four Stewardship Quadrants—treating uncontrollable external hardships as places for lament rather than self-blame.",
       "Celebrate Stewarded Fruit publicly and pray through Lament & Endurance together.",
       "Pick 1–2 cluttered items in 'Needs Pruning' to take straight into the Pruning Audit."
@@ -337,7 +391,7 @@ window.DML_TOOLS = {
   },
   "pruning-curve": {
     id: "pruning-curve",
-    number: 8,
+    number: 9,
     name: "John 15 Pruning & Margin Tool (Keep • Cut • Reinvest)",
     shortName: "Pruning & Margin Tool",
     week: 4,
@@ -379,7 +433,7 @@ window.DML_TOOLS = {
   },
   "oikos-bridge": {
     id: "oikos-bridge",
-    number: 9,
+    number: 10,
     name: "The Neighbor Table (Pray • Eat • Share)",
     shortName: "Neighbor Table (Pray•Eat•Share)",
     week: 5,
@@ -421,7 +475,7 @@ window.DML_TOOLS = {
   },
   "stakeholder-bridge": {
     id: "stakeholder-bridge",
-    number: 10,
+    number: 11,
     name: "One-Pager & Stakeholder Alignment Bridge",
     shortName: "Stakeholder Bridge",
     week: 6,
@@ -463,7 +517,7 @@ window.DML_TOOLS = {
   },
   "growth-loop": {
     id: "growth-loop",
-    number: 11,
+    number: 12,
     name: "The Apprenticeship Growth Loop (D1–D4)",
     shortName: "Growth Loop",
     week: 7,
@@ -484,13 +538,13 @@ window.DML_TOOLS = {
         key: "d2",
         title: "2. Friction Valley (D2 / L2: Shepherding)",
         summary: "'I do, you help.' Awkwardness, sin relapse, or grief hits ('I quit!'); requires compassionate presence without lowering Jesus's call.",
-        deep: "Renamed from 'Valley of the shadow' to preserve Psalm 23's gravity. People rarely grow uniformly—someone may be D4 in Bible knowledge yet D1/D2 in sharing faith or overcoming anger."
+        deep: "Unlike true bereavement or dark providence (Ps 23), learning friction is a normal part of stepping into real obedience. People rarely grow uniformly—someone may be D4 in Bible knowledge yet D1/D2 in sharing faith or overcoming anger."
       },
       {
         key: "d3",
         title: "3. Growing Co-Laborer (D3 / L3: Coaching)",
         summary: "'You do, I help.' Emerging competence; guard against leader Over-Functioning (rescuing) while maintaining mutual burden-bearing.",
-        deep: "Renamed from 'Co-dependence' so biblical care (Gal 6:2) isn't pathologized. Step back from taking over while debriefing humbly after they lead."
+        deep: "Christian mutual burden-bearing (Gal 6:2) is essential—we only avoid rescuing when a disciple simply needs room to step out. Step back from taking over while debriefing humbly after they lead."
       },
       {
         key: "d4",
@@ -511,7 +565,7 @@ window.DML_TOOLS = {
   },
   "napkin-rubric": {
     id: "napkin-rubric",
-    number: 12,
+    number: 13,
     name: "Picture / Mirror / Window & 5-Point Napkin Rubric",
     shortName: "Napkin Rubric",
     week: 7,
@@ -553,7 +607,7 @@ window.DML_TOOLS = {
   },
   "gathering-rhythm": {
     id: "gathering-rhythm",
-    number: 13,
+    number: 14,
     name: "Weekly Life-on-Life Gathering Rhythm & Beta Checklist",
     shortName: "Gathering Rhythm",
     week: 8,
@@ -601,7 +655,7 @@ window.DML_TOOLS = {
   },
   "culture-canvas": {
     id: "culture-canvas",
-    number: 14,
+    number: 15,
     name: "Master Culture-Making & Ministry Alignment Canvas",
     shortName: "Culture Canvas",
     week: 9,
@@ -649,7 +703,7 @@ window.DML_TOOLS = {
   },
   "vetting-soulcare": {
     id: "vetting-soulcare",
-    number: 15,
+    number: 16,
     name: "Leader Development, Vetting & 1:4–5 Soul Care Guardrails",
     shortName: "Vetting & Soul Care",
     week: 9,
@@ -691,7 +745,7 @@ window.DML_TOOLS = {
   },
   "stewardship-roadmap": {
     id: "stewardship-roadmap",
-    number: 16,
+    number: 17,
     name: "Prayerful Stewardship Roadmap & Year-2 Continuity",
     shortName: "Stewardship Roadmap",
     week: 10,

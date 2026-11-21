@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Disciple Making Lab — 16 Interactive Theme-Aware SVG Diagrams
+   Disciple Making Lab — 17 Interactive Theme-Aware SVG Diagrams
    Every region is clickable via data-part="..." for dual-coded exploration.
    ========================================================================== */
 
@@ -386,6 +386,87 @@ window.DML_DIAGRAMS = (function () {
       `);
     },
 
+    "what-is-audit": (active) => {
+      const dst = hi(active, "destination", "var(--primary)", 0.14);
+      const mp = hi(active, "map", "var(--slate)", 0.14);
+      const vh = hi(active, "vehicles", "var(--terracotta)", 0.14);
+      const tl = hi(active, "tools", "var(--gold)", 0.14);
+      const cal = hi(active, "calendar", "var(--success)", 0.14);
+      return svgWrap("0 0 640 372", `
+        <!-- Top Header Banner -->
+        <rect x="20" y="10" width="600" height="44" rx="9" fill="var(--surface)" stroke="var(--border-strong)" stroke-width="1.5"/>
+        <text x="320" y="29" font-size="12.5" font-weight="700" fill="var(--primary)" text-anchor="middle">THE &ldquo;WHAT IS&rdquo; CHURCH MIRROR (Proverbs 27:23 &bull; James 1:23&ndash;25)</text>
+        <text x="320" y="46" font-size="11" fill="var(--ink)" text-anchor="middle">Brochure Claims vs. Calendar Reality: Audit every room &amp; rhythm before adding anything new</text>
+
+        <!-- 1. DESTINATION (Top-Left) -->
+        <g class="svg-part" data-part="destination">
+          <rect x="20" y="66" width="290" height="106" rx="10" fill="var(--card)" stroke="var(--primary)" stroke-width="${dst.strokeWidth}"/>
+          <rect x="20" y="66" width="290" height="106" rx="10" fill="var(--primary)" fill-opacity="${dst.fillOpacity}" style="filter:${dst.filter}"/>
+          <!-- Map Pin Icon -->
+          <path d="M50,104 C50,104 38,90 38,83 C38,76.5 43.5,72 50,72 C56.5,72 62,76.5 62,83 C62,90 50,104 50,104 Z" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="50" cy="83" r="4.2" fill="var(--primary)"/>
+          <text x="74" y="88" font-size="12.5" font-weight="700" fill="var(--primary)">1. DESTINATION &bull; Unspoken Scorecard</text>
+          <text x="34" y="121" font-size="11" font-weight="600" fill="var(--muted)">Brochure: &ldquo;We form Christlike disciples.&rdquo;</text>
+          <text x="34" y="140" font-size="11.5" font-weight="700" fill="var(--ink)">Reality Mirror: What do our announcements,</text>
+          <text x="34" y="156" font-size="11.5" font-weight="700" fill="var(--ink)">budget &amp; stage applause actually reward?</text>
+        </g>
+
+        <!-- 2. GROWTH MAP (Top-Right) -->
+        <g class="svg-part" data-part="map">
+          <rect x="330" y="66" width="290" height="106" rx="10" fill="var(--card)" stroke="var(--slate)" stroke-width="${mp.strokeWidth}"/>
+          <rect x="330" y="66" width="290" height="106" rx="10" fill="var(--slate)" fill-opacity="${mp.fillOpacity}" style="filter:${mp.filter}"/>
+          <!-- Folded Map Icon -->
+          <polygon points="344,75 353,72 353,99 344,102" fill="none" stroke="var(--slate)" stroke-width="1.8" stroke-linejoin="round"/>
+          <polygon points="353,72 362,75 362,102 353,99" fill="none" stroke="var(--slate)" stroke-width="1.8" stroke-linejoin="round"/>
+          <polygon points="362,75 371,72 371,99 362,102" fill="none" stroke="var(--slate)" stroke-width="1.8" stroke-linejoin="round"/>
+          <text x="382" y="88" font-size="12.5" font-weight="700" fill="var(--slate)">2. GROWTH MAP &bull; Post-Baptism Path</text>
+          <text x="344" y="121" font-size="11" font-weight="600" fill="var(--muted)">Brochure: &ldquo;Clear step-by-step maturity.&rdquo;</text>
+          <text x="344" y="140" font-size="11.5" font-weight="700" fill="var(--ink)">Reality Mirror: Guided D1&ndash;D4 coaching, or a</text>
+          <text x="344" y="156" font-size="11.5" font-weight="700" fill="var(--ink)">20-year Sunday &amp; study lecture conveyor belt?</text>
+        </g>
+
+        <!-- 3. GATHERINGS (Middle-Left) -->
+        <g class="svg-part" data-part="vehicles">
+          <rect x="20" y="182" width="290" height="106" rx="10" fill="var(--card)" stroke="var(--terracotta)" stroke-width="${vh.strokeWidth}"/>
+          <rect x="20" y="182" width="290" height="106" rx="10" fill="var(--terracotta)" fill-opacity="${vh.fillOpacity}" style="filter:${vh.filter}"/>
+          <!-- Table / House Vehicle Icon -->
+          <rect x="36" y="198" width="28" height="4" rx="2" fill="var(--terracotta)"/>
+          <line x1="41" y1="202" x2="41" y2="215" stroke="var(--terracotta)" stroke-width="2.2" stroke-linecap="round"/>
+          <line x1="59" y1="202" x2="59" y2="215" stroke="var(--terracotta)" stroke-width="2.2" stroke-linecap="round"/>
+          <circle cx="43" cy="193" r="3" fill="var(--terracotta)"/>
+          <circle cx="57" cy="193" r="3" fill="var(--terracotta)"/>
+          <text x="74" y="204" font-size="12.5" font-weight="700" fill="var(--terracotta)">3. GATHERINGS &bull; Islands vs. Greenhouses</text>
+          <text x="34" y="236" font-size="11" font-weight="600" fill="var(--muted)">Audit classes, groups, youth nights &amp; teams:</text>
+          <text x="34" y="255" font-size="11.5" font-weight="700" fill="var(--ink)">Separate Program Islands, or Greenhouses</text>
+          <text x="34" y="271" font-size="11.5" font-weight="700" fill="var(--ink)">practicing Scripture, confession &amp; Oikos care?</text>
+        </g>
+
+        <!-- 4. HABIT TOOLS (Middle-Right) -->
+        <g class="svg-part" data-part="tools">
+          <rect x="330" y="182" width="290" height="106" rx="10" fill="var(--card)" stroke="var(--gold)" stroke-width="${tl.strokeWidth}"/>
+          <rect x="330" y="182" width="290" height="106" rx="10" fill="var(--gold)" fill-opacity="${tl.fillOpacity}" style="filter:${tl.filter}"/>
+          <!-- Compass Icon -->
+          <circle cx="356" cy="202" r="13" fill="none" stroke="var(--gold)" stroke-width="2"/>
+          <polygon points="362,196 358,204 350,208 354,200" fill="var(--gold)"/>
+          <text x="380" y="204" font-size="12.5" font-weight="700" fill="var(--gold)">4. HABIT TOOLS &bull; Staff vs. Napkin-Ready</text>
+          <text x="344" y="236" font-size="11" font-weight="600" fill="var(--muted)">Brochure: &ldquo;Ordinary saints share faith daily.&rdquo;</text>
+          <text x="344" y="255" font-size="11.5" font-weight="700" fill="var(--ink)">Reality Mirror: Can 50% of adults sketch one</text>
+          <text x="344" y="271" font-size="11.5" font-weight="700" fill="var(--ink)">Bible, prayer &amp; neighbor habit tomorrow?</text>
+        </g>
+
+        <!-- 5. 168-HOUR CALENDAR & CULTURE MIRROR (Bottom Bar) -->
+        <g class="svg-part" data-part="calendar">
+          <rect x="20" y="298" width="600" height="64" rx="10" fill="var(--card)" stroke="var(--success)" stroke-width="${cal.strokeWidth}"/>
+          <rect x="20" y="298" width="600" height="64" rx="10" fill="var(--success)" fill-opacity="${cal.fillOpacity}" style="filter:${cal.filter}"/>
+          <!-- Clock Icon -->
+          <circle cx="50" cy="330" r="15" fill="none" stroke="var(--success)" stroke-width="2.2"/>
+          <polyline points="50,320 50,330 57,334" fill="none" stroke="var(--success)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="76" y="323" font-size="12.5" font-weight="700" fill="var(--success)">5. THE 168-HOUR LEADER &amp; CULTURE MIRROR (PLAN)</text>
+          <text x="76" y="344" font-size="11.5" fill="var(--ink)">Top-10 Lay Leaders Test: Nights/wk in internal committees vs. tables with disciples &amp; neighbors?</text>
+        </g>
+      `);
+    },
+
     "reality-audit": (active) => {
       const pp = hi(active, "pathplan", "var(--slate)", 0.14);
       const pr = hi(active, "pruning", "var(--terracotta)", 0.13);
@@ -395,8 +476,8 @@ window.DML_DIAGRAMS = (function () {
       return svgWrap("0 0 640 340", `
         <g class="svg-part" data-part="pathplan">
           <rect x="40" y="14" width="560" height="52" rx="8" fill="var(--slate)" fill-opacity="${pp.fillOpacity}" stroke="var(--slate)" stroke-width="${pp.strokeWidth}"/>
-          <text x="320" y="37" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle">Horizontal "What Is" Strip: Current PATH &amp; PLAN</text>
-          <text x="320" y="55" font-size="12" fill="var(--ink)" text-anchor="middle">Destination &bull; Map &bull; Groups &bull; Tools &bull; Existing Weekly Calendar</text>
+          <text x="320" y="37" font-size="13" font-weight="700" fill="var(--slate)" text-anchor="middle">Step 2 Input: Findings From Your &ldquo;What Is&rdquo; Church Mirror (Prov 27:23)</text>
+          <text x="320" y="55" font-size="12" fill="var(--ink)" text-anchor="middle">Sort every room, habit, pressure &amp; open door into the 4 Pastoral Quadrants below</text>
         </g>
 
         <text x="320" y="88" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">WITHIN OUR STEWARDSHIP (Internal)</text>
