@@ -1,0 +1,8 @@
+# Keep personal handwritten workbook notes local only
+disciple_making_lab_course.json
+
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+__pycache__/
+*.log

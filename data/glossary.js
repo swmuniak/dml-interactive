@@ -1,0 +1,447 @@
+/* ==========================================================================
+   Disciple Making Lab — Comprehensive Glossary (39 Essential Terms)
+   Every major theological, pastoral, missiological, and learning term
+   ========================================================================== */
+
+window.DML_GLOSSARY = {
+  "disciple": {
+    id: "disciple",
+    term: "Disciple (Gospel Definition)",
+    category: "Theology",
+    short: "A person united to Christ by grace through faith, transformed by the Spirit, learning Jesus's way in community, and sent on cross-bearing mission.",
+    deep: "In Scripture, a disciple (Greek: mathetes) is not merely a classroom student or weekend church attender. Called by the Father (Rom 8:28–30), justified by grace and united with Christ in his death and resurrection (Gal 2:20), a disciple beholds Christ's glory by the Spirit (2 Cor 3:18) and walks as an ambassador of reconciliation (2 Cor 5:14–21) in daily obedience and neighbor-love (Mt 22:37–39; Lk 9:23).",
+    scripture: "Matthew 22:37–39; Luke 9:23; Romans 8:28–30; Galatians 2:20; 2 Corinthians 3:18; 5:14–21",
+    misconception: "Defining discipleship purely as 'process steps' or church volunteer activity, which drops justification and union with Christ and breeds moralistic self-effort.",
+    relatedWeeks: [1, 4, 6],
+    relatedTools: ["gospel-definition", "bowtie"]
+  },
+  "union-with-christ": {
+    id: "union-with-christ",
+    term: "Union with Christ",
+    category: "Theology",
+    short: "The believer's spiritual bond with the crucified and risen Jesus ('in Christ'), which is the true source of all holiness and mission.",
+    deep: "Paul's favorite description of a Christian is being 'in Christ.' Rather than trying to imitate Jesus from a distance by willpower, believers are joined to him by the Holy Spirit so that his death to sin and resurrection life become theirs. All doing flows out of being united to him.",
+    scripture: "John 15:1–8; Romans 6:1–11; Galatians 2:20; Ephesians 1:3–14",
+    misconception: "Treating Jesus merely as a historical role model or productivity coach whose habits we copy on our own strength.",
+    relatedWeeks: [1, 3, 7],
+    relatedTools: ["gospel-definition", "jesus-pattern", "growth-loop"]
+  },
+  "justification": {
+    id: "justification",
+    term: "Justification",
+    category: "Theology",
+    short: "God's gracious courtroom declaration that sinners are forgiven and counted righteous solely through Christ's finished cross and resurrection, received by faith.",
+    deep: "Justification secures our standing before God before we ever practice a spiritual habit or lead a group. Because pardon and righteousness are already gifted in Christ (Rom 5:1; 2 Cor 5:21), obedience springs from gratitude and freedom rather than anxiety to earn God's approval.",
+    scripture: "Romans 3:21–26; 5:1; 8:1; 2 Corinthians 5:19–21; Ephesians 2:8–10",
+    misconception: "Skipping past pardon and grace straight into behavioral checklists—creating exhausted, anxious 'church activity' performers.",
+    relatedWeeks: [1, 5],
+    relatedTools: ["gospel-definition", "oikos-bridge", "prayer-wheel"]
+  },
+  "sanctification": {
+    id: "sanctification",
+    term: "Sanctification",
+    category: "Theology",
+    short: "The lifelong, Spirit-led process by which God conforms believers into the character and obedience of Jesus Christ.",
+    deep: "Sanctification is neither passive fatalism nor self-powered self-improvement. The Lord who is the Spirit transforms us as we behold Christ together in Scripture, prayer, repentance, suffering, and loving community (2 Cor 3:18; Phil 2:12–13).",
+    scripture: "2 Corinthians 3:18; Philippians 2:12–13; 1 Thessalonians 4:3; 5:23–24",
+    misconception: "Confusing sanctification with linear corporate skill-building where mature Christians graduate beyond conscious dependence on grace.",
+    relatedWeeks: [1, 2, 7],
+    relatedTools: ["bible-circle", "growth-loop"]
+  },
+  "fourfold-gospel": {
+    id: "fourfold-gospel",
+    term: "Fourfold Gospel (C&MA Heritage)",
+    category: "Theology",
+    short: "The historic C&MA Christ-centered summary declaring Jesus as Savior (Cross), Sanctifier (Pitcher), Healer (Chalice), and Coming King (Crown).",
+    deep: "Coined by A. B. Simpson, the Fourfold Gospel keeps every ministry habit anchored in the person of Christ rather than institutional technique: Christ our Savior rescues us at the Cross; Christ our Sanctifier fills and transforms us by the Spirit; Christ our Healer meets our sin, grief, and brokenness; Christ our Coming King governs our mission and humble hope.",
+    scripture: "1 Corinthians 1:30; Acts 1:8; James 5:13–16; Revelation 22:20",
+    misconception: "Using the Cross, Pitcher, Chalice, and Crown icons as decorative clip-art on workbook pages without letting Christ's fourfold work shape what we practice.",
+    relatedWeeks: [1, 4, 7, 9, 10],
+    relatedTools: ["gospel-definition", "prayer-wheel", "vetting-soulcare"]
+  },
+  "cross-bearing": {
+    id: "cross-bearing",
+    term: "Cross-Bearing (Kenotic Descent)",
+    category: "Theology",
+    short: "Jesus's non-negotiable call to deny self, embrace costly love, and share his downward path of humility and suffering for others.",
+    deep: "In Luke 9:23 and Philippians 2:5–8, following Jesus is cruciform—shaped like a cross. Discipleship is never an upward climb into religious prestige or comfort; it means dying to ego, forgiving enemies, staying faithful through trials, and laying down privilege for neighbors.",
+    scripture: "Luke 9:23; 14:27; Philippians 2:5–8; 2 Corinthians 4:7–12",
+    misconception: "Treating discipleship solely as an upward lifestyle upgrade ('UP/IN/OUT' without 'DOWN'), leaving believers unprepared when obedience hurts.",
+    relatedWeeks: [1, 3, 7],
+    relatedTools: ["jesus-pattern", "gospel-definition", "growth-loop"]
+  },
+  "word-and-table": {
+    id: "word-and-table",
+    term: "Word & Table (Sacraments & Preaching)",
+    category: "Theology",
+    short: "The historic gathering practices of the church—Scripture proclaimed, Baptism, and Communion—where Christ visibly nourishes and forms his Body.",
+    deep: "Sunday gatherings form disciplemaking culture not by turning announcements into stage commercials, but through the preached Word, Baptism (public union with Christ's death and resurrection), and the Lord's Supper (covenant renewal, confession, and shared unity).",
+    scripture: "Acts 2:42; Romans 6:3–4; 1 Corinthians 11:23–26; Colossians 3:16",
+    misconception: "Viewing Sunday liturgy as mere '100% consumer entry' rather than the primary weekly covenant engine of the church.",
+    relatedWeeks: [1, 8, 9, 10],
+    relatedTools: ["bowtie", "culture-canvas"]
+  },
+  "pneumatology": {
+    id: "pneumatology",
+    term: "Pneumatology (Spirit Dependence)",
+    category: "Theology",
+    short: "Biblical teaching on the Holy Spirit's sovereign presence and power—reminding leaders that only God gives spiritual growth.",
+    deep: "In Mark 4:26–29 and 1 Corinthians 3:6–9, humans sow and water, yet the seed sprouts through God's unseen Spirit. Healthy planning operates with humble prayer ('If the Lord wills,' Jas 4:15), refusing mechanical guarantees that pretend systems can force revival.",
+    scripture: "John 3:8; 16:7–15; Mark 4:26–29; 1 Corinthians 3:6–9; James 4:13–15",
+    misconception: "Assuming that hitting a magic percentage or running a corporate blueprint guarantees an 'unstoppable' culture shift.",
+    relatedWeeks: [2, 4, 10],
+    relatedTools: ["bible-circle", "pruning-curve", "stewardship-roadmap"]
+  },
+  "christocentric-reading": {
+    id: "christocentric-reading",
+    term: "Christocentric Reading",
+    category: "Theology",
+    short: "Reading every Bible passage in its historical context and tracing how it reveals God's character and points toward Jesus Christ.",
+    deep: "Jesus taught his disciples that all the Scriptures bear witness to him (Lk 24:27; Jn 5:39). Adding a quick context and Christ-lens check before applying a passage guards small groups against pulling random verses out of context or turning Scripture into self-help slogans.",
+    scripture: "Luke 24:27, 44–47; John 5:39; 2 Timothy 3:15–17",
+    misconception: "Jumping immediately from reading a verse to 'What word jumped out at me today?' without checking what the author actually meant.",
+    relatedWeeks: [2],
+    relatedTools: ["bible-circle"]
+  },
+  "lament-endurance": {
+    id: "lament-endurance",
+    term: "Lament & Endurance",
+    category: "Theology",
+    short: "Honest biblical crying out to God during grief, hardship, and external opposition—without falsely blaming suffering on personal failure.",
+    deep: "Over a third of the Psalms are laments. When external crises hit a church or family (illness, job loss, persecution, grief), faithful disciples bring pain directly to God in prayer and cling together in endurance, knowing trials do not equal moral defeat.",
+    scripture: "Psalm 13; Psalm 23; Romans 8:17–25; 2 Corinthians 11:23–30; James 5:13",
+    misconception: "Labeling uncontrollable hardship as 'Failure' on a diagnostic grid or forcing cheerful optimism inside struggling groups.",
+    relatedWeeks: [2, 4, 7],
+    relatedTools: ["reality-audit", "prayer-wheel", "growth-loop"]
+  },
+  "bowtie-master-tool": {
+    id: "bowtie-master-tool",
+    term: "Discipling Culture Master Tool (Bowtie)",
+    category: "Church Leadership",
+    short: "The curriculum's visual anchor showing that healthy churches need both Congregation-wide Culture Making (PLAN) and Personal Apprenticeship (PATH).",
+    deep: "Pictured like a bowtie centered on a sent church community, the left wing exposes the Sunday attractional funnel (Attend -> Connect -> Serve) and asks how shared culture (PLAN) shapes everyone. The right wing depicts peer-to-peer multiplication (PATH) from one disciple to generations.",
+    scripture: "Acts 2:42–47; Ephesians 4:11–16; 2 Timothy 2:2",
+    misconception: "Treating the left and right wings as separate silos—or letting Sunday marketing (PLAN) swallow actual life-on-life mentoring (PATH).",
+    relatedWeeks: [1, 4, 9, 10],
+    relatedTools: ["bowtie"]
+  },
+  "culture-making-plan": {
+    id: "culture-making-plan",
+    term: "Culture Making (PLAN)",
+    category: "Church Leadership",
+    short: "Four intentional levers that shape what feels normal in a church: Practices, Language, Artifacts, and Narratives.",
+    deep: "Culture is 'what's normal around here.' Practices embed habits into weekly life; Language names shared vision in plain English; Artifacts are simple visual/physical reminders (like napkin cards); Narratives spread culture through real stories of obedience, baptism, and neighbor love.",
+    scripture: "Deuteronomy 6:6–9; Joshua 4:1–7; Psalm 145:4",
+    misconception: "Thinking slogans and Sunday stage announcements alone change a church's culture without shared weekly practices.",
+    relatedWeeks: [1, 6, 9],
+    relatedTools: ["bowtie", "culture-canvas", "stakeholder-bridge"]
+  },
+  "relational-apprenticeship-path": {
+    id: "relational-apprenticeship-path",
+    term: "Relational Apprenticeship (PATH)",
+    category: "Frontline Practice",
+    short: "The four practical elements that take someone from curious outsider to reproducing disciplemaker: Destination, Map, Vehicle, and Tools.",
+    deep: "Destination answers 'What is a disciple?'; Map (Growth Loop) shows how people mature through stages of dependence; Vehicle is the weekly gathering space where life-on-life happens; Tools are the 4 simple, repeatable napkin habits ordinary believers can pass on.",
+    scripture: "Mark 3:14; 1 Corinthians 11:1; 1 Thessalonians 2:8",
+    misconception: "Engineering an elaborate organizational PATH on whiteboards for five months before personally walking with 2–3 friends.",
+    relatedWeeks: [1, 4, 7, 8],
+    relatedTools: ["bowtie", "reality-audit", "gathering-rhythm"]
+  },
+  "tipping-point": {
+    id: "tipping-point",
+    term: "16% Tipping Point (Descriptive Metric)",
+    category: "Church Leadership",
+    short: "An organizational-systems observation that when roughly 16% of a community embraces a new way of life, cultural momentum begins to shift.",
+    deep: "Borrowed from diffusion-of-innovation research, the 2% -> 16% benchmark reminds leaders they don't need 100% unanimous buy-in on Day 1 to begin. Used descriptively, it encourages patient investment in faithful early practitioners while trusting God for wider awakening.",
+    scripture: "Matthew 13:33 (Leaven in dough); 1 Corinthians 3:6–7",
+    misconception: "Treating 16% as a guaranteed mechanical formula that makes church renewal inevitable without ongoing Spirit-dependence.",
+    relatedWeeks: [1, 9, 10],
+    relatedTools: ["bowtie", "stewardship-roadmap"]
+  },
+  "micro-triad": {
+    id: "micro-triad",
+    term: "Personal Micro-Triad",
+    category: "Frontline Practice",
+    short: "A simple weekly gathering of 2–3 friends (or curious seekers) practicing Scripture reading, prayer, and honest obedience within 14 days of starting.",
+    deep: "Rather than waiting months to launch an official church program, every team member starts a 45-minute weekly triad over coffee, lunch, or a living room right after Week 2. Real field experience builds humility and exposes what actually works before designing wider church groups.",
+    scripture: "Matthew 18:20; Ecclesiastes 4:9–12; 1 Thessalonians 2:8",
+    misconception: "Waiting until every church manual, website page, and elder vote is complete before opening the Bible with two friends.",
+    relatedWeeks: [2, 3, 4, 7],
+    relatedTools: ["bible-circle", "prayer-wheel", "gathering-rhythm"]
+  },
+  "oikos": {
+    id: "oikos",
+    term: "Oikos (Relational World)",
+    category: "Frontline Practice",
+    short: "The Greek New Testament word for 'household'—referring to the 8–15 people naturally connected to your everyday life where you live, work, learn, and play.",
+    deep: "Throughout Acts (e.g., Lydia, the Philippian jailer, Cornelius), the gospel traveled along existing friendships, workplaces, and family networks. Mapping your Oikos helps ordinary believers pray daily for nearby non-Christians instead of inviting strangers coldly to church events.",
+    scripture: "Mark 5:19; Acts 10:24; 16:15, 31–34; Colossians 4:2–6",
+    misconception: "Treating evangelism as a once-a-month church outreach event instead of praying for and dining with people already in your daily orbit.",
+    relatedWeeks: [5, 8],
+    relatedTools: ["oikos-bridge", "jesus-pattern"]
+  },
+  "person-of-peace": {
+    id: "person-of-peace",
+    term: "Person of Peace",
+    category: "Frontline Practice",
+    short: "An open, hospitable neighbor outside the church who welcomes your friendship, listens respectfully, and naturally connects you with their circle.",
+    deep: "In Luke 10:5–9, Jesus sent disciples to look for someone already spiritually receptive whom God had prepared. Instead of arguing with hostile skeptics or forcing formulas, disciples invest time, share meals, and offer discovery around Scripture with open people.",
+    scripture: "Luke 10:1–11; John 4:28–39; Acts 16:14–15",
+    misconception: "Trying to argue every uninterested acquaintance into agreement instead of discerning where the Spirit is already opening doors.",
+    relatedWeeks: [5],
+    relatedTools: ["oikos-bridge"]
+  },
+  "seeker-dbs": {
+    id: "seeker-dbs",
+    term: "Seeker Discovery Bible Study (DBS)",
+    category: "Frontline Practice",
+    short: "A low-pressure 4-question conversation allowing non-Christians to read a short Gospel story together and discover who Jesus is for themselves.",
+    deep: "Instead of lecturing skeptics, a host reads a short passage (e.g., Luke 5, 15, or 19) and asks: (1) What stands out? (2) What does this show about God/Jesus? (3) What does it show about people? (4) What is one thing we could test or apply this week? Scripture speaks directly without insider jargon.",
+    scripture: "John 1:39 ('Come and see'); Luke 10:26; Acts 17:11",
+    misconception: "Assuming you can only open the Bible with people who already agree it is authoritative.",
+    relatedWeeks: [2, 5, 8],
+    relatedTools: ["oikos-bridge", "bible-circle"]
+  },
+  "training-triangle": {
+    id: "training-triangle",
+    term: "Training Triangle (Truth -> Imitation -> Multiplication)",
+    category: "Learning & Tools",
+    short: "A 3-step apprenticeship pattern showing that real skill transfer requires shared life (Imitation) between biblical Truth and Faithful Multiplication.",
+    deep: "Western churches frequently jump straight from classroom Truth (sermons/classes) to expecting people to go multiply, skipping Imitation ('Watch me, walk with me, try it together'). Jesus and Paul modeled life-on-life apprenticeship in homes, roads, and meals.",
+    scripture: "Mark 3:14; 1 Corinthians 4:14–17; 11:1; 2 Timothy 2:2",
+    misconception: "Interpreting the third vertex ('Innovation') as permission to constantly invent brand-new tools rather than faithfully passing on what you lived.",
+    relatedWeeks: [3, 7],
+    relatedTools: ["training-triangle", "growth-loop"]
+  },
+  "faithful-multiplication": {
+    id: "faithful-multiplication",
+    term: "Faithful Multiplication",
+    category: "Theology",
+    short: "Entrusting tested, gospel-rooted habits to reliable believers who can live them and pass them along to a fourth generation (2 Tim 2:2).",
+    deep: "Replacing the Silicon Valley term 'Innovation,' Faithful Multiplication balances contextual adaptability (speaking a neighbor's language) with apostolic fidelity—making sure the next generation holds the true gospel rather than watered-down shortcuts.",
+    scripture: "2 Timothy 1:13–14; 2:2; Jude 3",
+    misconception: "Requiring every church or leader to reinvent proprietary methods instead of stewarding proven, reproducible patterns.",
+    relatedWeeks: [3, 7, 9],
+    relatedTools: ["training-triangle", "vetting-soulcare"]
+  },
+  "napkin-tool": {
+    id: "napkin-tool",
+    term: "101-Level Napkin Tool",
+    category: "Learning & Tools",
+    short: "A visual habit simple enough to sketch from memory on a coffee-shop napkin in two minutes, teach to a brand-new believer, and practice for life.",
+    deep: "Great discipleship tools are evaluated against five criteria: (1) Simple (back-of-a-napkin), (2) Visual (memorable shapes), (3) Process-oriented (shows how to act), (4) Transferable (anyone can pass it on), and (5) 101-Level (accessible Day 1 yet deep enough to grow with you).",
+    scripture: "Habakkuk 2:2 ('Write the vision; make it plain'); 2 Timothy 2:2",
+    misconception: "Forcing every church team to design 5–6 custom diagrams in 30 days, which overwhelms ordinary leaders and blocks multi-generational transfer.",
+    relatedWeeks: [2, 7],
+    relatedTools: ["napkin-rubric", "bible-circle", "prayer-wheel", "jesus-pattern"]
+  },
+  "picture-mirror-window": {
+    id: "picture-mirror-window",
+    term: "Picture / Mirror / Window",
+    category: "Learning & Tools",
+    short: "Three lenses for testing any discipleship tool: Does it picture how to act, mirror my own heart, and open a window onto God's world?",
+    deep: "A Picture models what obedience looks like; a Mirror prompts honest self-examination before God; a Window turns our eyes outward toward neighbors and creation. If a diagram lacks one of these lenses, it either stays abstract theory or turns inward.",
+    scripture: "James 1:22–25 (Mirror of the Word); John 4:35 (Lift up your eyes)",
+    misconception: "Building purely analytical flowcharts (all Picture, no Mirror or Window) that never stir repentance or mission.",
+    relatedWeeks: [7],
+    relatedTools: ["napkin-rubric"]
+  },
+  "pruning-audit": {
+    id: "pruning-audit",
+    term: "Sacred Cow & Pruning Audit (STOP Gate)",
+    category: "Church Leadership",
+    short: "The intentional decision to pause, merge, or retire 1–2 low-fruit programs or meetings so leaders have real margin for relational discipling.",
+    deep: "Healthy branches require pruning to bear lasting fruit (Jn 15:2). Most church initiatives fail not from bad theology, but because teams pile new expectations on top of maxed-out calendars. Naming what to STOP honors volunteer energy and protects family life.",
+    scripture: "John 15:1–2; Exodus 18:17–23; Hebrews 12:1",
+    misconception: "Leaving 'STOP' as an undefined slogan while keeping every committee, bulletin announcement, and legacy class intact.",
+    relatedWeeks: [4, 6, 10],
+    relatedTools: ["pruning-curve", "reality-audit"]
+  },
+  "legacy-group-pathway": {
+    id: "legacy-group-pathway",
+    term: "Legacy Small-Group Pathway",
+    category: "Church Leadership",
+    short: "Three respectful options for existing small groups and classes—Convert, Hybridize, or Honorably Sunset—preventing a two-tier church caste system.",
+    deep: "When a church launches new discipleship groups without honoring veteran small-group leaders, division erupts. Instead of putting special badges or lanyards on new leaders, teams invite existing groups to either adopt the weekly rhythm, weave one habit into existing studies, or conclude a faithful season with gratitude.",
+    scripture: "Romans 12:10; Philippians 2:3–4; 1 Corinthians 12:21–26",
+    misconception: "Treating existing home groups as 'second-class social clubs' while giving new Beta leaders shiny Sunday lanyards and stage spotlights.",
+    relatedWeeks: [6, 8],
+    relatedTools: ["stakeholder-bridge", "gathering-rhythm"]
+  },
+  "friction-valley": {
+    id: "friction-valley",
+    term: "Friction Valley (D2 Stage)",
+    category: "Frontline Practice",
+    short: "The inevitable season when initial excitement fades, awkwardness or sin surfaces, and a disciple is tempted to quit—requiring patient shepherding.",
+    deep: "Every disciple hits D2 (Conscious Incompetence) when trying a new area of obedience: sharing faith feels clumsy, hidden sin resurfaces, or family crisis hits. Leaders who understand Friction Valley walk alongside people with tears, patience, and hope instead of shaming them.",
+    scripture: "Psalm 23:4; Galatians 6:1–2; 1 Thessalonians 5:14",
+    misconception: "Expecting smooth linear progress or dropping slow, struggling disciples to protect group metrics.",
+    relatedWeeks: [7, 9],
+    relatedTools: ["growth-loop", "vetting-soulcare"]
+  },
+  "over-functioning": {
+    id: "over-functioning",
+    term: "Over-Functioning (L3 Trap)",
+    category: "Frontline Practice",
+    short: "A mentor's temptation to keep rescuing, answering every question, or doing ministry for a capable disciple instead of coaching them to step forward.",
+    deep: "Earlier versions of the course mislabeled this 'co-dependence' (which confused healthy Christian burden-bearing with enabling). Over-functioning occurs when a leader's need to feel needed keeps a growing believer (D3) passive rather than releasing them to pray, lead, and learn.",
+    scripture: "Exodus 18:13–23; Ephesians 4:12; 2 Timothy 1:6",
+    misconception: "Confusing unhealthy rescuing with biblical mutual care (Gal 6:2), or pulling away abruptly without coaching support.",
+    relatedWeeks: [7],
+    relatedTools: ["growth-loop"]
+  },
+  "spirit-dependent-maturity": {
+    id: "spirit-dependent-maturity",
+    term: "Spirit-Dependent Maturity (D4 Posture)",
+    category: "Theology",
+    short: "Seasoned faithfulness where a believer naturally reproduces habits in others while growing *more* aware of their daily need for Jesus's grace.",
+    deep: "Replaces the secular leadership label 'Unconscious Competence.' In Christian formation, nobody graduates into autopilot mastery. The closer Paul walked with Christ, the deeper his humility grew (1 Tim 1:15; Jn 15:5)—empowering others while remaining rooted in Christ.",
+    scripture: "John 15:5; 1 Timothy 1:15; Philippians 3:12–15",
+    misconception: "Assuming mature leaders no longer need Soul Care, confession, or close accountability.",
+    relatedWeeks: [7, 9],
+    relatedTools: ["growth-loop", "vetting-soulcare"]
+  },
+  "life-on-life-rhythm": {
+    id: "life-on-life-rhythm",
+    term: "Life-on-Life Gathering Rhythm",
+    category: "Frontline Practice",
+    short: "A repeatable 60–75 minute weekly gathering flow around meals or coffee: Celebrate -> Habit Focus -> Next Step + Weekly Mission.",
+    deep: "Rather than running a formal lecture, 3–5 people celebrate concrete obedience from the past week, practice one core habit in Scripture or prayer together, and commit to one measurable step of obedience and one neighbor-love action for the coming week.",
+    scripture: "Acts 2:42–47; Hebrews 10:24–25; James 1:22",
+    misconception: "Meeting only twice a month or confining outreach to 'Week 4 Mission Focus,' which turns 75% of group life inward.",
+    relatedWeeks: [8, 9],
+    relatedTools: ["gathering-rhythm"]
+  },
+  "beta-group": {
+    id: "beta-group",
+    term: "Weekly Pilot Group (Beta)",
+    category: "Church Leadership",
+    short: "A 12–16 week trial cohort of 2–4 weekly life-on-life groups launched with aligned elders to test rhythm and train 2nd-generation apprentices.",
+    deep: "Running weekly (not biweekly) for at least 12 weeks gives groups enough shared life to weather Friction Valley, witness answered prayers among Oikos neighbors, and hand leadership segments to emerging apprentices before the 10-week course concludes.",
+    scripture: "Luke 10:1–17 (Sent, returned, and debriefed); 1 Thessalonians 5:21",
+    misconception: "Launching biweekly 3-month pilots (only 6 meetings total) in secret without telling existing staff or elders.",
+    relatedWeeks: [8, 9, 10],
+    relatedTools: ["gathering-rhythm", "stakeholder-bridge"]
+  },
+  "stakeholder-alignment": {
+    id: "stakeholder-alignment",
+    term: "Stakeholder Alignment",
+    category: "Church Leadership",
+    short: "Proactively inviting Elders, staff, Next-Gen leads, and veteran volunteers into early conversation using a plain 1-page summary before launching changes.",
+    deep: "In healthy church leadership, surprises breed suspicion. Moving the One-Pager and Stakeholder Matrix from Month 8 up to Week 6 prevents 'Secret Lab' resentment and turns Worship, Kids, and Youth directors into co-architects instead of reluctant implementers.",
+    scripture: "Proverbs 15:22; Philippians 2:1–5; Ephesians 4:3",
+    misconception: "Working quietly with a small team for seven months and handing elders a finished rollout plan as a done deal.",
+    relatedWeeks: [1, 6, 9],
+    relatedTools: ["stakeholder-bridge", "culture-canvas"]
+  },
+  "plain-language": {
+    id: "plain-language",
+    term: "Plain-Language Translation",
+    category: "Learning & Tools",
+    short: "Translating workshop jargon ('Vehicles', 'Betas', 'Bowtie', 'PATH/PLAN') into everyday biblical words an unchurched neighbor or grandmother immediately understands.",
+    deep: "Insider acronyms build walls inside a congregation. Before communicating to the church, teams replace consulting terms with clear speech: 'weekly prayer & Bible friends,' 'neighbor tables,' and 'learning Jesus's way together.'",
+    scripture: "1 Corinthians 14:9, 19; Colossians 4:6",
+    misconception: "Teaching Sunday congregations workshop vocabulary like 'our new Discipleship Vehicle Beta.'",
+    relatedWeeks: [6, 9],
+    relatedTools: ["stakeholder-bridge", "culture-canvas"]
+  },
+  "character-competency": {
+    id: "character-competency",
+    term: "Character & Competency Integrity Matrix",
+    category: "Church Leadership",
+    short: "A leadership discernment lens placing Christlike character above ministry skill—warning against empowering gifted leaders who lack humility or integrity.",
+    deep: "High skill paired with unrepentant pride creates severe spiritual harm (1 Tim 3; Ps 78:72). Conversely, God delights in using ordinary, weak believers with high integrity (1 Cor 1:27). Character determines readiness for leadership trust; competency grows through coaching.",
+    scripture: "Psalm 78:72; 1 Corinthians 1:26–29; 1 Timothy 3:1–13",
+    misconception: "Promising 'unlimited breakthrough' based on human skill rather than God's grace and moral trustworthiness.",
+    relatedWeeks: [1, 9],
+    relatedTools: ["vetting-soulcare", "gospel-definition"]
+  },
+  "vetting-gate": {
+    id: "vetting-gate",
+    term: "Leader Vetting & Escalation Protocol",
+    category: "Church Leadership",
+    short: "A simple 1-page safeguard checking gospel orthodoxy, personal integrity, and clear conflict/crisis escalation paths before 2nd-generation groups multiply.",
+    deep: "As peer-led groups multiply, simple guardrails protect the flock: elder/pastor endorsement, alignment on core Christian doctrine, safety boundaries, and clear guidance on when to bring severe marriage, mental health, or doctrinal crises to pastoral elders.",
+    scripture: "Titus 1:5–9; Acts 20:28–31; 1 Timothy 5:22",
+    misconception: "Assuming simple 101 napkin tools eliminate the need for elder oversight, doctrinal clarity, or crisis referral.",
+    relatedWeeks: [9],
+    relatedTools: ["vetting-soulcare"]
+  },
+  "soul-care-pods": {
+    id: "soul-care-pods",
+    term: "1:4–5 Soul Care Pods",
+    category: "Church Leadership",
+    short: "Small relational circles capping every coach's span of care at 4–5 leaders so apprentices are personally prayed for, known, and restored—never treated as KPI cogs.",
+    deep: "Inspired by Moses and Jethro (Exod 18), no pastor can personally shepherd 30 group leaders alone. Capping Soul Care pods at 1:4–5—and using the Prayer Wheel and cross-centered Examen strictly for grace-filled rest rather than reporting numbers—prevents burnout.",
+    scripture: "Exodus 18:13–26; Acts 20:28; 1 Peter 5:2–3; Mark 6:31",
+    misconception: "Treating leader check-ins as metric policing sessions or letting one staff pastor absorb every multiplying leader.",
+    relatedWeeks: [9, 10],
+    relatedTools: ["vetting-soulcare", "prayer-wheel"]
+  },
+  "leading-indicators": {
+    id: "leading-indicators",
+    term: "Leading Health Indicators",
+    category: "Church Leadership",
+    short: "Early, honest pulse signals—group retention, weekly habit fidelity, Oikos stories, Soul Care coverage, and pruned clutter—tracked alongside multi-year fruit.",
+    deep: "Waiting three years to count '3rd-generation groups' misses early warning signs like leader exhaustion or inward drift. Tracking leading indicators helps elders care for people in real time without turning saints into corporate quotas.",
+    scripture: "Proverbs 27:23 ('Know well the condition of your flocks'); Acts 15:36",
+    misconception: "Measuring success only by Sunday lanyards, attendance percentages, or empty 1-Year targets.",
+    relatedWeeks: [8, 10],
+    relatedTools: ["stewardship-roadmap"]
+  },
+  "stewardship-roadmap": {
+    id: "stewardship-roadmap",
+    term: "Prayerful Stewardship Roadmap",
+    category: "Church Leadership",
+    short: "A 4-horizon planning chart (90-Day, 1-Year, 3-Year, Prayerful Vision) aligning apprenticeship (PATH) and culture (PLAN) humbly under James 4:15 ('If the Lord wills').",
+    deep: "Replacing corporate aerospace 'Moonshot' guarantees, this roadmap pairs short-term operational clarity with sober budget/calendar checks and theological humility: we plant and water diligently, while trusting God alone for the harvest (1 Cor 3:7).",
+    scripture: "James 4:13–15; 1 Corinthians 3:6–9; Proverbs 16:9",
+    misconception: "Writing triumphalist pledges claiming a culture shift 'could only be derailed if you intentionally tried to stop it.'",
+    relatedWeeks: [10],
+    relatedTools: ["stewardship-roadmap"]
+  },
+  "elder-ratification": {
+    id: "elder-ratification",
+    term: "Elder Board Ratification & Onboarding",
+    category: "Church Leadership",
+    short: "Formal board adoption of the church's roadmap, Soul Care budget protection, and a 2-page New Staff & Elder Onboarding Manual to prevent turnover resets.",
+    deep: "Many church initiatives collapse in Year 2 when a key champion leaves or budget season tightens. Securing board ratification and handing every incoming pastor or elder a 2-page primer in their first 30 days embeds the DNA into church governance.",
+    scripture: "1 Timothy 5:17; Titus 1:5; Deuteronomy 31:7–9",
+    misconception: "Ending a 10-week cohort with personal inspiration while leaving the wider church board and future hires out of the loop.",
+    relatedWeeks: [1, 10],
+    relatedTools: ["stewardship-roadmap", "stakeholder-bridge"]
+  },
+  "commissioning": {
+    id: "commissioning",
+    term: "Word-and-Table Commissioning",
+    category: "Theology",
+    short: "Sending out the congregation around Scripture, Communion, and prayer under Christ's Great Commission: 'You Are Disciplemakers — Go Multiply in Christ.'",
+    deep: "Rather than closing as corporate 'Culture Builders,' the church gathers at the Lord's Table to remember Jesus's saving death, lay hands in prayer for endurance, and step into everyday neighborhoods trusting the promised presence of Christ to the end of the age.",
+    scripture: "Matthew 28:18–20; Acts 13:2–3; 1 Corinthians 11:26",
+    misconception: "Framing the end of a training cohort as graduation into self-reliant organizational management.",
+    relatedWeeks: [10],
+    relatedTools: ["stewardship-roadmap", "bowtie"]
+  },
+  "examen": {
+    id: "examen",
+    term: "Cross-Centered Examen",
+    category: "Theology",
+    short: "A daily reflective prayer of gratitude, honest confession at the cross, discerning God's promptings, and entrusting tomorrow's trials to Jesus.",
+    deep: "Rooted in historic Christian prayer and grounded inside the Lord's Prayer Wheel, the Cross-Centered Examen avoids vague self-actualization by anchoring our identity in Christ's forgiveness and the indwelling Spirit—ideal for Soul Care check-ins.",
+    scripture: "Psalm 139:23–24; 1 John 1:7–9; Lamentations 3:22–24",
+    misconception: "Presenting a detached morning mood check that treats human desire alone as saving grace and skips repentance.",
+    relatedWeeks: [2, 9],
+    relatedTools: ["prayer-wheel", "vetting-soulcare"]
+  },
+  "andragogy": {
+    id: "andragogy",
+    term: "Chunked Adult Learning (Andragogy)",
+    category: "Learning & Tools",
+    short: "Designing training for busy adults through relevant real-life problems, 3–5 item chunks, dual-coded visuals, progressive disclosure, and immediate practice.",
+    deep: "Adult working memory overloads rapidly when drowned in blank pages or 20-minute lectures. Combining clean visuals alongside brief text (Dual Coding), tucking nuance into expandable menus (Progressive Disclosure), and using real church scenarios drives durable habit transfer.",
+    scripture: "Proverbs 1:5; Luke 9:1–6; 10:1–17 (Teach -> Send -> Debrief)",
+    misconception: "Assuming handing out blank workbook shapes with live verbal dumps enables laypeople to teach others months later.",
+    relatedWeeks: [1, 7],
+    relatedTools: ["napkin-rubric", "training-triangle"]
+  }
+};

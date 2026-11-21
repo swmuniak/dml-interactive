@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Disciple Making Lab — 10-Week Interactive Curriculum</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Sticky Top Utility Bar -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div style="display:flex; align-items:center; gap:0.65rem;">
+        <button class="btn btn-sm mobile-menu-btn" onclick="toggleMobileSidebar()" aria-label="Toggle curriculum navigation">☰ Menu</button>
+        <div class="brand" onclick="navigate('home')" role="button" tabindex="0">
+          <div class="brand-mark">D</div>
+          <div>
+            <span class="brand-title">Disciple Making Lab</span>
+            <span class="brand-sub">10-Week Interactive Church Curriculum</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="topbar-controls">
+        <div class="progress-pill" title="Overall 10-Week completion">
+          <div class="progress-track"><div id="global-progress-fill" class="progress-fill" style="width:0%"></div></div>
+          <span id="global-progress-label">0/10 Weeks</span>
+        </div>
+        <button class="btn btn-sm" onclick="openSearchModal()" title="Search curriculum (Ctrl+K)">Search (Ctrl+K)</button>
+        <button class="btn btn-sm" onclick="navigate('glossary')">Glossary</button>
+        <button id="theme-toggle-btn" class="btn btn-sm" onclick="toggleTheme()">☾ Dark Mode</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Two-Column Application Shell -->
+  <div class="app-shell">
+    <aside id="sidebar" class="sidebar">
+      <nav id="sidebar-nav" aria-label="Course Modules"></nav>
+    </aside>
+
+    <main class="main-content">
+      <div id="app-root" class="content-wrap"></div>
+    </main>
+  </div>
+
+  <!-- Floating Inline Term Tooltip Popover -->
+  <div id="tooltip-popover" class="tooltip-popover" role="tooltip"></div>
+
+  <!-- Right-Side Slide-Over Glossary Drawer -->
+  <div id="drawer-backdrop" class="drawer-backdrop" onclick="closeGlossaryDrawer()"></div>
+  <aside id="glossary-drawer" class="glossary-drawer" aria-label="Glossary Definition Drawer">
+    <div style="padding:1rem 1.25rem; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+      <span style="font-weight:700; font-size:0.9rem;">Glossary Reference</span>
+      <button class="btn btn-sm" onclick="closeGlossaryDrawer()">Close ✕</button>
+    </div>
+    <div id="drawer-body" style="padding:1.25rem; overflow-y:auto; flex:1;"></div>
+  </aside>
+
+  <!-- Global Search Modal -->
+  <div id="search-modal-overlay" class="modal-overlay" onclick="if(event.target===this) closeSearchModal()">
+    <div class="search-modal" role="dialog" aria-label="Search curriculum">
+      <div style="padding:0.9rem 1.1rem; border-bottom:1px solid var(--border); display:flex; gap:0.65rem; align-items:center;">
+        <input id="global-search-input" type="search" class="field-input" placeholder="Search weeks, visual tools, Scripture, or glossary terms..." oninput="runGlobalSearch(this.value)" />
+        <button class="btn btn-sm" onclick="closeSearchModal()">Esc</button>
+      </div>
+      <div id="search-results" style="padding:1rem; overflow-y:auto;"></div>
+    </div>
+  </div>
+
+  <!-- Zero-Build Modular Scripts (Works offline on file:// or HTTP) -->
+  <script src="data/glossary.js"></script>
+  <script src="data/tools.js"></script>
+  <script src="js/diagrams.js"></script>
+  <script src="data/curriculum.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
