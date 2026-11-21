@@ -13,7 +13,7 @@ Across four sharply distinct lenses—systematic theology, grassroots disciplema
 
 ### What Causes DML to Fail or Stall
 1. **Whiteboard Delay & Bureaucratic Creep:** Five full months pass before a Beta launches (Modules 1–5), followed by a pivot into 20-cell grids (pp. 75–76, 84, 90, 108), `"lanyards on Sundays"` (p. 101), communication folios (pp. 92–93), and NASA-modeled roadmaps (p. 99). Even after three years, the worked example aims only for *one* functioning 3rd-generation group (p. 101), commissioning teams not as gospel witnesses but as **`"YOU ARE CULTURE BUILDERS"`** (p. 113).
-2. **Theological Thinness & Managerial Hubris:** Proof-texts on p. 8 strip out justification, union with Christ, cross-bearing, and sacramental body life; the C&MA Fourfold Gospel icons (`Cross`, `Pitcher`, `Crown`, `Chalice`) rotate as decorative clip-art; and Modules 9–10 promise a culture *"that could only be derailed if you intentionally tried to stop it"* (pp. 101, 103, 111)—replacing Spirit-dependent agricultural growth (1 Cor 3:7; Mk 4:26–29) with mechanical certainty.
+2. **Theological Thinness & Managerial Hubris:** Proof-texts on p. 8 strip out justification, union with Christ, cross-bearing, and sacramental body life; the C&MA Fourfold Gospel icons (`Cross`, `Laver`, `Pitcher`, `Crown`) rotate without explicit integration; and Modules 9–10 promise a culture *"that could only be derailed if you intentionally tried to stop it"* (pp. 101, 103, 111)—replacing Spirit-dependent agricultural growth (1 Cor 3:7; Mk 4:26–29) with mechanical certainty.
 3. **Upside-Down Change Management:** Auditing `"What Is"` (`PLAN Inventory`, p. 89) and mapping stakeholders (p. 93) wait until **Month 8**, breeding elder-board ambush and "secret lab" resentment among Next-Gen and small-group leaders—while leaving zero pathway to transition legacy groups, zero program subtraction, and an abrupt **Month 13 Cliff**.
 4. **Severe Instructional Neglect:** Thirty of 113 pages (26.5%, rising past 40% with sparse `NOTES:` sheets) are blank; nine canonical diagrams omit their labels; Modules 4–5 push novices off a Zone of Proximal Development (ZPD) cliff by demanding **5–6 custom tools** in 30 days without rubrics; promised Beta debriefs vanish in Modules 8–10; and `modulePage` pagination breaks (`null`) across Modules 7–10.
 
@@ -35,7 +35,7 @@ Across four sharply distinct lenses—systematic theology, grassroots disciplema
 
 ### Collision 4: Fourfold Gospel Depth & Soul Care vs. Lean 101 Reproducibility
 - **The Tension:** The *Theologian* exposes absent justification, union with Christ, lament, sacraments, and C&MA Fourfold substance (as well as Module 6's detached, Pelagian morning Examen, p. 73). Yet the *Disciplemaker* and *Learning Specialist* warn that dense theological lectures crush working memory and stop laypeople from reproducing habits in coffee shops.
-- **Editorial Ruling — *Deep Roots, Napkin Leaves*:** Never turn Lab sessions into systematic theology seminars. Instead, **bake Fourfold Christology and gospel realities directly into the four simple habits and liturgical moments**: *Savior (Cross)* animates the Oikos Gospel Bridge and cross-centered forgiveness inside the Prayer Wheel/Examen; *Sanctifier (Pitcher)* anchors Spirit-led Scripture listening and the Apprenticeship Loop; *Healer (Chalice)* governs Module 4's Friction Valley coaching (sin, relapse, grief) and Module 7's Soul Care; *Coming King (Crown)* frames urgent neighbor mission and humble Stewardship Horizons, culminating in Word-and-Table Commissioning.
+- **Editorial Ruling — *Deep Roots, Napkin Leaves*:** Never turn Lab sessions into systematic theology seminars. Instead, **bake Fourfold Christology and gospel realities directly into the four simple habits and liturgical moments**: *Savior (Cross)* animates the Oikos Gospel Bridge and cross-centered forgiveness inside the Prayer Wheel/Examen; *Sanctifier (Laver)* anchors Spirit-led Scripture listening and the Apprenticeship Loop; *Healer (Pitcher)* governs Module 4's Friction Valley coaching (sin, relapse, grief) and Module 7's Soul Care; *Coming King (Crown)* frames urgent neighbor mission and humble Stewardship Horizons, culminating in Word-and-Table Commissioning.
 
 ### Collision 5: Two-Day Thu/Fri Retreats & Biweekly Betas vs. Sustainable Church Reality
 - **The Tension:** Two Thursday–Friday immersions burn scarce PTO for bivocational pastors and lay leaders; Module 6 crams Toolkit Presentations, Vehicle design, Beta logistics, Culture Grids, and Leader Development onto one overloaded weekend; and biweekly 3-month Betas (6 meetings total, p. 71) guarantee slow stagnation.
@@ -103,8 +103,8 @@ Across four sharply distinct lenses—systematic theology, grassroots disciplema
 ### Course Identity, Cadence & Audience
 - **Title:** *Disciple Making Lab*
 - **Subtitle:** *Forming Christ-Centered, Reproducing Churches in Everyday Life*
-- **Core Promise:** Over nine months, pastor-and-lay teams root discipleship in union with Christ, practice four reproducible habits personally from Week 2, align elders and legacy ministries before launch, and establish weekly life-on-life groups bearing visible second-generation fruit—supported by a Year-2 sustainability rhythm.
-- **Audience:** Teams of 3–5 per congregation (Lead/Solo Pastor, at least one Elder/governance leader, and 1–3 Lay or Next-Gen leaders), explicitly paced for bivocational and small-church capacity.
+- **Core Promise:** Over nine months, pastor-and-lay teams root discipleship in union with Christ, practice four reproducible habits personally from Module 2, align elders and legacy ministries before launch, and establish weekly life-on-life groups bearing visible second-generation fruit—supported by a Year-2 sustainability rhythm.
+- **Audience:** Teams of 4–8 per congregation (Lead/Solo Pastor, Elder/governance leaders, and Lay or Next-Gen leaders), explicitly paced for bivocational and small-church capacity.
 - **Cadence:** **Module 0 (Pre-Cohort Gate)** + **9 Monthly Modules** (M1 Kickoff & M9 Commissioning: Fri 5:30–9:00 PM + Sat 8:00 AM–3:30 PM; M2–M8: 3.5-hour monthly cohort sessions) + **Year-2 Quarterly Huddles (Months 12, 15, 18, 24)**. Realistic weekly load: ~2–3 hours/week, funded by pruning existing low-fruit commitments.
 
 ### Guiding Architecture
@@ -124,7 +124,7 @@ Four load-bearing strands interlock across every module:
 - **Outcomes:**
   - *Know:* Why lasting multiplication requires elder partnership, shared ministry voices, and realistic calendar capacity.
   - *Feel:* Supported, transparent, and unhurried—relieved from performing solitary heroics.
-  - *Do:* Secure Elder Board covenant sign-off, form a 3–5 person multi-ministry team, and complete the 2-page Reality Snapshot.
+  - *Do:* Secure Elder Board covenant sign-off, form a 4–8 person multi-ministry team, and complete the 2-page Reality Snapshot.
 - **Biblical / Theological Anchor:** *Acts 15:1–29; 1 Peter 5:1–4; Luke 14:28–30* — Shared shepherding under the Chief Shepherd; soberly counting the cost before building; dependence on God's household wisdom (Ps 127:1).
 - **Teaching Inputs & Workshops:** Asynchronous video briefing; structured 60-minute board-and-team discernment conversation.
 - **Visual Tools & Diagrams:** Pre-Cohort Reality Snapshot (2-page intake capturing Sunday attendance, active groups, volunteer load, and calendar pressure).
@@ -137,7 +137,7 @@ Four load-bearing strands interlock across every module:
   - *Know:* A disciple is united to Christ by grace, transformed by the Spirit, and sent in cross-bearing love; culture (`PLAN`) and apprenticeship (`PATH`) grow through *Imitation*.
   - *Feel:* Humbled by grace, liberated from self-powered religious performance, and eager to walk with friends immediately.
   - *Do:* Practice all three foundational habits (`Bible`, `Prayer`, `Jesus Pattern`) live and start a weekly Micro-Triad within 14 days.
-- **Biblical / Theological Anchor:** *Romans 5:1; 8:17–30; Galatians 2:20; 2 Corinthians 3:18; 5:14–21; Luke 9:23; Matthew 22:37–39* — Grounding identity in justification, indwelling Spirit transformation, cross-bearing, and neighbor-love; C&MA *Cross (Savior)* and *Pitcher (Sanctifier)* embodied in Word, Baptism, and the Lord's Table.
+- **Biblical / Theological Anchor:** *Romans 5:1; 8:17–30; Galatians 2:20; 2 Corinthians 3:18; 5:14–21; Luke 9:23; Matthew 22:37–39* — Grounding identity in justification, indwelling Spirit transformation, cross-bearing, and neighbor-love; C&MA *Cross (Savior)* and *Laver (Sanctifier)* embodied in Word, Baptism, and the Lord's Table.
 - **Teaching Inputs & Workshops:**
   - Personal Growth Reflection (`From the Start`, p. 3).
   - Bowtie & `Training Triangle` overview (why *Imitation* precedes *Innovation*).
@@ -187,7 +187,7 @@ Four load-bearing strands interlock across every module:
   - *Know:* Spiritual maturity deepens dependence on Christ across uneven life domains, requiring flexible coaching postures rather than rigid timelines.
   - *Feel:* Unhurried pastoral patience—ready to sit in grief and failure without lowering Jesus's call.
   - *Do:* Role-play difficult coaching conversations and evaluate the core 4 tools (plus at most 1 optional church adaptation) against the 5-Point Napkin Rubric.
-- **Biblical / Theological Anchor:** *1 Thessalonians 2:7–12; 5:14; Galatians 6:1–5; Isaiah 42:3; James 5:13–16* — Gentle restoration, bearing burdens, encouraging the fainthearted; C&MA *Healer (Chalice)* and *Sanctifier (Pitcher)* grace for broken people.
+- **Biblical / Theological Anchor:** *1 Thessalonians 2:7–12; 5:14; Galatians 6:1–5; Isaiah 42:3; James 5:13–16* — Gentle restoration, bearing burdens, encouraging the fainthearted; C&MA *Healer (Pitcher)* and *Sanctifier (Laver)* grace for broken people.
 - **Teaching Inputs & Workshops:**
   - Micro-Triad & Oikos Debrief Scorecard.
   - Coaching Clinic: `The Apprenticeship Growth Loop` (domain-specific postures + live role-plays on chronic sin relapse, bereavement/crisis, and passive consumerism).

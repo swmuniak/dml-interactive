@@ -13,7 +13,7 @@ window.DML_TOOLS = {
     week: 1,
     category: "Architecture",
     tagline: "Balances congregation-wide Culture Making (PLAN) with peer-to-peer Apprenticeship (PATH) around a sent Word-and-Table community.",
-    whenToUse: "Use in Week 1 to diagnose Sunday consumerism, in Week 4 during reality audits, in Week 9 to weave ministries together, and in Week 10 to synthesize your journey.",
+    whenToUse: "Use in Module 1 to diagnose Sunday consumerism, in Module 4 during reality audits, in Module 9 to weave ministries together, and in Module 10 to synthesize your journey.",
     originalSvgPath: "diagrams/discipling_culture_master_tool.svg",
     scripture: "Acts 2:42–47; Ephesians 4:11–16; 2 Timothy 2:2",
     relatedTerms: ["bowtie-master-tool", "culture-making-plan", "relational-apprenticeship-path", "tipping-point", "word-and-table"],
@@ -55,7 +55,7 @@ window.DML_TOOLS = {
     week: 1,
     category: "Theology & Identity",
     tagline: "Defines a disciple by union with Christ, Spirit transformation, cross-bearing community, and neighbor mission—never self-powered willpower.",
-    whenToUse: "Use in Week 1 to clarify your church's destination, and refine in Weeks 4 and 6 after listening to parishioners and aligning elders.",
+    whenToUse: "Use in Module 1 to clarify your church's destination, and refine in Modules 4 and 6 after listening to parishioners and aligning elders.",
     originalSvgPath: null,
     scripture: "Romans 5:1; 8:28–30; Galatians 2:20; 2 Corinthians 3:18; 5:14–21; Luke 9:23",
     relatedTerms: ["disciple", "union-with-christ", "justification", "cross-bearing", "fourfold-gospel"],
@@ -64,13 +64,13 @@ window.DML_TOOLS = {
         key: "united",
         title: "1. Rescued & United in Christ (Cross / Savior)",
         summary: "Called by the Father and justified by faith—united to Jesus's death and resurrection before we ever perform a spiritual habit.",
-        deep: "Corrects the original workbook's omission of justification and union with Christ. Because we are already loved and pardoned in Christ (Rom 5:1; Gal 2:20), discipleship is grateful response, not anxious performance."
+        deep: "Anchors discipleship unmistakably in justification and union with Christ. Because we are already loved and pardoned in Christ (Rom 5:1; Gal 2:20), discipleship is grateful response, not anxious performance."
       },
       {
         key: "transformed",
-        title: "2. Transformed by the Spirit (Pitcher / Sanctifier)",
-        summary: "Beholding Christ together in Scripture, prayer, and Word-and-Table body life as the Spirit conforms us into Jesus's character.",
-        deep: "In 2 Cor 3:18, transformation comes 'from the Lord, who is the Spirit.' Spiritual practices position us under grace; the Spirit produces the likeness of Christ."
+        title: "2. Transformed & Restored by the Spirit (Laver / Sanctifier & Pitcher / Healer)",
+        summary: "Beholding Christ together in Scripture, prayer, and Word-and-Table body life as the Spirit purifies and heals us into Jesus's likeness.",
+        deep: "In 2 Cor 3:18, transformation comes 'from the Lord, who is the Spirit.' Spiritual practices position us under grace; the Spirit cleanses (Laver) and restores (Pitcher) our brokenness into Christ's likeness."
       },
       {
         key: "sent",
@@ -112,7 +112,7 @@ window.DML_TOOLS = {
         key: "chew",
         title: "Band 1: CHEW (Text, Context & Christ)",
         summary: "What does the passage actually say in context, and how does it point to God's character and Jesus Christ (Luke 24:27)?",
-        deep: "Installs the missing hermeneutical guardrail before personal feelings take over. Ask: Who wrote this to whom? What is the plain meaning? What does it reveal about our need and Christ's grace?"
+        deep: "Pairs Spirit-dependence with a clear contextual guardrail before personal feelings take over. Ask: Who wrote this to whom? What is the plain meaning? What does it reveal about our need and Christ's grace?"
       },
       {
         key: "digest",
@@ -124,7 +124,7 @@ window.DML_TOOLS = {
         key: "act",
         title: "Band 3: ACT (Obey & Pass On)",
         summary: "What concrete step of obedience will I take in the next 48 hours, and who will I tell or pray with about it?",
-        deep: "Turns insight into lived apprenticeship. Adds the missing outward prompt ('Who will you pass this to?') so Scripture reading naturally feeds neighbor love and encouragement."
+        deep: "Turns insight into lived apprenticeship, pairing personal obedience with an outward prompt ('Who will you pass this to?') so Scripture reading naturally feeds neighbor love and encouragement."
       }
     ],
     steps: [
@@ -154,7 +154,7 @@ window.DML_TOOLS = {
         key: "hub",
         title: "Hub & Pointer: FATHER -> In Christ + Honest Lament",
         summary: "We pray to 'Our Father' exclusively through Jesus our merciful High Priest (Heb 4:14–16), bringing honest praise and raw lament.",
-        deep: "Fixes the omission of Christ's mediation and biblical lament. Because Jesus shed his blood, believers and broken saints don't have to clean up their emotions before approaching the Father."
+        deep: "Explicitly grounds prayer in Christ's mediation and biblical lament. Because Jesus shed his blood, believers and broken saints don't have to clean up their emotions before approaching the Father."
       },
       {
         key: "upward",
@@ -241,7 +241,7 @@ window.DML_TOOLS = {
     week: 3,
     category: "Learning & Tools",
     tagline: "Exposes classroom-only Christianity and sequences growth: Biblical Truth -> Life-on-Life Imitation -> Faithful Multiplication.",
-    whenToUse: "Use in Week 3 to structure how you disciple friends in your Micro-Triad, and in Week 9 when designing leader onboarding.",
+    whenToUse: "Use in Module 3 to structure how you disciple friends in your Micro-Triad, and in Module 9 when designing leader onboarding.",
     originalSvgPath: "diagrams/training_triangle.svg",
     scripture: "Mark 3:14; 1 Corinthians 4:14–17; 11:1; 1 Thessalonians 2:8; 2 Timothy 2:2",
     relatedTerms: ["training-triangle", "faithful-multiplication", "micro-triad", "andragogy"],
@@ -262,7 +262,7 @@ window.DML_TOOLS = {
         key: "multiplication",
         title: "3. Faithful Multiplication (2 Tim 2:2)",
         summary: "Releasing trained apprentices to live and pass on the apostolic gospel in their own contexts—guarding the deposit.",
-        deep: "Replaces the original workbook's 'Innovation' label. Discipleship doesn't invite everyone to invent new ideas; it commissions tested people to faithfully pass on what they lived ('I do -> We do -> You do')."
+        deep: "Focuses the third movement on passing on the apostolic gospel faithfully rather than merely inventing new ideas—commissioning tested believers ('I do -> We do -> You do')."
       }
     ],
     steps: [
@@ -283,7 +283,7 @@ window.DML_TOOLS = {
     week: 4,
     category: "Church Leadership",
     tagline: "Combines horizontal PATH + PLAN 'What Is' auditing with a pastoral 4-quadrant diagnostic separating stewardship from external trials.",
-    whenToUse: "Use in Week 4 (moved five months earlier than the original Module 8) so your team sees honest church reality before planning Betas.",
+    whenToUse: "Use in Module 4—well ahead of launching church-wide Betas—so your team sees honest church reality before planning next steps.",
     originalSvgPath: "diagrams/spiritual_swot_matrix.svg",
     scripture: "Psalm 139:23–24; Proverbs 27:23; 2 Corinthians 11:23–30; Revelation 3:8",
     relatedTerms: ["pruning-audit", "lament-endurance", "culture-making-plan", "relational-apprenticeship-path"],
@@ -310,18 +310,18 @@ window.DML_TOOLS = {
         key: "lament",
         title: "Bottom-Left: Lament & Endurance (Beyond Control + Friction)",
         summary: "Painful external realities—illness, regional demographics, bereavement, hostility—that call for faithful endurance, NOT false guilt.",
-        deep: "Crucial theological correction: the original workbook labeled this 'FAILURE,' falsely blaming pastors for uncontrollable providential trials."
+        deep: "Crucial pastoral distinction: uncontrollable providential hardships call for biblical lament and steadfast hope rather than false pastoral guilt."
       },
       {
         key: "opendoor",
         title: "Bottom-Right: Open Door (Beyond Control + Fruit)",
         summary: "Unexpected neighborhood receptivity, cultural shifts, or new neighbors God brings across our path—answered with prayerful discernment.",
-        deep: "Replaces the managerial term 'BATTLE' (market capture) with Paul's language of 'a wide door for effective work' (1 Cor 16:9; Col 4:3)."
+        deep: "Frames mission openings in Paul's biblical language of 'a wide door for effective work' (1 Cor 16:9; Col 4:3) to be stepped through prayerfully."
       }
     ],
     steps: [
       "List every existing ministry meeting, class, and group horizontally under your current PATH and PLAN.",
-      "Sort honest church observations into the four Stewardship Quadrants—refusing to call uncontrollable external hardships 'Failure.'",
+      "Sort honest church observations into the four Stewardship Quadrants—treating uncontrollable external hardships as places for lament rather than self-blame.",
       "Celebrate Stewarded Fruit publicly and pray through Lament & Endurance together.",
       "Pick 1–2 cluttered items in 'Needs Pruning' to take straight into the Pruning Audit."
     ],
@@ -336,8 +336,8 @@ window.DML_TOOLS = {
     shortName: "Pruning Curve",
     week: 4,
     category: "Church Leadership",
-    tagline: "Replaces aerospace 'Moonshot' curves with Mark 4 organic growth—forcing an explicit STOP Gate to clear low-fruit clutter before launching new things.",
-    whenToUse: "Use immediately after the Reality Audit in Week 4, and revisit in Week 10's Annual Pruning Review.",
+    tagline: "Pictures Mark 4 organic growth rather than forced hype—including an explicit STOP Gate to clear low-fruit clutter before launching new things.",
+    whenToUse: "Use immediately after the Reality Audit in Module 4, and revisit in Module 10's Annual Pruning Review.",
     originalSvgPath: "diagrams/moonshot_exercise_curve.svg",
     scripture: "John 15:1–2; Mark 4:26–29; 1 Corinthians 3:6–7; Hebrews 12:1",
     relatedTerms: ["pruning-audit", "pneumatology", "elder-ratification"],
@@ -345,8 +345,8 @@ window.DML_TOOLS = {
       {
         key: "axes",
         title: "Labeled Organic Axes",
-        summary: "Horizontal: Faithful Sowing & Weekly Habits Over Time. Vertical: Generational Fruit (1 Cor 3:7 — 'Only God gives growth').",
-        deep: "Unlike the unlabeled original hockey stick, naming the axes reminds leaders that unseen spiritual root-growth always precedes visible multi-generational fruit."
+        summary: "Horizontal: Faithful Sowing & Habit Continuity Over Time. Vertical: Generational Fruit (1 Cor 3:7 — 'Only God gives growth').",
+        deep: "Explicitly naming both axes reminds leaders that unseen spiritual root-growth always precedes visible multi-generational fruit."
       },
       {
         key: "gate",
@@ -357,15 +357,15 @@ window.DML_TOOLS = {
       {
         key: "grace",
         title: "Spirit-Sovereign Trajectory",
-        summary: "Steady, unhurried multiplication replacing hype-driven 'Moonshot' promises—expecting pruning seasons along the way.",
+        summary: "Steady, unhurried multiplication replacing rushed growth expectations—expecting pruning seasons along the way.",
         deep: "In John 15:2, even fruitful branches are pruned by the Father. Steady sowing yields lasting fruit without manipulative urgency."
       }
     ],
     steps: [
-      "Review your Week 4 'What Is' list and underline every meeting consuming leader hours with minimal relational transformation.",
+      "Review your Module 4 'What Is' list and underline every meeting consuming leader hours with minimal relational transformation.",
       "Apply the STOP Gate test: Which 1–2 low-fruit events, committees, or redundant studies can we pause or merge this quarter?",
       "Calculate the real weekly hours freed (aim for 2+ hours/week per team member) to protect Micro-Triads and Oikos hospitality.",
-      "Take any sensitive program sunset proposal to your Elders and key stakeholders in Week 6 rather than acting abruptly."
+      "Take any sensitive program sunset proposal to your Elders and key stakeholders in Module 6 rather than acting abruptly."
     ],
     napkinScript: "Draw an organic rising curve with 'Time & Faithful Sowing' on the bottom and 'Generational Fruit' on the side. Draw a vertical dashed gate halfway across labeled 'PRUNE / STOP.' Say: 'Only God gives the growth (1 Cor 3:7)—we can't force a rocket launch. What we CAN do is pass through the pruning gate and stop 1 or 2 busy things so our leaders actually have time to love people.'",
     workedExample: "A leadership team decides to pause their monthly administrative 'Program Planning Night' and convert a 10-person midweek announcement-heavy meeting into two weekly neighborhood triads—freeing 3 hours/week immediately.",
@@ -378,8 +378,8 @@ window.DML_TOOLS = {
     shortName: "Oikos & Gospel Bridge",
     week: 5,
     category: "Core Habit #4",
-    tagline: "Fills the original workbook's evangelism gap: Oikos Prayer Map -> 3-Minute Christ-Centered Story -> 4-Question Seeker DBS.",
-    whenToUse: "Launch in Week 5 for everyday neighbor relationships and embed weekly into Life-on-Life Rhythm (Week 8) so mission is never segregated to 'Week 4.'",
+    tagline: "Connects discipleship directly to everyday neighbor witness: Oikos Prayer Map -> 3-Minute Christ-Centered Story -> 4-Question Seeker DBS.",
+    whenToUse: "Launch in Module 5 for everyday neighbor relationships and embed into each gathering of your Life-on-Life Rhythm (Module 8) so mission never feels compartmentalized.",
     originalSvgPath: null,
     scripture: "Luke 10:1–11; Mark 5:19; 2 Corinthians 5:14–21; Colossians 4:2–6",
     relatedTerms: ["oikos", "person-of-peace", "seeker-dbs", "justification"],
@@ -420,8 +420,8 @@ window.DML_TOOLS = {
     shortName: "Stakeholder Bridge",
     week: 6,
     category: "Church Leadership",
-    tagline: "Replaces Month 8 'Secret Lab' ambushes with a plain-English 1-Pager, Stakeholder Listening Map, and dignified Legacy Small-Group Pathway.",
-    whenToUse: "Use in Week 6—prior to launching church-wide Betas—so Elders, staff, Next-Gen leads, and veteran group leaders co-own the journey.",
+    tagline: "Avoids late surprises through a plain-English 1-Pager, Stakeholder Listening Map, and dignified Legacy Small-Group Pathway.",
+    whenToUse: "Use in Module 6—prior to launching church-wide Betas—so Elders, staff, Next-Gen leads, and veteran group leaders co-own the journey.",
     originalSvgPath: null,
     scripture: "Proverbs 15:22; Philippians 2:1–5; Romans 12:10; 1 Corinthians 14:9",
     relatedTerms: ["stakeholder-alignment", "plain-language", "legacy-group-pathway", "elder-ratification"],
@@ -430,19 +430,19 @@ window.DML_TOOLS = {
         key: "onepager",
         title: "Plain-Language 1-Pager Vision",
         summary: "Translates why the church exists to make disciples without Lab jargon—answering what stays, what stops, and what's next.",
-        deep: "Replaces the blank 'Communication Folio' header (p. 92) with four concrete prompts: (1) Why this matters biblically, (2) What ordinary members will experience, (3) What existing programs we honor or pause, (4) How anyone can ask questions."
+        deep: "Fills out the Communication Folio with four concrete prompts: (1) Why this matters biblically, (2) What ordinary members will experience, (3) What existing programs we honor or pause, (4) How anyone can ask questions."
       },
       {
         key: "matrix",
         title: "Stakeholder Listening Matrix",
         summary: "Maps Elders, Non-Lab Staff, Kids/Youth leads, and Veteran Volunteers—identifying each group's fears, values, and dialogue timeline.",
-        deep: "Instead of waiting until Month 8 to drop finished plans on non-lab staff, you sit down early to listen, invite feedback, and weave Next-Gen wisdom in."
+        deep: "Rather than waiting until late in the process to share plans with elders and staff, sit down early in Module 6 to listen, invite feedback, and weave Next-Gen wisdom in."
       },
       {
         key: "legacy",
-        title: "Legacy Small-Group Pathway (No Caste Lanyards)",
+        title: "Legacy Small-Group Pathway (Shared Honor)",
         summary: "Offers existing groups three honorable tracks: Convert to weekly life-on-life, Hybridize with 1 habit, or Bless & Sunset gracefully.",
-        deep: "Explicitly forbids status markers like special Beta leader lanyards on Sundays. Veteran leaders are thanked as pillars, never sidelined."
+        deep: "Preserves shared humility across the congregation without visible status markers. Veteran leaders are thanked as pillars, never sidelined."
       }
     ],
     steps: [
@@ -451,19 +451,19 @@ window.DML_TOOLS = {
       "Schedule personal 1-on-1 coffee conversations with key influencers and legacy group leaders before announcing anything publicly.",
       "Present the three Legacy Small-Group Pathway options invitingly, affirming that nobody is being graded or replaced."
     ],
-    napkinScript: "Draw a bridge with three planks: '1-Page Plain Story,' 'Listen First (Elders, Staff, Group Leads),' and '3 Respectful Paths for Existing Groups (Convert / Blend / Sunset).' Say: 'Healthy change moves at the speed of trust—nobody should ever wake up surprised by a secret lab.'",
+    napkinScript: "Draw a bridge with three planks: '1-Page Plain Story,' 'Listen First (Elders, Staff, Group Leads),' and '3 Respectful Paths for Existing Groups (Convert / Blend / Sunset).' Say: 'Healthy change moves at the speed of trust—nobody should ever wake up surprised by major church shifts.'",
     workedExample: "Before launching pilot groups, a lead pastor and elder sit down with three veteran Sunday-school teachers over breakfast using the 1-Pager. One class chooses to Hybridize by adding 15 minutes of Bible Circle obedience sharing; another finishes its book study and Blesses & Sunsets into two neighborhood triads.",
     guardrails: "Listening is not a manipulative sales pitch. Be genuinely willing to adapt schedules or wording based on Elder and Next-Gen wisdom."
   },
   "growth-loop": {
     id: "growth-loop",
     number: 11,
-    name: "The Apprenticeship Growth Loop (ex-The MAP)",
+    name: "The Apprenticeship Growth Loop (D1–D4)",
     shortName: "Growth Loop",
     week: 7,
     category: "Coaching & Care",
     tagline: "Domain-specific coaching loop guiding disciples from Humble Beginner through Friction Valley to Spirit-Dependent Maturity.",
-    whenToUse: "Use in Week 7 when Micro-Triads hit real relational friction, sin relapse, or crisis, and whenever coaching Beta apprentices.",
+    whenToUse: "Use in Module 7 when Micro-Triads hit real relational friction, sin relapse, or crisis, and whenever coaching Beta apprentices.",
     originalSvgPath: "diagrams/the_map_apprenticeship_square.svg",
     scripture: "1 Thessalonians 2:7–12; 5:14; Galatians 6:1–5; John 15:5; 1 Timothy 1:15",
     relatedTerms: ["friction-valley", "over-functioning", "spirit-dependent-maturity", "cross-bearing"],
@@ -490,16 +490,16 @@ window.DML_TOOLS = {
         key: "d4",
         title: "4. Spirit-Dependent Maturity (D4 / L4: Empowering)",
         summary: "'You do, I cheer & stay close.' Actively reproducing in others while growing *more* reliant on Christ's grace (John 15:5).",
-        deep: "Replaces autonomous 'Unconscious Competence.' Mature believers never graduate from confession, Soul Care, or abiding in the Vine."
+        deep: "Focuses on ongoing reliance upon Christ rather than autonomous mastery. Mature believers never graduate from confession, Soul Care, or abiding in the Vine."
       }
     ],
     steps: [
       "Remember growth is domain-specific: assess a disciple in one real area (e.g., Scripture, Prayer, Hospitality, Conflict) rather than slapping one label on their soul.",
       "Match your leadership posture to their actual need: model clearly (L1), weep and shepherd patiently in Friction Valley (L2), coach without taking over (L3), cheer and keep praying together (L4).",
-      "When sin relapse or bereavement hits a group, slow down the timeline immediately—shepherding souls outranks finishing a weekly schedule.",
+      "When sin relapse or bereavement hits a group, slow down the timeline immediately—shepherding souls outranks finishing a schedule.",
       "Ask yourself honestly in L3: 'Am I answering questions they could wrestle through with the Spirit just so I feel needed?'"
     ],
-    napkinScript: "Draw a circular 4-quadrant loop (removing the old 'MAP' name collision). Label corners: 1. Humble Beginner (I do, watch) -> 2. Friction Valley (I do, help) -> 3. Co-Laborer (You do, help) -> 4. Spirit-Dependent Maturity (You do, cheer). Draw arrows circling back inward to Christ at the center: 'We never graduate from Jesus; we grow deeper in grace while learning to pass it on.'",
+    napkinScript: "Draw a circular 4-quadrant loop. Label corners: 1. Humble Beginner (I do, watch) -> 2. Friction Valley (I do, help) -> 3. Co-Laborer (You do, help) -> 4. Spirit-Dependent Maturity (You do, cheer). Draw arrows circling back inward to Christ at the center: 'We never graduate from Jesus; we grow deeper in grace while learning to pass it on.'",
     workedExample: "A member who led Sunday hospitality effortlessly for years freezes when praying aloud with a non-Christian friend (D2 Friction Valley in OUT mission). Instead of giving a lecture, her mentor sits with her through two dinners, prays aloud first, lets her pray one sentence next week, and celebrates courage.",
     guardrails: "Never rush a grieving or struggling believer out of Friction Valley to hit a 90-day timeline, and never stop checking in on mature D4 leaders."
   },
@@ -510,8 +510,8 @@ window.DML_TOOLS = {
     shortName: "Napkin Rubric",
     week: 7,
     category: "Learning & Tools",
-    tagline: "Replaces uncalibrated '90% done' guesswork with three formation lenses and a concrete 5-point checklist for vetting optional contextual tools.",
-    whenToUse: "Use in Week 7 ONLY if an authentic ministry gap remains after three months of practicing the 4 core habits—never to manufacture 5–6 redundant diagrams.",
+    tagline: "Pairs three formation lenses with a concrete 5-point checklist for vetting optional contextual tools.",
+    whenToUse: "Use in Module 7 ONLY if an authentic ministry gap remains after practicing the 4 core habits—never to manufacture 5–6 redundant diagrams.",
     originalSvgPath: "diagrams/tool_metaphors_picture_mirror_window.svg",
     scripture: "Habakkuk 2:2; James 1:22–25; John 4:35; 1 Corinthians 14:19",
     relatedTerms: ["napkin-tool", "picture-mirror-window", "andragogy", "plain-language"],
@@ -526,7 +526,7 @@ window.DML_TOOLS = {
         key: "rubric",
         title: "5-Point Napkin Quality Rubric",
         summary: "1. Simple (draw < 60s) • 2. Visual (3–4 distinct cues) • 3. Actionable (how-to) • 4. Transferable (layperson teaches in 3m) • 5. 101-Level.",
-        deep: "Fixes the original course's D1 blind spot ('Modify until YOU think it is 90% done'). If two ordinary non-staff believers cannot sketch it back to you next week, simplify or retire it."
+        deep: "Tests clarity objectively with real congregants rather than assuming 90% readiness on intuition alone. If two ordinary non-staff believers cannot sketch it back to you, simplify or retire it."
       },
       {
         key: "exemplar",
@@ -552,8 +552,8 @@ window.DML_TOOLS = {
     shortName: "Gathering Rhythm",
     week: 8,
     category: "Practice & Rhythm",
-    tagline: "Replaces biweekly 'meetings' and segregated Week 4 outreach with a weekly 60–75 minute hospitality loop integrated into daily life.",
-    whenToUse: "Use in Week 8 to structure and launch 2–4 weekly Church Beta Groups (12–16 weeks) using shared tables and everyday rhythms.",
+    tagline: "Structures a weekly 60–75 minute hospitality loop integrated into daily life—keeping neighbor mission woven into every gathering.",
+    whenToUse: "Use in Module 8 to structure and launch 2–4 weekly Church Beta Groups (12–16 weeks) using shared tables and everyday rhythms.",
     originalSvgPath: "diagrams/vehicle_builder_meeting_design.svg",
     scripture: "Acts 2:42–47; Hebrews 10:24–25; Romans 12:9–18; Luke 10:1–17",
     relatedTerms: ["life-on-life-rhythm", "beta-group", "oikos", "micro-triad"],
@@ -574,23 +574,23 @@ window.DML_TOOLS = {
         key: "nextstep",
         title: "#3. Next Step + Weekly OUT Mission (15 min)",
         summary: "'What is one obedience step this week—and which Oikos neighbor will we pray for, serve, or dine with before next week?'",
-        deep: "Eliminates the segregated 'Week 4: Mission Focus.' Every single week weaves neighbor love and prayer for the lost into ordinary errands and hospitality."
+        deep: "Avoids confining mission to just one isolated meeting of the month. Every single week weaves neighbor love and prayer for the lost into ordinary errands and hospitality."
       },
       {
         key: "checklist",
         title: "Weekly Beta Standard (12–16 Weeks)",
-        summary: "3–5 people per group • Meets WEEKLY (not biweekly) • 12–16 weeks minimum • Co-led by apprentice in Weeks 9–12.",
-        deep: "Fixes the math flaw in the original 6-meeting biweekly Beta. Twelve+ weekly gatherings allow crisis care, real habit transfer, and 2nd-generation handoffs before the cohort concludes."
+        summary: "3–5 people per group • Meets WEEKLY (not biweekly) • 12–16 weeks minimum • Co-led by apprentice in Beta weeks 9–12.",
+        deep: "Why weekly works best: twelve+ weekly gatherings give adequate room for crisis care, real habit transfer, and 2nd-generation handoffs before the beta cycle concludes."
       }
     ],
     steps: [
       "Keep groups intimate (3–5 people, ideally around a dining table, breakfast booth, or porch—not a formal church classroom).",
       "Commit to meeting WEEKLY for 12–16 weeks rather than twice a month.",
-      "Follow the 3-part loop faithfully (#1 Celebrate -> #2 Habit Focus -> #3 Next Step + Weekly OUT), rotating who leads #2 after Week 4.",
+      "Follow the 3-part loop faithfully (#1 Celebrate -> #2 Habit Focus -> #3 Next Step + Weekly OUT), rotating who leads #2 after the first month.",
       "Complete the 7-point Launch Checklist (Who, When, Where, Leading, Apprentice Co-Lead, Soul Care Pod, 30/60/90-day Feedback)."
     ],
     napkinScript: "Draw three circles side-by-side: Party Cup ('1. Celebrate & Honest Check'), Open Book ('2. Practice Habit Together'), Footprints + House ('3. Next Step + One Neighbor This Week'). Say: 'An hour a week around a kitchen table—look back in grace, look up in the Word, look forward to obey and love one neighbor.'",
-    workedExample: "Three couples launch Tuesday night dessert-table triads (men and women splitting for 50 minutes after sharing dessert). By Week 8, each group has an emerging co-leader facilitating the Bible Circle and has hosted two neighborhood cookouts.",
+    workedExample: "Three couples launch Tuesday night dessert-table triads (men and women splitting for 50 minutes after sharing dessert). By week 8 of their Beta, each group has an emerging co-leader facilitating the Bible Circle and has hosted two neighborhood cookouts.",
     guardrails: "Do not let 'Celebrate' turn into boastful bragging, and never revert to passive twice-a-month scheduling that kills continuity."
   },
   "culture-canvas": {
@@ -600,8 +600,8 @@ window.DML_TOOLS = {
     shortName: "Culture Canvas",
     week: 9,
     category: "Church Leadership",
-    tagline: "Consolidates five repetitive grids into ONE shared co-design table uniting Sunday liturgy, groups, children, students, and mercy teams.",
-    whenToUse: "Co-author in Week 9 alongside Worship, Children's, Student, and Mercy ministry leaders—never drop it on them downstream as a finished mandate.",
+    tagline: "Brings Sunday liturgy, groups, children, students, and mercy teams onto ONE shared co-design table.",
+    whenToUse: "Co-author in Module 9 alongside Worship, Children's, Student, and Mercy ministry leaders—shaped collaboratively rather than handed down late.",
     originalSvgPath: "diagrams/culture_making_grid.svg",
     scripture: "Deuteronomy 6:4–9; Ephesians 4:11–16; 1 Corinthians 11:23–26; Colossians 3:16",
     relatedTerms: ["culture-making-plan", "word-and-table", "stakeholder-alignment", "plain-language"],
@@ -610,7 +610,7 @@ window.DML_TOOLS = {
         key: "liturgy",
         title: "Col 1: Sunday Word & Table (Liturgy)",
         summary: "Weaves prayer, confession, Baptism testimonies, and Scripture engagement naturally into worship services—zero stage promo clutter.",
-        deep: "Replaces 'Sunday leader lanyards' and programmatic 'Tool Time' slots with organic liturgical depth: singing prayers shaped by the Lord's Prayer Wheel and hearing unscripted Oikos and baptism stories."
+        deep: "Keeps Sunday worship centered on Word, Sacrament, prayer, and unscripted Oikos and baptism testimonies rather than programmatic announcements."
       },
       {
         key: "groups",
@@ -622,7 +622,7 @@ window.DML_TOOLS = {
         key: "nextgen",
         title: "Cols 3–4: Children & Students (Co-Designed)",
         summary: "Kids and Youth leaders adapt age-appropriate versions of the core habits alongside parents (Deut 6), rather than retrofitting adult tools.",
-        deep: "Children's and student leaders sit at the table from Week 6 onward, shaping joyful visuals for families instead of receiving leftover adult diagrams."
+        deep: "Children's and student leaders sit at the table from Module 6 onward, shaping joyful visuals for families."
       },
       {
         key: "mercy",
@@ -649,7 +649,7 @@ window.DML_TOOLS = {
     week: 9,
     category: "Coaching & Care",
     tagline: "Wires Character & Competency directly into a 1-page Orthodoxy/Integrity Gate, capped 1:4–5 Soul Care pods, and clear crisis escalation.",
-    whenToUse: "Establish in Week 9 before 2nd-generation Beta apprentices step into autonomous group leadership.",
+    whenToUse: "Establish in Module 9 before 2nd-generation Beta apprentices step into autonomous group leadership.",
     originalSvgPath: "diagrams/leader_development_overview.svg",
     scripture: "2 Timothy 2:1–7; 1 Timothy 3:1–13; Titus 1:5–9; Exodus 18:13–26; Acts 20:28",
     relatedTerms: ["character-competency", "vetting-gate", "soul-care-pods", "examen"],
@@ -691,7 +691,7 @@ window.DML_TOOLS = {
     week: 10,
     category: "Church Leadership",
     tagline: "Aligns 90-Day, 1-Year, and 3-Year PATH & PLAN horizons under James 4:15 ('If the Lord wills'), tracked by leading health metrics and Elder ratification.",
-    whenToUse: "Build in Week 10 from genuine 90-day Beta harvest data, ratify with Elders within 30 days, and review annually in Year 2.",
+    whenToUse: "Build in Module 10 from genuine 90-day Beta harvest data, ratify with Elders within 30 days, and review annually in Year 2.",
     originalSvgPath: "diagrams/impact_roadmap_template.svg",
     scripture: "James 4:13–15; 1 Corinthians 3:6–9; Proverbs 16:9; Matthew 28:18–20",
     relatedTerms: ["stewardship-roadmap", "leading-indicators", "elder-ratification", "pneumatology", "commissioning"],
@@ -699,14 +699,14 @@ window.DML_TOOLS = {
       {
         key: "horizon",
         title: "James 4:15 Humble Vision Header",
-        summary: "'If the Lord wills, we aim to cultivate a Christ-dependent church multiplying apprentices across generations.' (Replaces deterministic boasts.)",
-        deep: "Honors God's sovereignty and eliminates the hubris of claiming a culture shift 'could only be derailed if you intentionally tried to stop it.' Plans stay submitted to pruning and providence."
+        summary: "'If the Lord wills, we aim to cultivate a Christ-dependent church multiplying apprentices across generations.'",
+        deep: "Honors God's sovereignty so every long-range plan remains humble and submitted to pruning, prayer, and providence rather than presuming guaranteed outcomes."
       },
       {
         key: "pathcol",
         title: "Left Columns (PATH): 90-Day / 1-Year / 3-Year",
         summary: "Tracks weekly Beta continuity, Vetting Gate adherence, 1:4–5 Soul Care pod coverage, and 2nd/3rd-generation apprentices walking with Jesus.",
-        deep: "Fixes the original roadmap's blank 1-Year Objective and restores the PATH/PLAN split cleanly across every horizontal time tier."
+        deep: "Keeps 90-Day, 1-Year, and 3-Year objectives clearly populated across both PATH and PLAN columns."
       },
       {
         key: "plancol",
@@ -718,7 +718,7 @@ window.DML_TOOLS = {
         key: "continuity",
         title: "Year-2 Continuity Anchors (Off-Ramp)",
         summary: "Elder Ratification within 30 days • 2-Page New Staff/Elder Onboarding Manual • Quarterly Huddles (M3–M12+) • Annual Pruning Review.",
-        deep: "Eliminates the Month 13 Cliff: even if pastoral staff transitions, incoming leaders learn the 4 core habits and Vetting Gate in their first 30 days."
+        deep: "Builds lasting Year-2 Continuity: even if pastoral staff transitions, incoming leaders learn the 4 core habits and Vetting Gate in their first 30 days."
       }
     ],
     steps: [

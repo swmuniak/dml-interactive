@@ -1,21 +1,21 @@
 /* ==========================================================================
-   Disciple Making Lab — Complete 10-Week Interactive Curriculum Data
+   Disciple Making Lab — Complete 10-Module Interactive Curriculum Data
    Grounded in Andragogy, Cognitive Load Control, Chunking & Dual Coding
    ========================================================================== */
 
 window.DML_CURRICULUM = {
   meta: {
     title: "Disciple Making Lab",
-    subtitle: "A 10-Week Interactive Curriculum for Forming Christ-Centered, Reproducing Churches",
-    promise: "Over 10 focused weeks, church teams root discipleship in union with Christ, practice four napkin-simple habits personally from Week 2, align elders and legacy groups before public rollout, launch weekly life-on-life pilot groups, and establish Year-2 continuity without burning out staff or volunteers.",
-    audience: "Church teams of 3–5 people (Lead/Solo Pastor, at least one Elder/governance leader, and 1–3 Lay or Next-Gen ministry leaders), explicitly paced for bivocational and multi-staff sustainability.",
-    weeklyLoad: "1.5 hr weekly team session + ~2 hrs/week relational field practice (funded by pruning low-fruit commitments in Week 4)."
+    subtitle: "A 10-Module Interactive Curriculum for Forming Christ-Centered, Reproducing Churches",
+    promise: "Across 10 focused modules, church teams root discipleship in union with Christ, practice four napkin-simple habits personally from Module 2, align elders and legacy groups before public rollout, launch weekly life-on-life pilot groups, and establish Year-2 continuity without burning out staff or volunteers.",
+    audience: "Church teams of 4–8 people (Lead/Solo Pastor, Elder/governance leaders, and Lay or Next-Gen ministry leaders), explicitly paced for bivocational and multi-staff sustainability.",
+    weeklyLoad: "1.5 hr team session per module + ~2 hrs/week relational field practice (funded by pruning low-fruit commitments in Module 4)."
   },
 
   disseminationPrinciples: [
     {
       title: "1. Chunked Working Memory",
-      summary: "Every week breaks complex strategy into 5 predictable steps and 3–4 bite-sized micro-lessons (100–150 words each) instead of overwhelming 2-day data dumps."
+      summary: "Every module breaks complex strategy into 5 predictable steps and 3–4 bite-sized micro-lessons (100–150 words each) so learners digest core concepts smoothly."
     },
     {
       title: "2. Three-Tier Progressive Disclosure",
@@ -23,15 +23,15 @@ window.DML_CURRICULUM = {
     },
     {
       title: "3. Dual-Coded Interactive Visuals",
-      summary: "Every one of the 16 tools pairs concise explanation with a clickable, fully labeled SVG diagram—eliminating 'blank workbook syndrome.'"
+      summary: "Every one of the 16 tools pairs concise explanation with a clickable, fully labeled SVG diagram—giving teams clear visual anchors from Day 1."
     },
     {
       title: "4. Practice Before Systematizing",
-      summary: "Instead of five months on whiteboards, participants launch personal Micro-Triads in Week 2 so institutional planning grows out of lived gospel obedience."
+      summary: "Rather than staying purely theoretical, participants launch personal Micro-Triads in Module 2 so institutional planning grows out of lived gospel obedience."
     },
     {
       title: "5. Active Retrieval & Application",
-      summary: "Each week closes with 2 realistic church dilemmas (immediate explanatory feedback), saved team notes, and measurable relational action."
+      summary: "Each module closes with 2 realistic church dilemmas (immediate explanatory feedback), saved team notes, and measurable relational action."
     }
   ],
 
@@ -39,39 +39,39 @@ window.DML_CURRICULUM = {
     {
       id: 1,
       title: "Phase 1: Rooted & Practicing",
-      weeks: "Weeks 1–3",
+      weeks: "Modules 1–3",
       image: "assets/images/phase-1-rooted.png",
       summary: "Anchor identity in union with Christ and launch personal weekly Micro-Triads using three core Scripture, prayer, and rhythm habits."
     },
     {
       id: 2,
       title: "Phase 2: Honest Ground & Bridges",
-      weeks: "Weeks 4–6",
+      weeks: "Modules 4–6",
       image: "assets/images/phase-2-bridges.png",
       summary: "Audit real church clutter, prune low-fruit programs, build neighbor evangelism bridges, and align elders and veteran group leaders."
     },
     {
       id: 3,
       title: "Phase 3: Friction Valley & Weekly Rhythm",
-      weeks: "Weeks 7–8",
+      weeks: "Modules 7–8",
       image: "assets/images/phase-3-journey.png",
       summary: "Equip leaders to walk with struggling disciples through relational valleys and launch weekly life-on-life pilot groups."
     },
     {
       id: 4,
       title: "Phase 4: Weaving Culture & Sending",
-      weeks: "Weeks 9–10",
+      weeks: "Modules 9–10",
       image: "assets/images/phase-4-sending.png",
       summary: "Co-design Sunday liturgy and Next-Gen alignment, lock in vetting and 1:4–5 Soul Care guardrails, and commission teams for Year 2."
     }
   ],
 
   preLaunch: {
-    title: "Pre-Launch Gate (Week 0 — Complete Before Week 1)",
-    subtitle: "Three non-negotiable groundwork steps preventing 'Secret Lab' elder ambush and solo-pastor burnout.",
+    title: "Pre-Launch Gate (Module 0 — Complete Before Module 1)",
+    subtitle: "Three foundational groundwork steps ensuring transparent Elder partnership and shared team ownership before launching.",
     items: [
-      { id: "w0-covenant", text: "Elder Board Covenant Sign-Off: Elders review the 10-Week overview and commit to honest dialogue in Week 6 and formal ratification in Week 10." },
-      { id: "w0-team", text: "Multi-Ministry Team Formed: Assemble 3–5 people including at least one Elder/governance voice and Next-Gen or lay small-group voices." },
+      { id: "w0-covenant", text: "Elder Board Covenant Sign-Off: Elders review the 10-Module overview and commit to honest dialogue in Module 6 and formal ratification in Module 10." },
+      { id: "w0-team", text: "Multi-Ministry Team Formed: Assemble 4–8 people including Elder/governance voices and Next-Gen or lay small-group leaders." },
       { id: "w0-snapshot", text: "2-Page Baseline Reality Snapshot: Jot down honest numbers for Sunday attendance, active group participation, and current volunteer calendar pressure." }
     ]
   },
@@ -84,7 +84,7 @@ window.DML_CURRICULUM = {
       title: "Rooted in Christ & Honest Groundwork",
       subtitle: "Diagnosing consumer church habits and anchoring discipleship in union with Christ",
       timeBudget: "90-Min Team Session + 6 Parishioner Conversations",
-      fourfoldAnchor: "Cross (Savior) & Pitcher (Sanctifier)",
+      fourfoldAnchor: "Cross (Savior) & Laver (Sanctifier)",
       scripture: "Romans 5:1; 8:28–30; Galatians 2:20; 2 Corinthians 3:18; 5:14–21; Luke 9:23",
       hook: "Most pastors know the silent ache: our Sunday rooms are friendly and volunteer rosters stay mostly full, yet almost nobody feels equipped to open the Bible and walk with a friend toward Jesus. Why does busy church activity rarely produce spiritual grandchildren?",
       keyTakeaway: "You cannot fix consumer Christianity with a harder behavioral checklist. Lasting multiplication begins with rescued union in Christ (being), balanced across shared church culture (PLAN) and personal apprenticeship (PATH).",
@@ -105,7 +105,7 @@ window.DML_CURRICULUM = {
           seeMore: [
             {
               label: "See More: How the 16% Tipping Point Really Works",
-              contentHtml: `<p>Organizational research observes that cultural momentum often shifts around a <span class="term" data-term="tipping-point">16% Tipping Point</span>. Treat this descriptively—not as a mechanical guarantee! You do not need unanimous church buy-in before starting in Week 2; God regularly uses small pockets of faithful leaven (Mt 13:33), though only God gives the growth (1 Cor 3:7).</p>`
+              contentHtml: `<p>Organizational research observes that cultural momentum often shifts around a <span class="term" data-term="tipping-point">16% Tipping Point</span>. Treat this descriptively—not as a mechanical guarantee! You do not need unanimous church buy-in before starting in Module 2; God regularly uses small pockets of faithful leaven (Mt 13:33), though only God gives the growth (1 Cor 3:7).</p>`
             },
             {
               label: "See More: Why Word & Table Anchor the Center",
@@ -124,7 +124,7 @@ window.DML_CURRICULUM = {
           seeMore: [
             {
               label: "See More: Why the C&MA Fourfold Gospel Matters Here",
-              contentHtml: `<p>Rather than scattering Cross, Pitcher, Chalice, and Crown icons as decorative clip-art, this curriculum roots every week in the <span class="term" data-term="fourfold-gospel">Fourfold Gospel</span>: Jesus our <strong>Savior</strong> rescues us by grace; Jesus our <strong>Sanctifier</strong> indwells and transforms us by the Spirit; Jesus our <strong>Healer</strong> restores our brokenness; Jesus our <strong>Coming King</strong> sustains humble mission.</p>`
+              contentHtml: `<p>Honoring the C&amp;MA distinctives of the Cross (Savior), Laver (Sanctifier), Pitcher (Healer), and Crown (Coming King), this curriculum roots every module in the <span class="term" data-term="fourfold-gospel">Fourfold Gospel</span>: Jesus our <strong>Savior</strong> rescues us by grace; Jesus our <strong>Sanctifier</strong> indwells and purifies us by the Spirit; Jesus our <strong>Healer</strong> restores our brokenness; Jesus our <strong>Coming King</strong> sustains humble mission.</p>`
             },
             {
               label: "See More: Exegetical Guardrails on Classic Proof-Texts",
@@ -137,13 +137,13 @@ window.DML_CURRICULUM = {
           title: "3. Why This Lab Uses Chunked Learning & Dual Tracks",
           readMin: "2 min",
           bodyHtml: `
-            <p>Traditional leadership labs fail when teams spend five months debating definitions on whiteboards while doing zero life-on-life discipling—or when they build secret plans without their <span class="term" data-term="stakeholder-alignment">Elders</span>. Built on <span class="term" data-term="andragogy">chunked adult learning</span>, this 10-week path runs two synchronized tracks.</p>
-            <p><strong>Track A (Personal Obedience)</strong> puts every team member into a weekly <span class="term" data-term="micro-triad">Micro-Triad</span> starting next week. <strong>Track B (Church Alignment)</strong> moves honesty, pruning, and board listening ahead of wider pilots so trust grows alongside practice.</p>
+            <p>Teams flourish when shared discernment stays paired with lived relationships and transparent partnership with their <span class="term" data-term="stakeholder-alignment">Elders</span>. Built on <span class="term" data-term="andragogy">chunked adult learning</span>, this 10-module path runs two synchronized tracks.</p>
+            <p><strong>Track A (Personal Obedience)</strong> puts every team member into a weekly <span class="term" data-term="micro-triad">Micro-Triad</span> starting in Module 2. <strong>Track B (Church Alignment)</strong> moves honesty, pruning, and board listening ahead of wider pilots so trust grows alongside practice.</p>
           `,
           seeMore: [
             {
-              label: "See More: Preventing the Secret Lab Trap",
-              contentHtml: `<p>Make sure you completed the <strong>Pre-Launch Gate</strong> before Week 2: share your 2-page Baseline Reality Snapshot openly with your Elders so nobody feels ambushed later.</p>`
+              label: "See More: Building Early Elder Partnership",
+              contentHtml: `<p>Make sure you completed the <strong>Pre-Launch Gate</strong> before Module 2: share your 2-page Baseline Reality Snapshot openly with your Elders so shared trust anchors everything that follows.</p>`
             }
           ]
         }
@@ -155,7 +155,7 @@ window.DML_CURRICULUM = {
           { mins: "15m", title: "Personal Reflection Hook", instructions: "Each person shares briefly: 'When in your life did you experience the deepest spiritual growth, and who walked alongside you?'" },
           { mins: "25m", title: "Honest Bowtie Snapshot", instructions: "Click through the Bowtie diagram together. Map your real church numbers along Attend / Connect / Serve / 2% Reproducing." },
           { mins: "35m", title: "Draft Gospel Disciple Definition", instructions: "Using the Gospel-Anchored Disciple Definition tool, write a 12–15 word plain-English statement honoring union in Christ, Spirit growth, and cross-bearing mission." },
-          { mins: "15m", title: "Commit to Week 1 Interviews", instructions: "Assign each team member to ask 2 ordinary parishioners this week: 'How would you describe a disciple of Jesus?'" }
+          { mins: "15m", title: "Commit to Module 1 Interviews", instructions: "Assign each team member to ask 2 ordinary parishioners before Module 2: 'How would you describe a disciple of Jesus?'" }
         ],
         prompts: [
           { id: "w1-bowtie-gap", question: "Where is our church strongest right now (Left Wing PLAN vs. Right Wing PATH), and where do people stall?", placeholder: "e.g., Strong Sunday preaching and welcome teams (30% serving), yet almost no structured 1-on-3 mentoring..." },
@@ -172,10 +172,10 @@ window.DML_CURRICULUM = {
           ]
         },
         {
-          prompt: "A fellow pastor says, 'Let's stay quiet for 6 months while we figure out our systems, then surprise the Elder Board once it's polished.' What is the wisest response?",
+          prompt: "A fellow pastor says, 'Let's wait for several months until our plans are polished before talking with the Elder Board.' What is the wisest response?",
           options: [
-            { text: "Wait—surprise rollouts create 'Secret Lab' suspicion; Elders and key staff need to be inside the tent from Week 1.", correct: true, feedback: "Spot on. Early governance transparency prevents elder ambush and builds shared ownership before any church-wide pilot launches." },
-            { text: "Agree—boards slow things down, so finish all tools first.", correct: false, feedback: "Keeping elders in the dark causes pushback in Month 6–8 when they feel bypassed on spiritual governance." },
+            { text: "Let's invite Elders and key staff into the conversation from Module 1—transparency builds shared trust before any church-wide pilot launches.", correct: true, feedback: "Spot on. Early governance transparency prevents later friction and builds shared ownership before any church-wide pilot launches." },
+            { text: "Agree—boards slow things down, so finish all tools first.", correct: false, feedback: "Keeping elders outside the loop causes pushback later when they feel bypassed on spiritual governance." },
             { text: "Put everyone in the church through a 2-day seminar tomorrow.", correct: false, feedback: "Rushing the whole congregation before modeling personally creates classroom noise without lived imitation." }
           ]
         }
@@ -185,7 +185,7 @@ window.DML_CURRICULUM = {
         checklist: [
           { id: "w1-f1", text: "Confirm Elder Board covenant sign-off & 2-Page Baseline Reality Snapshot (Pre-Launch Gate)." },
           { id: "w1-f2", text: "Ask 2 ordinary congregation members: 'In your own words, what is a disciple of Jesus?'" },
-          { id: "w1-f3", text: "Pray daily through Galatians 2:20 and list 2–3 friends you might invite into a weekly Micro-Triad in Week 2." }
+          { id: "w1-f3", text: "Pray daily through Galatians 2:20 and list 2–3 friends you might invite into a weekly Micro-Triad in Module 2." }
         ],
         reflectionPrompt: "What surprised you most when listening to ordinary members describe a disciple?"
       }
@@ -198,7 +198,7 @@ window.DML_CURRICULUM = {
       title: "Core Habits I: Listening to Scripture & Praying with the Father",
       subtitle: "Mastering two 101-level napkin tools and launching personal Micro-Triads within 7 days",
       timeBudget: "90-Min Team Session + Launch Weekly 45-Min Micro-Triad",
-      fourfoldAnchor: "Pitcher (Sanctifier) & Cross (Forgiveness)",
+      fourfoldAnchor: "Laver (Sanctifier) & Cross (Forgiveness)",
       scripture: "Luke 24:27; 2 Peter 1:20; Matthew 6:9–13; Hebrews 4:14–16; James 1:22",
       hook: "Ordinary believers rarely resist discipling others because they hate Jesus—they stay silent because churches hand them intimidating 12-week workbooks. What happens if every follower has two habits simple enough to sketch on a coffee-shop napkin?",
       keyTakeaway: "We learn Scripture and prayer by doing them together in small, grace-filled circles—anchored in Christ's context and launching real weekly Micro-Triads right now rather than waiting months.",
@@ -213,7 +213,7 @@ window.DML_CURRICULUM = {
           title: "1. What Makes a 101-Level Napkin Tool?",
           readMin: "2 min",
           bodyHtml: `
-            <p>Instead of inventing six custom diagrams from scratch later, we master four shared <span class="term" data-term="napkin-tool">101-Level Napkin Tools</span> over the next month. Good tools are simple (sketchable in under 60 seconds), visual, action-oriented, transferable, and deep enough to grow with a saint for decades.</p>
+            <p>Instead of inventing six custom diagrams from scratch, we focus on four shared <span class="term" data-term="napkin-tool">101-Level Napkin Tools</span> over Modules 2–5. Good tools are simple (sketchable in under 60 seconds), visual, action-oriented, transferable, and deep enough to grow with a saint for decades.</p>
           `,
           seeMore: [
             {
@@ -257,7 +257,7 @@ window.DML_CURRICULUM = {
           title: "4. Track A Deployment: Launching Your Micro-Triad Now",
           readMin: "2 min",
           bodyHtml: `
-            <p>Delayed obedience kills spiritual momentum. Rather than waiting until Week 8 to start church-wide pilots, every lab participant gathers 2–3 friends (or open seekers) into a weekly 45-minute <span class="term" data-term="micro-triad">Personal Micro-Triad</span> starting this week over coffee, breakfast, or a living room.</p>
+            <p>Delayed obedience slows spiritual momentum. Rather than waiting until Module 8 to start church-wide pilots, every lab participant gathers 2–3 friends (or open seekers) into a weekly 45-minute <span class="term" data-term="micro-triad">Personal Micro-Triad</span> starting right away over coffee, breakfast, or a living room.</p>
           `,
           seeMore: [
             {
@@ -274,11 +274,11 @@ window.DML_CURRICULUM = {
           { mins: "25m", title: "Live Bible Circle Lab (Model -> Try)", instructions: "Read Mark 2:1–12 together using all three bands. Practice summarizing context and pointing to Christ before personal application." },
           { mins: "25m", title: "Live Prayer Wheel Lab", instructions: "Pray in pairs: try 10 minutes walking the 6 sectors, then try the 2-Minute Outer Ring (Praise, Confess, Ask, Go) aloud." },
           { mins: "20m", title: "Napkin Sketch Drill", instructions: "Close screens and draw both the Bible Circle and Prayer Wheel on scratch paper in under 60 seconds each, teaching them to your partner." },
-          { mins: "20m", title: "Schedule Micro-Triads", instructions: "Each person names 2–3 specific friends to invite this week and locks in a target day/time." }
+          { mins: "20m", title: "Schedule Micro-Triads", instructions: "Each person names 2–3 specific friends to invite right away and locks in a target day/time." }
         ],
         prompts: [
           { id: "w2-triad-plan", question: "Who are the 2–3 people I am inviting into my weekly 45-min Micro-Triad (Day / Time / Location)?", placeholder: "e.g., Sam and Jordan — Tuesdays 7:00 AM at Corner Bakery (or living room)." },
-          { id: "w2-debrief-insight", question: "From Week 1 parishioner interviews, what was missing in how most members described a disciple?", placeholder: "e.g., Most emphasized attending church or being moral, almost none mentioned union with Christ or passing faith on." }
+          { id: "w2-debrief-insight", question: "From Module 1 parishioner interviews, what stood out in how most members described a disciple?", placeholder: "e.g., Most emphasized attending church or being moral, almost none mentioned union with Christ or passing faith on." }
         ]
       },
       scenarios: [
@@ -317,7 +317,7 @@ window.DML_CURRICULUM = {
       title: "Core Habits II: The Jesus Pattern & Everyday Imitation",
       subtitle: "Balancing UP, IN, and OUT around the cross while shifting from classroom lectures to shared life",
       timeBudget: "90-Min Team Session + Weekly Micro-Triad",
-      fourfoldAnchor: "Cross (Kenotic Descent) & Pitcher (Imitation)",
+      fourfoldAnchor: "Cross (Kenotic Descent) & Laver (Imitation)",
       scripture: "Mark 3:14; Philippians 2:5–8; 1 Corinthians 4:14–17; 11:1; 2 Timothy 2:2",
       hook: "Why can someone attend 500 Sunday sermons and still freeze when a coworker asks about grief or prayer? Because Western churches treat Truth as a classroom download and skip the middle bridge Jesus and Paul relied on every day: shared-life imitation.",
       keyTakeaway: "Healthy discipleship pairs the Jesus Pattern (UP/IN/OUT centered on cross-bearing DOWN) with the Training Triangle (Truth -> Imitation -> Faithful Multiplication)—so people catch Christ's way at your table, not just from a podium.",
@@ -352,8 +352,8 @@ window.DML_CURRICULUM = {
           `,
           seeMore: [
             {
-              label: "See More: Why 'Faithful Multiplication' Replaces 'Innovation'",
-              contentHtml: `<p>The original course called the third corner 'Innovation'—which tempted teams to invent brand-new tools before living the basics. Paul calls us to faithfully entrust tested truth to reliable people who will teach others also (2 Tim 2:2).</p>`
+              label: "See More: Framing Faithful Multiplication (2 Tim 2:2)",
+              contentHtml: `<p>Rather than rushing to invent brand-new tools before living the basics, Paul calls us to faithfully entrust tested truth to reliable people who will teach others also (2 Tim 2:2).</p>`
             }
           ]
         },
@@ -362,7 +362,7 @@ window.DML_CURRICULUM = {
           title: "3. First Micro-Triad Debrief: Learning From Real Dirt",
           readMin: "2 min",
           bodyHtml: `
-            <p>Every session from Week 3 onward starts with honest debriefing from your lived <span class="term" data-term="micro-triad">Micro-Triads</span>. What felt natural? Where did scheduling collapse? Real friction in Weeks 2–4 prepares your team to prune church clutter wisely next week.</p>
+            <p>Every session from Module 3 onward starts with honest debriefing from your lived <span class="term" data-term="micro-triad">Micro-Triads</span>. What felt natural? Where did scheduling collapse? Real experience in Modules 2–4 prepares your team to audit church clutter wisely in Module 4.</p>
           `,
           seeMore: [
             {
@@ -376,10 +376,10 @@ window.DML_CURRICULUM = {
       workshop: {
         totalMinutes: 90,
         agenda: [
-          { mins: "20m", title: "Micro-Triad Debrief", instructions: "Share candidly from Week 2's first triad: who showed up, what worked with Bible Circle / Prayer Wheel, and any awkward moments." },
+          { mins: "20m", title: "Micro-Triad Debrief", instructions: "Share candidly from Module 2's first triad: who showed up, what worked with Bible Circle / Prayer Wheel, and any awkward moments." },
           { mins: "25m", title: "Jesus Pattern Calendar Audit", instructions: "Individually score your past 7 days (1–5) on UP, IN, and OUT. Notice which corner was starved—and ask where DOWN (humility) is inviting you." },
           { mins: "30m", title: "Training Triangle Audit", instructions: "Look at how your church trains new believers or volunteers: sketch where you jump straight from Truth to expected Multiplication without Imitation." },
-          { mins: "15m", title: "Plan One Shared-Life Moment", instructions: "Pick one ordinary errand, meal, or neighbor visit this week to invite a triad friend along." }
+          { mins: "15m", title: "Plan One Shared-Life Moment", instructions: "Pick one ordinary errand, meal, or neighbor visit before the next session to invite a triad friend along." }
         ],
         prompts: [
           { id: "w3-calendar-gap", question: "Across UP / IN / OUT this past week, which rhythm was weakest—and what one calendar trade frees space for it?", placeholder: "e.g., OUT was 1/5 (all meetings were with church insiders). Swapping Thursday evening admin review for neighbor porch dinner." },
@@ -407,7 +407,7 @@ window.DML_CURRICULUM = {
       fieldPractice: {
         summary: "Keep your weekly Micro-Triad rolling and add one intentional Imitation + OUT rhythm.",
         checklist: [
-          { id: "w3-f1", text: "Hold Week 2 of your weekly Micro-Triad (let another member summarize the Bible passage first)." },
+          { id: "w3-f1", text: "Hold your next weekly Micro-Triad gathering (let another member summarize the Bible passage first)." },
           { id: "w3-f2", text: "Invite one triad friend into an ordinary moment of service, meal prep, or hospitality (Imitation)." },
           { id: "w3-f3", text: "Do a 5-minute Sunday evening UP/IN/OUT/DOWN check in your journal." }
         ],
@@ -425,7 +425,7 @@ window.DML_CURRICULUM = {
       fourfoldAnchor: "Crown (Coming King) Sober Stewardship",
       scripture: "John 15:1–8; Mark 4:26–29; 1 Corinthians 3:6–9; 2 Corinthians 11:23–12:10",
       hook: "Most church initiatives die by Month 6 for one dull reason: leaders keep piling new groups and tools onto an already maxed-out calendar until volunteers break. Before we ever launch church-wide groups, we must take an honest look at what already exists—and decide what to prune.",
-      keyTakeaway: "Moved five months earlier than the original lab, Week 4 pairs an unvarnished 'What Is' audit with a theology of pruning and lament: separate what God calls us to stop from external hardships beyond our control.",
+      keyTakeaway: "Positioned early ahead of group launches, Module 4 pairs an unvarnished 'What Is' audit with a theology of pruning and lament: separate what God calls us to stop from external hardships beyond our control.",
       outcomes: {
         know: "Where existing church programs reward passive attendance vs. genuine growth—and why uncontrollable external trials are NOT moral failure.",
         feel: "Relieved of false pastoral guilt over things outside human control, and courageous enough to stop 1–2 cluttered commitments.",
@@ -437,7 +437,7 @@ window.DML_CURRICULUM = {
           title: "1. Auditing 'What Is' Before Building 'What Could Be'",
           readMin: "3 min",
           bodyHtml: `
-            <p>In the original workbook, auditing current church ministries waited until Month 8—after teams had already built tools and started pilots! Putting our horizontal <strong>What Is Audit</strong> here in Week 4 lets you see every existing study, youth group, deacon team, and staff meeting clearly.</p>
+            <p>Positioning our horizontal <strong>What Is Audit</strong> here in Module 4—well before launching church-wide groups—lets you see every existing study, youth group, deacon team, and staff meeting clearly.</p>
             <p>Instead of launching isolated cliques, list every ministry across your <span class="term" data-term="relational-apprenticeship-path">PATH</span> and <span class="term" data-term="culture-making-plan">PLAN</span> and ask honestly: <em>Where is life-on-life discipleship actually happening, and where are leaders simply running separate islands?</em></p>
           `,
           seeMore: [
@@ -449,16 +449,16 @@ window.DML_CURRICULUM = {
         },
         {
           id: "w4-c2",
-          title: "2. Stewardship & Reality Diagnostic (Fixing 'Spiritual SWOT')",
+          title: "2. Stewardship & Reality Diagnostic (Pastoral Discernment)",
           readMin: "3 min",
           bodyHtml: `
-            <p>The original workbook labeled uncontrollable harmful realities 'FAILURE'—falsely tempting pastors to blame themselves for community aging, illness, or hardship. Our upgraded <strong>Stewardship &amp; Reality Diagnostic</strong> separates what lies <em>Within Our Stewardship</em> from what lies <em>Beyond Our Control</em>.</p>
+            <p>Rather than treating every painful trial as organizational failure—tempting pastors to blame themselves for community aging, illness, or hardship—our <strong>Stewardship &amp; Reality Diagnostic</strong> separates what lies <em>Within Our Stewardship</em> from what lies <em>Beyond Our Control</em>.</p>
             <p>Hardships beyond our control belong in <span class="term" data-term="lament-endurance">Lament &amp; Endurance</span>—not shame. Unexpected receptive opportunities call for prayerful discernment as an <strong>Open Door</strong> (Col 4:3). Only internal clutter calls for pruning.</p>
           `,
           seeMore: [
             {
               label: "See More: Why Lament Belongs in Leadership Strategy",
-              contentHtml: `<p>Paul's list of hardships in 2 Corinthians 11 wasn't a 'SWOT Failure'—it was faithful endurance where Christ's power was perfected in weakness (2 Cor 12:9). Naming external grief honestly keeps leaders sane and prayerful.</p>`
+              contentHtml: `<p>Paul's list of hardships in 2 Corinthians 11 wasn't a failure scorecard—it was faithful endurance where Christ's power was perfected in weakness (2 Cor 12:9). Naming external grief honestly keeps leaders sane and prayerful.</p>`
             }
           ]
         },
@@ -467,7 +467,7 @@ window.DML_CURRICULUM = {
           title: "3. The Pruning & Multiplication Curve (STOP Gate)",
           readMin: "3 min",
           bodyHtml: `
-            <p>Rather than hyped aerospace 'Moonshot' guarantees, Mark 4:26–29 teaches <span class="term" data-term="pneumatology">Spirit-dependent</span> growth: humans sow and water; God alone brings fruit. Yet John 15:2 shows the Father prunes healthy branches so they bear lasting fruit.</p>
+            <p>Rather than rushed growth expectations, Mark 4:26–29 teaches <span class="term" data-term="pneumatology">Spirit-dependent</span> growth: humans sow and water; God alone brings fruit. Yet John 15:2 shows the Father prunes healthy branches so they bear lasting fruit.</p>
             <p>Your <span class="term" data-term="pruning-audit">Sacred Cow &amp; Pruning Audit (STOP Gate)</span> challenges your team to pause, merge, or retire 1–2 low-fruit commitments so you protect 2+ hours/week of margin.</p>
           `,
           seeMore: [
@@ -482,10 +482,10 @@ window.DML_CURRICULUM = {
       workshop: {
         totalMinutes: 90,
         agenda: [
-          { mins: "15m", title: "Micro-Triad Debrief", instructions: "How did Week 3's Imitation invitation go? Pray briefly for each triad." },
+          { mins: "15m", title: "Micro-Triad Debrief", instructions: "How did Module 3's Imitation invitation go? Pray briefly for each triad." },
           { mins: "30m", title: "Horizontal 'What Is' Inventory", instructions: "List every weekly gathering, class, and team meeting in your church—mark which ones have real life-on-life apprenticeship vs. pure logistics." },
           { mins: "25m", title: "Stewardship Diagnostic Sort", instructions: "Place honest observations into the 4 Stewardship quadrants—carefully separating Lament & Endurance from Needs Pruning." },
-          { mins: "20m", title: "Name 1–2 Commitments to STOP", instructions: "Pass through the Pruning Gate: nominate 1–2 low-fruit meetings/programs to pause or simplify (to discuss respectfully with Elders/stakeholders in Week 6)." }
+          { mins: "20m", title: "Name 1–2 Commitments to STOP", instructions: "Pass through the Pruning Gate: nominate 1–2 low-fruit meetings/programs to pause or simplify (to discuss respectfully with Elders/stakeholders in Module 6)." }
         ],
         prompts: [
           { id: "w4-what-is", question: "What 3 existing spaces in our church already carry genuine relational life (Stewarded Fruit)?", placeholder: "e.g., Thursday women's prayer breakfast, youth small-group leaders, hospitality crew." },
@@ -513,7 +513,7 @@ window.DML_CURRICULUM = {
       fieldPractice: {
         summary: "Test your draft Disciple Definition & Reality notes with two fringe/lay members and sustain your Micro-Triad.",
         checklist: [
-          { id: "w4-f1", text: "Hold Week 3 of your Micro-Triad (have a partner lead part of the Bible Circle)." },
+          { id: "w4-f1", text: "Keep your weekly Micro-Triad active (have a partner lead part of the Bible Circle)." },
           { id: "w4-f2", text: "Share your 1-sentence Gospel Disciple Definition with 2 lay members outside your core circle for candid feedback." },
           { id: "w4-f3", text: "Initiate one personal calendar subtraction (saying 'no' or pausing one low-fruit task) to protect 2 hrs/week." }
         ],
@@ -526,12 +526,12 @@ window.DML_CURRICULUM = {
       week: 5,
       phase: 2,
       title: "Sent to Neighbors: Oikos, Gospel Story & Seeker Discovery",
-      subtitle: "Filling the evangelism gap with relational neighbor prayer, a 3-minute Christ-centered story, and Seeker DBS",
+      subtitle: "Connecting discipleship directly to relational neighbor prayer, a 3-minute Christ-centered story, and Seeker DBS",
       timeBudget: "90-Min Team Session + 1 Neighborhood Table Invitation",
       fourfoldAnchor: "Cross (Savior) Reconciliation to Neighbors",
       scripture: "Luke 10:1–11; Mark 5:19; 2 Corinthians 5:14–21; Colossians 4:2–6",
-      hook: "Look closely at many discipleship programs: every tool assumes the person across the table already trusts the Bible and knows church songs. Yet our neighbors don't need an invitation to a committee—they need a friend who prays for them, listens deeply, and knows how to introduce Jesus over a meal.",
-      keyTakeaway: "Mission cannot be locked into 'Week 4' of a group schedule. Using our fourth core habit—the Oikos & Gospel Bridge—ordinary believers pray daily for nearby friends, share a 3-minute story centered on Jesus's cross, and invite open seekers into 4-question Discovery Bible Study.",
+      hook: "Many church habits assume the person across the table already trusts the Bible and knows church songs. Yet our neighbors don't need an invitation to a committee—they need a friend who prays for them, listens deeply, and knows how to introduce Jesus over a meal.",
+      keyTakeaway: "Mission cannot be locked into one isolated week of a monthly group cycle. Using our fourth core habit—the Oikos & Gospel Bridge—ordinary believers pray daily for nearby friends, share a 3-minute story centered on Jesus's cross, and invite open seekers into 4-question Discovery Bible Study.",
       outcomes: {
         know: "How Oikos mapping, a Christ-centered 3-minute story, and 4-question Seeker DBS engage skeptics without pressure or jargon.",
         feel: "Warm, unhurried compassion toward nearby non-Christians—free from sales scripts or awkward cold-calling.",
@@ -636,16 +636,16 @@ window.DML_CURRICULUM = {
       week: 6,
       phase: 2,
       title: "Aligned at Home: Stakeholders, Plain Language & Legacy Groups",
-      subtitle: "Replacing Month 8 ambushes with early Elder/staff dialogue, jargon-free vision, and honoring existing small groups",
+      subtitle: "Prioritizing early Elder/staff dialogue, jargon-free vision, and honoring existing small groups",
       timeBudget: "90-Min Team Session + 1-on-1 Alignment Coffees",
       fourfoldAnchor: "Covenant Unity & Honor (Philippians 2)",
       scripture: "Proverbs 15:22; Philippians 2:1–5; Romans 12:10; 1 Corinthians 14:9",
-      hook: "Nothing sinks church renewal faster than an inner circle disappearing into workshops for months and returning with mysterious acronyms—or handing shiny status badges to new group leaders while veteran small-group hosts feel demoted to second-class citizens.",
-      keyTakeaway: "Moved forward from Month 8, Week 6 equips teams to write a plain-English 1-Pager, listen to Elders, staff, and Next-Gen leads before church pilots begin, and offer veteran small groups dignified pathways forward—explicitly banning divisive lanyards.",
+      hook: "Before any congregation-wide pilot begins, faithful leaders invite elders, staff, and longtime small-group hosts into honest conversation—speaking plain Christian English rather than insider acronyms and honoring veteran volunteers with equal dignity.",
+      keyTakeaway: "Positioned prior to church-wide pilots, Module 6 equips teams to write a plain-English 1-Pager, listen to Elders, staff, and Next-Gen leads, and offer veteran small groups dignified pathways forward rooted in shared humility.",
       outcomes: {
         know: "Why insider lab jargon alienates congregations, and how Convert / Hybridize / Bless & Sunset pathways honor existing group leaders.",
         feel: "Deep respect and collaborative patience toward veteran volunteers, non-lab staff, and Elders.",
-        do: "Complete your jargon-free 1-Pager, map every stakeholder conversation, and schedule alignment coffees before Week 8 pilots."
+        do: "Complete your jargon-free 1-Pager, map every stakeholder conversation, and schedule alignment coffees before Module 8 pilots."
       },
       chunks: [
         {
@@ -667,22 +667,22 @@ window.DML_CURRICULUM = {
           title: "2. The Plain 1-Pager & Stakeholder Listening Matrix",
           readMin: "3 min",
           bodyHtml: `
-            <p>With your Week 4 'What Is' audit in hand, draft a clear 1-page summary answering four questions: Why this matters, what ordinary members will experience, what legacy clutter we are respectfully pausing, and who is listening. Use it to host early <span class="term" data-term="stakeholder-alignment">Stakeholder Alignment</span> coffees with Elders, Worship, Kids, and Youth leads.</p>
+            <p>With your Module 4 'What Is' audit in hand, draft a clear 1-page summary answering four questions: Why this matters, what ordinary members will experience, what legacy clutter we are respectfully pausing, and who is listening. Use it to host early <span class="term" data-term="stakeholder-alignment">Stakeholder Alignment</span> coffees with Elders, Worship, Kids, and Youth leads.</p>
           `,
           seeMore: [
             {
               label: "See More: Listening Without Defensiveness",
-              contentHtml: `<p>When a Youth Director says, 'I have zero volunteer margin right now,' don't argue—listen! Ask: 'What could we take OFF your plate before we co-design anything in Week 9?'</p>`
+              contentHtml: `<p>When a Youth Director says, 'I have zero volunteer margin right now,' don't argue—listen! Ask: 'What could we take OFF your plate before we co-design anything in Module 9?'</p>`
             }
           ]
         },
         {
           id: "w6-c3",
-          title: "3. Bridging Legacy Small Groups (And Banning Lanyards)",
+          title: "3. Bridging Legacy Small Groups With Equal Honor",
           readMin: "3 min",
           bodyHtml: `
             <p>Existing small groups and adult classes carry deep relational loyalty. Our <span class="term" data-term="legacy-group-pathway">Legacy Small-Group Pathway</span> offers veteran leaders three respectful choices: (A) <strong>Convert</strong> gradually to the weekly life-on-life rhythm, (B) <strong>Hybridize</strong> by folding one napkin habit (like the Bible Circle) into existing sessions, or (C) <strong>Bless &amp; Sunset</strong> a long-running class with public gratitude.</p>
-            <p>Crucially: reject visual status markers like Sunday pilot leader lanyards that split a congregation into 'elite disciplemakers' vs. 'ordinary social groups.'</p>
+            <p>Crucially: keep visible status markers out of Sunday gatherings so nobody ever feels divided between new pilot groups and faithful longstanding groups.</p>
           `,
           seeMore: [
             {
@@ -696,23 +696,23 @@ window.DML_CURRICULUM = {
       workshop: {
         totalMinutes: 90,
         agenda: [
-          { mins: "15m", title: "Oikos & Triad Debrief", instructions: "Share one neighbor conversation or prayer highlight from Week 5." },
+          { mins: "15m", title: "Oikos & Triad Debrief", instructions: "Share one neighbor conversation or prayer highlight from Module 5." },
           { mins: "25m", title: "Jargon-Free 1-Pager Draft", instructions: "Write the 4 sections of your 1-Pager together. Read every sentence aloud and strike every consulting buzzword." },
-          { mins: "25m", title: "Stakeholder Listening Matrix", instructions: "Map Elders, Non-Lab Staff, Kids/Youth leads, and Legacy Group hosts—note each group's valid concern and assign who will meet whom over the next 10 days." },
-          { mins: "25m", title: "Legacy Small-Group Pathway Plan", instructions: "Review your Week 4 'What Is' group list and sketch hopeful Convert / Hybridize / Sunset conversations alongside your STOP proposals." }
+          { mins: "25m", title: "Stakeholder Listening Matrix", instructions: "Map Elders, Non-Lab Staff, Kids/Youth leads, and Legacy Group hosts—note each group's valid concern and assign who will meet whom before launching pilots." },
+          { mins: "25m", title: "Legacy Small-Group Pathway Plan", instructions: "Review your Module 4 'What Is' group list and sketch hopeful Convert / Hybridize / Sunset conversations alongside your STOP proposals." }
         ],
         prompts: [
           { id: "w6-onepager", question: "Draft 3–4 plain-English sentences explaining our church's vision without ANY lab jargon:", placeholder: "e.g., Over the next season, we want every follower of Jesus to have 2–3 trusted friends around a table learning Scripture, praying honestly, and loving neighbors..." },
-          { id: "w6-stakeholders", question: "Who are the top 3 internal stakeholders (Elders, staff, veteran leaders) we will meet 1-on-1 before Week 8?", placeholder: "e.g., Elder Chair & Finance Lead (Tue), Children's Director (Thu), Wednesday Bible Class host (Sat breakfast)." }
+          { id: "w6-stakeholders", question: "Who are the top 3 internal stakeholders (Elders, staff, veteran leaders) we will meet 1-on-1 before Module 8?", placeholder: "e.g., Elder Chair & Finance Lead (Tue), Children's Director (Thu), Wednesday Bible Class host (Sat breakfast)." }
         ]
       },
       scenarios: [
         {
-          prompt: "A team member suggests having pilot group leaders wear bright matching lanyards on Sunday mornings so congregation members notice who is leading the new initiative. Why does the Pastor & Disciplemaker critique reject this?",
+          prompt: "A team member suggests having pilot group leaders wear matching visible badges on Sunday mornings so congregation members notice who is leading the new initiative. Why is that risky for church unity?",
           options: [
-            { text: "Lanyards are too expensive in small church budgets.", correct: false, feedback: "Cost is negligible—the real harm is relational and theological." },
-            { text: "Status badges create a two-tier caste system that alienates veteran small-group leaders and turns humble service into visibility theater.", correct: true, feedback: "Spot on. Jesus warns against public badges of spiritual prestige; quiet faithfulness and respectful inclusion build trust." },
-            { text: "Lanyards only work if you put the Bowtie logo on them.", correct: false, feedback: "Branding insiders divides the Body regardless of the logo." }
+            { text: "Badges are too expensive in small church budgets.", correct: false, feedback: "Cost is negligible—the real harm is relational and theological." },
+            { text: "Visible status badges risk creating a two-tier impression that sidelines veteran small-group leaders and draws attention to status instead of humble service.", correct: true, feedback: "Spot on. Jesus warns against public badges of spiritual prestige; quiet faithfulness and respectful inclusion build trust." },
+            { text: "Badges only work if you put the Bowtie logo on them.", correct: false, feedback: "Branding insiders divides the Body regardless of the logo." }
           ]
         },
         {
@@ -728,7 +728,7 @@ window.DML_CURRICULUM = {
         summary: "Hold 1-on-1 Stakeholder & Elder listening coffees using your plain 1-Pager.",
         checklist: [
           { id: "w6-f1", text: "Share your plain-English 1-Pager with Elders and at least 2 non-lab ministry/group leaders; listen carefully to their feedback." },
-          { id: "w6-f2", text: "Confirm which Week 4 STOP/pruning step has alignment to proceed cleanly." },
+          { id: "w6-f2", text: "Confirm which Module 4 STOP/pruning step has alignment to proceed cleanly." },
           { id: "w6-f3", text: "Keep your weekly Micro-Triad and daily Oikos prayer going." }
         ],
         reflectionPrompt: "What valid concern or helpful insight surfaced when you listened to a stakeholder outside your team?"
@@ -742,10 +742,10 @@ window.DML_CURRICULUM = {
       title: "Walking Through the Friction Valley: Coaching & Contextual Craft",
       subtitle: "Shepherding struggling, relapsing, or grieving friends—plus vetting optional tools on a 5-Point Rubric",
       timeBudget: "90-Min Team Session + 2 Lay Tool Tests",
-      fourfoldAnchor: "Chalice (Healer) & Pitcher (Sanctifier)",
+      fourfoldAnchor: "Pitcher (Healer) & Laver (Sanctifier)",
       scripture: "1 Thessalonians 2:7–12; 5:14; Galatians 6:1–5; Isaiah 42:3; James 5:13–16",
-      hook: "By Month 2 of real triads and Oikos friendships, initial excitement always hits reality: someone relapses into hidden sin for the fourth time, a spouse faces grief or diagnosis, or a keen learner pulls back saying 'I'm failing at this.' How do you shepherd people without shaming them—or lowering Jesus's call?",
-      keyTakeaway: "Moved from Week 1 into the heart of real relational friction, the Apprenticeship Growth Loop prepares leaders for Friction Valley without rushing timelines—while the 5-Point Napkin Rubric replaces the old 5–6 custom tool overload.",
+      hook: "As triads and Oikos friendships deepen over time, initial enthusiasm always meets real life: someone relapses into hidden sin, a spouse faces grief or diagnosis, or a keen learner pulls back saying 'I'm failing at this.' How do you shepherd people without shaming them—or lowering Jesus's call?",
+      keyTakeaway: "Practiced right as Micro-Triads hit real relational friction, the Apprenticeship Growth Loop prepares leaders for Friction Valley without rushing timelines—while the 5-Point Napkin Rubric keeps visual aids simple and transferable.",
       outcomes: {
         know: "Why growth is domain-specific toward Spirit-Dependent Maturity (never autonomous perfection), and how Picture/Mirror/Window + the 5-Point Rubric test any visual aid.",
         feel: "Patient, unhurried pastoral tenderness—ready to sit in grief and failure alongside Christ our Healer.",
@@ -757,7 +757,7 @@ window.DML_CURRICULUM = {
           title: "1. The Apprenticeship Growth Loop (Domain-Specific Grace)",
           readMin: "3 min",
           bodyHtml: `
-            <p>Earlier editions called this 'The MAP' square—colliding with 'Map' in PATH and implying mature believers graduate into autonomous 'Unconscious Competence.' Our upgraded <strong>Apprenticeship Growth Loop</strong> moves through four postures per area of life: Humble Beginner (D1: I do, you watch), <span class="term" data-term="friction-valley">Friction Valley</span> (D2: I do, you help), Co-Laborer (D3: You do, I help), and <span class="term" data-term="spirit-dependent-maturity">Spirit-Dependent Maturity</span> (D4: You do, I cheer).</p>
+            <p>Built around the situational <strong>Apprenticeship Growth Loop (D1–D4)</strong>, leaders discern four postures per area of life: Humble Beginner (D1: I do, you watch), <span class="term" data-term="friction-valley">Friction Valley</span> (D2: I do, you help), Co-Laborer (D3: You do, I help), and <span class="term" data-term="spirit-dependent-maturity">Spirit-Dependent Maturity</span> (D4: You do, I cheer)—recognizing believers never graduate from depending on Christ.</p>
           `,
           seeMore: [
             {
@@ -766,7 +766,7 @@ window.DML_CURRICULUM = {
             },
             {
               label: "See More: Never Confuse Sin, Suffering, and Skill Lag",
-              contentHtml: `<p>A believer may be seasoned in Bible study (D4) yet feel completely lost praying with a skeptical neighbor (D1). Meanwhile, bereavement or depression in Friction Valley requires presence, lament, and slow patience—never pushing someone to hit a 90-day timeline.</p>`
+              contentHtml: `<p>A believer may be seasoned in Bible study (D4) yet feel completely lost praying with a skeptical neighbor (D1). Meanwhile, bereavement or depression in Friction Valley requires presence, lament, and slow patience—never pushing someone to hit an arbitrary timeline.</p>`
             }
           ]
         },
@@ -775,7 +775,7 @@ window.DML_CURRICULUM = {
           title: "2. Picture / Mirror / Window & 5-Point Napkin Rubric",
           readMin: "3 min",
           bodyHtml: `
-            <p>Remember why we abolished the original requirement to invent 5–6 custom tools: forcing novices to author six diagrams breaks <span class="term" data-term="andragogy">Zone of Proximal Development</span> limits and kills transfer. Instead, use <span class="term" data-term="picture-mirror-window">Picture / Mirror / Window</span> plus our <strong>5-Point Napkin Rubric</strong> to check our 4 shared habits—and refine at most <strong>one</strong> optional contextual aid only if a genuine ministry gap remains.</p>
+            <p>Respecting <span class="term" data-term="andragogy">Zone of Proximal Development</span> limits, start by mastering four proven core habits rather than rushing into five or six separate diagrams. Use <span class="term" data-term="picture-mirror-window">Picture / Mirror / Window</span> plus our <strong>5-Point Napkin Rubric</strong> to check our 4 shared habits—and refine at most <strong>one</strong> optional contextual aid only if a genuine ministry gap remains.</p>
           `,
           seeMore: [
             {
@@ -803,7 +803,7 @@ window.DML_CURRICULUM = {
       workshop: {
         totalMinutes: 90,
         agenda: [
-          { mins: "20m", title: "Stakeholder Alignment Debrief", instructions: "Compare notes from Week 6's Elder/staff/group coffees. Adjust any wording or pruning step based on what you heard." },
+          { mins: "20m", title: "Stakeholder Alignment Debrief", instructions: "Compare notes from Module 6's Elder/staff/group coffees. Adjust any wording or pruning step based on what you heard." },
           { mins: "35m", title: "Friction Valley Role-Play Clinic", instructions: "Act out two hard scenes in trios: (A) A friend relapses into chronic sin and says 'I'm quitting the triad'; (B) A grieving member misses three weeks after family crisis. Practice L2 Shepherding without lecturing or rescuing." },
           { mins: "35m", title: "Napkin Rubric & Optional Contextual Check", instructions: "Review the 4 Core Habits using Picture/Mirror/Window + 5-Point Rubric. Decide openly: Do we even need 1 extra contextual card (e.g., Kids/Families), or are 4 core habits enough for Year 1?" }
         ],
@@ -835,7 +835,7 @@ window.DML_CURRICULUM = {
         checklist: [
           { id: "w7-f1", text: "Sit down with 2 non-staff believers and walk them through 1–2 core napkin cards using 4 diagnostic questions (Worked? Confusing? Natural? Would you pass it on?)." },
           { id: "w7-f2", text: "Practice asking one open-hearted question in your Micro-Triad rather than rushing to fix someone's struggle." },
-          { id: "w7-f3", text: "Finalize who you will invite into Week 8's church-wide weekly Pilot Groups (Betas)." }
+          { id: "w7-f3", text: "Finalize who you will invite into Module 8's church-wide weekly Pilot Groups (Betas)." }
         ],
         reflectionPrompt: "What did a non-staff layperson find confusing or encouraging when testing your napkin cards?"
       }
@@ -850,8 +850,8 @@ window.DML_CURRICULUM = {
       timeBudget: "90-Min Team Session + Launch 2–4 Weekly Betas",
       fourfoldAnchor: "Word & Table Acts 2 Hospitality",
       scripture: "Acts 2:42–47; Hebrews 10:24–25; Romans 12:9–18; Luke 10:1–17",
-      hook: "Why did the original Lab's 'at least twice a month for 3 months' pilots stall out? Do the math: six meetings spaced two weeks apart is barely enough time to remember last session's prayer request—never mind confess sin, survive crisis, or release a second-generation apprentice.",
-      keyTakeaway: "Launch 2–4 weekly pilot groups (Betas) of 3–5 people using a warm hospitality loop—Celebrate, Habit Focus, Next Step + Weekly OUT Mission—embedding neighbor love every week rather than trapping outreach in 'Week 4.'",
+      hook: "Why do biweekly 3-month pilot groups often lose momentum? Think practically: six meetings spaced two weeks apart rarely build enough continuity to remember prayer burdens, confess sin honestly, walk through a crisis, or hand off leadership to a second-generation apprentice.",
+      keyTakeaway: "Launch 2–4 weekly pilot groups (Betas) of 3–5 people using a warm hospitality loop—Celebrate, Habit Focus, Next Step + Weekly OUT Mission—embedding neighbor love every week rather than confining outreach to one isolated week of a monthly cycle.",
       outcomes: {
         know: "Why weekly 60–75 minute kitchen-table rhythms outperform biweekly meetings, and why mission belongs in every week's Step 3.",
         feel: "Grounded confidence: aligned stakeholders, vetted core habits, and pre-formatted napkin guides remove launch panic.",
@@ -864,7 +864,7 @@ window.DML_CURRICULUM = {
           readMin: "3 min",
           bodyHtml: `
             <p>A healthy <span class="term" data-term="life-on-life-rhythm">Life-on-Life Gathering Rhythm</span> takes 60–75 minutes around a meal, coffee table, or living room: <strong>#1 Celebrate &amp; Honest Check-In</strong> (15m), <strong>#2 Habit Focus</strong> in the Bible Circle, Prayer Wheel, or Jesus Pattern (35m), and <strong>#3 Next Step + Weekly OUT Mission</strong> (15m).</p>
-            <p>Crucially, we abolish the original 4-week rotation that relegated outreach to 'Week 4: Mission focus.' Every single week ends with one obedience step and one named <span class="term" data-term="oikos">Oikos</span> neighbor.</p>
+            <p>Crucially, rather than saving outreach for just one isolated 'mission week' in a monthly rotation, every single gathering ends with one obedience step and one named <span class="term" data-term="oikos">Oikos</span> neighbor.</p>
           `,
           seeMore: [
             {
@@ -878,7 +878,7 @@ window.DML_CURRICULUM = {
           title: "2. Setting Up Healthy Weekly Betas (12–16 Weeks)",
           readMin: "3 min",
           bodyHtml: `
-            <p>Your <span class="term" data-term="beta-group">Weekly Pilot Groups (Betas)</span> commit to three clear standards: <strong>3–5 people</strong> per circle, meeting <strong>weekly</strong> (never biweekly), for <strong>12–16 weeks</strong>. Halfway through (Weeks 6–8), the pilot host intentionally coaches an emerging apprentice to lead #2 Habit Focus—growing real 2nd-generation fruit before Year 1 finishes.</p>
+            <p>Your <span class="term" data-term="beta-group">Weekly Pilot Groups (Betas)</span> commit to three clear standards: <strong>3–5 people</strong> per circle, meeting <strong>weekly</strong> (never biweekly), for <strong>12–16 weeks</strong>. Halfway through (weeks 6–8 of the Beta), the pilot host intentionally coaches an emerging apprentice to lead #2 Habit Focus—growing real 2nd-generation fruit naturally.</p>
           `,
           seeMore: [
             {
@@ -892,12 +892,12 @@ window.DML_CURRICULUM = {
           title: "3. Spotting & Co-Leading With 2nd-Generation Apprentices",
           readMin: "2 min",
           bodyHtml: `
-            <p>From Day 1 of your weekly pilot, watch for faithful, humble learners who consistently follow through on Step #3 and pray for their <span class="term" data-term="oikos">Oikos</span>. By Week 6, invite one co-leader per group to prepare and guide Step #2 (<span class="term" data-term="faithful-multiplication">Faithful Multiplication</span>)—moving steadily from <em>'I do, you watch'</em> to <em>'You do, I help.'</em></p>
+            <p>From Day 1 of your weekly pilot, watch for faithful, humble learners who consistently follow through on Step #3 and pray for their <span class="term" data-term="oikos">Oikos</span>. By week 6 of the Beta, invite one co-leader per group to prepare and guide Step #2 (<span class="term" data-term="faithful-multiplication">Faithful Multiplication</span>)—moving steadily from <em>'I do, you watch'</em> to <em>'You do, I help.'</em></p>
           `,
           seeMore: [
             {
               label: "See More: How to Protect Early Pilots From Unwanted Spotlight",
-              contentHtml: `<p>Keep initial pilots quiet, warm, and unpretentious—no stage spotlights or badges. Let genuine changed lives and neighbor hospitality speak naturally when stories are shared in Week 9.</p>`
+              contentHtml: `<p>Keep initial pilots quiet, warm, and unpretentious—no stage spotlights or badges. Let genuine changed lives and neighbor hospitality speak naturally when stories are shared in Module 9.</p>`
             }
           ]
         }
@@ -906,14 +906,14 @@ window.DML_CURRICULUM = {
       workshop: {
         totalMinutes: 90,
         agenda: [
-          { mins: "15m", title: "Lay Testing Debrief", instructions: "What changed in your napkin cards based on Week 7's layperson feedback? Use pre-formatted printable cards so nobody stalls on graphic design." },
-          { mins: "25m", title: "Customize Weekly Rhythm", instructions: "Design your church's 60–75 min flow around #1 Celebrate / #2 Habit Focus / #3 Next Step + Weekly OUT. Map a sample 4-week progression." },
+          { mins: "15m", title: "Lay Testing Debrief", instructions: "What changed in your napkin cards based on Module 7's layperson feedback? Use pre-formatted printable cards so nobody stalls on graphic design." },
+          { mins: "25m", title: "Customize Weekly Rhythm", instructions: "Design your church's 60–75 min flow around #1 Celebrate / #2 Habit Focus / #3 Next Step + Weekly OUT. Map a sample 4-week Beta flow." },
           { mins: "30m", title: "Complete Pilot Launch Checklist", instructions: "Name 2–4 initial Weekly Pilot Hosts (drawn from your team + aligned legacy hosts), confirm 3–5 invitees per group, and lock start dates within 14 days." },
           { mins: "20m", title: "Beta Invitation Role-Play", instructions: "Practice issuing a warm, pressure-free verbal invite to a prospective pilot member—explaining the weekly rhythm in plain English." }
         ],
         prompts: [
           { id: "w8-beta-roster", question: "Our 2–4 Weekly Pilot Groups launching within 14 days (Host + Co-Host + Day/Time):", placeholder: "e.g., Group A: Men's Tue 6:30am coffee; Group B: Women's Thu 7pm living room; Group C: Blended Hybrid class." },
-          { id: "w8-feedback-plan", question: "How will we collect honest 30- and 60-day pilot feedback from members (not just leaders)?", placeholder: "e.g., 3-question check-in card after Week 4 & Week 8 asking what worked, what dragged, and who is stepping up." }
+          { id: "w8-feedback-plan", question: "How will we collect honest 30- and 60-day pilot feedback from members (not just leaders)?", placeholder: "e.g., 3-question check-in card after Beta week 4 & week 8 asking what worked, what dragged, and who is stepping up." }
         ]
       },
       scenarios: [
@@ -938,8 +938,8 @@ window.DML_CURRICULUM = {
         summary: "Launch 2–4 weekly Church Pilot Groups within 14 days using plain napkin cards.",
         checklist: [
           { id: "w8-f1", text: "Send personal verbal/text invitations and launch 2–4 weekly Beta groups (3–5 people each)." },
-          { id: "w8-f2", text: "Hold Week 1 of your Beta using Celebrate / Habit Focus / Next Step + Weekly OUT around food or coffee." },
-          { id: "w8-f3", text: "Invite Worship, Children's, Student, and Mercy ministry leads to next week's Week 9 Co-Design session." }
+          { id: "w8-f2", text: "Hold the first session of your weekly Beta using Celebrate / Habit Focus / Next Step + Weekly OUT around food or coffee." },
+          { id: "w8-f3", text: "Invite Worship, Children's, Student, and Mercy ministry leads to Module 9's Co-Design session." }
         ],
         reflectionPrompt: "What stood out during the first week of launching your weekly pilot groups?"
       }
@@ -952,10 +952,10 @@ window.DML_CURRICULUM = {
       title: "Weaving Culture, Guardrails & Leader Soul Care",
       subtitle: "Co-designing liturgy & Next-Gen habits together while installing Vetting Gates and 1:4–5 Soul Care pods",
       timeBudget: "90-Min Co-Design Session + Soul Care Pod Launch",
-      fourfoldAnchor: "Healer (Chalice) & Sanctifier (Pitcher) Guardrails",
+      fourfoldAnchor: "Pitcher (Healer) & Laver (Sanctifier) Guardrails",
       scripture: "Deuteronomy 6:4–9; 1 Timothy 3:1–13; 2 Timothy 2:1–7; Exodus 18:13–26; Acts 20:28",
       hook: "Two silent threats wait right as pilot groups catch fire: First, Next-Gen and Worship leaders get handed adult handouts they never helped build. Second, leaders multiply rapidly without character vetting or Soul Care—exhausting pastors and risking moral harm.",
-      keyTakeaway: "Week 9 merges five repetitive grids into ONE shared co-design canvas built alongside Worship, Kids, Youth, and Mercy leads, while wiring Character & Competency into a written Vetting Gate and capped 1:4–5 Soul Care pods.",
+      keyTakeaway: "Module 9 brings Worship, Kids, Youth, and Mercy leads together onto ONE shared co-design canvas while wiring Character & Competency into a written Vetting Gate and capped 1:4–5 Soul Care pods.",
       outcomes: {
         know: "How Sunday Word & Table and Next-Gen rhythms align organically without stage commercials—and why Vetting Gates plus 1:4–5 Soul Care caps protect multiplying churches.",
         feel: "United across ministry departments and deeply sheltered by healthy pastoral oversight.",
@@ -967,7 +967,7 @@ window.DML_CURRICULUM = {
           title: "1. One Shared Culture Canvas (Co-Designed, Never Retrofitted)",
           readMin: "3 min",
           bodyHtml: `
-            <p>Instead of repeating a 20-cell matrix five times across four months, your team sits down *with* Worship, Kids, Youth, and Mercy leaders around ONE unified <span class="term" data-term="culture-making-plan">Master Culture-Making &amp; Ministry Alignment Canvas</span>.</p>
+            <p>Rather than building five ministry plans separately, your team sits down *with* Worship, Kids, Youth, and Mercy leaders around ONE unified <span class="term" data-term="culture-making-plan">Master Culture-Making &amp; Ministry Alignment Canvas</span>.</p>
             <p>Replace stage announcements and promo slots with <span class="term" data-term="word-and-table">Word &amp; Table</span> beauty: singing prayers shaped by the Lord's Prayer, integrating silent Cross-Centered Examen before Communion, giving parents age-fit fridge cards (Deut 6), and telling real baptism and Oikos stories.</p>
           `,
           seeMore: [
@@ -1043,7 +1043,7 @@ window.DML_CURRICULUM = {
         summary: "Hold your first 1:4–5 Soul Care Pod gathering and coach emerging Beta apprentices to co-lead.",
         checklist: [
           { id: "w9-f1", text: "Hold one unhurried Soul Care meal/prayer check-in (zero KPI policing) for your active pilot hosts." },
-          { id: "w9-f2", text: "Coach 1 emerging apprentice inside each Beta group to lead #2 Habit Focus at least once before Week 10." },
+          { id: "w9-f2", text: "Coach 1 emerging apprentice inside each Beta group to lead #2 Habit Focus at least once before Module 10." },
           { id: "w9-f3", text: "Pilot ONE co-designed liturgical or Next-Gen habit shift (replacing one competing announcement or program)." }
         ],
         reflectionPrompt: "How did your ministry peers respond when co-designing one shared Culture Canvas together?"
@@ -1055,12 +1055,12 @@ window.DML_CURRICULUM = {
       week: 10,
       phase: 4,
       title: "Humble Horizons, Continuity & Commissioning",
-      subtitle: "Building a James 4:15 Stewardship Roadmap, preventing the Month 13 cliff, and sending around Word & Table",
+      subtitle: "Building a James 4:15 Stewardship Roadmap, securing Year-2 continuity, and sending around Word & Table",
       timeBudget: "90-Min Commissioning Gathering + 30-Day Elder Ratification",
-      fourfoldAnchor: "Full Fourfold Gospel & Word-and-Table Sending",
+      fourfoldAnchor: "Full Fourfold Gospel (Cross, Laver, Pitcher, Crown) & Word-and-Table Sending",
       scripture: "James 4:13–15; 1 Corinthians 3:6–9; Matthew 28:18–20; 2 Timothy 2:2; Revelation 21:5",
-      hook: "Too many 10-week cohorts end with inspiring applause on Friday night—and vanish quietly by Month 6 when staff turn over, fall ministry schedules explode, or budget belts tighten. How do we seal what God has started without trusting in human guarantees?",
-      keyTakeaway: "Retiring NASA Apollo roadmaps and hubristic promises ('only derailed if intentionally stopped'), Week 10 builds a prayerful James 4:15 Stewardship Roadmap tracked by leading health indicators, ratifies a 2-page New Staff & Elder Onboarding Manual, and commissions teams around Word & Table as lifelong disciplemakers.",
+      hook: "Too many leadership cohorts end with warm applause on the final day—and fade quietly when staff turn over, fall ministry schedules explode, or budget belts tighten. How do we seal what God has started without trusting in human guarantees?",
+      keyTakeaway: "Grounded in James 4:15 humility ('If the Lord wills'), Module 10 builds a prayerful Stewardship Roadmap tracked by leading health indicators, ratifies a 2-page New Staff & Elder Onboarding Manual, and commissions teams around Word & Table as lifelong disciplemakers.",
       outcomes: {
         know: "How leading health indicators, Elder ratification, and a 2-page Onboarding Manual eliminate the post-cohort cliff while keeping growth surrendered to God.",
         feel: "Deeply grateful, soberly realistic about Year-2 valleys, and joyfully sent in the power of the Spirit.",
@@ -1069,10 +1069,10 @@ window.DML_CURRICULUM = {
       chunks: [
         {
           id: "w10-c1",
-          title: "1. Replacing Apollo Hubris With James 4:15 Stewardship",
+          title: "1. Grounding Long-Range Plans in James 4:15 Stewardship",
           readMin: "3 min",
           bodyHtml: `
-            <p>The original curriculum modeled planning on NASA's moonshot and promised a shift <em>'that could only be derailed if you intentionally tried to stop it.'</em> Scripture corrects that hubris: <em>'If the Lord wills, we will live and do this or that'</em> (Jas 4:15). Only God gives growth (1 Cor 3:7).</p>
+            <p>Long-range church plans are only faithful when surrendered to God's providence: <em>'If the Lord wills, we will live and do this or that'</em> (Jas 4:15). Only God gives growth (1 Cor 3:7).</p>
             <p>Our <span class="term" data-term="stewardship-roadmap">Prayerful Stewardship Roadmap</span> preserves clear 90-Day, 1-Year, and 3-Year horizons across <strong>both PATH and PLAN</strong>—grounded in real pilot data and calendar/budget honesty.</p>
           `,
           seeMore: [
@@ -1101,12 +1101,12 @@ window.DML_CURRICULUM = {
           title: "3. Commissioning Around Word & Table",
           readMin: "2 min",
           bodyHtml: `
-            <p>The original workbook closed by declaring: <em>'YOU ARE CULTURE BUILDERS.'</em> Yet Christ did not die to make us organizational culture consultants. Around Scripture and the Lord's Supper, we close with <span class="term" data-term="commissioning">Word-and-Table Commissioning</span>: <strong>'YOU ARE DISCIPLEMAKERS — GO MULTIPLY IN CHRIST.'</strong></p>
+            <p>Culture-building structures always serve a higher calling: shaping living witnesses of Jesus. Around Scripture and the Lord's Supper, we close with <span class="term" data-term="commissioning">Word-and-Table Commissioning</span>: <strong>'YOU ARE DISCIPLEMAKERS — GO MULTIPLY IN CHRIST.'</strong></p>
           `,
           seeMore: [
             {
               label: "See More: A Simple 20-Minute Commissioning Liturgy",
-              contentHtml: `<p>Read Matthew 28:18–20 and 2 Timothy 2:1–2; share gratitude and one specific prayer burden for each church/group; celebrate Communion remembering Jesus Savior, Sanctifier, Healer, and Coming King; lay hands on one another and pray.</p>`
+              contentHtml: `<p>Read Matthew 28:18–20 and 2 Timothy 2:1–2; share gratitude and one specific prayer burden for each church/group; celebrate Communion remembering Jesus Savior (Cross), Sanctifier (Laver), Healer (Pitcher), and Coming King (Crown); lay hands on one another and pray.</p>`
             }
           ]
         }
@@ -1127,15 +1127,15 @@ window.DML_CURRICULUM = {
       },
       scenarios: [
         {
-          prompt: "At your 10-Week wrap-up, someone writes as your 5-year vision: 'Our church has built an unstoppable discipleship machine that nothing can derail.' Why does the Polymath Editor rewrite this?",
+          prompt: "At your Module 10 wrap-up, someone writes as your 5-year vision: 'Our church has built an unstoppable discipleship machine that nothing can derail.' What crucial truth does James 4:15 remind us?",
           options: [
-            { text: "It denies Spirit-sovereignty (1 Cor 3:7; Jas 4:15), ignores spiritual drift and pruning, and mistakes organizational inertia for divine grace.", correct: true, feedback: "Spot on! Faithful churches plan diligently while remaining utterly dependent on God's mercy and ongoing repentance." },
-            { text: "Five years is too short—change it to 20 years.", correct: false, feedback: "The problem is theological hubris, not the number of years." },
+            { text: "It reminds us Spirit-sovereignty (1 Cor 3:7; Jas 4:15) governs every plan—we walk faithfully without mistaking organizational inertia for divine grace.", correct: true, feedback: "Spot on! Faithful churches plan diligently while remaining utterly dependent on God's mercy and ongoing repentance." },
+            { text: "Five years is too short—change it to 20 years.", correct: false, feedback: "The concern is theological overconfidence, not the number of years." },
             { text: "Churches shouldn't write down any 3-year hopes at all.", correct: false, feedback: "Wise planning under 'If the Lord wills' (Jas 4:15) is biblical stewardship—as long as it stays humble." }
           ]
         },
         {
-          prompt: "Six months after graduating, your Associate Pastor accepts a call to another city and two new Elders join the board. How does your Week 10 Continuity design prevent the church from resetting to zero?",
+          prompt: "Six months after graduating, your Associate Pastor accepts a call to another city and two new Elders join the board. How does your Module 10 Continuity design prevent the church from resetting to zero?",
           options: [
             { text: "They receive the ratified Stewardship Roadmap and walk through the 2-page New Staff & Elder Onboarding Manual within their first 30 days.", correct: true, feedback: "Yes! Codified onboarding + board ratification keeps the church's DNA intact across leadership seasons." },
             { text: "Hope the new leaders watch old Sunday recordings to figure out what happened.", correct: false, feedback: "Passive assumptions fade fast under new leadership pressure." },
@@ -1161,11 +1161,11 @@ window.DML_CURRICULUM = {
     principles: [
       {
         heading: "1. Flip the Classroom (15-Min Pre-Read -> 90-Min Practice)",
-        body: "Never spend 60 minutes reading slides aloud. Ask team members to skim the week's 3 micro-chunks (under 10 minutes) beforehand, then spend the full 90 minutes debriefing lived triads, practicing napkin habits live, and role-playing real conversations."
+        body: "Never spend 60 minutes reading slides aloud. Ask team members to skim the module's 3 micro-chunks (under 10 minutes) beforehand, then spend the full 90 minutes debriefing lived triads, practicing napkin habits live, and role-playing real conversations."
       },
       {
         heading: "2. Protect Lay & Bivocational Margins",
-        body: "Respect the clock rigorously. End sessions on time, enforce the Week 4 Pruning Gate so new practices replace clutter instead of adding burnout, and encourage kitchen-table gatherings rather than formal church-building logistics."
+        body: "Respect the clock rigorously. End sessions on time, enforce the Module 4 Pruning Gate so new practices replace clutter instead of adding burnout, and encourage kitchen-table gatherings rather than formal church-building logistics."
       },
       {
         heading: "3. Lead With Honest Stories, Not Polish",
@@ -1178,21 +1178,21 @@ window.DML_CURRICULUM = {
     ],
     ninetyMinTemplate: [
       { mins: "0–15 min", segment: "Celebrate & Honest Debrief", notes: "Review field practice checklists and Oikos stories. Pray immediately for any Friction Valley burdens." },
-      { mins: "15–35 min", segment: "Visual Tool Walkthrough", notes: "Project or draw the week's diagram. Practice the 60-second napkin sketch together." },
+      { mins: "15–35 min", segment: "Visual Tool Walkthrough", notes: "Project or draw the module's diagram. Practice the 60-second napkin sketch together." },
       { mins: "35–70 min", segment: "Live Lab / Role-Play / Team Work", notes: "Practice Scripture, stories, stakeholder listening, or roadmap drafting actively using the workshop prompts." },
-      { mins: "70–85 min", segment: "2 Scenario Checks", notes: "Discuss the week's two real-church scenarios aloud to surface blind spots before real life hits." },
-      { mins: "85–90 min", segment: "Concrete Field Commitments & Prayer", notes: "Every member writes down one concrete name/date for next week and prays together." }
+      { mins: "70–85 min", segment: "2 Scenario Checks", notes: "Discuss the module's two real-church scenarios aloud to surface blind spots before real life hits." },
+      { mins: "85–90 min", segment: "Concrete Field Commitments & Prayer", notes: "Every member writes down one concrete name/date before the next gathering and prays together." }
     ]
   },
 
   sustainabilityHub: {
-    title: "Post-Week-10 Sustainability & Year-2 Off-Ramp",
+    title: "Post-Lab Sustainability & Year-2 Continuity",
     subtitle: "Four permanent church rhythms ensuring renewal outlasts staff turnover, fall busyness, and cohort graduation",
     pillars: [
       {
         timing: "Month 3 Post-Lab (30-Day Window)",
         title: "1. Elder Ratification & Soul Care Budget Lock-In",
-        details: "Within 30 days of Week 10 Commissioning, Elders formally ratify the Stewardship Roadmap, designate protected line-item time/budget for 1:4–5 Soul Care meals, and confirm retired legacy clutter."
+        details: "Within 30 days of Module 10 Commissioning, Elders formally ratify the Stewardship Roadmap, designate protected line-item time/budget for 1:4–5 Soul Care meals, and confirm retired legacy clutter."
       },
       {
         timing: "Every Quarter (Months 3, 6, 9, 12+)",
@@ -1211,9 +1211,9 @@ window.DML_CURRICULUM = {
       }
     ],
     onboardingTemplateFields: [
-      { id: "ob-def", label: "Our Gospel Definition of a Disciple (12–15 plain words)", placeholder: "Paste your church's ratified Week 1/6 definition..." },
+      { id: "ob-def", label: "Our Gospel Definition of a Disciple (12–15 plain words)", placeholder: "Paste your church's ratified Module 1/6 definition..." },
       { id: "ob-habits", label: "Our 4 Core Napkin Habits (+ Optional Max 1)", placeholder: "1. Bible Reading Circle  2. Lord's Prayer Wheel  3. Jesus Pattern Compass  4. Oikos & Gospel Bridge..." },
-      { id: "ob-vetting", label: "Our Leader Vetting Gate & 24-Hr Crisis Escalation Contacts", placeholder: "Summarize your Week 9 Vetting Shield & Elder contacts..." },
+      { id: "ob-vetting", label: "Our Leader Vetting Gate & 24-Hr Crisis Escalation Contacts", placeholder: "Summarize your Module 9 Vetting Shield & Elder contacts..." },
       { id: "ob-soulcare", label: "Our 1:4–5 Soul Care Expectations & Pruned Commitments", placeholder: "How every leader is cared for monthly + what legacy programs remain retired..." }
     ]
   }

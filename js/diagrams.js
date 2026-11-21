@@ -83,7 +83,7 @@ window.DML_DIAGRAMS = (function () {
         <text x="218" y="140" font-size="18" font-weight="700" fill="var(--primary)" text-anchor="middle">&rarr;</text>
         <g class="svg-part" data-part="transformed">
           <rect x="229" y="34" width="182" height="202" rx="12" fill="var(--primary)" fill-opacity="${t.fillOpacity}" stroke="var(--primary)" stroke-width="${t.strokeWidth}" style="filter:${t.filter}"/>
-          <text x="320" y="66" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">PITCHER • SANCTIFIER</text>
+          <text x="320" y="66" font-size="12" font-weight="700" fill="var(--primary)" text-anchor="middle">LAVER • SANCTIFIER</text>
           <text x="320" y="96" font-size="15" font-weight="700" fill="var(--ink)" text-anchor="middle">2. LIKE CHRIST</text>
           <text x="320" y="126" font-size="12" fill="var(--ink)" text-anchor="middle">Beholding Glory</text>
           <text x="320" y="148" font-size="12" fill="var(--ink)" text-anchor="middle">Transformed by Spirit</text>
@@ -380,7 +380,7 @@ window.DML_DIAGRAMS = (function () {
           <text x="320" y="128" font-size="12" fill="var(--ink)" text-anchor="middle">&bull; Non-Lab Staff</text>
           <text x="320" y="154" font-size="12" fill="var(--ink)" text-anchor="middle">&bull; Kids &amp; Youth Leads</text>
           <text x="320" y="180" font-size="12" fill="var(--ink)" text-anchor="middle">&bull; Veteran Group Hosts</text>
-          <text x="320" y="212" font-size="12" font-weight="600" fill="var(--muted)" text-anchor="middle">No Month 8 Ambush</text>
+          <text x="320" y="212" font-size="12" font-weight="600" fill="var(--muted)" text-anchor="middle">Shared Early Ownership</text>
         </g>
         <g class="svg-part" data-part="legacy">
           <rect x="434" y="34" width="182" height="202" rx="10" fill="var(--terracotta)" fill-opacity="${lg.fillOpacity}" stroke="var(--terracotta)" stroke-width="${lg.strokeWidth}"/>

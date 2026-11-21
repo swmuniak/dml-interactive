@@ -50,12 +50,12 @@ window.DML_GLOSSARY = {
   },
   "fourfold-gospel": {
     id: "fourfold-gospel",
-    term: "Fourfold Gospel (C&MA Heritage)",
+    term: "Fourfold Gospel (C&MA Distinctives)",
     category: "Theology",
-    short: "The historic C&MA Christ-centered summary declaring Jesus as Savior (Cross), Sanctifier (Pitcher), Healer (Chalice), and Coming King (Crown).",
-    deep: "Coined by A. B. Simpson, the Fourfold Gospel keeps every ministry habit anchored in the person of Christ rather than institutional technique: Christ our Savior rescues us at the Cross; Christ our Sanctifier fills and transforms us by the Spirit; Christ our Healer meets our sin, grief, and brokenness; Christ our Coming King governs our mission and humble hope.",
-    scripture: "1 Corinthians 1:30; Acts 1:8; James 5:13–16; Revelation 22:20",
-    misconception: "Using the Cross, Pitcher, Chalice, and Crown icons as decorative clip-art on workbook pages without letting Christ's fourfold work shape what we practice.",
+    short: "The C&MA Christ-centered distinctives declaring Jesus as Savior (the Cross), Sanctifier (the Laver), Healer (the Pitcher), and Coming King (the Crown).",
+    deep: "Coined by A. B. Simpson, the Fourfold Gospel keeps every discipleship habit anchored in the person and work of Jesus Christ: the Cross proclaims Christ our Savior; the Laver proclaims Christ our Sanctifier who cleanses and fills us by his Spirit; the Pitcher proclaims Christ our Healer who restores our brokenness; and the Crown proclaims Christ our Coming King who governs our mission and hope.",
+    scripture: "1 Corinthians 1:30; Ephesians 5:26; James 5:14–16; Acts 1:8; Revelation 22:20",
+    misconception: "Treating the four symbols separately from daily discipleship practice rather than letting Christ as Savior, Sanctifier, Healer, and Coming King animate how we read Scripture, pray, care for leaders, and live on mission.",
     relatedWeeks: [1, 4, 7, 9, 10],
     relatedTools: ["gospel-definition", "prayer-wheel", "vetting-soulcare"]
   },
@@ -163,7 +163,7 @@ window.DML_GLOSSARY = {
     term: "Personal Micro-Triad",
     category: "Frontline Practice",
     short: "A simple weekly gathering of 2–3 friends (or curious seekers) practicing Scripture reading, prayer, and honest obedience within 14 days of starting.",
-    deep: "Rather than waiting months to launch an official church program, every team member starts a 45-minute weekly triad over coffee, lunch, or a living room right after Week 2. Real field experience builds humility and exposes what actually works before designing wider church groups.",
+    deep: "Rather than waiting months to launch an official church program, every team member starts a 45-minute weekly triad over coffee, lunch, or a living room right after Module 2. Real field experience builds humility and exposes what actually works before designing wider church groups.",
     scripture: "Matthew 18:20; Ecclesiastes 4:9–12; 1 Thessalonians 2:8",
     misconception: "Waiting until every church manual, website page, and elder vote is complete before opening the Bible with two friends.",
     relatedWeeks: [2, 3, 4, 7],
@@ -308,7 +308,7 @@ window.DML_GLOSSARY = {
     short: "A repeatable 60–75 minute weekly gathering flow around meals or coffee: Celebrate -> Habit Focus -> Next Step + Weekly Mission.",
     deep: "Rather than running a formal lecture, 3–5 people celebrate concrete obedience from the past week, practice one core habit in Scripture or prayer together, and commit to one measurable step of obedience and one neighbor-love action for the coming week.",
     scripture: "Acts 2:42–47; Hebrews 10:24–25; James 1:22",
-    misconception: "Meeting only twice a month or confining outreach to 'Week 4 Mission Focus,' which turns 75% of group life inward.",
+    misconception: "Meeting only twice a month or confining outreach to one designated outreach night, which turns most of group life inward.",
     relatedWeeks: [8, 9],
     relatedTools: ["gathering-rhythm"]
   },
@@ -317,9 +317,9 @@ window.DML_GLOSSARY = {
     term: "Weekly Pilot Group (Beta)",
     category: "Church Leadership",
     short: "A 12–16 week trial cohort of 2–4 weekly life-on-life groups launched with aligned elders to test rhythm and train 2nd-generation apprentices.",
-    deep: "Running weekly (not biweekly) for at least 12 weeks gives groups enough shared life to weather Friction Valley, witness answered prayers among Oikos neighbors, and hand leadership segments to emerging apprentices before the 10-week course concludes.",
+    deep: "Running weekly (not biweekly) for at least 12 weeks gives groups enough shared life to weather Friction Valley, witness answered prayers among Oikos neighbors, and hand leadership segments to emerging apprentices before the 10-module lab concludes.",
     scripture: "Luke 10:1–17 (Sent, returned, and debriefed); 1 Thessalonians 5:21",
-    misconception: "Launching biweekly 3-month pilots (only 6 meetings total) in secret without telling existing staff or elders.",
+    misconception: "Launching biweekly pilots without keeping elders and existing staff informed along the way.",
     relatedWeeks: [8, 9, 10],
     relatedTools: ["gathering-rhythm", "stakeholder-bridge"]
   },
@@ -328,9 +328,9 @@ window.DML_GLOSSARY = {
     term: "Stakeholder Alignment",
     category: "Church Leadership",
     short: "Proactively inviting Elders, staff, Next-Gen leads, and veteran volunteers into early conversation using a plain 1-page summary before launching changes.",
-    deep: "In healthy church leadership, surprises breed suspicion. Moving the One-Pager and Stakeholder Matrix from Month 8 up to Week 6 prevents 'Secret Lab' resentment and turns Worship, Kids, and Youth directors into co-architects instead of reluctant implementers.",
+    deep: "In healthy church leadership, shared ownership prevents surprises. Introducing the One-Pager and Stakeholder Matrix in Module 6 keeps elders, Worship, Kids, and Youth leaders aligned as co-architects throughout the rollout.",
     scripture: "Proverbs 15:22; Philippians 2:1–5; Ephesians 4:3",
-    misconception: "Working quietly with a small team for seven months and handing elders a finished rollout plan as a done deal.",
+    misconception: "Working quietly with a small team for months and only bringing elders into the conversation at the very end.",
     relatedWeeks: [1, 6, 9],
     relatedTools: ["stakeholder-bridge", "culture-canvas"]
   },
@@ -407,7 +407,7 @@ window.DML_GLOSSARY = {
     short: "Formal board adoption of the church's roadmap, Soul Care budget protection, and a 2-page New Staff & Elder Onboarding Manual to prevent turnover resets.",
     deep: "Many church initiatives collapse in Year 2 when a key champion leaves or budget season tightens. Securing board ratification and handing every incoming pastor or elder a 2-page primer in their first 30 days embeds the DNA into church governance.",
     scripture: "1 Timothy 5:17; Titus 1:5; Deuteronomy 31:7–9",
-    misconception: "Ending a 10-week cohort with personal inspiration while leaving the wider church board and future hires out of the loop.",
+    misconception: "Ending a 10-module lab with personal inspiration while leaving the wider church board and future hires out of the loop.",
     relatedWeeks: [1, 10],
     relatedTools: ["stewardship-roadmap", "stakeholder-bridge"]
   },
@@ -440,7 +440,7 @@ window.DML_GLOSSARY = {
     short: "Designing training for busy adults through relevant real-life problems, 3–5 item chunks, dual-coded visuals, progressive disclosure, and immediate practice.",
     deep: "Adult working memory overloads rapidly when drowned in blank pages or 20-minute lectures. Combining clean visuals alongside brief text (Dual Coding), tucking nuance into expandable menus (Progressive Disclosure), and using real church scenarios drives durable habit transfer.",
     scripture: "Proverbs 1:5; Luke 9:1–6; 10:1–17 (Teach -> Send -> Debrief)",
-    misconception: "Assuming handing out blank workbook shapes with live verbal dumps enables laypeople to teach others months later.",
+    misconception: "Assuming unlabeled shapes or notes-only sheets enable laypeople to teach others months later without clear reference summaries.",
     relatedWeeks: [1, 7],
     relatedTools: ["napkin-rubric", "training-triangle"]
   }

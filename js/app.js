@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Disciple Making Lab — 10-Week Interactive Curriculum Engine
+   Disciple Making Lab — 10-Module Interactive Curriculum Engine
    Zero-build SPA router, tooltip engine, slide-over glossary, interactive
    diagrams, scenario retrieval checks, localStorage workbook & search.
    ========================================================================== */
@@ -60,7 +60,7 @@
     const fill = document.getElementById("global-progress-fill");
     const label = document.getElementById("global-progress-label");
     if (fill) fill.style.width = pct + "%";
-    if (label) label.textContent = `${done}/${total} Weeks`;
+    if (label) label.textContent = `${done}/${total} Modules`;
   }
 
   // =========================================================================
@@ -94,7 +94,7 @@
   function parseHash() {
     const h = (window.location.hash || "#home").replace(/^#/, "");
     if (!h || h === "home") return { view: "home", param: null };
-    if (h.startsWith("week/")) {
+    if (h.startsWith("module/") || h.startsWith("week/")) {
       const n = parseInt(h.split("/")[1], 10);
       if (n >= 1 && n <= 10) return { view: "week", param: n };
     }
@@ -127,7 +127,7 @@
       const act = isActive("week", w.week);
       const comp = !!state.completedWeeks[w.week];
       return `
-        <button class="nav-item ${act ? "active" : ""} ${comp ? "completed" : ""}" onclick="navigate('week/${w.week}')">
+        <button class="nav-item ${act ? "active" : ""} ${comp ? "completed" : ""}" onclick="navigate('module/${w.week}')">
           <span class="nav-week-meta">
             <span class="nav-week-num">${comp ? "✓" : w.week}</span>
             <span class="nav-week-title">${esc(w.title)}</span>
@@ -142,7 +142,7 @@
         <span>Course Overview &amp; Pre-Launch</span>
       </button>
 
-      <div class="nav-section-label">10-Week Curriculum</div>
+      <div class="nav-section-label">10-Module Curriculum</div>
       ${weeksHtml}
 
       <div class="nav-section-label">Reference &amp; Sustainability</div>
@@ -219,7 +219,7 @@
       const pWeeks = c.weeks.filter(w => w.phase === p.id);
       const weekBtns = pWeeks.map(w => {
         const comp = !!state.completedWeeks[w.week];
-        return `<button class="btn btn-sm ${comp ? "btn-primary" : ""}" onclick="navigate('week/${w.week}')">${comp ? "✓ " : ""}Week ${w.week}: ${esc(w.title)}</button>`;
+        return `<button class="btn btn-sm ${comp ? "btn-primary" : ""}" onclick="navigate('module/${w.week}')">${comp ? "✓ " : ""}Module ${w.week}: ${esc(w.title)}</button>`;
       }).join("");
       return `
         <article class="card" style="padding:0; overflow:hidden; display:flex; flex-direction:column;">
@@ -245,20 +245,20 @@
       <section class="card hero-card">
         <div class="hero-copy">
           <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
-            <span class="badge badge-primary">10-Week Interactive Curriculum</span>
+            <span class="badge badge-primary">10-Module Interactive Curriculum</span>
             <span class="badge badge-terracotta">Hover or Tap Dotted Terms Anytime</span>
           </div>
           <h1 style="font-size:clamp(1.6rem, 2.5vw, 2.15rem);">${esc(c.meta.title)}</h1>
           <p style="font-size:1rem; font-weight:600; color:var(--primary);">${esc(c.meta.subtitle)}</p>
           <p style="font-size:0.94rem; color:var(--muted);">${esc(c.meta.promise)}</p>
           <div style="display:flex; gap:0.65rem; flex-wrap:wrap; margin-top:0.35rem;">
-            <button class="btn btn-primary" onclick="navigate('week/1')">Start Week 1 &rarr;</button>
+            <button class="btn btn-primary" onclick="navigate('module/1')">Start Module 1 &rarr;</button>
             <button class="btn" onclick="navigate('tools')">Browse 16 Visual Tools</button>
             <button class="btn" onclick="navigate('glossary')">Explore Glossary</button>
           </div>
           <div style="font-size:0.8rem; color:var(--muted); padding-top:0.35rem;">
             <strong>Audience:</strong> ${esc(c.meta.audience)}<br/>
-            <strong>Weekly Pace:</strong> ${esc(c.meta.weeklyLoad)} &bull; <strong>Progress:</strong> ${done}/10 Weeks Complete
+            <strong>Cohort Pace:</strong> ${esc(c.meta.weeklyLoad)} &bull; <strong>Progress:</strong> ${done}/10 Modules Complete
           </div>
         </div>
         <div class="hero-img-wrap">
@@ -268,12 +268,12 @@
 
       <!-- Fourfold Gospel Anchor Card -->
       <section class="card fourfold-card">
-        <img src="assets/images/fourfold-gospel-emblem.png" alt="Olive vine weaving Cross, Pitcher, Chalice, and Crown" style="width:100%; border-radius:var(--radius-md); border:1px solid var(--border);" />
+        <img src="assets/images/fourfold-gospel-emblem.png" alt="Olive vine weaving Cross, Laver, Pitcher, and Crown" style="width:100%; border-radius:var(--radius-md); border:1px solid var(--border);" />
         <div style="display:flex; flex-direction:column; gap:0.65rem;">
-          <span class="badge badge-terracotta" style="align-self:flex-start;">Theological Centerpiece</span>
-          <h2 style="font-size:1.35rem;">Grounded in Christ — Not Corporate Engineering</h2>
+          <span class="badge badge-terracotta" style="align-self:flex-start;">C&amp;MA Distinctives</span>
+          <h2 style="font-size:1.35rem;">Grounded in Christ — The Cross, Laver, Pitcher &amp; Crown</h2>
           <p style="font-size:0.93rem; color:var(--muted);">
-            Rather than scattering Cross, Pitcher, Chalice, and Crown as decorative clip-art, this redesigned 10-week curriculum integrates the <span class="term" data-term="fourfold-gospel">Fourfold Gospel</span> into every practice: Christ our <strong>Savior</strong> (<span class="term" data-term="justification">justification</span> &amp; <span class="term" data-term="oikos">Oikos</span>), <strong>Sanctifier</strong> (Spirit-led Scripture &amp; <span class="term" data-term="union-with-christ">union with Christ</span>), <strong>Healer</strong> (<span class="term" data-term="friction-valley">Friction Valley</span> &amp; <span class="term" data-term="soul-care-pods">Soul Care</span>), and <strong>Coming King</strong> (humble <span class="term" data-term="stewardship-roadmap">Stewardship</span>).
+            Rooted in the <span class="term" data-term="fourfold-gospel">C&amp;MA Fourfold Gospel</span>—Christ our <strong>Savior</strong> (Cross, <span class="term" data-term="justification">justification</span> &amp; <span class="term" data-term="oikos">Oikos</span>), <strong>Sanctifier</strong> (Laver, Spirit-led Scripture &amp; <span class="term" data-term="union-with-christ">union with Christ</span>), <strong>Healer</strong> (Pitcher, <span class="term" data-term="friction-valley">Friction Valley</span> &amp; <span class="term" data-term="soul-care-pods">Soul Care</span>), and <strong>Coming King</strong> (Crown, humble <span class="term" data-term="stewardship-roadmap">Stewardship</span>)—this 10-module curriculum weaves Christ's fourfold work into every discipleship practice.
           </p>
           <details class="see-more">
             <summary>See More: How This Curriculum Is Designed for Adult Retention</summary>
@@ -284,11 +284,11 @@
         </div>
       </section>
 
-      <!-- Pre-Launch Week 0 Gate -->
+      <!-- Pre-Launch Module 0 Gate -->
       <section class="card">
         <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; flex-wrap:wrap; margin-bottom:0.85rem;">
           <div>
-            <span class="badge badge-gold">Before Week 1</span>
+            <span class="badge badge-gold">Before Module 1</span>
             <h2 style="font-size:1.3rem; margin-top:0.35rem;">${esc(c.preLaunch.title)}</h2>
             <p style="font-size:0.9rem; color:var(--muted); margin-top:0.2rem;">${esc(c.preLaunch.subtitle)}</p>
           </div>
@@ -300,8 +300,8 @@
       <!-- 4-Phase Roadmap -->
       <section style="display:flex; flex-direction:column; gap:0.9rem;">
         <div>
-          <h2 style="font-size:1.4rem;">The 10-Week Arc Across Four Phases</h2>
-          <p style="font-size:0.9rem; color:var(--muted);">Personal <span class="term" data-term="micro-triad">Micro-Triads</span> begin in Week 2 while Elder alignment &amp; pruning precede wider pilots in Week 8.</p>
+          <h2 style="font-size:1.4rem;">The 10-Module Arc Across Four Phases</h2>
+          <p style="font-size:0.9rem; color:var(--muted);">Personal <span class="term" data-term="micro-triad">Micro-Triads</span> launch early in Module 2 while Elder alignment &amp; pruning prepare the church for wider pilots in Module 8.</p>
         </div>
         <div class="grid-2">${phasesHtml}</div>
       </section>
@@ -452,19 +452,19 @@
 
     const step5Html = `
       <div class="card" style="display:flex; flex-direction:column; gap:1rem;">
-        <span class="badge badge-success" style="align-self:flex-start;">Step 5 • Between-Session Relational Obedience</span>
-        <h3 style="font-size:1.2rem;">This Week's Field Practice</h3>
+        <span class="badge badge-success" style="align-self:flex-start;">Step 5 • Between-Module Relational Obedience</span>
+        <h3 style="font-size:1.2rem;">Between-Session Field Practice</h3>
         <p style="font-size:0.95rem; color:var(--muted);">${esc(w.fieldPractice.summary)}</p>
         <div style="display:flex; flex-direction:column; gap:0.55rem;">${fpChecks}</div>
         <div style="display:flex; flex-direction:column; gap:0.35rem; padding-top:0.4rem;">
           <label for="note-${refId}" style="font-weight:700; font-size:0.9rem;">Debrief Reflection: ${esc(w.fieldPractice.reflectionPrompt)}</label>
-          <textarea id="note-${refId}" rows="3" class="field-input" data-note-id="${refId}" placeholder="Record brief observations to share at the start of next week...">${esc(refVal)}</textarea>
+          <textarea id="note-${refId}" rows="3" class="field-input" data-note-id="${refId}" placeholder="Record brief observations to share at the start of the next module...">${esc(refVal)}</textarea>
         </div>
         <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; padding-top:0.75rem; border-top:1px solid var(--border);">
-          <button class="btn ${isDone ? "btn-primary" : ""}" onclick="toggleWeekComplete(${w.week})">${isDone ? "✓ Week " + w.week + " Completed" : "Mark Week " + w.week + " Complete"}</button>
+          <button class="btn ${isDone ? "btn-primary" : ""}" onclick="toggleWeekComplete(${w.week})">${isDone ? "✓ Module " + w.week + " Completed" : "Mark Module " + w.week + " Complete"}</button>
           <div style="display:flex; gap:0.5rem;">
-            ${w.week > 1 ? `<button class="btn" onclick="navigate('week/${w.week - 1}')">&larr; Week ${w.week - 1}</button>` : ""}
-            ${w.week < 10 ? `<button class="btn btn-primary" onclick="navigate('week/${w.week + 1}')">Week ${w.week + 1} &rarr;</button>` : `<button class="btn btn-primary" onclick="navigate('sustainability')">Year-2 Off-Ramp &rarr;</button>`}
+            ${w.week > 1 ? `<button class="btn" onclick="navigate('module/${w.week - 1}')">&larr; Module ${w.week - 1}</button>` : ""}
+            ${w.week < 10 ? `<button class="btn btn-primary" onclick="navigate('module/${w.week + 1}')">Module ${w.week + 1} &rarr;</button>` : `<button class="btn btn-primary" onclick="navigate('sustainability')">Ongoing Continuity Hub &rarr;</button>`}
           </div>
         </div>
       </div>`;
@@ -495,7 +495,7 @@
         <div style="padding:1.25rem 1.5rem; display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem;">
           <div style="max-width:650px;">
             <div style="display:flex; gap:0.45rem; flex-wrap:wrap; margin-bottom:0.45rem;">
-              <span class="badge badge-primary">Week ${w.week} of 10</span>
+              <span class="badge badge-primary">Module ${w.week} of 10</span>
               <span class="badge badge-slate">${esc(phase.title)}</span>
               <span class="badge badge-gold">Fourfold: ${esc(w.fourfoldAnchor)}</span>
             </div>
@@ -554,7 +554,7 @@
             <div style="display:flex; gap:0.45rem; flex-wrap:wrap; margin-bottom:0.35rem;">
               <span class="badge badge-primary">Tool #${t.number}</span>
               <span class="badge badge-slate">${esc(t.category)}</span>
-              <span class="badge badge-gold">Week ${t.week}</span>
+              <span class="badge badge-gold">Module ${t.week}</span>
             </div>
             <h3 style="font-size:1.25rem;">${esc(t.name)}</h3>
             <p style="font-size:0.9rem; color:var(--muted); margin-top:0.2rem;">${esc(t.tagline)}</p>
@@ -624,7 +624,7 @@
     const cards = filtered.map(t => `
       <article class="card" style="display:flex; flex-direction:column; gap:0.7rem;">
         <div style="display:flex; justify-content:space-between; align-items:center; gap:0.5rem;">
-          <span class="badge badge-primary">Tool #${t.number} &bull; Week ${t.week}</span>
+          <span class="badge badge-primary">Tool #${t.number} &bull; Module ${t.week}</span>
           <span class="badge badge-slate">${esc(t.category)}</span>
         </div>
         <h3 style="font-size:1.12rem;">${esc(t.name)}</h3>
@@ -634,7 +634,7 @@
         <p style="font-size:0.86rem; color:var(--muted);">${esc(t.tagline)}</p>
         <div style="display:flex; gap:0.5rem; margin-top:auto;">
           <button class="btn btn-sm btn-primary" onclick="navigate('tool/${t.id}')">Open Full Guide &rarr;</button>
-          <button class="btn btn-sm" onclick="navigate('week/${t.week}')">Go to Week ${t.week}</button>
+          <button class="btn btn-sm" onclick="navigate('module/${t.week}')">Go to Module ${t.week}</button>
         </div>
       </article>`).join("");
 
@@ -654,7 +654,7 @@
     return `
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">
         <button class="btn btn-sm" onclick="navigate('tools')">&larr; Back to All 16 Tools</button>
-        <button class="btn btn-sm btn-primary" onclick="navigate('week/${t.week}')">Jump to Week ${t.week} Lesson &rarr;</button>
+        <button class="btn btn-sm btn-primary" onclick="navigate('module/${t.week}')">Jump to Module ${t.week} Lesson &rarr;</button>
       </div>
       ${renderInteractiveToolCard(toolId)}
     `;
@@ -692,7 +692,7 @@
             <p style="margin-top:0.5rem;"><strong>Key Scripture:</strong> ${esc(e.scripture)}</p>
             <p style="margin-top:0.5rem; color:var(--danger);"><strong>Watch Out For:</strong> ${esc(e.misconception)}</p>
             <div style="display:flex; gap:0.4rem; flex-wrap:wrap; margin-top:0.65rem;">
-              ${(e.relatedWeeks || []).map(wk => `<button class="btn btn-sm" onclick="navigate('week/${wk}')">Week ${wk}</button>`).join("")}
+              ${(e.relatedWeeks || []).map(wk => `<button class="btn btn-sm" onclick="navigate('module/${wk}')">Module ${wk}</button>`).join("")}
               ${(e.relatedTools || []).map(tid => `<button class="btn btn-sm" onclick="navigate('tool/${tid}')">${esc(window.DML_TOOLS[tid] ? window.DML_TOOLS[tid].shortName : tid)}</button>`).join("")}
             </div>
           </div>
@@ -870,7 +870,7 @@
       <div style="margin-top:1rem;">
         <div style="font-size:0.8rem; font-weight:700; color:var(--muted); margin-bottom:0.4rem;">Appears In:</div>
         <div style="display:flex; gap:0.4rem; flex-wrap:wrap;">
-          ${(entry.relatedWeeks || []).map(wk => `<button class="btn btn-sm" onclick="closeGlossaryDrawer(); navigate('week/${wk}')">Week ${wk}</button>`).join("")}
+          ${(entry.relatedWeeks || []).map(wk => `<button class="btn btn-sm" onclick="closeGlossaryDrawer(); navigate('module/${wk}')">Module ${wk}</button>`).join("")}
           ${(entry.relatedTools || []).map(tid => `<button class="btn btn-sm btn-primary" onclick="closeGlossaryDrawer(); navigate('tool/${tid}')">${esc(window.DML_TOOLS[tid] ? window.DML_TOOLS[tid].shortName : tid)}</button>`).join("")}
         </div>
       </div>
@@ -909,7 +909,7 @@
 
     window.DML_CURRICULUM.weeks.forEach(w => {
       if (!q || w.title.toLowerCase().includes(q) || w.subtitle.toLowerCase().includes(q) || w.keyTakeaway.toLowerCase().includes(q)) {
-        results.push({ type: "Week " + w.week, title: w.title, sub: w.subtitle, action: `closeSearchModal(); navigate('week/${w.week}')` });
+        results.push({ type: "Module " + w.week, title: w.title, sub: w.subtitle, action: `closeSearchModal(); navigate('module/${w.week}')` });
       }
     });
 
@@ -935,7 +935,7 @@
           </div>
           <div style="font-size:0.8rem; color:var(--muted); margin-top:0.2rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${esc(r.sub)}</div>
         </div>
-      </button>`).join("") : `<p style="font-size:0.9rem; color:var(--muted);">No matching weeks, tools, or glossary terms found.</p>`;
+      </button>`).join("") : `<p style="font-size:0.9rem; color:var(--muted);">No matching modules, tools, or glossary terms found.</p>`;
   };
 
   // =========================================================================

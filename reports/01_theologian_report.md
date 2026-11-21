@@ -44,9 +44,9 @@ Theologically, that parenthetical is hubris. Biblical pneumatology portrays King
 
 ### 3.3 Decorative Fourfold Gospel Iconography (C&MA Heritage)
 
-The C&MA's Fourfold icons—**Cross** (Savior), **Pitcher** (Sanctifier), **Crown** (Coming King), **Chalice/Laver** (Healer)—are severed from theological substance:
+The C&MA's Fourfold icons—**Cross** (Savior), **Laver** (Sanctifier), **Pitcher** (Healer), **Crown** (Coming King)—are severed from theological substance:
 
-- **Decorative Cycling (Modules 1–3):** Pages 3–15, 19–27, and 31–37 cycle only those four icons across headers regardless of content (repeating a strict 1-2-3-4 rotation three times in Module 1). `Crown` heads `"Spiritual SWOT"` (p. 5) and `"Moonshot"` (p. 14) with zero eschatology; `Chalice` heads `"Character & Competency"` (p. 6) with zero healing theology; `Pitcher` heads corporate maps (`Master Tool`, `The MAP`) without teaching A. B. Simpson's indwelling Sanctifier.
+- **Decorative Cycling (Modules 1–3):** Pages 3–15, 19–27, and 31–37 cycle only those four icons across headers regardless of content (repeating a strict 1-2-3-4 rotation three times in Module 1). `Crown` heads `"Spiritual SWOT"` (p. 5) and `"Moonshot"` (p. 14) with zero eschatology; `Laver` heads `"Character & Competency"` (p. 6) without teaching A. B. Simpson's indwelling Sanctifier; `Pitcher` heads corporate maps (`Master Tool`, `The MAP`) with zero healing theology.
 - **Strategic Eviction (Modules 4–10):** Implementation chapters purge the Fourfold symbols for `Compass`, `Car`, `Folded Map`, `Footprints Path`, `Leader Climbing Stairs`, and `Globe`—returning only thrice (`Cross` pp. 73, 113; `Pitcher` p. 108). Even the `Globe` of C&MA world missions is repurposed for internal culture grids. On p. 113's `Cross`-headed Commissioning, disciples are hailed not as heralds of Christ's Kingdom, but **`"YOU ARE CULTURE BUILDERS."`**
 
 ## 4. Tool-by-Tool Theological Audit
